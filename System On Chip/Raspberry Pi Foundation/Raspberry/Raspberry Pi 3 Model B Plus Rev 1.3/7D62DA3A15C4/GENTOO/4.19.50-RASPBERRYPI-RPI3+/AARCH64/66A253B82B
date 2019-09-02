@@ -1,0 +1,200 @@
+06: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.996]
+  Unique ID: 3t9U.nXi7rxFKh4B
+  SysFS ID: /devices/platform/soc/3f980000.usb
+  SysFS BusID: 3f980000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB 0"
+  Device: "ARM USB 0"
+  Driver: "dwc_otg"
+  Module Alias: "of:NusbT<NULL>Cbrcm,bcm2708-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhost-bcm2835", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 973968/4/16
+  Size: 62333952 sectors a 512 bytes
+  Capacity: 29 GB (31914983424 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: Vl7j.8_I5RcIC_05
+  Parent ID: lfzD.YCWTDwYJz_B
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0
+  SysFS BusID: 1-1.1.1:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x7800 
+  Revision: "3.00"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth0
+  Speed: 480 Mbps
+  HW Address: --
+  Link detected: yes
+  Module Alias: "usb:v0424p7800d0300dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: lan78xx is active
+    Driver Activation Cmd: "modprobe lan78xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (Hub)
+
+09: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: lfzD.YCWTDwYJz_B
+  Parent ID: ADDn.YCWTDwYJz_B
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x2514 "USB 2.0 Hub"
+  Revision: "b.b3"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p2514d0BB3dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+10: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.D6ER+lJeRh3
+  Parent ID: 3t9U.nXi7rxFKh4B
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0419dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.YCWTDwYJz_B
+  Parent ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x2514 "USB 2.0 Hub"
+  Revision: "b.b3"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p2514d0BB3dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (Hub)
+
+12: None 00.0: 10103 CPU
+  [Created at cpu.335]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.335]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10103 CPU
+  [Created at cpu.335]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.335]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10700 Loopback
+  [Created at net.125]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 1070a WLAN
+  [Created at net.125]
+  Unique ID: AYEt.QXn1l67RSa1
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc/3f300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac"
+  Device File: wlan0
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: Vl7j.8_I5RcIC_05
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth0
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (Ethernet controller)

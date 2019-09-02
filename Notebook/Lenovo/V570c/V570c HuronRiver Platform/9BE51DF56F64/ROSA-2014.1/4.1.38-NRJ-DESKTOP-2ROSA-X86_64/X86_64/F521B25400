@@ -1,0 +1,966 @@
+01: None 00.0: 10105 BIOS
+  [Created at bios.186]
+  Unique ID: rdCR.lZF+r4EgHp4
+  Hardware Class: bios
+  VESA BIOS Version: 3.0
+  Current VESA Mode: 0x4118
+  BIOS Keyboard LED Status:
+    Scroll Lock: off
+    Num Lock: off
+    Caps Lock: off
+  Base Memory: 630 kB
+  PnP BIOS: @@@0000
+  BIOS32 Service Directory Entry: 0xfc000
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+02: None 00.0: 11001 VESA Framebuffer
+  [Created at bios.459]
+  Unique ID: rdCR.ku_DuSHewh1
+  Hardware Class: framebuffer
+  Model: "Intel(R)Sandybridge Mobile Graphics Controller"
+  Vendor: "Intel Corporation"
+  Device: "Intel(R)Sandybridge Mobile Graphics Controller"
+  SubVendor: "Intel(R)Sandybridge Mobile Graphics Chipset Accelerated VGA BIOS"
+  SubDevice: 
+  Revision: "Hardware Version 0.0"
+  Memory Size: 63 MB + 960 kB
+  Memory Range: 0xe0000000-0xe3feffff (rw)
+  Mode 0x0305: 1024x768 (+1024), 8 bits
+  Mode 0x0317: 1024x768 (+2048), 16 bits
+  Mode 0x0318: 1024x768 (+4096), 24 bits
+  Mode 0x0312: 640x480 (+2560), 24 bits
+  Mode 0x0314: 800x600 (+1600), 16 bits
+  Mode 0x0315: 800x600 (+3200), 24 bits
+  Mode 0x0301: 640x480 (+640), 8 bits
+  Mode 0x0303: 800x600 (+832), 8 bits
+  Mode 0x0311: 640x480 (+1280), 16 bits
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 00.0: 0600 Host bridge
+  [Created at pci.319]
+  Unique ID: qLht.LWoV1SctMa0
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel Host bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0104 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x09
+  Module Alias: "pci:v00008086d00000104sv000017AAsd00003975bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.319]
+  Unique ID: vSkL.s6k5erG_bvB
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0101 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x09
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00008086d00000101sv000017AAsd00003975bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.319]
+  Unique ID: _Znp.SqjiFLYhOj5
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Model: "Intel VGA compatible controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0106 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x397d 
+  Revision: 0x09
+  Driver: "i915"
+  Driver Modules: "drm"
+  Memory Range: 0xf1000000-0xf13fffff (rw,non-prefetchable)
+  Memory Range: 0xe0000000-0xefffffff (ro,non-prefetchable)
+  I/O Ports: 0x4000-0x403f (rw)
+  IRQ: 27 (24604 events)
+  Module Alias: "pci:v00008086d00000106sv000017AAsd0000397Dbc03sc00i00"
+  Driver Info #0:
+    Driver Status: i915 is active
+    Driver Activation Cmd: "modprobe i915"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 16.0: 0780 Communication controller
+  [Created at pci.319]
+  Unique ID: WnlC.whOJPQ_QCp2
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: unknown
+  Model: "Intel Communication controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c3a 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x04
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0xf1605000-0xf160500f (rw,non-prefetchable)
+  IRQ: 29 (16 events)
+  Module Alias: "pci:v00008086d00001C3Asv000017AAsd00003975bc07sc80i00"
+  Driver Info #0:
+    Driver Status: mei_me is active
+    Driver Activation Cmd: "modprobe mei_me"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 1a.0: 0c03 USB Controller (EHCI)
+  [Created at pci.319]
+  Unique ID: pwJ7.s9mfQ_qEZE5
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Intel USB Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c2d 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xf160a000-0xf160a3ff (rw,non-prefetchable)
+  IRQ: 16 (105 events)
+  Module Alias: "pci:v00008086d00001C2Dsv000017AAsd00003975bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 1b.0: 0403 Audio device
+  [Created at pci.319]
+  Unique ID: u1Nb.XuSQnJfKfs9
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel Audio device"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c20 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xf1600000-0xf1603fff (rw,non-prefetchable)
+  IRQ: 28 (730 events)
+  Module Alias: "pci:v00008086d00001C20sv000017AAsd00003975bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.319]
+  Unique ID: z8Q3.asPlMn3OMlC
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c10 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0xb5
+  Driver: "pcieport"
+  IRQ: 16 (105 events)
+  Module Alias: "pci:v00008086d00001C10sv000017AAsd00003975bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 1c.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.319]
+  Unique ID: qTvu.chIFKwIoPWD
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1
+  SysFS BusID: 0000:00:1c.1
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c12 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0xb5
+  Driver: "pcieport"
+  IRQ: 17 (52561 events)
+  Module Alias: "pci:v00008086d00001C12sv000017AAsd00003975bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 1c.3: 0604 PCI bridge (Normal decode)
+  [Created at pci.319]
+  Unique ID: Z7uZ.gL4FFCncW2F
+  SysFS ID: /devices/pci0000:00/0000:00:1c.3
+  SysFS BusID: 0000:00:1c.3
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c16 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0xb5
+  Driver: "pcieport"
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d00001C16sv000017AAsd00003975bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 1d.0: 0c03 USB Controller (EHCI)
+  [Created at pci.319]
+  Unique ID: 1GTX.FG9Q3++ItY2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel USB Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c26 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xf1609000-0xf16093ff (rw,non-prefetchable)
+  IRQ: 23 (42481 events)
+  Module Alias: "pci:v00008086d00001C26sv000017AAsd00003975bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.319]
+  Unique ID: BUZT.gQOY_cdrjI2
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel ISA bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c49 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00001C49sv000017AAsd00003975bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1f.2: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.319]
+  Unique ID: w7Y8.5F6frK7hvs4
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel SATA controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c03 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0x4088-0x408f (rw)
+  I/O Ports: 0x4094-0x4097 (rw)
+  I/O Ports: 0x4080-0x4087 (rw)
+  I/O Ports: 0x4090-0x4093 (rw)
+  I/O Ports: 0x4060-0x407f (rw)
+  Memory Range: 0xf1608000-0xf16087ff (rw,non-prefetchable)
+  IRQ: 25 (34370 events)
+  Module Alias: "pci:v00008086d00001C03sv000017AAsd00003975bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 1f.3: 0c05 SMBus
+  [Created at pci.319]
+  Unique ID: nS1_.j0gfNC3reQA
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Intel SMBus"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1c22 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x05
+  Memory Range: 0xf1604000-0xf16040ff (rw,non-prefetchable)
+  I/O Ports: 0xefa0-0xefbf (rw)
+  IRQ: 18 (no events)
+  Module Alias: "pci:v00008086d00001C22sv000017AAsd00003975bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.319]
+  Unique ID: VCu0.HYfuj4DBOA9
+  Parent ID: vSkL.s6k5erG_bvB
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "nVidia VGA compatible controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x1054 
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x397d 
+  Revision: 0xa1
+  Driver: "nvidia"
+  Driver Modules: "nvidia"
+  Memory Range: 0xf0000000-0xf0ffffff (rw,non-prefetchable)
+  Memory Range: 0xc0000000-0xcfffffff (ro,non-prefetchable)
+  Memory Range: 0xd0000000-0xd1ffffff (ro,non-prefetchable)
+  I/O Ports: 0x3000-0x3fff (rw)
+  IRQ: 16 (105 events)
+  Module Alias: "pci:v000010DEd00001054sv000017AAsd0000397Dbc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Driver Info #2:
+    Driver Status: nvidia_drm is active
+    Driver Activation Cmd: "modprobe nvidia_drm"
+  Driver Info #3:
+    Driver Status: nvidia is active
+    Driver Activation Cmd: "modprobe nvidia"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (PCI bridge)
+
+26: PCI 300.0: 0282 WLAN controller
+  [Created at pci.319]
+  Unique ID: hAO_.7fNlw91TmxB
+  Parent ID: qTvu.chIFKwIoPWD
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: network
+  Model: "Broadcom WLAN controller"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x4727 
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x051b 
+  Revision: 0x01
+  Driver: "wl"
+  Driver Modules: "wl"
+  Device File: wlp3s0
+  Features: WLAN
+  Memory Range: 0xf1500000-0xf1503fff (rw,non-prefetchable)
+  IRQ: 17 (52561 events)
+  HW Address: --
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 38 40 42 44 46 48 52 56 60 64 132 136 140 149 153 157 161 165
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.19 5.2 5.21 5.22 5.23 5.24 5.26 5.28 5.3 5.32 5.66 5.68 5.7 5.745 5.765 5.785 5.805 5.825
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v000014E4d00004727sv000014E4sd0000051Bbc02sc80i00"
+  Driver Info #0:
+    Driver Status: bcma is not active
+    Driver Activation Cmd: "modprobe bcma"
+  Driver Info #1:
+    Driver Status: wl is active
+    Driver Activation Cmd: "modprobe wl"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (PCI bridge)
+
+27: PCI 400.0: 0200 Ethernet controller
+  [Created at pci.319]
+  Unique ID: Ljo_.8CflRYwxwx9
+  Parent ID: Z7uZ.gL4FFCncW2F
+  SysFS ID: /devices/pci0000:00/0000:00:1c.3/0000:04:00.0
+  SysFS BusID: 0000:04:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168B PCI Express Gigabit Ethernet controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168B PCI Express Gigabit Ethernet controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3975 
+  Revision: 0x06
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp4s0
+  I/O Ports: 0x2000-0x2fff (rw)
+  Memory Range: 0xf1404000-0xf1404fff (ro,non-prefetchable)
+  Memory Range: 0xf1400000-0xf1403fff (ro,non-prefetchable)
+  IRQ: 26 (no events)
+  HW Address: --
+  Link detected: no
+  Module Alias: "pci:v000010ECd00008168sv000017AAsd00003975bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+28: None 00.0: 10002 LCD Monitor
+  [Created at monitor.95]
+  Unique ID: rdCR.T33jewvq3_2
+  Hardware Class: monitor
+  Model: "Lenovo LCD Monitor"
+  Vendor: LEN "Lenovo"
+  Device: eisa 0x40b0 
+  Resolution: 1366x768@60Hz
+  Size: 344x194 mm
+  Detailed Timings #0:
+     Resolution: 1366x768
+     Horizontal: 1366 1414 1446 1646 (+48 +80 +280) -hsync
+       Vertical:  768  770  775  790 (+2 +7 +22) -vsync
+    Frequencies: 78.02 MHz, 47.40 kHz, 60.00 Hz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.2: 10002 LCD Monitor
+  [Created at monitor.95]
+  Unique ID: aHB6.T33jewvq3_2
+  Hardware Class: monitor
+  Model: "Lenovo LCD Monitor"
+  Vendor: LEN "Lenovo"
+  Device: eisa 0x40b0 
+  Resolution: 1366x768@60Hz
+  Size: 344x194 mm
+  Detailed Timings #0:
+     Resolution: 1366x768
+     Horizontal: 1366 1414 1446 1646 (+48 +80 +280) -hsync
+       Vertical:  768  770  775  790 (+2 +7 +22) -vsync
+    Frequencies: 78.02 MHz, 47.40 kHz, 60.00 Hz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.x_0bafq2Q6C
+  Parent ID: w7Y8.5F6frK7hvs4
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "ST9500325AS"
+  Device: "ST9500325AS"
+  Revision: "LVM1"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-ST9500325AS_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 60801/255/63
+  Size: 976773168 sectors a 512 bytes
+  Capacity: 465 GB (500107862016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (SATA controller)
+
+31: SCSI 400.0: 10602 CD-ROM (DVD)
+  [Created at block.249]
+  Unique ID: KD9E.mnwvCSz49S5
+  Parent ID: w7Y8.5F6frK7hvs4
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 4:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata5/host4/target4:0:0/4:0:0:0
+  Hardware Class: cdrom
+  Model: "Optiarc DVD RW AD-7710H"
+  Vendor: "Optiarc"
+  Device: "DVD RW AD-7710H"
+  Revision: "A833"
+  Driver: "ahci", "sr"
+  Driver Modules: "ahci", "sr_mod"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Files: /dev/sr0, /dev/cdrom, /dev/cdrw, /dev/disk/by-id/ata-Optiarc_DVD_RW_..., /dev/dvd, /dev/dvdrw
+  Device Number: block 11:0 (char 21:1)
+  Features: CD-R, CD-RW, DVD, DVD-R, DVD-RW, DVD-R DL, DVD+R, DVD+RW, DVD+R DL, DVD-RAM, MRW, MRW-W
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (SATA controller)
+  Drive Speed: 24
+
+32: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ghVL.Fxp0d3BezAE
+  SysFS ID: /class/block/ram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram1
+  Device Number: block 1:1
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7tlP.Fxp0d3BezAE
+  SysFS ID: /class/block/ram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram2
+  Device Number: block 1:2
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: a20U.Fxp0d3BezAE
+  SysFS ID: /class/block/ram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram3
+  Device Number: block 1:3
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 1EGY.Fxp0d3BezAE
+  SysFS ID: /class/block/ram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram4
+  Device Number: block 1:4
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: UPWc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram5
+  Device Number: block 1:5
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: xamg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram6
+  Device Number: block 1:6
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: d1y9.Fxp0d3BezAE
+  SysFS ID: /class/block/ram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram7
+  Device Number: block 1:7
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 4DCE.Fxp0d3BezAE
+  SysFS ID: /class/block/ram8
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram8
+  Device Number: block 1:8
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: XOSI.Fxp0d3BezAE
+  SysFS ID: /class/block/ram9
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram9
+  Device Number: block 1:9
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 2K8Y.Fxp0d3BezAE
+  SysFS ID: /class/block/ram10
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram10
+  Device Number: block 1:10
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: VVOc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram11
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram11
+  Device Number: block 1:11
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ygeg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram12
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram12
+  Device Number: block 1:12
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Psuk.Fxp0d3BezAE
+  SysFS ID: /class/block/ram13
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram13
+  Device Number: block 1:13
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: s19p.Fxp0d3BezAE
+  SysFS ID: /class/block/ram14
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram14
+  Device Number: block 1:14
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: JDPt.Fxp0d3BezAE
+  SysFS ID: /class/block/ram15
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram15
+  Device Number: block 1:15
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: VBUu.XMQyUmjMnTE
+  Parent ID: ADDn.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.5/1-1.5:1.0
+  SysFS BusID: 1-1.5:1.0
+  Hardware Class: unknown
+  Model: "Chicony Electronics Lenovo EasyCamera"
+  Hotplug: USB
+  Vendor: usb 0x04f2 "Chicony Electronics Co., Ltd"
+  Device: usb 0xb223 "Lenovo EasyCamera"
+  Revision: "94.62"
+  Driver: "uvcvideo"
+  Driver Modules: "uvcvideo"
+  Device File: /dev/input/event12
+  Device Files: /dev/input/event12, /dev/input/by-id/usb-Chicony_Corp._Lenovo_..., /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.5:1.0-event
+  Device Number: char 13:76
+  Speed: 480 Mbps
+  Module Alias: "usb:v04F2pB223d9462dcEFdsc02dp01ic0Eisc01ip00in00"
+  Driver Info #0:
+    Driver Status: uvcvideo is active
+    Driver Activation Cmd: "modprobe uvcvideo"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #57 (Hub)
+
+50: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: JPTW.L90rwH1P_yF
+  Parent ID: FKGF.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.3/2-1.3:1.0
+  SysFS BusID: 2-1.3:1.0
+  Hardware Class: unknown
+  Model: "EgisTec_ES603"
+  Hotplug: USB
+  Vendor: usb 0x1c7a "EgisTec"
+  Device: usb 0x0603 "EgisTec_ES603"
+  Revision: "2.00"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1C7Ap0603d0200dc00dsc00dp00icFFisc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #59 (Hub)
+
+51: USB 00.0: 11500 Bluetooth Device
+  [Created at usb.122]
+  Unique ID: lX5h.jyjHG4zJDPE
+  Parent ID: FKGF.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.4/2-1.4:1.0
+  SysFS BusID: 2-1.4:1.0
+  Hardware Class: bluetooth
+  Model: "Foxconn / Hon Hai Broadcom Bluetooth 2.1 Device"
+  Hotplug: USB
+  Vendor: usb 0x0489 "Foxconn / Hon Hai"
+  Device: usb 0xe00d "Broadcom Bluetooth 2.1 Device"
+  Revision: "4.72"
+  Serial ID: --
+  Driver: "btusb"
+  Driver Modules: "btusb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v0489pE00Dd0472dcE0dsc01dp01icE0isc01ip01in00"
+  Driver Info #0:
+    Driver Status: btusb is active
+    Driver Activation Cmd: "modprobe btusb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #59 (Hub)
+
+55: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: doL0.zZoWlqVRZX3
+  Parent ID: FKGF.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.6/2-1.6:1.0
+  SysFS BusID: 2-1.6:1.0
+  Hardware Class: unknown
+  Model: "Realtek USB2.0-CRW"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0x0139 "USB2.0-CRW"
+  Revision: "39.60"
+  Serial ID: --
+  Driver: "rtsx_usb"
+  Driver Modules: "rtsx_usb"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDAp0139d3960dcFFdscFFdpFFicFFisc06ip50in00"
+  Driver Info #0:
+    Driver Status: rtsx_usb is active
+    Driver Activation Cmd: "modprobe rtsx_usb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #59 (Hub)
+
+56: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.FHd55n4xKo7
+  Parent ID: pwJ7.s9mfQ_qEZE5
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux 4.1.38-nrj-desktop-2rosa-x86_64 ehci_hcd EHCI Host Controller"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux 4.1.38-nrj-desktop-2rosa-x86_64 ehci_hcd"
+  Device: usb 0x0002 "EHCI Host Controller"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+57: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.4Nx_qoDfSd7
+  Parent ID: k4bc.FHd55n4xKo7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 
+  Device: usb 0x0024 
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (Hub)
+
+58: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.oLWCeziExdF
+  Parent ID: 1GTX.FG9Q3++ItY2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux 4.1.38-nrj-desktop-2rosa-x86_64 ehci_hcd EHCI Host Controller"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux 4.1.38-nrj-desktop-2rosa-x86_64 ehci_hcd"
+  Device: usb 0x0002 "EHCI Host Controller"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (USB Controller)
+
+59: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.4Nx_qoDfSd7
+  Parent ID: pBe4.oLWCeziExdF
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 
+  Device: usb 0x0024 
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #58 (Hub)
+
+60: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: 9ui9.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event3
+  Device Files: /dev/input/event3, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:67
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+61: PS/2 00.0: 10500 PS/2 Mouse
+  [Created at input.249]
+  Unique ID: AH6Q.ZHI3OT7LsxA
+  Hardware Class: mouse
+  Model: "SynPS/2 Synaptics TouchPad"
+  Vendor: 0x0002 
+  Device: 0x0007 "SynPS/2 Synaptics TouchPad"
+  Compatible to: int 0x0210 0x0002
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event4, /dev/input/by-path/platform-i8042-serio-1-event-mouse, /dev/input/by-path/platform-i8042-serio-1-mouse
+  Device Number: char 13:63 (char 13:32)
+  Driver Info #0:
+    Buttons: 2
+    Wheels: 0
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+62: None 00.0: 10d00 Joystick
+  [Created at input.312]
+  Unique ID: bc1Z.Q4Fm5GhdEAE
+  Hardware Class: joystick
+  Model: "Acer BMA150 accelerometer"
+  Device: "Acer BMA150 accelerometer"
+  Device File: /dev/input/event13 (/dev/input/js0)
+  Device Files: /dev/input/event13, /dev/input/js0
+  Device Number: char 13:77
+  Buttons: 0
+  Axes: 3
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: None 00.0: 10103 CPU
+  [Created at cpu.446]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.42.7 "Intel(R) Pentium(R) CPU B960 @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,xsave,lahf_lm,arat,epb,pln,pts,dtherm,xsaveopt
+  Clock: 1600 MHz
+  BogoMips: 4389.91
+  Cache: 2048 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: None 01.0: 10103 CPU
+  [Created at cpu.446]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.42.7 "Intel(R) Pentium(R) CPU B960 @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,xsave,lahf_lm,arat,epb,pln,pts,dtherm,xsaveopt
+  Clock: 1595 MHz
+  BogoMips: 4389.91
+  Cache: 2048 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+65: None 00.0: 10700 Loopback
+  [Created at net.124]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: None 00.0: 10701 Ethernet
+  [Created at net.124]
+  Unique ID: 1N3t.ndpeucax6V1
+  Parent ID: Ljo_.8CflRYwxwx9
+  SysFS ID: /class/net/enp4s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.3/0000:04:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp4s0
+  HW Address: --
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (Ethernet controller)
+
+67: None 00.0: 10701 Ethernet
+  [Created at net.124]
+  Unique ID: Mqes.ndpeucax6V1
+  Parent ID: hAO_.7fNlw91TmxB
+  SysFS ID: /class/net/wlp3s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.1/0000:03:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "wl"
+  Driver Modules: "wl"
+  Device File: wlp3s0
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (WLAN controller)

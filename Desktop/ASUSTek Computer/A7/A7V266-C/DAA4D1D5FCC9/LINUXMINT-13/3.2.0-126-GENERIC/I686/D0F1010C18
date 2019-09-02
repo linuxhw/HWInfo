@@ -1,0 +1,604 @@
+02: None 00.0: 11001 VESA Framebuffer
+  [Created at bios.464]
+  Unique ID: rdCR.k1nWVzJpEOC
+  Hardware Class: framebuffer
+  Model: "NVIDIA NV18 Board - 64d18nz "
+  Vendor: "NVIDIA Corporation"
+  Device: "NV18 Board - 64d18nz "
+  SubVendor: "NVIDIA"
+  SubDevice: 
+  Revision: "Chip Rev A2"
+  Memory Size: 128 MB
+  Memory Range: 0xf0000000-0xf7ffffff (rw)
+  Mode 0x0300: 640x400 (+640), 8 bits
+  Mode 0x0301: 640x480 (+640), 8 bits
+  Mode 0x0303: 800x600 (+800), 8 bits
+  Mode 0x0305: 1024x768 (+1024), 8 bits
+  Mode 0x0307: 1280x1024 (+1280), 8 bits
+  Mode 0x030e: 320x200 (+640), 16 bits
+  Mode 0x030f: 320x200 (+1280), 24 bits
+  Mode 0x0311: 640x480 (+1280), 16 bits
+  Mode 0x0312: 640x480 (+2560), 24 bits
+  Mode 0x0314: 800x600 (+1600), 16 bits
+  Mode 0x0315: 800x600 (+3200), 24 bits
+  Mode 0x0317: 1024x768 (+2048), 16 bits
+  Mode 0x0318: 1024x768 (+4096), 24 bits
+  Mode 0x031a: 1280x1024 (+2560), 16 bits
+  Mode 0x031b: 1280x1024 (+5120), 24 bits
+  Mode 0x0330: 320x200 (+320), 8 bits
+  Mode 0x0331: 320x400 (+320), 8 bits
+  Mode 0x0332: 320x400 (+640), 16 bits
+  Mode 0x0333: 320x400 (+1280), 24 bits
+  Mode 0x0334: 320x240 (+320), 8 bits
+  Mode 0x0335: 320x240 (+640), 16 bits
+  Mode 0x0336: 320x240 (+1280), 24 bits
+  Mode 0x033d: 640x400 (+1280), 16 bits
+  Mode 0x033e: 640x400 (+2560), 24 bits
+  Mode 0x0345: 1600x1200 (+1600), 8 bits
+  Mode 0x0346: 1600x1200 (+3200), 16 bits
+  Mode 0x0347: 1400x1050 (+1400), 8 bits
+  Mode 0x0348: 1400x1050 (+2800), 16 bits
+  Mode 0x0352: 2048x1536 (+8192), 24 bits
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI(AGP) 00.0: 0600 Host bridge
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_3099
+  Unique ID: qLht.9Y+LDS+Bvf0
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "VIA VT8366/A/7 [Apollo KT266/A/333]"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3099 "VT8366/A/7 [Apollo KT266/A/333]"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x8064 "A7V266-E Mainboard"
+  Driver: "agpgart-via"
+  Memory Range: 0xfc000000-0xfdffffff (ro,non-prefetchable)
+  Module Alias: "pci:v00001106d00003099sv00001043sd00008064bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_b099
+  Unique ID: vSkL.K3WJKbXW3V7
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "VIA VT8366/A/7 [Apollo KT266/A/333 AGP]"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xb099 "VT8366/A/7 [Apollo KT266/A/333 AGP]"
+  Module Alias: "pci:v00001106d0000B099sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 05.0: 0401 Multimedia audio controller
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_13f6_111
+  Unique ID: CvwD.fQ0hnWtjobB
+  SysFS ID: /devices/pci0000:00/0000:00:05.0
+  SysFS BusID: 0000:00:05.0
+  Hardware Class: sound
+  Model: "ASUSTeK CMI8738 6ch-MX"
+  Vendor: pci 0x13f6 "C-Media Electronics Inc"
+  Device: pci 0x0111 "CM8738"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x80e2 "CMI8738 6ch-MX"
+  Revision: 0x10
+  Driver: "snd_cmipci"
+  Driver Modules: "snd_cmipci"
+  I/O Ports: 0xd800-0xd8ff (rw)
+  IRQ: 10 (290 events)
+  Module Alias: "pci:v000013F6d00000111sv00001043sd000080E2bc04sc01i00"
+  Driver Info #0:
+    Driver Status: snd_cmipci is active
+    Driver Activation Cmd: "modprobe snd_cmipci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 0f.0: 0200 Ethernet controller
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_10ec_8139
+  Unique ID: rBUF.IQxIdIhhuH7
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: network
+  Model: "Realtek RT8139"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8139 "RTL-8139/8139C/8139C+"
+  SubVendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  SubDevice: pci 0x8139 "RT8139"
+  Revision: 0x10
+  Driver: "8139too"
+  Driver Modules: "8139too"
+  Device File: eth0
+  I/O Ports: 0xd400-0xd4ff (rw)
+  Memory Range: 0xed800000-0xed8000ff (rw,non-prefetchable)
+  IRQ: 5 (120194 events)
+  HW Address: --
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008139sv000010ECsd00008139bc02sc00i00"
+  Driver Info #0:
+    Driver Status: 8139too is active
+    Driver Activation Cmd: "modprobe 8139too"
+  Driver Info #1:
+    Driver Status: 8139cp is active
+    Driver Activation Cmd: "modprobe 8139cp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 11.0: 0601 ISA bridge
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_3147
+  Unique ID: 7EWs.l2+79ZcG176
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "VIA VT8233A ISA Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3147 "VT8233A ISA Bridge"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x8052 
+  Module Alias: "pci:v00001106d00003147sv00001043sd00008052bc06sc01i00"
+  Driver Info #0:
+    Driver Status: via_ircc is active
+    Driver Activation Cmd: "modprobe via_ircc"
+  Driver Info #1:
+    Driver Status: i2c_viapro is active
+    Driver Activation Cmd: "modprobe i2c_viapro"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 11.1: 0101 IDE interface
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_571
+  Unique ID: +Y+h.nQ0NSFVw5Y0
+  SysFS ID: /devices/pci0000:00/0000:00:11.1
+  SysFS BusID: 0000:00:11.1
+  Hardware Class: storage
+  Model: "VIA VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x0571 "VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE"
+  Revision: 0x06
+  Driver: "pata_via"
+  Driver Modules: "pata_via"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xd000-0xd00f (rw)
+  IRQ: 11 (405374 events)
+  Module Alias: "pci:v00001106d00000571sv00000000sd00000000bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_via is active
+    Driver Activation Cmd: "modprobe pata_via"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 11.2: 0c03 USB Controller (UHCI)
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_3038
+  Unique ID: stUX.9ih1Shkm0T1
+  SysFS ID: /devices/pci0000:00/0000:00:11.2
+  SysFS BusID: 0000:00:11.2
+  Hardware Class: usb controller
+  Model: "VIA VT82xxxxx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xxxxx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x0925 "First International Computer, Inc."
+  SubDevice: pci 0x1234 "VA-502 Mainboard"
+  Revision: 0x23
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb800-0xb81f (rw)
+  IRQ: 11 (405374 events)
+  Module Alias: "pci:v00001106d00003038sv00000925sd00001234bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 11.3: 0c03 USB Controller (UHCI)
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_1106_3038_0
+  Unique ID: kC_M.9ih1Shkm0T1
+  SysFS ID: /devices/pci0000:00/0000:00:11.3
+  SysFS BusID: 0000:00:11.3
+  Hardware Class: usb controller
+  Model: "VIA VT82xxxxx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xxxxx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x0925 "First International Computer, Inc."
+  SubDevice: pci 0x1234 "VA-502 Mainboard"
+  Revision: 0x23
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb400-0xb41f (rw)
+  IRQ: 11 (405374 events)
+  Module Alias: "pci:v00001106d00003038sv00000925sd00001234bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI(AGP) 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.318]
+  UDI: /org/freedesktop/Hal/devices/pci_10de_181
+  Unique ID: VCu0.V7_TQDYt_e2
+  Parent ID: vSkL.K3WJKbXW3V7
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "nVidia GeForce4 MX 440 with AGP8X"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0181 "GeForce4 MX 440 with AGP8X"
+  Revision: 0xa2
+  Driver: "nouveau"
+  Driver Modules: "drm"
+  Memory Range: 0xee000000-0xeeffffff (rw,non-prefetchable)
+  Memory Range: 0xf0000000-0xf7ffffff (ro,non-prefetchable)
+  Memory Range: 0xeffe0000-0xefffffff (ro,non-prefetchable,disabled)
+  IRQ: 11 (405374 events)
+  Module Alias: "pci:v000010DEd00000181sv00000000sd00000000bc03sc00i00"
+  Driver Info #0:
+    XFree86 v4 Server Module: nv
+  Driver Info #1:
+    XFree86 v4 Server Module: nvidia
+    3D Support: yes
+    Color Depths: 16
+    Extensions: 
+    Options: 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (PCI bridge)
+
+21: None 00.0: 10000 Monitor
+  [Created at monitor.95]
+  Unique ID: rdCR.h6pL7aKEmA0
+  Hardware Class: monitor
+  Model: "SONY SDM-S73"
+  Vendor: SNY "SONY"
+  Device: eisa 0x2770 "SDM-S73"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1280x960@60Hz
+  Size: 359x287 mm
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) +vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 57-75 Hz
+    Hor. Sync Range: 28-65 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0c01
+  Unique ID: z9pp.gNN83gfynbD
+  SysFS ID: /devices/pnp0/00:00
+  SysFS BusID: 00:00
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c01 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0a03
+  Unique ID: QL3u.QBqTp8zQt87
+  SysFS ID: /devices/pnp0/00:01
+  SysFS BusID: 00:01
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0a03 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0c02
+  Unique ID: tWJy.B+yZ9Ve8gC1
+  SysFS ID: /devices/pnp0/00:02
+  SysFS BusID: 00:02
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c02 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0c02_0
+  Unique ID: KiZ0.B+yZ9Ve8gC1
+  SysFS ID: /devices/pnp0/00:03
+  SysFS BusID: 00:03
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c02 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0200
+  Unique ID: ntp4.ld94kxNGZf5
+  SysFS ID: /devices/pnp0/00:04
+  SysFS BusID: 00:04
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0200 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0b00
+  Unique ID: E349.WYwRElrJa93
+  SysFS ID: /devices/pnp0/00:05
+  SysFS BusID: 00:05
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0b00 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0800
+  Unique ID: hEKD.bvKf3UMzZfE
+  SysFS ID: /devices/pnp0/00:06
+  SysFS BusID: 00:06
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0800 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0c04
+  Unique ID: NhVi.DE8RM9cWQQ8
+  SysFS ID: /devices/pnp0/00:07
+  SysFS BusID: 00:07
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c04 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0401
+  Unique ID: qslm.YgT1Hy0M6x6
+  SysFS ID: /devices/pnp0/00:08
+  SysFS BusID: 00:08
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0401 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0501
+  Unique ID: H20r.BuKI+1soRmD
+  SysFS ID: /devices/pnp0/00:09
+  SysFS BusID: 00:09
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0501 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0501_0
+  Unique ID: iT2w.BuKI+1soRmD
+  SysFS ID: /devices/pnp0/00:0a
+  SysFS BusID: 00:0a
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0501 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  UDI: /org/freedesktop/Hal/devices/pnp_PNP0303
+  Unique ID: 9fI_.xhndlW9HXJ7
+  SysFS ID: /devices/pnp0/00:0b
+  SysFS BusID: 00:0b
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0303 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: IDE 01.0: 10600 Disk
+  [Created at block.243]
+  UDI: /org/freedesktop/Hal/devices/storage_serial_Maxtor_6Y080L0_Y28Y7G6E
+  Unique ID: 3OOL.o0KBfKfI7I0
+  Parent ID: +Y+h.nQ0NSFVw5Y0
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:11.1/host0/target0:0:1/0:0:1:0
+  Hardware Class: disk
+  Model: "Maxtor 6Y080L0"
+  Vendor: "Maxtor"
+  Device: "6Y080L0"
+  Revision: "YAR4"
+  Serial ID: --
+  Driver: "pata_via", "sd"
+  Driver Modules: "pata_via"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-Maxtor_6Y080L0_..., /dev/disk/by-id/scsi-SATA_Maxtor_6Y080L0_..., /dev/disk/by-path/pci-0000:00:11.1-scsi-0:0:1:0
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Geometry (Logical): CHS 9964/255/63
+  Size: 160086528 sectors a 512 bytes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (IDE interface)
+
+37: SCSI 100.0: 10602 CD-ROM (DVD)
+  [Created at block.247]
+  UDI: /org/freedesktop/Hal/devices/storage_serial_TSSTcorpDVD_ROM_SH_D162C
+  Unique ID: KD9E.DidsmSsiNA3
+  Parent ID: +Y+h.nQ0NSFVw5Y0
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:11.1/host1/target1:0:0/1:0:0:0
+  Hardware Class: cdrom
+  Model: "TSSTcorp DVD-ROM SH-D162C"
+  Vendor: "TSSTcorp"
+  Device: "DVD-ROM SH-D162C"
+  Revision: "TS04"
+  Driver: "pata_via", "sr"
+  Driver Modules: "pata_via"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Files: /dev/sr0, /dev/cdrom, /dev/disk/by-id/ata-TSSTcorpDVD-ROM_..., /dev/disk/by-path/pci-0000:00:11.1-scsi-1:0:0:0, /dev/dvd
+  Device Number: block 11:0 (char 21:1)
+  Features: CD-R, DVD
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (IDE interface)
+  Drive Speed: 48
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  UDI: /org/freedesktop/Hal/devices/usb_device_1d6b_1_0000_00_11_2_if0
+  Unique ID: k4bc.8GNKcJ190tA
+  Parent ID: stUX.9ih1Shkm0T1
+  SysFS ID: /devices/pci0000:00/0000:00:11.2/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux 3.2.0-126-generic uhci_hcd UHCI Host Controller"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux 3.2.0-126-generic uhci_hcd"
+  Device: usb 0x0001 "UHCI Host Controller"
+  Revision: "3.02"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0302dc09dsc00dp00ic09isc00ip00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (USB Controller)
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  UDI: /org/freedesktop/Hal/devices/usb_device_1d6b_1_0000_00_11_3_if0
+  Unique ID: pBe4.v_Rvz3qsy82
+  Parent ID: kC_M.9ih1Shkm0T1
+  SysFS ID: /devices/pci0000:00/0000:00:11.3/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux 3.2.0-126-generic uhci_hcd UHCI Host Controller"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux 3.2.0-126-generic uhci_hcd"
+  Device: usb 0x0001 "UHCI Host Controller"
+  Revision: "3.02"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0302dc09dsc00dp00ic09isc00ip00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (USB Controller)
+
+40: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  UDI: /org/freedesktop/Hal/devices/usb_device_46d_c050_noserial_if0
+  Unique ID: cLrx.gQu9C2o7JiD
+  Parent ID: k4bc.8GNKcJ190tA
+  SysFS ID: /devices/pci0000:00/0000:00:11.2/usb1/1-2/1-2:1.0
+  SysFS BusID: 1-2:1.0
+  Hardware Class: mouse
+  Model: "Logitech USB-PS/2 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc050 "USB-PS/2 Optical Mouse"
+  Revision: "27.20"
+  Compatible to: int 0x0210 0x0028
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event3, /dev/input/by-id/usb-Logitech_USB-PS_2_Optical_..., /dev/input/by-path/pci-0000:00:11.2-usb-0:2:1.0-event-mouse, /dev/input/by-id/usb-Logitech_USB-PS_2_Optical_..., /dev/input/by-path/pci-0000:00:11.2-usb-0:2:1.0-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC050d2720dc00dsc00dp00ic03isc01ip02"
+  Driver Info #0:
+    Buttons: 8
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (Hub)
+
+41: PS/2 00.0: 10800 Keyboard
+  [Created at input.161]
+  UDI: /org/freedesktop/Hal/devices/platform_i8042_i8042_KBD_port_logicaldev_input
+  Unique ID: hiS5.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event2
+  Device Files: /dev/input/event2, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:66
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10103 CPU
+  [Created at cpu.304]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: Intel
+  Vendor: "AuthenticAMD"
+  Model: 6.8.0 "AMD Athlon(TM) XP1800+"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,mtrr,pge,mca,cmov,pat,pse36,mmx,fxsr,sse,syscall,mmxext,3dnowext,3dnow,up,vmmcall
+  Clock: 1150 MHz
+  BogoMips: 2299.98
+  Cache: 256 kb
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10700 Loopback
+  [Created at net.124]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10701 Ethernet
+  [Created at net.124]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: rBUF.IQxIdIhhuH7
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "8139too"
+  Driver Modules: "8139too"
+  Device File: eth0
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Ethernet controller)

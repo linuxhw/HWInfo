@@ -1,0 +1,1522 @@
+02: None 00.0: 11001 VESA Framebuffer
+  [Created at bios.459]
+  Unique ID: rdCR.Oa2wXL+dA37
+  Hardware Class: framebuffer
+  Model: "(C) 1988-2010, Advanced Micro Devices POLARIS21"
+  Vendor: "(C) 1988-2010, Advanced Micro Devices, Inc."
+  Device: "POLARIS21"
+  SubVendor: "AMD ATOMBIOS"
+  SubDevice: 
+  Revision: "01.00"
+  Memory Size: 48 MB
+  Memory Range: 0x00000000-0x02ffffff (rw)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 300.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: UOJ9.P8Z0Wx+HwFD
+  Parent ID: B35A.sArAqRDibeE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:00.0/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x2313 
+  Revision: 0x16
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp3s0
+  I/O Ports: 0xe000-0xefff (rw)
+  Memory Range: 0xfe504000-0xfe504fff (rw,non-prefetchable)
+  Memory Range: 0xfe500000-0xfe503fff (rw,non-prefetchable)
+  IRQ: 28 (no events)
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: no
+  Module Alias: "pci:v000010ECd00008168sv00001565sd00002313bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (PCI bridge)
+
+26: PCI 03.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: w+J7.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1453 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1453 
+  Driver: "pcieport"
+  Module Alias: "pci:v00001022d00001453sv00001022sd00001453bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI c00.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.378]
+  Unique ID: zb5c.3In8SW7huC8
+  Parent ID: w+J7.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:0c:00.0
+  SysFS BusID: 0000:0c:00.0
+  Hardware Class: graphics card
+  Model: "ATI Baffin [Polaris11]"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x67ff "Baffin [Polaris11]"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x22ff 
+  Revision: 0xcf
+  Driver: "amdgpu"
+  Driver Modules: "amdgpu"
+  Memory Range: 0xe0000000-0xefffffff (ro,non-prefetchable)
+  Memory Range: 0xf0000000-0xf01fffff (ro,non-prefetchable)
+  I/O Ports: 0xf000-0xffff (rw)
+  Memory Range: 0xfe800000-0xfe83ffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 73 (2890084 events)
+  Module Alias: "pci:v00001002d000067FFsv00001458sd000022FFbc03sc00i00"
+  Driver Info #0:
+    Driver Status: amdgpu is active
+    Driver Activation Cmd: "modprobe amdgpu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+28: PCI 207.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: jqQS.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:07.0
+  SysFS BusID: 0000:02:07.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 30 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+29: PCI 08.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: RE4e.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 18.3: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: Fhhh.n2pwNANBcG8
+  SysFS ID: /devices/pci0000:00/0000:00:18.3
+  SysFS BusID: 0000:00:18.3
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1463 
+  Driver: "k10temp"
+  Driver Modules: "k10temp"
+  Module Alias: "pci:v00001022d00001463sv00000000sd00000000bc06sc00i00"
+  Driver Info #0:
+    Driver Status: k10temp is active
+    Driver Activation Cmd: "modprobe k10temp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI e00.3: 0403 Audio device
+  [Created at pci.378]
+  Unique ID: wHzO.LRiSeTbJqZ4
+  Parent ID: JZZT.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:08.1/0000:0e:00.3
+  SysFS BusID: 0000:0e:00.3
+  Hardware Class: sound
+  Model: "AMD Audio device"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1457 
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x8239 
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfe700000-0xfe707fff (rw,non-prefetchable)
+  IRQ: 71 (1739 events)
+  Module Alias: "pci:v00001022d00001457sv00001565sd00008239bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (PCI bridge)
+
+32: PCI 01.2: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: e6j0.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.2
+  SysFS BusID: 0000:00:01.2
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1453 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1453 
+  Driver: "pcieport"
+  Module Alias: "pci:v00001022d00001453sv00001022sd00001453bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 18.1: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: W1j0.lDwQQ18nYV7
+  SysFS ID: /devices/pci0000:00/0000:00:18.1
+  SysFS BusID: 0000:00:18.1
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1461 
+  Module Alias: "pci:v00001022d00001461sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 200.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: B35A.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 28 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+35: PCI 01.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: vSkL.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI b00.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.378]
+  Unique ID: IluS.6HVdCPE4AT5
+  Parent ID: e6j0.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.2/0000:0b:00.0
+  SysFS BusID: 0000:0b:00.0
+  Hardware Class: storage
+  Model: "Samsung Electronics NVMe SSD Controller SM961/PM961"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa804 "NVMe SSD Controller SM961/PM961"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0xfe900000-0xfe903fff (rw,non-prefetchable)
+  IRQ: 34 (no events)
+  Module Alias: "pci:v0000144Dd0000A804sv0000144Dsd0000A801bc01sc08i02"
+  Driver Info #0:
+    Driver Status: nvme is active
+    Driver Activation Cmd: "modprobe nvme"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+37: PCI d00.3: 0c03 USB Controller (XHCI)
+  [Created at pci.378]
+  Unique ID: FRmF.10WClWjOSi1
+  Parent ID: ESW+.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:07.1/0000:0d:00.3
+  SysFS BusID: 0000:0d:00.3
+  Hardware Class: usb controller
+  Model: "AMD USB Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x145c 
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x370b 
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xfe100000-0xfe1fffff (rw,non-prefetchable)
+  IRQ: 57 (no events)
+  Module Alias: "pci:v00001022d0000145Csv00001565sd0000370Bbc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (PCI bridge)
+
+38: PCI 100.2: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: Essh.q_r6_B2KkdE
+  Parent ID: mnDB.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2
+  SysFS BusID: 0000:01:00.2
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b0 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x0201 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00001022d000043B0sv00001B21sd00000201bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (PCI bridge)
+
+39: PCI 203.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: QOEa.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:03.0
+  SysFS BusID: 0000:02:03.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 30 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+40: PCI 04.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: 8otl.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: PCI 14.3: 0601 ISA bridge
+  [Created at pci.378]
+  Unique ID: yX7n.PihUw_8dAp0
+  SysFS ID: /devices/pci0000:00/0000:00:14.3
+  SysFS BusID: 0000:00:14.3
+  Hardware Class: bridge
+  Model: "AMD FCH LPC Bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x790e "FCH LPC Bridge"
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x370b 
+  Revision: 0x51
+  Module Alias: "pci:v00001022d0000790Esv00001565sd0000370Bbc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: PCI 100.0: 0c03 USB Controller (XHCI)
+  [Created at pci.378]
+  Unique ID: VCu0.wlmtQPkvUPF
+  Parent ID: mnDB.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: usb controller
+  Model: "AMD USB Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b9 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x1142 
+  Revision: 0x02
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xfe6a0000-0xfe6a7fff (rw,non-prefetchable)
+  IRQ: 55 (481558 events)
+  Module Alias: "pci:v00001022d000043B9sv00001B21sd00001142bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (PCI bridge)
+
+43: PCI a00.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: vWUX.qQIprdItMR3
+  Parent ID: jqQS.sArAqRDibeE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:07.0/0000:0a:00.0
+  SysFS BusID: 0000:0a:00.0
+  Hardware Class: network
+  Model: "Intel Gigabit CT Desktop Adapter"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x10d3 "82574L Gigabit Network Connection"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0xa01f "Gigabit CT Desktop Adapter"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp10s0
+  Memory Range: 0xfe4c0000-0xfe4dffff (rw,non-prefetchable)
+  Memory Range: 0xfe400000-0xfe47ffff (rw,non-prefetchable)
+  I/O Ports: 0xd000-0xefff (rw)
+  Memory Range: 0xfe4e0000-0xfe4e3fff (rw,non-prefetchable)
+  Memory Range: 0xfe480000-0xfe4bffff (ro,non-prefetchable,disabled)
+  IRQ: 30 (no events)
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: yes
+  Module Alias: "pci:v00008086d000010D3sv00008086sd0000A01Fbc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000e is active
+    Driver Activation Cmd: "modprobe e1000e"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (PCI bridge)
+
+44: PCI 206.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: ejN_.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:06.0
+  SysFS BusID: 0000:02:06.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+45: PCI 07.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: M71A.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:07.0
+  SysFS BusID: 0000:00:07.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: PCI 00.2: 0806 IOMMU
+  [Created at pci.378]
+  Unique ID: Z+fY.05Zd8xDvjCA
+  SysFS ID: /devices/pci0000:00/0000:00:00.2
+  SysFS BusID: 0000:00:00.2
+  Hardware Class: unknown
+  Model: "AMD IOMMU"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1451 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1451 
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00001022d00001451sv00001022sd00001451bc08sc06i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: PCI 18.6: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: rf9C.KIeAqtjIBQ9
+  SysFS ID: /devices/pci0000:00/0000:00:18.6
+  SysFS BusID: 0000:00:18.6
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1466 
+  Module Alias: "pci:v00001022d00001466sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: PCI c00.1: 0403 Audio device
+  [Created at pci.378]
+  Unique ID: rwaR.zLSNTIf3xUA
+  Parent ID: w+J7.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:0c:00.1
+  SysFS BusID: 0000:0c:00.1
+  Hardware Class: sound
+  Model: "ATI Audio device"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0xaae0 
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xaae0 
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfe860000-0xfe863fff (rw,non-prefetchable)
+  IRQ: 69 (471 events)
+  Module Alias: "pci:v00001002d0000AAE0sv00001458sd0000AAE0bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+49: PCI 00.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: qLht.spGMzJJBD63
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1450 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1450 
+  Module Alias: "pci:v00001022d00001450sv00001022sd00001450bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+50: PCI 08.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: JZZT.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:08.1
+  SysFS BusID: 0000:00:08.1
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1454 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1454 
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v00001022d00001454sv00001022sd00001454bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: PCI 18.4: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: 60BX.ITlgskUu7f8
+  SysFS ID: /devices/pci0000:00/0000:00:18.4
+  SysFS BusID: 0000:00:18.4
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1464 
+  Module Alias: "pci:v00001022d00001464sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: PCI 202.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: LHB6.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:02.0
+  SysFS BusID: 0000:02:02.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+53: PCI 03.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: 3hqH.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: PCI 18.2: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: OMCs.GesAvbFU4u7
+  SysFS ID: /devices/pci0000:00/0000:00:18.2
+  SysFS BusID: 0000:00:18.2
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1462 
+  Module Alias: "pci:v00001022d00001462sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: PCI e00.2: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.378]
+  Unique ID: 3zTZ.TmG33QwzBbA
+  Parent ID: JZZT.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:08.1/0000:0e:00.2
+  SysFS BusID: 0000:0e:00.2
+  Hardware Class: storage
+  Model: "AMD FCH SATA Controller [AHCI mode]"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x7901 "FCH SATA Controller [AHCI mode]"
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x550d 
+  Revision: 0x51
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0xfe708000-0xfe708fff (rw,non-prefetchable)
+  IRQ: 38 (no events)
+  Module Alias: "pci:v00001022d00007901sv00001565sd0000550Dbc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (PCI bridge)
+
+56: PCI 01.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: mnDB.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1453 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1453 
+  Driver: "pcieport"
+  Module Alias: "pci:v00001022d00001453sv00001022sd00001453bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: PCI 18.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: fiDB.EpzgxS04177
+  SysFS ID: /devices/pci0000:00/0000:00:18.0
+  SysFS BusID: 0000:00:18.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1460 
+  Module Alias: "pci:v00001022d00001460sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: PCI e00.0: 1300 Non-Essential Instrumentation
+  [Created at pci.378]
+  Unique ID: KJVu.DH89ZtRtza5
+  Parent ID: JZZT.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:08.1/0000:0e:00.0
+  SysFS BusID: 0000:0e:00.0
+  Hardware Class: unknown
+  Model: "AMD Non-Essential Instrumentation"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1455 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1455 
+  Module Alias: "pci:v00001022d00001455sv00001022sd00001455bc13sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (PCI bridge)
+
+59: PCI d00.2: 1080 Encryption controller
+  [Created at pci.378]
+  Unique ID: O6HQ.CuQT0k1_oDA
+  Parent ID: ESW+.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:07.1/0000:0d:00.2
+  SysFS BusID: 0000:0d:00.2
+  Hardware Class: unknown
+  Model: "AMD Encryption controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1456 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1456 
+  Driver: "ccp"
+  Driver Modules: "ccp"
+  Memory Range: 0xfe200000-0xfe2fffff (rw,non-prefetchable)
+  Memory Range: 0xfe300000-0xfe301fff (rw,non-prefetchable)
+  IRQ: 65 (no events)
+  Module Alias: "pci:v00001022d00001456sv00001022sd00001456bc10sc80i00"
+  Driver Info #0:
+    Driver Status: ccp is active
+    Driver Activation Cmd: "modprobe ccp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (PCI bridge)
+
+60: PCI 100.1: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.378]
+  Unique ID: NXNs.M78nSF0k_c7
+  Parent ID: mnDB.0mdkldd4FZB
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.1
+  SysFS BusID: 0000:01:00.1
+  Hardware Class: storage
+  Model: "AMD SATA controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b5 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x1062 
+  Revision: 0x02
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0xfe680000-0xfe69ffff (rw,non-prefetchable)
+  Memory Range: 0xfe600000-0xfe67ffff (ro,non-prefetchable,disabled)
+  IRQ: 36 (693215 events)
+  Module Alias: "pci:v00001022d000043B5sv00001B21sd00001062bc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (PCI bridge)
+
+61: PCI 07.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: ESW+.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:07.1
+  SysFS BusID: 0000:00:07.1
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1454 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x1454 
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00001022d00001454sv00001022sd00001454bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+62: PCI 400.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.378]
+  Unique ID: YmUS.or766JNHMq5
+  Parent ID: GA8e.sArAqRDibeE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:01.0/0000:04:00.0
+  SysFS BusID: 0000:04:00.0
+  Hardware Class: bridge
+  Model: "ASMedia ASM1083/1085 PCIe to PCI Bridge"
+  Vendor: pci 0x1b21 "ASMedia Technology Inc."
+  Device: pci 0x1080 "ASM1083/1085 PCIe to PCI Bridge"
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x370b 
+  Revision: 0x03
+  IRQ: 10 (no events)
+  Module Alias: "pci:v00001B21d00001080sv00001565sd0000370Bbc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #63 (PCI bridge)
+
+63: PCI 201.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: GA8e.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:01.0
+  SysFS BusID: 0000:02:01.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 29 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+64: PCI d00.0: 1300 Non-Essential Instrumentation
+  [Created at pci.378]
+  Unique ID: fSIl.NRo2TlpCHD4
+  Parent ID: ESW+.2o9wK1kzeYF
+  SysFS ID: /devices/pci0000:00/0000:00:07.1/0000:0d:00.0
+  SysFS BusID: 0000:0d:00.0
+  Hardware Class: unknown
+  Model: "AMD Non-Essential Instrumentation"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x145a 
+  SubVendor: pci 0x1022 "AMD"
+  SubDevice: pci 0x145a 
+  Module Alias: "pci:v00001022d0000145Asv00001022sd0000145Abc13sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (PCI bridge)
+
+65: PCI 02.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: _Znp.00mBDY0_eA3
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1452 
+  Module Alias: "pci:v00001022d00001452sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: PCI 18.7: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: j_e1.riawISr+io9
+  SysFS ID: /devices/pci0000:00/0000:00:18.7
+  SysFS BusID: 0000:00:18.7
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1467 
+  Module Alias: "pci:v00001022d00001467sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: PCI 14.0: 0c05 SMBus
+  [Created at pci.378]
+  Unique ID: MZfG.8nwE+HOfb+B
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: unknown
+  Model: "AMD FCH SMBus Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x790b "FCH SMBus Controller"
+  SubVendor: pci 0x1565 "Biostar Microtech Int'l Corp"
+  SubDevice: pci 0x370b 
+  Revision: 0x59
+  Driver: "piix4_smbus"
+  Driver Modules: "i2c_piix4"
+  Module Alias: "pci:v00001022d0000790Bsv00001565sd0000370Bbc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_piix4 is active
+    Driver Activation Cmd: "modprobe i2c_piix4"
+  Driver Info #1:
+    Driver Status: sp5100_tco is active
+    Driver Activation Cmd: "modprobe sp5100_tco"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+68: PCI 204.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: UVH2.sArAqRDibeE
+  Parent ID: Essh.q_r6_B2KkdE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:04.0
+  SysFS BusID: 0000:02:04.0
+  Hardware Class: bridge
+  Model: "AMD PCI bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x43b4 
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x3306 
+  Revision: 0x02
+  Driver: "pcieport"
+  IRQ: 28 (no events)
+  Module Alias: "pci:v00001022d000043B4sv00001B21sd00003306bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+69: PCI 18.5: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: _KgM.pthQLJcbf19
+  SysFS ID: /devices/pci0000:00/0000:00:18.5
+  SysFS BusID: 0000:00:18.5
+  Hardware Class: bridge
+  Model: "AMD Host bridge"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1465 
+  Module Alias: "pci:v00001022d00001465sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.W9WP2EuNuuF
+  Parent ID: zb5c.3In8SW7huC8
+  Hardware Class: monitor
+  Model: "V196L"
+  Vendor: ACR 
+  Device: eisa 0x0363 "V196L"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1152x864@75Hz
+  Resolution: 1280x960@60Hz
+  Size: 376x301 mm
+  Year of Manufacture: 2015
+  Week of Manufacture: 5
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) -vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 56-76 Hz
+    Hor. Sync Range: 31-83 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (VGA compatible controller)
+
+71: None 01.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: wkFv.lQRqgT5gxc8
+  Parent ID: zb5c.3In8SW7huC8
+  Hardware Class: monitor
+  Model: "V196L"
+  Vendor: ACR 
+  Device: eisa 0x0363 "V196L"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1152x864@75Hz
+  Resolution: 1280x960@60Hz
+  Size: 376x301 mm
+  Year of Manufacture: 2014
+  Week of Manufacture: 22
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) -vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 56-76 Hz
+    Hor. Sync Range: 31-83 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (VGA compatible controller)
+
+72: None 02.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: +rIN.lQRqgT5gxc8
+  Parent ID: zb5c.3In8SW7huC8
+  Hardware Class: monitor
+  Model: "V196L"
+  Vendor: ACR 
+  Device: eisa 0x0363 "V196L"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1152x864@75Hz
+  Resolution: 1280x960@60Hz
+  Size: 376x301 mm
+  Year of Manufacture: 2014
+  Week of Manufacture: 22
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) -vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 56-76 Hz
+    Hor. Sync Range: 31-83 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (VGA compatible controller)
+
+74: PCI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: wLCS.AfVvhtt5p16
+  Parent ID: IluS.6HVdCPE4AT5
+  SysFS ID: /class/block/nvme0n1
+  SysFS BusID: nvme0
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.2/0000:0b:00.0/nvme/nvme0
+  Hardware Class: disk
+  Model: "Samsung Electronics NVMe SSD Controller SM961/PM961"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa804 "NVMe SSD Controller SM961/PM961"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme0n1
+  Device Files: /dev/nvme0n1, /dev/disk/by-id/nvme-Samsung_SSD_960_EVO_250GB_..., /dev/disk/by-id/nvme-eui.0025385371b0899c, /dev/disk/by-path/pci-0000:0b:00.0-nvme-1
+  Device Number: block 259:0
+  Geometry (Logical): CHS 238475/64/32
+  Size: 488397168 sectors a 512 bytes
+  Capacity: 232 GB (250059350016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #36 (Non-Volatile memory controller)
+
+75: IDE 400.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.171Rdh1jLkA
+  Parent ID: NXNs.M78nSF0k_c7
+  SysFS ID: /class/block/sda
+  SysFS BusID: 4:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.1/0000:01:00.1/ata5/host4/target4:0:0/4:0:0:0
+  Hardware Class: disk
+  Model: "Samsung SSD 850"
+  Vendor: "Samsung"
+  Device: "SSD 850"
+  Revision: "2B6Q"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-Samsung_SSD_850_EVO_1TB_..., /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/pci-0000:01:00.1-ata-5
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 121601/255/63
+  Size: 1953525168 sectors a 512 bytes
+  Capacity: 931 GB (1000204886016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #60 (SATA controller)
+
+76: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: cLrx.517_uEWzBl2
+  Parent ID: k4bc.kNaPe9SZft4
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-2/1-2:1.0
+  SysFS BusID: 1-2:1.0
+  Hardware Class: hub
+  Model: "VIA VL812 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x2812 "VL812 Hub"
+  Revision: "91.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p2812d9100dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #83 (Hub)
+
+77: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.CQPuj65zRWC
+  Parent ID: FRmF.10WClWjOSi1
+  SysFS ID: /devices/pci0000:00/0000:00:07.1/0000:0d:00.3/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0418dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (USB Controller)
+
+78: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: WFGf.biwimcwbzvE
+  Parent ID: hSuP.biwimcwbzvE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb2/2-2/2-2.1/2-2.1:1.0
+  SysFS BusID: 2-2.1:1.0
+  Hardware Class: hub
+  Model: "VIA VL812 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x0812 "VL812 Hub"
+  Revision: "91.05"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v2109p0812d9105dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #81 (Hub)
+
+79: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: UdFA.1uV1BNVbU17
+  Parent ID: qm0i.517_uEWzBl2
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-2/1-2.1/1-2.1.4/1-2.1.4:1.0
+  SysFS BusID: 1-2.1.4:1.0
+  Hardware Class: mouse
+  Model: "Logitech G400 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc245 "G400 Optical Mouse"
+  Revision: "69.00"
+  Compatible to: int 0x0210 0x0018
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event1, /dev/input/by-id/usb-Logitech_Gaming_Mouse_..., /dev/input/by-path/pci-0000:01:00.0-usb-0:2.1.4:1.0-event-mouse, /dev/input/by-id/usb-Logitech_Gaming_Mouse_..., /dev/input/by-path/pci-0000:01:00.0-usb-0:2.1.4:1.0-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 12 Mbps
+  Module Alias: "usb:v046DpC245d6900dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 8
+    Wheels: 1
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #84 (Hub)
+
+80: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: 4QxB.5T6BywegVxF
+  Parent ID: k4bc.kNaPe9SZft4
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-11/1-11:1.0
+  SysFS BusID: 1-11:1.0
+  Hardware Class: unknown
+  Model: "Corsair Link Cooling Node"
+  Hotplug: USB
+  Vendor: usb 0x1b1c "Corsair"
+  Device: usb 0x0c04 "Link Cooling Node"
+  Revision: "2.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1B1Cp0C04d0200dc00dsc00dp00ic03isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #83 (Hub)
+
+81: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: hSuP.biwimcwbzvE
+  Parent ID: pBe4.djic47EFb5E
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb2/2-2/2-2:1.0
+  SysFS BusID: 2-2:1.0
+  Hardware Class: hub
+  Model: "VIA VL812 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x0812 "VL812 Hub"
+  Revision: "91.05"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v2109p0812d9105dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #87 (Hub)
+
+82: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.5mX5A4teNk5
+  Parent ID: FRmF.10WClWjOSi1
+  SysFS ID: /devices/pci0000:00/0000:00:07.1/0000:0d:00.3/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0418dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (USB Controller)
+
+83: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.kNaPe9SZft4
+  Parent ID: VCu0.wlmtQPkvUPF
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0418dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (USB Controller)
+
+84: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: qm0i.517_uEWzBl2
+  Parent ID: cLrx.517_uEWzBl2
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-2/1-2.1/1-2.1:1.0
+  SysFS BusID: 1-2.1:1.0
+  Hardware Class: hub
+  Model: "VIA VL812 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x2812 "VL812 Hub"
+  Revision: "91.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p2812d9100dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #76 (Hub)
+
+85: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: xoVE.E7H3Ys9tua9
+  Parent ID: qm0i.517_uEWzBl2
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-2/1-2.1/1-2.1.4/1-2.1.4:1.1
+  SysFS BusID: 1-2.1.4:1.1
+  Hardware Class: unknown
+  Model: "Logitech G400 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc245 "G400 Optical Mouse"
+  Revision: "69.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 12 Mbps
+  Module Alias: "usb:v046DpC245d6900dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #84 (Hub)
+
+86: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: cM+q.ijzJoOVm3mE
+  Parent ID: qm0i.517_uEWzBl2
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb1/1-2/1-2.1/1-2.1.2/1-2.1.2:1.0
+  SysFS BusID: 1-2.1.2:1.0
+  Hardware Class: keyboard
+  Model: "Chicony Electronics KU-2971/KU-0325 Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x04f2 "Chicony Electronics Co., Ltd"
+  Device: usb 0x0116 "KU-2971/KU-0325 Keyboard"
+  Revision: "3.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-id/usb-CHICONY_USB_..., /dev/input/by-path/pci-0000:01:00.0-usb-0:2.1.2:1.0-event-kbd
+  Device Number: char 13:64
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04F2p0116d0300dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #84 (Hub)
+
+87: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.djic47EFb5E
+  Parent ID: VCu0.wlmtQPkvUPF
+  SysFS ID: /devices/pci0000:00/0000:00:01.1/0000:01:00.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0418dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (USB Controller)
+
+88: None 00.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1875 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+89: None 01.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1883 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+90: None 02.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+91: None 03.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1883 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+92: None 04.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1889 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+93: None 05.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+94: None 06.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+95: None 07.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1883 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+96: None 08.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: TWbB.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+97: None 09.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: Ydef.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1875 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+98: None 0a.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: dkh7.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+99: None 0b.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: hrkb.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1875 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+100: None 0c.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: myn3.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+101: None 0d.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: r3rX.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1880 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+102: None 0e.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: wAu+.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 2000 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+103: None 0f.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: +HxT.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 23.1.1 "AMD Ryzen 7 1800X Eight-Core Processor"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,pdpe1gb,rdtscp,lm,constant_tsc,rep_good,nopl,nonstop_tsc,cpuid,extd_apicid,aperfmperf,pni,pclmulqdq,monitor,ssse3,fma,cx16,sse4_1,sse4_2,movbe,popcnt,aes,xsave,avx,f16c,rdrand,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,abm,sse4a,misalignsse,3dnowprefetch,osvw,skinit,wdt,tce,topoext,perfctr_core,perfctr_nb,bpext,perfctr_llc,mwaitx,cpb,hw_pstate,sme,ssbd,sev,ibpb,vmmcall,fsgsbase,bmi1,avx2,smep,bmi2,rdseed,adx,smap,clflushopt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,clzero,irperf,xsaveerptr,arat,npt,lbrv,svm_lock,nrip_save,tsc_scale,vmcb_clean,flushbyasid,decodeassists,pausefilter,pfthreshold,avic,v_vmsave_vmload,vgif,overflow_recov,succor,smca
+  Clock: 1957 MHz
+  BogoMips: 7186.12
+  Cache: 512 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+104: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 92a1.ndpeucax6V1
+  Parent ID: UOJ9.P8Z0Wx+HwFD
+  SysFS ID: /class/net/enp3s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:00.0/0000:03:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp3s0
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Ethernet controller)
+
+105: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: hbIY.ndpeucax6V1
+  Parent ID: vWUX.qQIprdItMR3
+  SysFS ID: /class/net/enp10s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.1/0000:01:00.2/0000:02:07.0/0000:0a:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp10s0
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (Ethernet controller)
+
+106: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

@@ -1,0 +1,1021 @@
+02: None 00.0: 11001 VESA Framebuffer
+  [Created at bios.459]
+  Unique ID: rdCR.QgFYtsmQZBC
+  Hardware Class: framebuffer
+  Model: "Intel(R) Sandybridge/Ivybridge Graphics Controller"
+  Vendor: "Intel Corporation"
+  Device: "Intel(R) Sandybridge/Ivybridge Graphics Controller"
+  SubVendor: "Intel(R) Sandybridge/Ivybridge Graphics Chipset Accelerated VGA BIOS"
+  SubDevice: 
+  Revision: "Hardware Version 0.0"
+  Memory Size: 31 MB + 960 kB
+  Memory Range: 0xd0000000-0xd1feffff (rw)
+  Mode 0x0307: 1280x1024 (+1280), 8 bits
+  Mode 0x031a: 1280x1024 (+2560), 16 bits
+  Mode 0x031b: 1280x1024 (+5120), 24 bits
+  Mode 0x0305: 1024x768 (+1024), 8 bits
+  Mode 0x0317: 1024x768 (+2048), 16 bits
+  Mode 0x0318: 1024x768 (+4096), 24 bits
+  Mode 0x0312: 640x480 (+2560), 24 bits
+  Mode 0x0314: 800x600 (+1600), 16 bits
+  Mode 0x0315: 800x600 (+3200), 24 bits
+  Mode 0x0301: 640x480 (+640), 8 bits
+  Mode 0x0303: 800x600 (+832), 8 bits
+  Mode 0x0311: 640x480 (+1280), 16 bits
+  Mode 0x037d: 1920x1080 (+1920), 8 bits
+  Mode 0x037e: 1920x1080 (+3840), 16 bits
+  Mode 0x037f: 1920x1080 (+7680), 24 bits
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 00.0: 0600 Host bridge
+  [Created at pci.366]
+  Unique ID: qLht.GqXCJ1mP7T8
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel 3rd Gen Core processor DRAM Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0154 "3rd Gen Core processor DRAM Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x09
+  Driver: "ivb_uncore"
+  Module Alias: "pci:v00008086d00000154sv00001028sd00000535bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: vSkL.nQTovQQWMo3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Intel Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0151 "Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x09
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00008086d00000151sv00001028sd00000535bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.366]
+  Unique ID: _Znp.VqsxPPYaHM9
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Device Name: "Onboard IGD"
+  Model: "Intel 3rd Gen Core processor Graphics Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0166 "3rd Gen Core processor Graphics Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x09
+  Driver: "i915"
+  Driver Modules: "drm"
+  Memory Range: 0xf6400000-0xf67fffff (rw,non-prefetchable)
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  I/O Ports: 0xf000-0xf03f (rw)
+  IRQ: 27 (1534990 events)
+  Module Alias: "pci:v00008086d00000166sv00001028sd00000535bc03sc00i00"
+  Driver Info #0:
+    Driver Status: i915 is active
+    Driver Activation Cmd: "modprobe i915"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 14.0: 0c03 USB Controller (XHCI)
+  [Created at pci.366]
+  Unique ID: MZfG.cxFyXXZOTXA
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: usb controller
+  Model: "Intel 7 Series/C210 Series Chipset Family USB xHCI Host Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e31 "7 Series/C210 Series Chipset Family USB xHCI Host Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "xhci_hcd"
+  Memory Range: 0xf7420000-0xf742ffff (rw,non-prefetchable)
+  IRQ: 26 (183223 events)
+  Module Alias: "pci:v00008086d00001E31sv00001028sd00000535bc0Csc03i30"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 16.0: 0780 Communication controller
+  [Created at pci.366]
+  Unique ID: WnlC.tdhb+139DxB
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: unknown
+  Model: "Intel 7 Series/C210 Series Chipset Family MEI Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e3a "7 Series/C210 Series Chipset Family MEI Controller #1"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0xf743c000-0xf743c00f (rw,non-prefetchable)
+  IRQ: 28 (24 events)
+  Module Alias: "pci:v00008086d00001E3Asv00001028sd00000535bc07sc80i00"
+  Driver Info #0:
+    Driver Status: mei_me is active
+    Driver Activation Cmd: "modprobe mei_me"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 19.0: 0200 Ethernet controller
+  [Created at pci.366]
+  Unique ID: wcdH.9WoshsJXXO9
+  SysFS ID: /devices/pci0000:00/0000:00:19.0
+  SysFS BusID: 0000:00:19.0
+  Hardware Class: network
+  Device Name: "Onboard LAN"
+  Model: "Intel 82579LM Gigabit Network Connection"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1502 "82579LM Gigabit Network Connection"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: eno1
+  Memory Range: 0xf7400000-0xf741ffff (rw,non-prefetchable)
+  Memory Range: 0xf7439000-0xf7439fff (rw,non-prefetchable)
+  I/O Ports: 0xf080-0xf09f (rw)
+  IRQ: 29 (160078 events)
+  HW Address: --
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001502sv00001028sd00000535bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000e is active
+    Driver Activation Cmd: "modprobe e1000e"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1a.0: 0c03 USB Controller (EHCI)
+  [Created at pci.366]
+  Unique ID: pwJ7.IHhsThTzSJA
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Intel 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e2d "7 Series/C210 Series Chipset Family USB Enhanced Host Controller #2"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "ehci-pci"
+  Memory Range: 0xf7438000-0xf74383ff (rw,non-prefetchable)
+  IRQ: 16 (1063 events)
+  Module Alias: "pci:v00008086d00001E2Dsv00001028sd00000535bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 1b.0: 0403 Audio device
+  [Created at pci.366]
+  Unique ID: u1Nb.z+Ndq0I3ZxE
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel 7 Series/C210 Series Chipset Family High Definition Audio Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e20 "7 Series/C210 Series Chipset Family High Definition Audio Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xf7430000-0xf7433fff (rw,non-prefetchable)
+  IRQ: 31 (579 events)
+  Module Alias: "pci:v00008086d00001E20sv00001028sd00000535bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: z8Q3.G6IIB3PUgv8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel 7 Series/C210 Series Chipset Family PCI Express Root Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e10 "7 Series/C210 Series Chipset Family PCI Express Root Port 1"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0xc4
+  Driver: "pcieport"
+  IRQ: 16 (1063 events)
+  Module Alias: "pci:v00008086d00001E10sv00001028sd00000535bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 1c.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: qTvu.IxAo8Ceujg9
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1
+  SysFS BusID: 0000:00:1c.1
+  Hardware Class: bridge
+  Model: "Intel 7 Series/C210 Series Chipset Family PCI Express Root Port 2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e12 "7 Series/C210 Series Chipset Family PCI Express Root Port 2"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0xc4
+  Driver: "pcieport"
+  IRQ: 17 (no events)
+  Module Alias: "pci:v00008086d00001E12sv00001028sd00000535bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1c.3: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: Z7uZ.Mbyn3U6jqCB
+  SysFS ID: /devices/pci0000:00/0000:00:1c.3
+  SysFS BusID: 0000:00:1c.3
+  Hardware Class: bridge
+  Model: "Intel 7 Series/C210 Series Chipset Family PCI Express Root Port 4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e16 "7 Series/C210 Series Chipset Family PCI Express Root Port 4"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0xc4
+  Driver: "pcieport"
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d00001E16sv00001028sd00000535bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 1c.5: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: HnsE.QFkn_hwlxJB
+  SysFS ID: /devices/pci0000:00/0000:00:1c.5
+  SysFS BusID: 0000:00:1c.5
+  Hardware Class: bridge
+  Model: "Intel 7 Series/C210 Series Chipset Family PCI Express Root Port 6"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e1a "7 Series/C210 Series Chipset Family PCI Express Root Port 6"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0xc4
+  Driver: "pcieport"
+  IRQ: 17 (no events)
+  Module Alias: "pci:v00008086d00001E1Asv00001028sd00000535bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 1d.0: 0c03 USB Controller (EHCI)
+  [Created at pci.366]
+  Unique ID: 1GTX.hN4d6ie1nd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel 7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e26 "7 Series/C210 Series Chipset Family USB Enhanced Host Controller #1"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "ehci-pci"
+  Memory Range: 0xf7437000-0xf74373ff (rw,non-prefetchable)
+  IRQ: 21 (2253 events)
+  Module Alias: "pci:v00008086d00001E26sv00001028sd00000535bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.366]
+  Unique ID: BUZT.IWeko9h1yzB
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel QM77 Express Chipset LPC Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e55 "QM77 Express Chipset LPC Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00001E55sv00001028sd00000535bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 1f.2: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.366]
+  Unique ID: w7Y8.XM1su1mPpx9
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel 7 Series Chipset Family 6-port SATA Controller [AHCI mode]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e03 "7 Series Chipset Family 6-port SATA Controller [AHCI mode]"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0xf0d0-0xf0d7 (rw)
+  I/O Ports: 0xf0c0-0xf0c3 (rw)
+  I/O Ports: 0xf0b0-0xf0b7 (rw)
+  I/O Ports: 0xf0a0-0xf0a3 (rw)
+  I/O Ports: 0xf060-0xf07f (rw)
+  Memory Range: 0xf7436000-0xf74367ff (rw,non-prefetchable)
+  IRQ: 25 (811110 events)
+  Module Alias: "pci:v00008086d00001E03sv00001028sd00000535bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 1f.3: 0c05 SMBus
+  [Created at pci.366]
+  Unique ID: nS1_.98bsQvhZYVF
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Intel 7 Series/C210 Series Chipset Family SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1e22 "7 Series/C210 Series Chipset Family SMBus Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x04
+  Memory Range: 0xf7435000-0xf74350ff (rw,non-prefetchable)
+  I/O Ports: 0xf040-0xf05f (rw)
+  IRQ: 18 (no events)
+  Module Alias: "pci:v00008086d00001E22sv00001028sd00000535bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.366]
+  Unique ID: VCu0.ndyVvfw9UuD
+  Parent ID: vSkL.nQTovQQWMo3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "nVidia GF108GLM [NVS 5200M]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0dfc "GF108GLM [NVS 5200M]"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x1535 
+  Revision: 0xa1
+  Driver: "nouveau"
+  Driver Modules: "drm"
+  Memory Range: 0xf5000000-0xf5ffffff (rw,non-prefetchable)
+  Memory Range: 0xe0000000-0xefffffff (ro,non-prefetchable)
+  Memory Range: 0xf0000000-0xf1ffffff (ro,non-prefetchable)
+  I/O Ports: 0xe000-0xefff (rw)
+  Memory Range: 0xf6000000-0xf607ffff (ro,non-prefetchable,disabled)
+  IRQ: 32 (917 events)
+  Module Alias: "pci:v000010DEd00000DFCsv00001028sd00001535bc03sc00i00"
+  Driver Info #0:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (PCI bridge)
+
+34: PCI 300.0: 0282 WLAN controller
+  [Created at pci.366]
+  Unique ID: hAO_.0nPpvn09Ip8
+  Parent ID: qTvu.IxAo8Ceujg9
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: network
+  Model: "Intel Centrino Ultimate-N 6300 3x3 AGN"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x422b "Centrino Ultimate-N 6300"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x1121 "Centrino Ultimate-N 6300 3x3 AGN"
+  Revision: 0x35
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp3s0
+  Features: WLAN
+  Memory Range: 0xf7300000-0xf7301fff (rw,non-prefetchable)
+  IRQ: 30 (1 event)
+  HW Address: --
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62 5.64 5.66 5.68 5.7
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v00008086d0000422Bsv00008086sd00001121bc02sc80i00"
+  Driver Info #0:
+    Driver Status: iwlwifi is active
+    Driver Activation Cmd: "modprobe iwlwifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+35: PCI 800.0: 0805 SD Host controller
+  [Created at pci.366]
+  Unique ID: GBI1.zFwNUrDDiTB
+  Parent ID: HnsE.QFkn_hwlxJB
+  SysFS ID: /devices/pci0000:00/0000:00:1c.5/0000:08:00.0
+  SysFS BusID: 0000:08:00.0
+  Hardware Class: unknown
+  Model: "O2 Micro OZ600FJ0/OZ900FJ0/OZ600FJS SD/MMC Card Reader Controller"
+  Vendor: pci 0x1217 "O2 Micro, Inc."
+  Device: pci 0x8221 "OZ600FJ0/OZ900FJ0/OZ600FJS SD/MMC Card Reader Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x0535 
+  Revision: 0x05
+  Driver: "sdhci-pci"
+  Driver Modules: "sdhci_pci"
+  Memory Range: 0xf7202000-0xf72021ff (rw,non-prefetchable)
+  IRQ: 17 (no events)
+  Module Alias: "pci:v00001217d00008221sv00001028sd00000535bc08sc05i01"
+  Driver Info #0:
+    Driver Status: sdhci_pci is active
+    Driver Activation Cmd: "modprobe sdhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (PCI bridge)
+
+36: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.WK+FX0jaLH1
+  Parent ID: _Znp.VqsxPPYaHM9
+  Hardware Class: monitor
+  Model: "VCM8X N156HG LCD Monitor"
+  Vendor: CMN "VCM8X N156HG"
+  Device: eisa 0x15b1 
+  Resolution: 1920x1080@60Hz
+  Size: 344x194 mm
+  Year of Manufacture: 2012
+  Week of Manufacture: 1
+  Detailed Timings #0:
+     Resolution: 1920x1080
+     Horizontal: 1920 1973 2008 2158 (+53 +88 +238) -hsync
+       Vertical: 1080 1083 1088 1115 (+3 +8 +35) +vsync
+    Frequencies: 96.27 MHz, 44.61 kHz, 40.01 Hz
+  Year of Manufacture: 2012
+  Week of Manufacture: 1
+  Detailed Timings #1:
+     Resolution: 1920x1080
+     Horizontal: 1920 2010 2070 2226 (+90 +150 +306) -hsync
+       Vertical: 1080 1086 1095 1142 (+6 +15 +62) +vsync
+    Frequencies: 152.54 MHz, 68.53 kHz, 60.01 Hz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (VGA compatible controller)
+
+37: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.j4Zq5eh19r6
+  Parent ID: w7Y8.XM1su1mPpx9
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "Samsung SSD 850"
+  Vendor: "Samsung"
+  Device: "SSD 850"
+  Revision: "3B6Q"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-Samsung_SSD_850_EVO_250GB_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Geometry (Logical): CHS 30401/255/63
+  Size: 488397168 sectors a 512 bytes
+  Capacity: 232 GB (250059350016 bytes)
+  Geometry (BIOS EDD): CHS 484521/16/63
+  Size (BIOS EDD): 488397168 sectors
+  Geometry (BIOS Legacy): CHS 1023/255/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (SATA controller)
+
+38: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.RnuGkerzimA
+  Parent ID: w7Y8.XM1su1mPpx9
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata2/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "HGST HTS721010A9"
+  Vendor: "HGST"
+  Device: "HTS721010A9"
+  Revision: "A3J0"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sdb
+  Device Files: /dev/sdb, /dev/disk/by-id/ata-HGST_HTS721010A9E630_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:16-8:31
+  BIOS id: 0x81
+  Geometry (Logical): CHS 121601/255/63
+  Size: 1953525168 sectors a 512 bytes
+  Capacity: 931 GB (1000204886016 bytes)
+  Geometry (BIOS EDD): CHS 1938021/16/63
+  Size (BIOS EDD): 1953525168 sectors
+  Geometry (BIOS Legacy): CHS 1023/255/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (SATA controller)
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.FHd55n4xKo7
+  Parent ID: pwJ7.IHhsThTzSJA
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (USB Controller)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: KRJj.4Nx_qoDfSd7
+  Parent ID: uIhY.FHd55n4xKo7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-1/3-1:1.0
+  SysFS BusID: 3-1:1.0
+  Hardware Class: hub
+  Model: "Intel Integrated Rate Matching Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0024 "Integrated Rate Matching Hub"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #39 (Hub)
+
+41: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: Q0Le.I5gARxvVUv4
+  Parent ID: KRJj.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-1/3-1.4/3-1.4:1.0
+  SysFS BusID: 3-1.4:1.0
+  Hardware Class: unknown
+  Model: "Dell BCM20702A0"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x8197 "BCM20702A0"
+  Revision: "1.12"
+  Serial ID: --
+  Driver: "btusb"
+  Driver Modules: "btusb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v413Cp8197d0112dcFFdsc01dp01icFFisc01ip01in00"
+  Driver Info #0:
+    Driver Status: btusb is active
+    Driver Activation Cmd: "modprobe btusb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (Hub)
+
+45: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: s8zo.chFJYQGhr96
+  Parent ID: KRJj.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-1/3-1.5/3-1.5:1.0
+  SysFS BusID: 3-1.5:1.0
+  Hardware Class: unknown
+  Model: "Microdia Integrated Webcam"
+  Hotplug: USB
+  Vendor: usb 0x0c45 "Microdia"
+  Device: usb 0x648b "Integrated Webcam"
+  Revision: "28.07"
+  Driver: "uvcvideo"
+  Driver Modules: "uvcvideo"
+  Device File: /dev/input/event10
+  Device Files: /dev/input/event10, /dev/input/by-id/usb-CNFB183I267050000S52_Laptop_Integrated_Webcam_..., /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.5:1.0-event
+  Device Number: char 13:74
+  Speed: 480 Mbps
+  Module Alias: "usb:v0C45p648Bd2807dcEFdsc02dp01ic0Eisc01ip00in00"
+  Driver Info #0:
+    Driver Status: uvcvideo is active
+    Driver Activation Cmd: "modprobe uvcvideo"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (Hub)
+
+47: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.oLWCeziExdF
+  Parent ID: 1GTX.hN4d6ie1nd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (USB Controller)
+
+48: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: PYMB.4Nx_qoDfSd7
+  Parent ID: zPk0.oLWCeziExdF
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1:1.0
+  SysFS BusID: 4-1:1.0
+  Hardware Class: hub
+  Model: "Intel Integrated Rate Matching Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0024 "Integrated Rate Matching Hub"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0024d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #47 (Hub)
+
+49: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: _lqw.q28o2Ggioe8
+  Parent ID: PYMB.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.6/4-1.6:1.0
+  SysFS BusID: 4-1.6:1.0
+  Hardware Class: unknown
+  Model: "Dell DW5560"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x818e "DW5560"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v413Cp818Ed0000dc00dsc00dp00ic02isc08ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (Hub)
+
+50: USB 00.1: 10200 Modem
+  [Created at usb.122]
+  Unique ID: Rx4+.dVny1A0IlsD
+  Parent ID: PYMB.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.6/4-1.6:1.1
+  SysFS BusID: 4-1.6:1.1
+  Hardware Class: modem
+  Model: "Dell DW5560"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x818e "DW5560"
+  Serial ID: --
+  Driver: "cdc_acm"
+  Driver Modules: "cdc_acm"
+  Device File: /dev/ttyACM0
+  Device Files: /dev/ttyACM0, /dev/serial/by-id/usb-Dell_DW5560_..., /dev/serial/by-path/pci-0000:00:1d.0-usb-0:1.6:1.1
+  Speed: 480 Mbps
+  Module Alias: "usb:v413Cp818Ed0000dc00dsc00dp00ic02isc02ip01in01"
+  Driver Info #0:
+    Driver Status: cdc_acm is active
+    Driver Activation Cmd: "modprobe cdc_acm"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (Hub)
+
+59: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: jptp.KEAI7ANFXC6
+  Parent ID: PYMB.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.8/4-1.8:0.0
+  SysFS BusID: 4-1.8:0.0
+  Hardware Class: unknown
+  Model: "Broadcom BCM5880 Secure Applications Processor with fingerprint swipe sensor"
+  Hotplug: USB
+  Vendor: usb 0x0a5c "Broadcom Corp."
+  Device: usb 0x5801 "BCM5880 Secure Applications Processor with fingerprint swipe sensor"
+  Revision: "1.01"
+  Serial ID: --
+  Speed: 12 Mbps
+  Module Alias: "usb:v0A5Cp5801d0101dc00dsc00dp00icFEisc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (Hub)
+
+60: USB 00.1: 10e00 Chipcard Reader
+  [Created at usb.122]
+  Unique ID: A+7u.ZSi+fCNMRTD
+  Parent ID: PYMB.4Nx_qoDfSd7
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.8/4-1.8:0.1
+  SysFS BusID: 4-1.8:0.1
+  Hardware Class: chipcard
+  Model: "Broadcom BCM5880 Secure Applications Processor with fingerprint swipe sensor"
+  Hotplug: USB
+  Vendor: usb 0x0a5c "Broadcom Corp."
+  Device: usb 0x5801 "BCM5880 Secure Applications Processor with fingerprint swipe sensor"
+  Revision: "1.01"
+  Serial ID: --
+  Speed: 12 Mbps
+  Module Alias: "usb:v0A5Cp5801d0101dc00dsc00dp00ic0Bisc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (Hub)
+
+62: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.2DFUsyrieMD
+  Parent ID: MZfG.cxFyXXZOTXA
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (USB Controller)
+
+63: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: ADDn.VK6REcAktt6
+  Parent ID: k4bc.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: mouse
+  Model: "Logitech M90/M100 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc05a "M90/M100 Optical Mouse"
+  Revision: "63.00"
+  Compatible to: int 0x0210 0x0013
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse2)
+  Device Files: /dev/input/mice, /dev/input/mouse2, /dev/input/event15, /dev/input/by-id/usb-Logitech_USB_Optical_..., /dev/input/by-path/pci-0000:00:14.0-usb-0:1:1.0-event-mouse, /dev/input/by-id/usb-Logitech_USB_Optical_..., /dev/input/by-path/pci-0000:00:14.0-usb-0:1:1.0-mouse
+  Device Number: char 13:63 (char 13:34)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC05Ad6300dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 1
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #62 (Hub)
+
+64: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.xYNhIwdOaa6
+  Parent ID: MZfG.cxFyXXZOTXA
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0401dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (USB Controller)
+
+66: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: c3zD.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event4
+  Device Files: /dev/input/event4, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:68
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: PS/2 00.0: 10500 PS/2 Mouse
+  [Created at input.249]
+  Unique ID: AH6Q.5+smWHVjPI3
+  Hardware Class: mouse
+  Model: "AlpsPS/2 ALPS DualPoint Stick"
+  Vendor: 0x0002 
+  Device: 0x0008 "AlpsPS/2 ALPS DualPoint Stick"
+  Compatible to: int 0x0210 0x0003
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event5, /dev/input/by-path/platform-i8042-serio-1-event-mouse, /dev/input/by-path/platform-i8042-serio-1-mouse
+  Device Number: char 13:63 (char 13:32)
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 0
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+68: PS/2 00.0: 10500 PS/2 Mouse
+  [Created at input.249]
+  Unique ID: AH6Q.5+smWHVjPI3
+  Hardware Class: mouse
+  Model: "AlpsPS/2 ALPS DualPoint TouchPad"
+  Vendor: 0x0002 
+  Device: 0x0008 "AlpsPS/2 ALPS DualPoint TouchPad"
+  Compatible to: int 0x0210 0x0003
+  Device File: /dev/input/mice (/dev/input/mouse1)
+  Device Files: /dev/input/mice, /dev/input/mouse1, /dev/input/event6, /dev/input/by-path/platform-i8042-serio-1-event-mouse, /dev/input/by-path/platform-i8042-serio-1-mouse
+  Device Number: char 13:63 (char 13:33)
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 0
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+69: None 00.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1680 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 01.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1358 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: None 02.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1300 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+72: None 03.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1346 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+73: None 04.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 2600 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+74: None 05.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1425 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+75: None 06.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1291 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+76: None 07.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.58.9 "Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,aperfmperf,eagerfpu,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,ida,arat,epb,pln,pts,dtherm,tpr_shadow,vnmi,flexpriority,ept,vpid,fsgsbase,smep,erms,xsaveopt
+  Clock: 1897 MHz
+  BogoMips: 4784.41
+  Cache: 6144 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+77: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: Mqes.ndpeucax6V1
+  Parent ID: hAO_.0nPpvn09Ip8
+  SysFS ID: /class/net/wlp3s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.1/0000:03:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp3s0
+  HW Address: --
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (WLAN controller)
+
+78: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: t7Y+.ndpeucax6V1
+  SysFS ID: /class/net/wwp0s29u1u6i6
+  SysFS Device Link: /devices/pci0000:00/0000:00:1d.0/usb4/4-1/4-1.6/4-1.6:1.6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "cdc_mbim"
+  Driver Modules: "cdc_mbim"
+  Device File: wwp0s29u1u6i6
+  HW Address: --
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+79: None 00.0: 10700 Loopback
+  [Created at net.125]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+80: None 01.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: zHNY.ndpeucax6V1
+  Parent ID: wcdH.9WoshsJXXO9
+  SysFS ID: /class/net/eno1
+  SysFS Device Link: /devices/pci0000:00/0000:00:19.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: eno1
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Ethernet controller)

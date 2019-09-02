@@ -1,0 +1,138 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.974]
+  Unique ID: XObg.nuQvqdpV7ND
+  SysFS ID: /devices/platform/soc/soc:internal-regs/f10f0000.ethernet
+  SysFS BusID: f10f0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet 0"
+  Device: "ARM Ethernet 0"
+  Driver: "mvpp2"
+  Device File: eth0
+  HW Address: --
+  Link detected: yes
+  Module Alias: "of:NethernetT<NULL>Cmarvell,armada-375-pp2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 262144 sectors a 512 bytes
+  Capacity: 0 GB (134217728 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: YMG9.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock0
+  SysFS BusID: mtd0
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f1010600.spi/spi_master/spi0/spi0.0/mtd/mtd0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock0
+  Device Number: block 31:0
+  Size: 2048 sectors a 512 bytes
+  Capacity: 0 GB (1048576 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: +XWD.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock1
+  SysFS BusID: mtd1
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f1010600.spi/spi_master/spi0/spi0.0/mtd/mtd1
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock1
+  Device Number: block 31:1
+  Size: 128 sectors a 512 bytes
+  Capacity: 0 GB (65536 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.OR1oEQCb6u0
+  Parent ID: G7mN.piXCQm1Ue36
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f10a0000.sata/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "HGST HUS726020AL"
+  Vendor: "HGST"
+  Device: "HUS726020AL"
+  Revision: "T907"
+  Serial ID: --
+  Driver: "sata_mv", "sd"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-HGST_HUS726020ALA610_..., /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/platform-f10a0000.sata-ata-1
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 243201/255/63
+  Size: 3907029168 sectors a 512 bytes
+  Capacity: 1863 GB (2000398934016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (IDE interface)
+
+11: None 00.0: 10103 CPU
+  [Created at cpu.273]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 4.1.0 ""
+  Platform: "Marvell Armada 375 (Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpd32,
+  BogoMips: 50.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 01.0: 10103 CPU
+  [Created at cpu.273]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 4.1.0 ""
+  Platform: "Marvell Armada 375 (Device Tree)"
+  Features: half
+  BogoMips: 50.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10700 Loopback
+  [Created at net.125]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: XObg.nuQvqdpV7ND
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f10f0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "mvpp2"
+  Device File: eth0
+  HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)

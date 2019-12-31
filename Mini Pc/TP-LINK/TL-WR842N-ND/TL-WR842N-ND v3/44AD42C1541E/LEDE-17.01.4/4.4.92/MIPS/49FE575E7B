@@ -1,0 +1,296 @@
+02: None 00.0: 0c03 USB Controller (EHCI)
+  [Created at pci.1049]
+  Unique ID: y_uS.baRwPkF2g56
+  SysFS ID: /devices/platform/ehci-platform
+  SysFS BusID: ehci-platform
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "ehci-platform"
+  Driver Modules: "ehci_platform"
+  Module Alias: "platform:ehci-platform"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+03: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: +wjv.DyemhvuGxx6
+  SysFS ID: /devices/platform/ag71xx.0
+  SysFS BusID: ag71xx.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "ag71xx"
+  Device File: eth1
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "platform:ag71xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: S6_z.DyemhvuGxx6
+  SysFS ID: /devices/platform/ag71xx.1
+  SysFS BusID: ag71xx.1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "ag71xx"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "platform:ag71xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: None 00.0: 0282 WLAN controller
+  [Created at pci.1017]
+  Unique ID: f0wi.+5pMinTMD29
+  SysFS ID: /devices/platform/qca953x_wmac
+  SysFS BusID: qca953x_wmac
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "ath9k"
+  Driver Modules: "ath9k", "ath9k"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:qca953x_wmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KIzU.2m4vaXPxDq5
+  Parent ID: y_uS.baRwPkF2g56
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/ehci-platform/usb1/1-1/1-1:1.0/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "JetFlash TS1GJFV60"
+  Vendor: usb 0x1307 "JetFlash"
+  Device: usb 0x0163 "TS1GJFV60"
+  Revision: "0.00"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage", "sd_mod"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 1015/32/62
+  Size: 2015231 sectors a 512 bytes
+  Capacity: 0 GB (1031798272 bytes)
+  Speed: 480 Mbps
+  Module Alias: "usb:v1307p0163d0100dc00dsc00dp00ic08isc06ip50in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #2 (USB Controller)
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: YMG9.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock0
+  SysFS BusID: mtd0
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock0
+  Device Number: block 31:0
+  Size: 256 sectors a 512 bytes
+  Capacity: 0 GB (131072 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: +XWD.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock1
+  SysFS BusID: mtd1
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd1
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock1
+  Device Number: block 31:1
+  Size: 2457 sectors a 512 bytes
+  Capacity: 0 GB (1257984 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: SjmH.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock2
+  SysFS BusID: mtd2
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd2
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock2
+  Device Number: block 31:2
+  Size: 29926 sectors a 512 bytes
+  Capacity: 0 GB (15322112 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: vu0M.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock3
+  SysFS BusID: mtd3
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd3
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock3
+  Device Number: block 31:3
+  Size: 25344 sectors a 512 bytes
+  Capacity: 0 GB (12976128 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: M4HQ.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock4
+  SysFS BusID: mtd4
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock4
+  Device Number: block 31:4
+  Size: 128 sectors a 512 bytes
+  Capacity: 0 GB (65536 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: pFXU.dcqA0TtIFgE
+  SysFS ID: /class/block/mtdblock5
+  SysFS BusID: mtd5
+  SysFS Device Link: /devices/platform/ath79-spi/spi_master/spi0/spi0.0/mtd/mtd5
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "m25p80"
+  Device File: /dev/mtdblock5
+  Device Number: block 31:5
+  Size: 32384 sectors a 512 bytes
+  Capacity: 0 GB (16580608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: u9LK.EGDPjGEiQpF
+  Parent ID: y_uS.baRwPkF2g56
+  SysFS ID: /devices/platform/ehci-platform/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0404dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #2 (USB Controller)
+
+16: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: 9NUh.bcj60+wXvGA
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: gKtr.vnwWAn0UAo4
+  SysFS ID: /class/net/br-lan
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: br-lan
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: L2Ua.vnwWAn0UAo4
+  Parent ID: +wjv.DyemhvuGxx6
+  SysFS ID: /class/net/eth1
+  SysFS Device Link: /devices/platform/ag71xx.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ag71xx"
+  Device File: eth1
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (Ethernet controller)
+
+19: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.vnwWAn0UAo4
+  Parent ID: S6_z.DyemhvuGxx6
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/ag71xx.1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ag71xx"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (Ethernet controller)
+
+20: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: tovL.09FQm1g+2zD
+  SysFS ID: /class/net/tun0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "tun"
+  Device File: tun0
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.0NPNTtaUSp9
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.wZdsWuxOec7
+  Parent ID: f0wi.+5pMinTMD29
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/qca953x_wmac
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "ath9k"
+  Driver Modules: "ath9k", "ath9k"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (WLAN controller)

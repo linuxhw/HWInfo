@@ -1,0 +1,988 @@
+02: None 00.0: 11001 VESA Framebuffer
+  [Created at bios.459]
+  Unique ID: rdCR.IbfiiCSEsfF
+  Hardware Class: framebuffer
+  Model: "(C) 1988-2005, ATI RV530"
+  Vendor: "(C) 1988-2005, ATI Technologies Inc."
+  Device: "RV530"
+  SubVendor: "ATI ATOMBIOS"
+  SubDevice: 
+  Revision: "01.00"
+  Memory Size: 16 MB
+  Memory Range: 0x00000000-0x00ffffff (rw)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 00.2: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: Z+fY.uvXtGTdQ9b6
+  SysFS ID: /devices/pci0000:00/0000:00:00.2
+  SysFS BusID: 0000:00:00.2
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x2336 "K8M890CE Host Bridge"
+  Module Alias: "pci:v00001106d00002336sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 0f.0: 0101 IDE interface
+  [Created at pci.378]
+  Unique ID: _+Pw.TH2hKFdh7E3
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: storage
+  Model: "VIA VT8237A SATA 2-Port Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x0591 "VT8237A SATA 2-Port Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0x80
+  Driver: "sata_via"
+  Driver Modules: "sata_via"
+  I/O Ports: 0xff00-0xff07 (rw)
+  I/O Ports: 0xfe00-0xfe03 (rw)
+  I/O Ports: 0xfd00-0xfd07 (rw)
+  I/O Ports: 0xfc00-0xfc03 (rw)
+  I/O Ports: 0xfb00-0xfb0f (rw)
+  I/O Ports: 0xf400-0xf4ff (rw)
+  IRQ: 21 (15471 events)
+  Module Alias: "pci:v00001106d00000591sv00001462sd00007253bc01sc01i8F"
+  Driver Info #0:
+    Driver Status: sata_via is active
+    Driver Activation Cmd: "modprobe sata_via"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Driver Info #2:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #3:
+    Driver Status: ide_pci_generic is active
+    Driver Activation Cmd: "modprobe ide_pci_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI(AGP) 00.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: qLht.gwnrK902qzB
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x0336 "K8M890CE Host Bridge"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x0336 
+  Driver: "agpgart-amd64"
+  Memory Range: 0xd0000000-0xd7ffffff (ro,non-prefetchable)
+  Module Alias: "pci:v00001106d00000336sv00001106sd00000336bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 10.3: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: f5xu.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.3
+  SysFS BusID: 0000:00:10.3
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf600-0xf61f (rw)
+  IRQ: 23 (76135 events)
+  Module Alias: "pci:v00001106d00003038sv00001462sd00007253bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 12.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: VQjQ.XlQS1fYhsA6
+  SysFS ID: /devices/pci0000:00/0000:00:12.0
+  SysFS BusID: 0000:00:12.0
+  Hardware Class: network
+  Model: "VIA VT6102/VT6103 [Rhine-II]"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3065 "VT6102/VT6103 [Rhine-II]"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0x7c
+  Driver: "via-rhine"
+  Driver Modules: "via_rhine", "via_rhine"
+  Device File: enp0s18
+  I/O Ports: 0xf200-0xf2ff (rw)
+  Memory Range: 0xdfffe000-0xdfffe0ff (rw,non-prefetchable)
+  IRQ: 23 (76135 events)
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: yes
+  Module Alias: "pci:v00001106d00003065sv00001462sd00007253bc02sc00i00"
+  Driver Info #0:
+    Driver Status: via-rhine is active
+    Driver Activation Cmd: "modprobe via-rhine"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 03.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: 3hqH.rocIYX7cS2F
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "VIA K8T890 PCI to PCI Bridge Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xc238 "K8T890 PCI to PCI Bridge Controller"
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00001106d0000C238sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 10.1: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: wRyD.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.1
+  SysFS BusID: 0000:00:10.1
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf800-0xf81f (rw)
+  IRQ: 22 (61 events)
+  Module Alias: "pci:v00001106d00003038sv00001462sd00007253bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 18.2: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: OMCs.ridUeImaQn3
+  SysFS ID: /devices/pci0000:00/0000:00:18.2
+  SysFS BusID: 0000:00:18.2
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] DRAM Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1102 "K8 [Athlon64/Opteron] DRAM Controller"
+  Module Alias: "pci:v00001022d00001102sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 200.1: 0380 Display controller
+  [Created at pci.378]
+  Unique ID: 2Oa+.pgllkk25nR1
+  Parent ID: _Znp.LUQ1QvXEEDB
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:02:00.1
+  SysFS BusID: 0000:02:00.1
+  Hardware Class: graphics card
+  Model: "ATI RV530 [Radeon X1650] (Secondary)"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x71e6 "RV530 [Radeon X1650] (Secondary)"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x0401 
+  Memory Range: 0xdfee0000-0xdfeeffff (rw,non-prefetchable,disabled)
+  Module Alias: "pci:v00001002d000071E6sv00001462sd00000401bc03sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+21: PCI 00.7: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: ud6k.8jWYbpMQkg6
+  SysFS ID: /devices/pci0000:00/0000:00:00.7
+  SysFS BusID: 0000:00:00.7
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x7336 "K8M890CE Host Bridge"
+  Module Alias: "pci:v00001106d00007336sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 13.1: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.378]
+  Unique ID: 9n5e.NqGZ1+zx6eD
+  SysFS ID: /devices/pci0000:00/0000:00:13.1
+  SysFS BusID: 0000:00:13.1
+  Hardware Class: bridge
+  Model: "VIA VT8237A PCI to PCI Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x337a "VT8237A PCI to PCI Bridge"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x337a 
+  Module Alias: "pci:v00001106d0000337Asv00001106sd0000337Abc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 18.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: fiDB.ptk_g9XAN03
+  SysFS ID: /devices/pci0000:00/0000:00:18.0
+  SysFS BusID: 0000:00:18.0
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1100 "K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Module Alias: "pci:v00001022d00001100sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 00.5: 0800 PIC (IO(X)-APIC)
+  [Created at pci.378]
+  Unique ID: 9_73.AN1Ino2Jw30
+  SysFS ID: /devices/pci0000:00/0000:00:00.5
+  SysFS BusID: 0000:00:00.5
+  Hardware Class: unknown
+  Model: "VIA K8M890CE I/O APIC Interrupt Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x5336 "K8M890CE I/O APIC Interrupt Controller"
+  Module Alias: "pci:v00001106d00005336sv00000000sd00000000bc08sc00i20"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 00.3: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: QK9O.8480LZBhH0F
+  SysFS ID: /devices/pci0000:00/0000:00:00.3
+  SysFS BusID: 0000:00:00.3
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3336 "K8M890CE Host Bridge"
+  Module Alias: "pci:v00001106d00003336sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 11.0: 0601 ISA bridge
+  [Created at pci.378]
+  Unique ID: 7EWs.jtynZ9cfbd3
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "VIA VT8237A PCI to ISA Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3337 "VT8237A PCI to ISA Bridge"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x3337 
+  Module Alias: "pci:v00001106d00003337sv00001106sd00003337bc06sc01i00"
+  Driver Info #0:
+    Driver Status: i2c_viapro is active
+    Driver Activation Cmd: "modprobe i2c_viapro"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 02.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: _Znp.LUQ1QvXEEDB
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: bridge
+  Model: "VIA K8T890 PCI to PCI Bridge Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xa238 "K8T890 PCI to PCI Bridge Controller"
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00001106d0000A238sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 0f.1: 0101 IDE interface
+  [Created at pci.378]
+  Unique ID: rKvl.Vo_iKGnwgh1
+  SysFS ID: /devices/pci0000:00/0000:00:0f.1
+  SysFS BusID: 0000:00:0f.1
+  Hardware Class: storage
+  Model: "VIA VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x0571 "VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0x07
+  Driver: "pata_via"
+  Driver Modules: "pata_via"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xfa00-0xfa0f (rw)
+  Module Alias: "pci:v00001106d00000571sv00001462sd00007253bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_via is active
+    Driver Activation Cmd: "modprobe pata_via"
+  Driver Info #1:
+    Driver Status: via82cxxx is active
+    Driver Activation Cmd: "modprobe via82cxxx"
+  Driver Info #2:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Driver Info #3:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #4:
+    Driver Status: ide_pci_generic is active
+    Driver Activation Cmd: "modprobe ide_pci_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 00.1: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: hgAj.elxkCxbJ3BB
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x1336 "K8M890CE Host Bridge"
+  Module Alias: "pci:v00001106d00001336sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 10.4: 0c03 USB Controller (EHCI)
+  [Created at pci.378]
+  Unique ID: WQQk.WeaL+aOTcQ8
+  SysFS ID: /devices/pci0000:00/0000:00:10.4
+  SysFS BusID: 0000:00:10.4
+  Hardware Class: usb controller
+  Model: "VIA USB 2.0"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3104 "USB 2.0"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0x86
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xdffff000-0xdffff0ff (rw,non-prefetchable)
+  IRQ: 21 (15471 events)
+  Module Alias: "pci:v00001106d00003104sv00001462sd00007253bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 8001.0: 0403 Audio device
+  [Created at pci.378]
+  Unique ID: FVI2.l+m4jtQBEVE
+  SysFS ID: /devices/pci0000:80/0000:80:01.0
+  SysFS BusID: 0000:80:01.0
+  Hardware Class: sound
+  Model: "VIA VT8237A/VT8251 HDA Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3288 "VT8237A/VT8251 HDA Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0x10
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xbfffc000-0xbfffffff (rw,non-prefetchable)
+  IRQ: 17 (1195 events)
+  Module Alias: "pci:v00001106d00003288sv00001462sd00007253bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 11.7: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: BWxi.NhM1uBZ0XP5
+  SysFS ID: /devices/pci0000:00/0000:00:11.7
+  SysFS BusID: 0000:00:11.7
+  Hardware Class: bridge
+  Model: "VIA VT8237/8251 Ultra VLINK Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x287e "VT8237/8251 Ultra VLINK Controller"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x337e 
+  Module Alias: "pci:v00001106d0000287Esv00001106sd0000337Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 10.2: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: nmR3.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.2
+  SysFS BusID: 0000:00:10.2
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf700-0xf71f (rw)
+  IRQ: 21 (15471 events)
+  Module Alias: "pci:v00001106d00003038sv00001462sd00007253bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 18.3: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: Fhhh.M7aE7ttHy94
+  SysFS ID: /devices/pci0000:00/0000:00:18.3
+  SysFS BusID: 0000:00:18.3
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Miscellaneous Control"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1103 "K8 [Athlon64/Opteron] Miscellaneous Control"
+  Driver: "k8temp"
+  Driver Modules: "k8temp"
+  Module Alias: "pci:v00001022d00001103sv00000000sd00000000bc06sc00i00"
+  Driver Info #0:
+    Driver Status: k8temp is active
+    Driver Activation Cmd: "modprobe k8temp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 10.0: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: 37TO.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x7253 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf900-0xf91f (rw)
+  IRQ: 20 (1554 events)
+  Module Alias: "pci:v00001106d00003038sv00001462sd00007253bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI 18.1: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: W1j0.KIhk9ketuO3
+  SysFS ID: /devices/pci0000:00/0000:00:18.1
+  SysFS BusID: 0000:00:18.1
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Address Map"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1101 "K8 [Athlon64/Opteron] Address Map"
+  Module Alias: "pci:v00001022d00001101sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: vSkL.CP+qXDDqow8
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "VIA VT8237/8251 PCI bridge [K8M890/K8T800/K8T890 South]"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xb188 "VT8237/8251 PCI bridge [K8M890/K8T800/K8T890 South]"
+  Module Alias: "pci:v00001106d0000B188sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 200.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.378]
+  Unique ID: B35A.omXTrSm9ImD
+  Parent ID: _Znp.LUQ1QvXEEDB
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: graphics card
+  Model: "ATI RV530LE [Radeon X1600/X1650 PRO]"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x71c6 "RV530LE [Radeon X1600/X1650 PRO]"
+  SubVendor: pci 0x1462 "Micro-Star International Co., Ltd. [MSI]"
+  SubDevice: pci 0x0400 
+  Driver: "radeon"
+  Driver Modules: "drm"
+  Memory Range: 0xc0000000-0xcfffffff (ro,non-prefetchable)
+  Memory Range: 0xdfef0000-0xdfefffff (rw,non-prefetchable)
+  I/O Ports: 0xde00-0xdeff (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 26 (23617 events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v00001002d000071C6sv00001462sd00000400bc03sc00i00"
+  Driver Info #0:
+    Driver Status: radeon is active
+    Driver Activation Cmd: "modprobe radeon"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+39: PCI 13.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: HSco.jfGiUiN+dB5
+  SysFS ID: /devices/pci0000:00/0000:00:13.0
+  SysFS BusID: 0000:00:13.0
+  Hardware Class: bridge
+  Model: "VIA VT8237A Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x337b "VT8237A Host Bridge"
+  Module Alias: "pci:v00001106d0000337Bsv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: PCI 00.4: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: HfeD.OEk8P5DoNQA
+  SysFS ID: /devices/pci0000:00/0000:00:00.4
+  SysFS BusID: 0000:00:00.4
+  Hardware Class: bridge
+  Model: "VIA K8M890CE Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x4336 "K8M890CE Host Bridge"
+  Module Alias: "pci:v00001106d00004336sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: VVOc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram11
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram11
+  Device Number: block 1:11
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7tlP.Fxp0d3BezAE
+  SysFS ID: /class/block/ram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram2
+  Device Number: block 1:2
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: XOSI.Fxp0d3BezAE
+  SysFS ID: /class/block/ram9
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram9
+  Device Number: block 1:9
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: d1y9.Fxp0d3BezAE
+  SysFS ID: /class/block/ram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram7
+  Device Number: block 1:7
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: s19p.Fxp0d3BezAE
+  SysFS ID: /class/block/ram14
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram14
+  Device Number: block 1:14
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+49: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: UPWc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram5
+  Device Number: block 1:5
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+50: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ygeg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram12
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram12
+  Device Number: block 1:12
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: a20U.Fxp0d3BezAE
+  SysFS ID: /class/block/ram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram3
+  Device Number: block 1:3
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 2K8Y.Fxp0d3BezAE
+  SysFS ID: /class/block/ram10
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram10
+  Device Number: block 1:10
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+53: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ghVL.Fxp0d3BezAE
+  SysFS ID: /class/block/ram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram1
+  Device Number: block 1:1
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.3rofN0F7l+5
+  Parent ID: _+Pw.TH2hKFdh7E3
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "SAMSUNG HM320HJ"
+  Vendor: "SAMSUNG"
+  Device: "HM320HJ"
+  Revision: "0001"
+  Serial ID: --
+  Driver: "sata_via", "sd"
+  Driver Modules: "sata_via"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:00:0f.0-ata-1, /dev/disk/by-id/ata-SAMSUNG_HM320HJ_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 38913/255/63
+  Size: 625142448 sectors a 512 bytes
+  Capacity: 298 GB (320072933376 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (IDE interface)
+
+55: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 4DCE.Fxp0d3BezAE
+  SysFS ID: /class/block/ram8
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram8
+  Device Number: block 1:8
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: JDPt.Fxp0d3BezAE
+  SysFS ID: /class/block/ram15
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram15
+  Device Number: block 1:15
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: xamg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram6
+  Device Number: block 1:6
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Psuk.Fxp0d3BezAE
+  SysFS ID: /class/block/ram13
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram13
+  Device Number: block 1:13
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 1EGY.Fxp0d3BezAE
+  SysFS ID: /class/block/ram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram4
+  Device Number: block 1:4
+  Size: 64000 sectors a 512 bytes
+  Capacity: 0 GB (32768000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: FKGF.jL9HF7W36n8
+  Parent ID: pBe4.5nw7MPEyvh9
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: mouse
+  Model: "Sunplus Innovation Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x1bcf "Sunplus Innovation Technology Inc."
+  Device: usb 0x0005 "Optical Mouse"
+  Revision: "0.14"
+  Compatible to: int 0x0210 0x0025
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event2, /dev/input/by-path/pci-0000:00:10.0-usb-0:1:1.0-event-mouse, /dev/input/by-path/pci-0000:00:10.0-usb-0:1:1.0-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1BCFp0005d0014dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 5
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #65 (Hub)
+
+61: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.sV+ij91gsz0
+  Parent ID: wRyD.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0409dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (USB Controller)
+
+62: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: KRJj.wkrfiYI6OsF
+  Parent ID: uIhY.sV+ij91gsz0
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-1/3-1:1.0
+  SysFS BusID: 3-1:1.0
+  Hardware Class: keyboard
+  Model: "Elan Microelectronics ActiveJet K-2024 Multimedia Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x04f3 "Elan Microelectronics Corp."
+  Device: usb 0x0103 "ActiveJet K-2024 Multimedia Keyboard"
+  Revision: "1.07"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Files: /dev/input/event3, /dev/input/by-path/pci-0000:00:10.1-usb-0:1:1.0-event-kbd
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04F3p0103d0107dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+63: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.22MfGOBVe10
+  Parent ID: WQQk.WeaL+aOTcQ8
+  SysFS ID: /devices/pci0000:00/0000:00:10.4/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0409dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (USB Controller)
+
+64: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.dE4I5wpNpF8
+  Parent ID: nmR3.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.2/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0409dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #33 (USB Controller)
+
+65: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.5nw7MPEyvh9
+  Parent ID: 37TO.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0409dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #35 (USB Controller)
+
+66: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.Oz8tSgc5mXF
+  Parent ID: f5xu.b7D2aVmaHjD
+  SysFS ID: /devices/pci0000:00/0000:00:10.3/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0409dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+67: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ncZn.frwp356iIv9
+  Parent ID: uIhY.sV+ij91gsz0
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-1/3-1:1.1
+  SysFS BusID: 3-1:1.1
+  Hardware Class: unknown
+  Model: "Elan Microelectronics ActiveJet K-2024 Multimedia Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x04f3 "Elan Microelectronics Corp."
+  Device: usb 0x0103 "ActiveJet K-2024 Multimedia Keyboard"
+  Revision: "1.07"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event4
+  Device Files: /dev/input/event4, /dev/input/by-path/pci-0000:00:10.1-usb-0:1:1.1-event, /dev/input/by-id/usb-04f3_...
+  Device Number: char 13:68
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04F3p0103d0107dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+68: None 00.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.67.2 "AMD Athlon(tm) 64 X2 Dual Core Processor 5200+"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 1800 MHz
+  BogoMips: 3600.17
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+69: None 01.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.67.2 "AMD Athlon(tm) 64 X2 Dual Core Processor 5200+"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 1800 MHz
+  BogoMips: 3600.17
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: HVXR.ndpeucax6V1
+  Parent ID: VQjQ.XlQS1fYhsA6
+  SysFS ID: /class/net/enp0s18
+  SysFS Device Link: /devices/pci0000:00/0000:00:12.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "via-rhine"
+  Driver Modules: "via_rhine", "via_rhine"
+  Device File: enp0s18
+  HW Address: --
+  Permanent HW Address: --
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (Ethernet controller)

@@ -1,0 +1,616 @@
+04: PCI 11.7: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: BWxi.4haEzJQ5wRA
+  SysFS ID: /devices/pci0000:00/0000:00:11.7
+  SysFS BusID: 0000:00:11.7
+  Hardware Class: bridge
+  Model: "VIA VX8xx South-North Module Interface Control"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xa353 "VX8xx South-North Module Interface Control"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x7323 
+  Module Alias: "pci:v00001106d0000A353sv00001106sd00007323bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: PCI 03.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: w+J7.QTUoz1xLeS8
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 PCI Express Root Port"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xf353 "VX800/VX820 PCI Express Root Port"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00001106d0000F353sv0000144Dsd0000C04Ebc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 10.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: nmR3.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.2
+  SysFS BusID: 0000:00:10.2
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x4440-0x445f (rw)
+  IRQ: 21 (263 events)
+  Module Alias: "pci:v00001106d00003038sv0000144Dsd0000C04Ebc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 0d.0: 0501 FLASH memory
+  [Created at pci.386]
+  Unique ID: qnJ_.bf3FkgLzMTC
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: unknown
+  Model: "VIA Secure Digital Memory Card Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x9530 "Secure Digital Memory Card Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Driver: "via_sdmmc"
+  Driver Modules: "via_sdmmc"
+  Memory Range: 0xf5404000-0xf54047ff (rw,non-prefetchable)
+  I/O Ports: 0x4470-0x4477 (rw)
+  IRQ: 23 (43 events)
+  Module Alias: "pci:v00001106d00009530sv0000144Dsd0000C04Ebc05sc01i00"
+  Driver Info #0:
+    Driver Status: via_sdmmc is active
+    Driver Activation Cmd: "modprobe via_sdmmc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 10.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 37TO.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x4400-0x441f (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00001106d00003038sv0000144Dsd0000C04Ebc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 200.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: c3qJ.Rwk3im6fMK9
+  Parent ID: w+J7.QTUoz1xLeS8
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Marvell 88E8040 PCI-E Fast Ethernet Controller"
+  Vendor: pci 0x11ab "Marvell Technology Group Ltd."
+  Device: pci 0x4354 "88E8040 PCI-E Fast Ethernet Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0x13
+  Driver: "sky2"
+  Driver Modules: "sky2"
+  Device File: enp2s0
+  Memory Range: 0xf5100000-0xf5103fff (rw,non-prefetchable)
+  I/O Ports: 0x5000-0x50ff (rw)
+  IRQ: 29 (1 event)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "pci:v000011ABd00004354sv0000144Dsd0000C04Ebc02sc00i00"
+  Driver Info #0:
+    Driver Status: sky2 is active
+    Driver Activation Cmd: "modprobe sky2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (PCI bridge)
+
+10: PCI 01.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: vSkL.1piXVuJsa_2
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: graphics card
+  Model: "VIA VX800/VX820 Chrome 9 HC3 Integrated Graphics"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x1122 "VX800/VX820 Chrome 9 HC3 Integrated Graphics"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0x11
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  Memory Range: 0xf4000000-0xf4ffffff (rw,non-prefetchable)
+  Memory Range: 0xf0000000-0xf3ffffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 10 (no events)
+  Module Alias: "pci:v00001106d00001122sv0000144Dsd0000C04Ebc03sc00i00"
+  Driver Info #0:
+    Driver Status: viafb is not active
+    Driver Activation Cmd: "modprobe viafb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 00.6: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: 0Jdu.6BMlLK+OoD4
+  SysFS ID: /devices/pci0000:00/0000:00:00.6
+  SysFS BusID: 0000:00:00.6
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 Scratch Registers"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x6353 "VX800/VX820 Scratch Registers"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00006353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 00.4: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: HfeD.cs9UDiP1aO0
+  SysFS ID: /devices/pci0000:00/0000:00:00.4
+  SysFS BusID: 0000:00:00.4
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 Power Management Control"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x4353 "VX800/VX820 Power Management Control"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00004353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 100.0: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: yWPJ.4pDQWIprhl9
+  Parent ID: 3hqH.AJufvxM5W10
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: network
+  Model: "Qualcomm Atheros AR242x / AR542x Wireless Network Adapter (PCI-Express)"
+  Vendor: pci 0x168c "Qualcomm Atheros"
+  Device: pci 0x001c "AR242x / AR542x Wireless Network Adapter (PCI-Express)"
+  SubVendor: pci 0x144f "Askey Computer Corp."
+  SubDevice: pci 0x7131 
+  Revision: 0x01
+  Driver: "ath5k"
+  Driver Modules: "ath5k"
+  Device File: wlp1s0
+  Features: WLAN
+  Memory Range: 0xf5000000-0xf500ffff (rw,non-prefetchable)
+  IRQ: 30 (40691 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v0000168Cd0000001Csv0000144Fsd00007131bc02sc00i00"
+  Driver Info #0:
+    Driver Status: ath5k is active
+    Driver Activation Cmd: "modprobe ath5k"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (PCI bridge)
+
+14: PCI 00.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Z+fY.6YzC54qfLZC
+  SysFS ID: /devices/pci0000:00/0000:00:00.2
+  SysFS BusID: 0000:00:00.2
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 Host Bus Control"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x2353 "VX800/VX820 Host Bus Control"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00002353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 0f.0: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: _+Pw.DF3yczAn_uC
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: storage
+  Model: "VIA VX800 Serial ATA and EIDE Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x5324 "VX800 Serial ATA and EIDE Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Driver: "pata_via"
+  Driver Modules: "pata_via"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0x4460-0x446f (rw)
+  Module Alias: "pci:v00001106d00005324sv0000144Dsd0000C04Ebc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_via is active
+    Driver Activation Cmd: "modprobe pata_via"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.u_TSqv485c1
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "VIA VX800 Host Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x0353 "VX800 Host Bridge"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0x12
+  Module Alias: "pci:v00001106d00000353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 03.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 3hqH.AJufvxM5W10
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 PCI Express Root Port"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0xe353 "VX800/VX820 PCI Express Root Port"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00001106d0000E353sv0000144Dsd0000C04Ebc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 10.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: wRyD.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.1
+  SysFS BusID: 0000:00:10.1
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x4420-0x443f (rw)
+  IRQ: 22 (no events)
+  Module Alias: "pci:v00001106d00003038sv0000144Dsd0000C04Ebc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 00.7: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: ud6k.MLytPQZfweC
+  SysFS ID: /devices/pci0000:00/0000:00:00.7
+  SysFS BusID: 0000:00:00.7
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 North-South Module Interface Control"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x7353 "VX800/VX820 North-South Module Interface Control"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00007353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 00.5: 0800 PIC (IO(X)-APIC)
+  [Created at pci.386]
+  Unique ID: 9_73.O+SdbPFY626
+  SysFS ID: /devices/pci0000:00/0000:00:00.5
+  SysFS BusID: 0000:00:00.5
+  Hardware Class: unknown
+  Model: "VIA VX800/VX820 APIC and Central Traffic Control"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x5353 "VX800/VX820 APIC and Central Traffic Control"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00005353sv0000144Dsd0000C04Ebc08sc00i20"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 00.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: QK9O.55WkG1zLZi8
+  SysFS ID: /devices/pci0000:00/0000:00:00.3
+  SysFS BusID: 0000:00:00.3
+  Hardware Class: bridge
+  Model: "VIA VX800 PCI to PCI Bridge"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3353 "VX800 PCI to PCI Bridge"
+  Module Alias: "pci:v00001106d00003353sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 11.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: 7EWs.7j_jEE5qjAF
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 Bus Control and Power Management"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x8353 "VX800/VX820 Bus Control and Power Management"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00008353sv0000144Dsd0000C04Ebc06sc01i00"
+  Driver Info #0:
+    Driver Status: i2c_viapro is active
+    Driver Activation Cmd: "modprobe i2c_viapro"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 14.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: MZfG.3CBn1Vi65m4
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: sound
+  Model: "VIA VT8237A/VT8251 HDA Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3288 "VT8237A/VT8251 HDA Controller"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0x20
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xf5400000-0xf5403fff (rw,non-prefetchable)
+  IRQ: 31 (756 events)
+  Module Alias: "pci:v00001106d00003288sv0000144Dsd0000C04Ebc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 00.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: hgAj.sNN41YoYF91
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: bridge
+  Model: "VIA VX800/VX820 Error Reporting"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x1353 "VX800/VX820 Error Reporting"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Module Alias: "pci:v00001106d00001353sv0000144Dsd0000C04Ebc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 10.4: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: WQQk.kvlX1nKx850
+  SysFS ID: /devices/pci0000:00/0000:00:10.4
+  SysFS BusID: 0000:00:10.4
+  Hardware Class: usb controller
+  Model: "VIA USB 2.0"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3104 "USB 2.0"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xc04e 
+  Revision: 0x90
+  Driver: "ehci-pci"
+  Memory Range: 0xf5404800-0xf54048ff (rw,non-prefetchable)
+  IRQ: 23 (43 events)
+  Module Alias: "pci:v00001106d00003104sv0000144Dsd0000C04Ebc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.Vq1bYtXT5J2
+  Parent ID: _+Pw.DF3yczAn_uC
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "WDC WDS240G2G0A-"
+  Vendor: "WDC"
+  Device: "WDS240G2G0A-"
+  Revision: "0000"
+  Driver: "pata_via", "sd"
+  Driver Modules: "pata_via"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (IDE interface)
+
+27: USB 00.0: 11500 Bluetooth Device
+  [Created at usb.122]
+  Unique ID: rg_L.iwZ2otxfLc1
+  Parent ID: zPk0.dE4I5wpNpF8
+  SysFS ID: /devices/pci0000:00/0000:00:10.2/usb4/4-2/4-2:1.0
+  SysFS BusID: 4-2:1.0
+  Hardware Class: bluetooth
+  Model: "Broadcom BCM2045 Bluetooth"
+  Hotplug: USB
+  Vendor: usb 0x0a5c "Broadcom Corp."
+  Device: usb 0x2101 "BCM2045 Bluetooth"
+  Revision: "3.54"
+  Serial ID: --
+  Driver: "btusb"
+  Driver Modules: "btusb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v0A5Cp2101d0354dcE0dsc01dp01icE0isc01ip01in00"
+  Driver Info #0:
+    Driver Status: btusb is active
+    Driver Activation Cmd: "modprobe btusb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Hub)
+
+28: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: xnLL.9nSmOKrPcB6
+  Parent ID: k4bc.22MfGOBVe10
+  SysFS ID: /devices/pci0000:00/0000:00:10.4/usb1/1-4/1-4:1.1
+  SysFS BusID: 1-4:1.1
+  Hardware Class: unknown
+  Model: "Z-Star Microelectronics Namuga 1.3M Webcam"
+  Hotplug: USB
+  Vendor: usb 0x0ac8 "Z-Star Microelectronics Corp."
+  Device: usb 0xc326 "Namuga 1.3M Webcam"
+  Revision: "1.00"
+  Driver: "uvcvideo"
+  Driver Modules: "uvcvideo"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0AC8pC326d0100dcEFdsc02dp01ic0Eisc02ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #33 (Hub)
+
+29: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.sV+ij91gsz0
+  Parent ID: wRyD.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (USB Controller)
+
+32: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.dE4I5wpNpF8
+  Parent ID: nmR3.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.2/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+33: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.22MfGOBVe10
+  Parent ID: WQQk.kvlX1nKx850
+  SysFS ID: /devices/pci0000:00/0000:00:10.4/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (USB Controller)
+
+36: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.5nw7MPEyvh9
+  Parent ID: 37TO.fBgO7YL8kuC
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+37: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "CentaurHauls"
+  Model: 6.15.2 "VIA Nano processor U2250@1300+MHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,tm,pbe,syscall,lm,constant_tsc,arch_perfmon,rep_good,nopl,cpuid,pni,monitor,vmx,est,tm2,ssse3,cx16,xtpr,rng,rng_en,ace,ace_en,ace2,phe,phe_en,lahf_lm,pti,tpr_shadow
+  Clock: 1600 MHz
+  BogoMips: 3192.13
+  Cache: 1024 kb
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Ij4C.ndpeucax6V1
+  Parent ID: c3qJ.Rwk3im6fMK9
+  SysFS ID: /class/net/enp2s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.1/0000:02:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "sky2"
+  Driver Modules: "sky2"
+  Device File: enp2s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (Ethernet controller)
+
+40: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: eAgB.ndpeucax6V1
+  Parent ID: yWPJ.4pDQWIprhl9
+  SysFS ID: /class/net/wlp1s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ath5k"
+  Driver Modules: "ath5k"
+  Device File: wlp1s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (WLAN controller)

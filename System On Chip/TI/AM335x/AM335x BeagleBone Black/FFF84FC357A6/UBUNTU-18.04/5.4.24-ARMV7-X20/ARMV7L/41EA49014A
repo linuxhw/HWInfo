@@ -1,0 +1,265 @@
+03: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: V639.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb
+  SysFS BusID: 47400000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "am335x-usb-childs"
+  Module Alias: "of:NusbT(null)Cti,am33xx-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: 604O.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401400.usb
+  SysFS BusID: 47401400.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "musb-dsps"
+  Module Alias: "of:NusbT(null)Cti,musb-am33xx"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: 3zZ4.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1
+  SysFS BusID: musb-hdrc.1
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "musb-hdrc"
+  Module Alias: "of:NusbT(null)Cti,musb-am33xx"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: 9IRm.TfPFe67fIBB
+  SysFS ID: /devices/platform/ocp/4a000000.interconnect/4a000000.interconnect:segment@0/4a101200.target-module/4a100000.ethernet
+  SysFS BusID: 4a100000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "cpsw"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Cti,am335x-cpswCti,cpsw"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: hc5X.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401c00.usb
+  SysFS BusID: 47401c00.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "musb-dsps"
+  Module Alias: "of:NusbT(null)Cti,musb-am33xx"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: 9Dgo.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401400.usb/musb-hdrc.0
+  SysFS BusID: musb-hdrc.0
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "musb-hdrc"
+  Device File: usb0
+  HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NusbT(null)Cti,musb-am33xx"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: r4MP.TzQFl_vZhO4
+  SysFS ID: /devices/platform/ocp/48000000.interconnect/48000000.interconnect:segment@100000/481d82fc.target-module/481d8000.mmc/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: QXDt._NN+DZ1HDn4
+  SysFS ID: /devices/platform/ocp/48000000.interconnect/48000000.interconnect:segment@0/480602fc.target-module/48060000.mmc/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: r4MP.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: mmc1:0001
+  SysFS Device Link: /devices/platform/ocp/48000000.interconnect/48000000.interconnect:segment@100000/481d82fc.target-module/481d8000.mmc/mmc_host/mmc1/mmc1:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "omap_hsmmc", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Number: block 179:256-179:511
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: QXDt._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/ocp/48000000.interconnect/48000000.interconnect:segment@0/480602fc.target-module/48060000.mmc/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "omap_hsmmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:255
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (MMC Controller)
+
+13: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.dZ4ztSBeww5
+  Parent ID: 3zZ4.TAOITtdfnIE
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (USB Controller)
+
+14: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ADDn.CY0tTLTxQJ2
+  Parent ID: k4bc.dZ4ztSBeww5
+  SysFS ID: /devices/platform/ocp/47400000.usb/47401c00.usb/musb-hdrc.1/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: unknown
+  Model: "TP-Link 802.11ac WLAN Adapter"
+  Hotplug: USB
+  Vendor: usb 0x2357 "TP-Link"
+  Device: usb 0x011e "802.11ac WLAN Adapter"
+  Revision: "2.00"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v2357p011Ed0200dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: 88XXau is not active
+    Driver Activation Cmd: "modprobe 88XXau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 3.2.0 ""
+  Platform: "Generic AM33XX (Flattened Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpd32,
+  BogoMips: 995.32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: eY7q.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyO0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: IhCv.SyfSGg7YspF
+  Parent ID: 9Dgo.TAOITtdfnIE
+  SysFS ID: /class/net/usb0
+  SysFS Device Link: /devices/platform/ocp/47400000.usb/47401400.usb/musb-hdrc.0/gadget
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "g_ether"
+  Device File: usb0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+18: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: 9IRm.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/ocp/4a000000.interconnect/4a000000.interconnect:segment@0/4a101200.target-module/4a100000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "cpsw"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+20: None 01.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: msSz.SyfSGg7YspF
+  SysFS ID: /class/net/usb1
+  SysFS Device Link: /devices/platform/ocp/47400000.usb/47401400.usb/musb-hdrc.0/gadget
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "g_ether"
+  Device File: usb1
+  HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

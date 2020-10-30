@@ -1,0 +1,294 @@
+06: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: 3t9U.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/3f980000.usb
+  SysFS BusID: 3f980000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc_otg"
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2708-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: tTVG.VoJli79_k95
+  SysFS ID: /devices/platform/soc/3f300000.mmcnr/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: aq4Q._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:59b4
+  SysFS BusID: mmc0:59b4
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: SDIO 00.0: 0282 WLAN controller
+  [Created at pci.1939]
+  Unique ID: 0DfK.f_UYNWgFjo0
+  Parent ID: tTVG.VoJli79_k95
+  SysFS ID: /devices/platform/soc/3f300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "Broadcom BCM43430 WLAN card"
+  Vendor: sdio 0x02d0 "Broadcom Corp."
+  Device: sdio 0xa9a6 "BCM43430 WLAN card"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac", "brcmfmac", "brcmfmac"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: ...
+  Permanent HW Address: ...
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 2.484
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "sdio:c00v02D0dA9A6"
+  Driver Info #0:
+    Driver Status: brcmfmac is active
+    Driver Activation Cmd: "modprobe brcmfmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: aq4Q._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:59b4
+  SysFS Device Link: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:59b4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhost-bcm2835", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+12: USB 00.2: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: zPMs.NN_zWz4nR48
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.2
+  SysFS BusID: 1-1.4:1.2
+  Hardware Class: mouse
+  Model: "Maxxter Wireless Receiver"
+  Hotplug: USB
+  Vendor: usb 0x248a "Maxxter"
+  Device: usb 0x880f "Wireless Receiver"
+  Revision: "1.00"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 12 Mbps
+  Module Alias: "usb:v248Ap880Fd0100dc00dsc00dp00ic03isc01ip02in02"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+13: USB 00.0: 0401 Multimedia audio controller
+  [Created at usb.122]
+  Unique ID: 33sj.mze52nqQGV5
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.0
+  SysFS BusID: 1-1.4:1.0
+  Hardware Class: sound
+  Model: "Maxxter Wireless Receiver"
+  Hotplug: USB
+  Vendor: usb 0x248a "Maxxter"
+  Device: usb 0x880f "Wireless Receiver"
+  Revision: "1.00"
+  Driver: "snd-usb-audio"
+  Driver Modules: "snd_usb_audio"
+  Speed: 12 Mbps
+  Module Alias: "usb:v248Ap880Fd0100dc00dsc00dp00ic01isc01ip00in00"
+  Driver Info #0:
+    Driver Status: snd_usb_audio is active
+    Driver Activation Cmd: "modprobe snd_usb_audio"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+14: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: lfzD.Sed3PcmdZ23
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems SMSC9512/9514 Fast Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0xec00 "SMSC9512/9514 Fast Ethernet Adapter"
+  Revision: "2.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  Speed: 480 Mbps
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+16: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.D6ER+lJeRh3
+  Parent ID: 3t9U.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.03"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0503dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+17: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: dwDZ.n6FVhxOY34D
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.0
+  SysFS BusID: 1-1.3:1.0
+  Hardware Class: unknown
+  Model: "NetGear WNA3100(v1) Wireless-N 300 [Broadcom BCM43231]"
+  Hotplug: USB
+  Vendor: usb 0x0846 "NetGear, Inc."
+  Device: usb 0x9020 "WNA3100(v1) Wireless-N 300 [Broadcom BCM43231]"
+  Revision: "0.01"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v0846p9020d0001dcFFdsc00dp00icFFisc02ipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.IKhPgutgmvF
+  Parent ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems SMC9514 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x9514 "SMC9514 Hub"
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9514d0200dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (Hub)
+
+19: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Platform: "BCM2835"
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: lfzD.Sed3PcmdZ23
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (Ethernet controller)
+
+24: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: 0DfK.f_UYNWgFjo0
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc/3f300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac", "brcmfmac", "brcmfmac"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (WLAN controller)
+
+25: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

@@ -1,0 +1,858 @@
+05: PCI 1f.2: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: w7Y8.6Kt12wtW8H9
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2928 "82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0x18f8-0x18ff (rw)
+  I/O Ports: 0x180c-0x180f (rw)
+  I/O Ports: 0x18f0-0x18f7 (rw)
+  I/O Ports: 0x1808-0x180b (rw)
+  I/O Ports: 0x18e0-0x18ef (rw)
+  I/O Ports: 0x1810-0x181f (rw)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d00002928sv00001558sd00005101bc01sc01i8F"
+  Driver Info #0:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: z8Q3.tTpTPNv1rG5
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel 82801I (ICH9 Family) PCI Express Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2940 "82801I (ICH9 Family) PCI Express Port 1"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00008086d00002940sv00001558sd00005101bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 1a.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: gFpy.Ks8GuAqqZF4
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1
+  SysFS BusID: 0000:00:1a.1
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #5"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2938 "82801I (ICH9 Family) USB UHCI Controller #5"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1840-0x185f (rw)
+  IRQ: 21 (no events)
+  Module Alias: "pci:v00008086d00002938sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.Dhg7ONR9BO2
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel ICH9M LPC Interface Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2919 "ICH9M LPC Interface Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00002919sv00001558sd00005101bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 800.2: 0805 SD Host controller
+  [Created at pci.386]
+  Unique ID: _qGi.PZXjyPvUBs8
+  Parent ID: QSNP.+nMTFxrg2L8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:08:00.2
+  SysFS BusID: 0000:08:00.2
+  Hardware Class: unknown
+  Model: "JMicron Standard SD Host Controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x2391 "Standard SD Host Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x90
+  Memory Range: 0xf8614400-0xf86144ff (rw,non-prefetchable)
+  IRQ: 17 (no events)
+  Module Alias: "pci:v0000197Bd00002391sv00001558sd00005101bc08sc05i01"
+  Driver Info #0:
+    Driver Status: sdhci_pci is active
+    Driver Activation Cmd: "modprobe sdhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+10: PCI 200.0: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: qru8.2hk9ugdzXID
+  Parent ID: z8Q3.tTpTPNv1rG5
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Intel Centrino Wireless-N 1030 BGN"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x008a "Centrino Wireless-N 1030 [Rainbow Peak]"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x5305 "Centrino Wireless-N 1030 BGN"
+  Revision: 0x34
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp2s0
+  Features: WLAN
+  Memory Range: 0xf8500000-0xf8501fff (rw,non-prefetchable)
+  IRQ: 28 (525177 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v00008086d0000008Asv00008086sd00005305bc02sc80i00"
+  Driver Info #0:
+    Driver Status: iwlwifi is active
+    Driver Activation Cmd: "modprobe iwlwifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (PCI bridge)
+
+11: PCI 1d.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: vayM.ncJ0SX7V_W4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1
+  SysFS BusID: 0000:00:1d.1
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2935 "82801I (ICH9 Family) USB UHCI Controller #2"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x18a0-0x18bf (rw)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d00002935sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 800.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: 3WUg.eLwCZFLfiT0
+  Parent ID: QSNP.+nMTFxrg2L8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:08:00.0
+  SysFS BusID: 0000:08:00.0
+  Hardware Class: network
+  Model: "JMicron JMC260 PCI Express Fast Ethernet Controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x0260 "JMC260 PCI Express Fast Ethernet Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x05
+  Driver: "jme"
+  Driver Modules: "jme"
+  Device File: enp8s0f0
+  Memory Range: 0xf8610000-0xf8613fff (rw,non-prefetchable)
+  I/O Ports: 0x4400-0x447f (rw)
+  I/O Ports: 0x4000-0x40ff (rw)
+  Memory Range: 0xf8600000-0xf860ffff (rw,non-prefetchable)
+  Memory Range: 0xf8620000-0xf862ffff (ro,non-prefetchable,disabled)
+  IRQ: 30 (1 event)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "pci:v0000197Bd00000260sv00001558sd00005101bc02sc00i00"
+  Driver Info #0:
+    Driver Status: jme is active
+    Driver Activation Cmd: "modprobe jme"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+13: PCI 02.1: 0380 Display controller
+  [Created at pci.386]
+  Unique ID: ruGf.2mPnLAOcNP9
+  SysFS ID: /devices/pci0000:00/0000:00:02.1
+  SysFS BusID: 0000:00:02.1
+  Hardware Class: graphics card
+  Model: "Intel Mobile 4 Series Chipset Integrated Graphics Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2a43 "Mobile 4 Series Chipset Integrated Graphics Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x09
+  Memory Range: 0xf8400000-0xf84fffff (rw,non-prefetchable)
+  Module Alias: "pci:v00008086d00002A43sv00001558sd00005101bc03sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 1b.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: u1Nb.ITNRfPN4C+4
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel 82801I (ICH9 Family) HD Audio Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x293e "82801I (ICH9 Family) HD Audio Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xf8900000-0xf8903fff (rw,non-prefetchable)
+  IRQ: 29 (7970 events)
+  Module Alias: "pci:v00008086d0000293Esv00001558sd00005101bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 1f.5: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: W60f.XWz5s1L2L04
+  SysFS ID: /devices/pci0000:00/0000:00:1f.5
+  SysFS BusID: 0000:00:1f.5
+  Hardware Class: storage
+  Model: "Intel 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x292d "82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0x1c50-0x1c57 (rw)
+  I/O Ports: 0x1c44-0x1c47 (rw)
+  I/O Ports: 0x1c48-0x1c4f (rw)
+  I/O Ports: 0x1c40-0x1c43 (rw)
+  I/O Ports: 0x1c30-0x1c3f (rw)
+  I/O Ports: 0x1c20-0x1c2f (rw)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d0000292Dsv00001558sd00005101bc01sc01i85"
+  Driver Info #0:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 1e.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: 6NW+.IGWbx9KFJQ9
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0
+  SysFS BusID: 0000:00:1e.0
+  Hardware Class: bridge
+  Model: "Intel 82801 Mobile PCI Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2448 "82801 Mobile PCI Bridge"
+  Revision: 0x93
+  Module Alias: "pci:v00008086d00002448sv00000000sd00000000bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 1f.3: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: nS1_.EzThZEY4mr0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Intel 82801I (ICH9 Family) SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2930 "82801I (ICH9 Family) SMBus Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0xc4400000-0xc44000ff (rw,non-prefetchable)
+  I/O Ports: 0x1c00-0x1c1f (rw)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d00002930sv00001558sd00005101bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.YxpO10YHNc7
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel Mobile 4 Series Chipset Memory Controller Hub"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2a40 "Mobile 4 Series Chipset Memory Controller Hub"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x09
+  Module Alias: "pci:v00008086d00002A40sv00001558sd00005101bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 1c.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qTvu.vIizMW8Su16
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1
+  SysFS BusID: 0000:00:1c.1
+  Hardware Class: bridge
+  Model: "Intel 82801I (ICH9 Family) PCI Express Port 2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2942 "82801I (ICH9 Family) PCI Express Port 2"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00008086d00002942sv00001558sd00005101bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 1a.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: XaIo.rG50NlxX5e4
+  SysFS ID: /devices/pci0000:00/0000:00:1a.2
+  SysFS BusID: 0000:00:1a.2
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #6"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2939 "82801I (ICH9 Family) USB UHCI Controller #6"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1860-0x187f (rw)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d00002939sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 800.3: 0880 System peripheral
+  [Created at pci.386]
+  Unique ID: s9mX.rAH_GzN_jK7
+  Parent ID: QSNP.+nMTFxrg2L8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:08:00.3
+  SysFS BusID: 0000:08:00.3
+  Hardware Class: unknown
+  Model: "JMicron MS Host Controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x2393 "MS Host Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x90
+  Driver: "jmb38x_ms"
+  Driver Modules: "jmb38x_ms"
+  Memory Range: 0xf8614800-0xf86148ff (rw,non-prefetchable)
+  IRQ: 17 (no events)
+  Module Alias: "pci:v0000197Bd00002393sv00001558sd00005101bc08sc80i00"
+  Driver Info #0:
+    Driver Status: jmb38x_ms is active
+    Driver Activation Cmd: "modprobe jmb38x_ms"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+22: PCI 1d.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: mvRC.I1Gmw5FCWv4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2
+  SysFS BusID: 0000:00:1d.2
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2936 "82801I (ICH9 Family) USB UHCI Controller #3"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x18c0-0x18df (rw)
+  IRQ: 18 (no events)
+  Module Alias: "pci:v00008086d00002936sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1a.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: pwJ7.pRCWPci72t3
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2937 "82801I (ICH9 Family) USB UHCI Controller #4"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1820-0x183f (rw)
+  IRQ: 16 (194145 events)
+  Module Alias: "pci:v00008086d00002937sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 800.1: 0880 System peripheral
+  [Created at pci.386]
+  Unique ID: 7Wns.KmKEoOGHCy6
+  Parent ID: QSNP.+nMTFxrg2L8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:08:00.1
+  SysFS BusID: 0000:08:00.1
+  Hardware Class: unknown
+  Model: "JMicron SD/MMC Host Controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x2392 "SD/MMC Host Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x90
+  Driver: "sdhci-pci"
+  Driver Modules: "sdhci_pci"
+  Memory Range: 0xf8614000-0xf86140ff (rw,non-prefetchable)
+  IRQ: 17 (no events)
+  Module Alias: "pci:v0000197Bd00002392sv00001558sd00005101bc08sc80i00"
+  Driver Info #0:
+    Driver Status: sdhci_pci is active
+    Driver Activation Cmd: "modprobe sdhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (PCI bridge)
+
+25: PCI 1d.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 1GTX.GCNGzy+nS84
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB UHCI Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2934 "82801I (ICH9 Family) USB UHCI Controller #1"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1880-0x189f (rw)
+  IRQ: 23 (1288 events)
+  Module Alias: "pci:v00008086d00002934sv00001558sd00005101bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 1a.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: sClz.uWWR5XnPCdA
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7
+  SysFS BusID: 0000:00:1a.7
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB2 EHCI Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x293c "82801I (ICH9 Family) USB2 EHCI Controller #2"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "ehci-pci"
+  Memory Range: 0xf8904000-0xf89043ff (rw,non-prefetchable)
+  IRQ: 19 (189597 events)
+  Module Alias: "pci:v00008086d0000293Csv00001558sd00005101bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1c.4: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: QSNP.+nMTFxrg2L8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4
+  SysFS BusID: 0000:00:1c.4
+  Hardware Class: bridge
+  Model: "Intel 82801I (ICH9 Family) PCI Express Port 5"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2948 "82801I (ICH9 Family) PCI Express Port 5"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00008086d00002948sv00001558sd00005101bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: _Znp.XJ29SK5y5o3
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Model: "Intel Mobile 4 Series Chipset Integrated Graphics Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2a42 "Mobile 4 Series Chipset Integrated Graphics Controller"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x09
+  Driver: "i915"
+  Driver Modules: "i915"
+  Memory Range: 0xf8000000-0xf83fffff (rw,non-prefetchable)
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  I/O Ports: 0x1800-0x1807 (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 16 (194145 events)
+  Module Alias: "pci:v00008086d00002A42sv00001558sd00005101bc03sc00i00"
+  Driver Info #0:
+    Driver Status: i915 is active
+    Driver Activation Cmd: "modprobe i915"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 1d.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 5YuN.shdx7OY+8s9
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7
+  SysFS BusID: 0000:00:1d.7
+  Hardware Class: usb controller
+  Model: "Intel 82801I (ICH9 Family) USB2 EHCI Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x293a "82801I (ICH9 Family) USB2 EHCI Controller #1"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "ehci-pci"
+  Memory Range: 0xf8904400-0xf89047ff (rw,non-prefetchable)
+  IRQ: 23 (1288 events)
+  Module Alias: "pci:v00008086d0000293Asv00001558sd00005101bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 1c.2: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: hoOk.x7bTKfNsxo6
+  SysFS ID: /devices/pci0000:00/0000:00:1c.2
+  SysFS BusID: 0000:00:1c.2
+  Hardware Class: bridge
+  Model: "Intel 82801I (ICH9 Family) PCI Express Port 3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2944 "82801I (ICH9 Family) PCI Express Port 3"
+  SubVendor: pci 0x1558 "CLEVO/KAPOK Computer"
+  SubDevice: pci 0x5101 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v00008086d00002944sv00001558sd00005101bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.IAOYpEq92S3
+  Parent ID: _Znp.XJ29SK5y5o3
+  Hardware Class: monitor
+  Model: "LG Display LP156WH2-TLR2"
+  Vendor: LGD "LG Display"
+  Device: eisa 0x027d "LP156WH2-TLR2"
+  Resolution: 1366x768@60Hz
+  Size: 344x194 mm
+  Year of Manufacture: 2009
+  Week of Manufacture: 0
+  Detailed Timings #0:
+     Resolution: 1366x768
+     Horizontal: 1366 1398 1430 1486 (+32 +64 +120) -hsync
+       Vertical:  768  770  774  782 (+2 +6 +14) -vsync
+    Frequencies: 69.30 MHz, 46.64 kHz, 59.64 Hz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (VGA compatible controller)
+
+32: SCSI 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KD9E.vNcegYIBIu8
+  Parent ID: w7Y8.6Kt12wtW8H9
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata2/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "TSSTcorp CDDVDW SN-208BB"
+  Vendor: "TSSTcorp"
+  Device: "CDDVDW SN-208BB"
+  Revision: "SB01"
+  Driver: "ata_piix", "sr"
+  Driver Modules: "ata_piix"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Number: block 11:0 (char 21:1)
+  BIOS id: 0x80
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (IDE interface)
+
+33: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.X1LpWa+EzZ8
+  Parent ID: w7Y8.6Kt12wtW8H9
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "SAMSUNG HN-M250M"
+  Vendor: "SAMSUNG"
+  Device: "HN-M250M"
+  Revision: "0001"
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  BIOS id: 0x81
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (IDE interface)
+
+34: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.v+N+B0xY+P6
+  Parent ID: 1GTX.GCNGzy+nS84
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (USB Controller)
+
+35: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.MxUuepIFPaE
+  Parent ID: pwJ7.pRCWPci72t3
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (USB Controller)
+
+36: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: BSFT.gkSaZmjGyhD
+  Parent ID: vayM.ncJ0SX7V_W4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1/usb7/7-0:1.0
+  SysFS BusID: 7-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (USB Controller)
+
+37: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.7gZT0a5zLs5
+  Parent ID: gFpy.Ks8GuAqqZF4
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FZIx.RTX9xWW_uz4
+  Parent ID: mvRC.I1Gmw5FCWv4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2/usb8/8-0:1.0
+  SysFS BusID: 8-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.cO89g+iefn1
+  Parent ID: sClz.uWWR5XnPCdA
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (USB Controller)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.uOe2OKugI8D
+  Parent ID: XaIo.rG50NlxX5e4
+  SysFS ID: /devices/pci0000:00/0000:00:1a.2/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (USB Controller)
+
+41: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.9T1GDCLyFd9
+  Parent ID: 5YuN.shdx7OY+8s9
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (USB Controller)
+
+42: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Pentium(R) Dual-Core CPU       T4400  @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,xsave,lahf_lm,pti,dtherm
+  Clock: 2075 MHz
+  BogoMips: 4388.90
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Pentium(R) Dual-Core CPU       T4400  @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,xsave,lahf_lm,pti,dtherm
+  Clock: 1922 MHz
+  BogoMips: 4388.90
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: VV91.ndpeucax6V1
+  Parent ID: qru8.2hk9ugdzXID
+  SysFS ID: /class/net/wlp2s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp2s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (WLAN controller)
+
+45: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: cPo5.ndpeucax6V1
+  Parent ID: 3WUg.eLwCZFLfiT0
+  SysFS ID: /class/net/enp8s0f0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.4/0000:08:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "jme"
+  Driver Modules: "jme"
+  Device File: enp8s0f0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Ethernet controller)

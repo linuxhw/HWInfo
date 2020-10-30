@@ -1,0 +1,394 @@
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: qlWN.TfPFe67fIBB
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2188000.ethernet
+  SysFS BusID: 2188000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "fec"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NethernetT<NULL>Cfsl,imx6q-fec"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: OUde.TAOITtdfnIE
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb
+  SysFS BusID: 2184200.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "imx_usb"
+  Driver Modules: "ci_hdrc_imx"
+  Module Alias: "of:NusbT<NULL>Cfsl,imx6q-usbCfsl,imx27-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: ci_hdrc_imx is active
+    Driver Activation Cmd: "modprobe ci_hdrc_imx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: FGXi.TAOITtdfnIE
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184000.usb
+  SysFS BusID: 2184000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "imx_usb"
+  Driver Modules: "ci_hdrc_imx"
+  Module Alias: "of:NusbT<NULL>Cfsl,imx6q-usbCfsl,imx27-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: ci_hdrc_imx is active
+    Driver Activation Cmd: "modprobe ci_hdrc_imx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: MMC 02.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: wv9R._NN+DZ1HDn4
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2198000.usdhc/mmc_host/mmc2/mmc2:aaaa
+  SysFS BusID: mmc2:aaaa
+  Model: "SD Controller 2"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 2"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: +5ny.VoJli79_k95
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2194000.usdhc/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.n1MJWEVCtp0
+  Parent ID: F1ZK.FHNR9t2MgJ9
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/soc0/soc/2200000.sata/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "Samsung SSD 850"
+  Vendor: "Samsung"
+  Device: "SSD 850"
+  Revision: "4B6Q"
+  Serial ID: --
+  Driver: "ahci-imx", "sd"
+  Driver Modules: "ahci_imx", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-Samsung_SSD_850_PRO_512GB_..., /dev/disk/by-path/platform-2200000.sata-ata-1, /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 62260/255/63
+  Size: 1000215216 sectors a 512 bytes
+  Capacity: 476 GB (512110190592 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (IDE interface)
+
+17: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CXqs.Fxp0d3BezAE
+  Parent ID: wv9R._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk2
+  SysFS BusID: mmc2:aaaa
+  SysFS Device Link: /devices/soc0/soc/2100000.aips-bus/2198000.usdhc/mmc_host/mmc2/mmc2:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-esdhc-imx", "mmcblk"
+  Driver Modules: "sdhci_esdhc_imx"
+  Device File: /dev/mmcblk2
+  Device Files: /dev/mmcblk2, /dev/disk/by-id/mmc-SL32G_0x28ecde25, /dev/disk/by-path/platform-2198000.usdhc
+  Device Number: block 179:0-179:255
+  Geometry (Logical): CHS 973968/4/16
+  Size: 62333952 sectors a 512 bytes
+  Capacity: 29 GB (31914983424 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (MMC Controller)
+
+18: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: BobO.yosUmW5iOW6
+  Parent ID: ADDn.sdGrt+0Ng37
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: unknown
+  Model: "Prolific PL2303 Serial Port"
+  Hotplug: USB
+  Vendor: usb 0x067b "Prolific Technology, Inc."
+  Device: usb 0x2303 "PL2303 Serial Port"
+  Revision: "3.00"
+  Driver: "pl2303"
+  Driver Modules: "usbserial", "pl2303"
+  Device File: /dev/ttyUSB3
+  Device Files: /dev/ttyUSB3, /dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_..., /dev/serial/by-path/platform-ci_hdrc.1-usb-0:1.2:1.0-port0
+  Device Number: char 188:3
+  Speed: 12 Mbps
+  Module Alias: "usb:v067Bp2303d0300dc00dsc00dp00icFFisc00ip00in00"
+  Driver Info #0:
+    Driver Status: pl2303 is active
+    Driver Activation Cmd: "modprobe pl2303"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+19: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: pN2v.MNLhkGl1xyB
+  Parent ID: 6a0d.DFkaVl_rzX0
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.7/1-1.7.3/1-1.7.3:1.0
+  SysFS BusID: 1-1.7.3:1.0
+  Hardware Class: unknown
+  Model: "Cypress Programmable power socket"
+  Hotplug: USB
+  Vendor: usb 0x04b4 "Cypress Semiconductor Corp."
+  Device: usb 0xfd13 "Programmable power socket"
+  Revision: "1.01"
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04B4pFD13d0101dc00dsc00dp00ic03isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (Hub)
+
+20: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: dwDZ.rClyBoYwmDD
+  Parent ID: ADDn.sdGrt+0Ng37
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.3/1-1.3:1.0
+  SysFS BusID: 1-1.3:1.0
+  Hardware Class: unknown
+  Model: "Future Technology Devices International FT232 Serial (UART) IC"
+  Hotplug: USB
+  Vendor: usb 0x0403 "Future Technology Devices International, Ltd"
+  Device: usb 0x6001 "FT232 Serial (UART) IC"
+  Revision: "4.00"
+  Driver: "ftdi_sio"
+  Driver Modules: "usbserial", "ftdi_sio"
+  Device File: /dev/ttyUSB1
+  Device Files: /dev/ttyUSB1, /dev/serial/by-path/platform-ci_hdrc.1-usb-0:1.3:1.0-port0, /dev/serial/by-id/usb-FTDI_USB__-__...
+  Device Number: char 188:1
+  Tags: mouse, modem
+  Speed: 12 Mbps
+  Module Alias: "usb:v0403p6001d0400dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: ftdi_sio is active
+    Driver Activation Cmd: "modprobe ftdi_sio"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+21: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 6a0d.DFkaVl_rzX0
+  Parent ID: ADDn.sdGrt+0Ng37
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.7/1-1.7:1.0
+  SysFS BusID: 1-1.7:1.0
+  Hardware Class: hub
+  Model: "Terminus Hub"
+  Hotplug: USB
+  Vendor: usb 0x1a40 "Terminus Technology Inc."
+  Device: usb 0x0101 "Hub"
+  Revision: "1.11"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1A40p0101d0111dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+22: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc._pYzJewtwHA
+  Parent ID: OUde.TAOITtdfnIE
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0419dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+23: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: 33sj.DMZPP+MCfO8
+  Parent ID: ADDn.sdGrt+0Ng37
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.4/1-1.4:1.0
+  SysFS BusID: 1-1.4:1.0
+  Hardware Class: unknown
+  Model: "Future Technology Devices International FT232 Serial (UART) IC"
+  Hotplug: USB
+  Vendor: usb 0x0403 "Future Technology Devices International, Ltd"
+  Device: usb 0x6001 "FT232 Serial (UART) IC"
+  Revision: "6.00"
+  Serial ID: --
+  Driver: "ftdi_sio"
+  Driver Modules: "usbserial", "ftdi_sio"
+  Device File: /dev/ttyUSB2
+  Device Files: /dev/ttyUSB2, /dev/serial/by-path/platform-ci_hdrc.1-usb-0:1.4:1.0-port0, /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_...
+  Device Number: char 188:2
+  Tags: mouse, modem
+  Speed: 12 Mbps
+  Module Alias: "usb:v0403p6001d0600dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: ftdi_sio is active
+    Driver Activation Cmd: "modprobe ftdi_sio"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+24: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: lfzD.LJftrPFFyKC
+  Parent ID: ADDn.sdGrt+0Ng37
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: unknown
+  Model: "Future Technology Devices International FT232 Serial (UART) IC"
+  Hotplug: USB
+  Vendor: usb 0x0403 "Future Technology Devices International, Ltd"
+  Device: usb 0x6001 "FT232 Serial (UART) IC"
+  Revision: "6.00"
+  Serial ID: --
+  Driver: "ftdi_sio"
+  Driver Modules: "usbserial", "ftdi_sio"
+  Device File: /dev/ttyUSB0
+  Device Files: /dev/ttyUSB0, /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_..., /dev/serial/by-path/platform-ci_hdrc.1-usb-0:1.1:1.0-port0
+  Device Number: char 188:0
+  Tags: mouse, modem
+  Speed: 12 Mbps
+  Module Alias: "usb:v0403p6001d0600dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: ftdi_sio is active
+    Driver Activation Cmd: "modprobe ftdi_sio"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+25: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.sdGrt+0Ng37
+  Parent ID: k4bc._pYzJewtwHA
+  SysFS ID: /devices/soc0/soc/2100000.aips-bus/2184200.usb/ci_hdrc.1/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Terminus FE 2.1 7-port Hub"
+  Hotplug: USB
+  Vendor: usb 0x1a40 "Terminus Technology Inc."
+  Device: usb 0x0201 "FE 2.1 7-port Hub"
+  Revision: "1.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1A40p0201d0100dc09dsc00dp02ic09isc00ip02in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Hub)
+
+26: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.10.0 ""
+  Platform: "Freescale i.MX6 Quad/DualLite (Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpd32,
+  BogoMips: 3.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.10.0 ""
+  Platform: "Freescale i.MX6 Quad/DualLite (Device Tree)"
+  Features: half
+  BogoMips: 3.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.10.0 ""
+  Platform: "Freescale i.MX6 Quad/DualLite (Device Tree)"
+  Features: half
+  BogoMips: 3.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.10.0 ""
+  Platform: "Freescale i.MX6 Quad/DualLite (Device Tree)"
+  Features: half
+  BogoMips: 3.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: ygIl.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttymxc0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: qlWN.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/soc0/soc/2100000.aips-bus/2188000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "fec"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)
+
+32: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

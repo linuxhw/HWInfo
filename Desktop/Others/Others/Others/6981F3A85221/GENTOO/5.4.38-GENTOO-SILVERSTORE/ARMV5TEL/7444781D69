@@ -1,0 +1,329 @@
+03: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.366]
+  Unique ID: vSkL.bJ2wuq6BqWD
+  SysFS ID: /devices/platform/mbus@f1000000/mbus@f1000000:pcie@82000000/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Marvell PCI bridge"
+  Vendor: pci 0x11ab "Marvell Technology Group Ltd."
+  Device: pci 0x6282 
+  Revision: 0x01
+  Memory Range: 0xe0100000-0xe01007ff (ro,non-prefetchable,disabled)
+  Module Alias: "pci:v000011ABd00006282sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: PCI 100.0: 0c03 USB Controller (XHCI)
+  [Created at pci.366]
+  Unique ID: VCu0.omU3xfN7Q30
+  Parent ID: vSkL.bJ2wuq6BqWD
+  SysFS ID: /devices/platform/mbus@f1000000/mbus@f1000000:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: usb controller
+  Model: "NEC uPD720200 USB 3.0 Host Controller"
+  Vendor: pci 0x1033 "NEC Corporation"
+  Device: pci 0x0194 "uPD720200 USB 3.0 Host Controller"
+  SubVendor: pci 0xffff "Illegal Vendor ID"
+  SubDevice: pci 0xffff 
+  Revision: 0x03
+  Driver: "xhci_hcd"
+  Memory Range: 0xe0000000-0xe0001fff (rw,non-prefetchable)
+  IRQ: 37 (no events)
+  Module Alias: "pci:v00001033d00000194sv0000FFFFsd0000FFFFbc0Csc03i30"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (PCI bridge)
+
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.974]
+  Unique ID: XveX.nuQvqdpV7ND
+  SysFS ID: /devices/platform/mv643xx_eth_port.0
+  SysFS BusID: mv643xx_eth_port.0
+  Hardware Class: network
+  Model: "ARM Ethernet 0"
+  Device: "ARM Ethernet 0"
+  Driver: "mv643xx_eth_port"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Module Alias: "of:Nethernet0-portT(null)Cmarvell,kirkwood-eth-port"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: M4HQ.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock4
+  SysFS BusID: mtd4
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock4
+  Device Number: block 31:4
+  Size: 243456 sectors a 512 bytes
+  Capacity: 0 GB (124649472 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: SjmH.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock2
+  SysFS BusID: mtd2
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd2
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock2
+  Device Number: block 31:2
+  Size: 5120 sectors a 512 bytes
+  Capacity: 0 GB (2621440 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: SCSI 200.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ADDn.AsOrRgn1eJ7
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 2:0:0:0
+  SysFS Device Link: /devices/platform/ocp@f1000000/f1050000.ehci/usb1/1-1/1-1:1.0/host2/target2:0:0/2:0:0:0
+  Hardware Class: disk
+  Model: "USB Flash Disk"
+  Vendor: usb 0x090c "USB"
+  Device: usb 0x1000 "Flash Disk"
+  Revision: "1100"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sdb (/dev/sg1)
+  Device Files: /dev/sdb, /dev/disk/by-id/usb-USB_Flash_Disk_..., /dev/disk/by-path/platform-f1050000.ehci-usb-0:1:1.0-scsi-0:0:0:0
+  Device Number: block 8:16-8:31 (char 21:1)
+  Geometry (Logical): CHS 1022/247/62
+  Size: 15663104 sectors a 512 bytes
+  Capacity: 7 GB (8019509248 bytes)
+  Speed: 480 Mbps
+  Module Alias: "usb:v090Cp1000d1100dc00dsc00dp00ic08isc06ip50in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: YMG9.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock0
+  SysFS BusID: mtd0
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock0
+  Device Number: block 31:0
+  Size: 1280 sectors a 512 bytes
+  Capacity: 0 GB (655360 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: pFXU.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock5
+  SysFS BusID: mtd5
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd5
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock5
+  Device Number: block 31:5
+  Size: 4608 sectors a 512 bytes
+  Capacity: 0 GB (2359296 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: vu0M.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock3
+  SysFS BusID: mtd3
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd3
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock3
+  Device Number: block 31:3
+  Size: 7168 sectors a 512 bytes
+  Capacity: 0 GB (3670016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: _kuT.th2Y6iYVBs1
+  Parent ID: 8T9+.piXCQm1Ue36
+  SysFS ID: /class/block/sdc
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/platform/ocp@f1000000/f1080000.sata/ata2/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD30EFRX-68E"
+  Vendor: "WDC"
+  Device: "WD30EFRX-68E"
+  Revision: "0A80"
+  Serial ID: --
+  Driver: "sata_mv", "sd"
+  Driver Modules: "sata_mv"
+  Device File: /dev/sdc
+  Device Files: /dev/sdc, /dev/disk/by-id/ata-WDC_WD30EFRX-68EUZN0_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:32-8:47
+  Geometry (Logical): CHS 364801/255/63
+  Size: 5860533168 sectors a 512 bytes
+  Capacity: 2794 GB (3000592982016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (IDE interface)
+
+14: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: +XWD.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock1
+  SysFS BusID: mtd1
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd1
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock1
+  Device Number: block 31:1
+  Size: 512 sectors a 512 bytes
+  Capacity: 0 GB (262144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.ouTwtpQgNqE
+  Parent ID: 8T9+.piXCQm1Ue36
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/ocp@f1000000/f1080000.sata/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD30EFRX-68E"
+  Vendor: "WDC"
+  Device: "WD30EFRX-68E"
+  Revision: "0A80"
+  Serial ID: --
+  Driver: "sata_mv", "sd"
+  Driver Modules: "sata_mv"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-WDC_WD30EFRX-68EUZN0_..., /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 364801/255/63
+  Size: 5860533168 sectors a 512 bytes
+  Capacity: 2794 GB (3000592982016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (IDE interface)
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: GRnY.Fxp0d3BezAE
+  SysFS ID: /class/block/mtdblock6
+  SysFS BusID: mtd6
+  SysFS Device Link: /devices/platform/mbus@f1000000/f4000000.nand/mtd/mtd6
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "orion_nand"
+  Device File: /dev/mtdblock6
+  Device Number: block 31:6
+  Size: 262144 sectors a 512 bytes
+  Capacity: 0 GB (134217728 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.djic47EFb5E
+  Parent ID: VCu0.omU3xfN7Q30
+  SysFS ID: /devices/platform/mbus@f1000000/mbus@f1000000:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0504dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (USB Controller)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc._qNzNvL_bc2
+  SysFS ID: /devices/platform/ocp@f1000000/f1050000.ehci/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.kNaPe9SZft4
+  Parent ID: VCu0.omU3xfN7Q30
+  SysFS ID: /devices/platform/mbus@f1000000/mbus@f1000000:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (USB Controller)
+
+21: None 00.0: 10103 CPU
+  [Created at cpu.270]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "Marvell Semiconductor Inc."
+  Model: 2.1.0 ""
+  Platform: "Marvell Kirkwood (Flattened Device Tree)"
+  Features: swp,half,thumb,fastmult,edsp,
+  BogoMips: 400.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10700 Loopback
+  [Created at net.125]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: XveX.nuQvqdpV7ND
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/mv643xx_eth_port.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "mv643xx_eth_port"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)

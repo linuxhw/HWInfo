@@ -1,0 +1,345 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: PP78.TfPFe67fIBB
+  SysFS ID: /devices/platform/ff3f0000.ethernet
+  SysFS BusID: ff3f0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "meson6-dwmac"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NethernetT<NULL>Camlogic,_g12a-eth-dwmacCsnps,dwmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1049]
+  Unique ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto
+  SysFS BusID: xhci-hcd.0.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: cttP._NN+DZ1HDn4
+  SysFS ID: /devices/platform/ffe05000.sd/mmc_host/sd/sd:e624
+  SysFS BusID: sd:e624
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: cttP._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: sd:e624
+  SysFS Device Link: /devices/platform/ffe05000.sd/mmc_host/sd/sd:e624
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "meson-aml-mmc", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+10: USB 00.1: 0401 Multimedia audio controller
+  [Created at usb.122]
+  Unique ID: WE6o.0zGQ5BCeC13
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.4/1-1.4:1.1
+  SysFS BusID: 1-1.4:1.1
+  Hardware Class: sound
+  Model: "C-Media Electronics Audio Adapter (Unitek Y-247A)"
+  Hotplug: USB
+  Vendor: usb 0x0d8c "C-Media Electronics, Inc."
+  Device: usb 0x0014 "Audio Adapter (Unitek Y-247A)"
+  Revision: "1.00"
+  Driver: "snd-usb-audio"
+  Driver Modules: "snd_usb_audio"
+  Speed: 12 Mbps
+  Module Alias: "usb:v0D8Cp0014d0100dc00dsc00dp00ic01isc02ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.AneSAPsLcPF
+  Parent ID: pBe4.PKweOZjtk19
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "VIA USB3.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x0817 "USB3.0 Hub"
+  Revision: "90.33"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v2109p0817d9033dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (Hub)
+
+13: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: Vl7j.irK0zzFHUxF
+  Parent ID: lfzD.d7FDLX76qXB
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0
+  SysFS BusID: 1-1.1.1:1.0
+  Hardware Class: keyboard
+  Model: "Apple Aluminium Keyboard (ISO)"
+  Hotplug: USB
+  Vendor: usb 0x05ac "Apple, Inc."
+  Device: usb 0x0250 "Aluminium Keyboard (ISO)"
+  Revision: "1.91"
+  Serial ID: --
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 12 Mbps
+  Module Alias: "usb:v05ACp0250d0191dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+14: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.uJrfcCKKe8E
+  Parent ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0409dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+16: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: xtlt.VK6REcAktt6
+  Parent ID: lfzD.d7FDLX76qXB
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1.2/1-1.1.2:1.0
+  SysFS BusID: 1-1.1.2:1.0
+  Hardware Class: mouse
+  Model: "Logitech M90/M100 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc05a "M90/M100 Optical Mouse"
+  Revision: "63.00"
+  Compatible to: int 0x0210 0x0013
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event2
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC05Ad6300dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 1
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+17: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: lfzD.d7FDLX76qXB
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic Hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0608 "Hub"
+  Revision: "85.36"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05E3p0608d8536dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.g5rjI1SjqE3
+  Parent ID: k4bc.uJrfcCKKe8E
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "VIA USB2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x2817 "USB2.0 Hub"
+  Revision: "90.33"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p2817d9033dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (Hub)
+
+19: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.PKweOZjtk19
+  Parent ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0409dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+20: USB 00.3: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: Rbcw.Rpc2Hp6bk7B
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.4/1-1.4:1.3
+  SysFS BusID: 1-1.4:1.3
+  Hardware Class: unknown
+  Model: "C-Media Electronics Audio Adapter (Unitek Y-247A)"
+  Hotplug: USB
+  Vendor: usb 0x0d8c "C-Media Electronics, Inc."
+  Device: usb 0x0014 "Audio Adapter (Unitek Y-247A)"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event1
+  Device Number: char 13:65
+  Speed: 12 Mbps
+  Module Alias: "usb:v0D8Cp0014d0100dc00dsc00dp00ic03isc00ip00in03"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+21: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ywNn.ZyvhLZnWrbF
+  Parent ID: lfzD.d7FDLX76qXB
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.1
+  SysFS BusID: 1-1.1.1:1.1
+  Hardware Class: unknown
+  Model: "Apple Aluminium Keyboard (ISO)"
+  Hotplug: USB
+  Vendor: usb 0x05ac "Apple, Inc."
+  Device: usb 0x0250 "Aluminium Keyboard (ISO)"
+  Revision: "1.91"
+  Serial ID: --
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event4
+  Device Number: char 13:68
+  Speed: 12 Mbps
+  Module Alias: "usb:v05ACp0250d0191dc00dsc00dp00ic03isc01ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+22: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Platform: "Hardkernel ODROID-C4"
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: PP78.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/ff3f0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "meson6-dwmac"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)

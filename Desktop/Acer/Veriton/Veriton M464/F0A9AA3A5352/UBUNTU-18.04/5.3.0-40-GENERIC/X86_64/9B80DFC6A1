@@ -1,0 +1,774 @@
+05: PCI 03.1: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: w+J7.G0A4BS0RQc7
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: unknown
+  Model: "nVidia MCP73 SMBus"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d8 "MCP73 SMBus"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "nForce2_smbus"
+  Driver Modules: "i2c_nforce2"
+  I/O Ports: 0x4900-0x493f (rw)
+  I/O Ports: 0x4d00-0x4d3f (rw)
+  I/O Ports: 0x4e00-0x4e3f (rw)
+  IRQ: 11 (no events)
+  Module Alias: "pci:v000010DEd000007D8sv00001025sd00000137bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_nforce2 is active
+    Driver Activation Cmd: "modprobe i2c_nforce2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 08.0: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: RE4e.DEH9ZV0S0mE
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: storage
+  Model: "nVidia MCP73 IDE Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056c "MCP73 IDE Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "pata_amd"
+  Driver Modules: "pata_amd"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xffa0-0xffaf (rw)
+  Module Alias: "pci:v000010DEd0000056Csv00001025sd00000137bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_amd is active
+    Driver Activation Cmd: "modprobe pata_amd"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 0d.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qnJ_.EdCi7QHxMj7
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056f "MCP73 PCI Express bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v000010DEd0000056Fsv00001025sd00000137bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 01.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: e6j0.xqaNS4qr3dC
+  SysFS ID: /devices/pci0000:00/0000:00:01.2
+  SysFS BusID: 0000:00:01.2
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cf "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CFsv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 10.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: 37TO.DZns5D3zI8E
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: graphics card
+  Model: "nVidia C73 [GeForce 7050 / nForce 630i]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07e2 "C73 [GeForce 7050 / nForce 630i]"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Driver: "nouveau"
+  Driver Modules: "nouveau"
+  Memory Range: 0xfd000000-0xfdffffff (rw,non-prefetchable)
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  Memory Range: 0xfc000000-0xfcffffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 23 (20898 events)
+  Module Alias: "pci:v000010DEd000007E2sv00001025sd00000137bc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: PCI 01.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: vSkL.v+htUxaR0sB
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cd "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CDsv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 04.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: 8otl.4LyC33TxwB5
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: usb controller
+  Model: "nVidia MCP73 OHCI USB 1.1 Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07fe "MCP73 OHCI USB 1.1 Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "ohci-pci"
+  Memory Range: 0xfea7f000-0xfea7ffff (rw,non-prefetchable)
+  IRQ: 23 (20898 events)
+  Module Alias: "pci:v000010DEd000007FEsv00001025sd00000137bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 0c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: lgGW.EdCi7QHxMj7
+  SysFS ID: /devices/pci0000:00/0000:00:0c.0
+  SysFS BusID: 0000:00:0c.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056f "MCP73 PCI Express bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v000010DEd0000056Fsv00001025sd00000137bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 03.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: W_nd.Kxz755+vNx9
+  SysFS ID: /devices/pci0000:00/0000:00:03.4
+  SysFS BusID: 0000:00:03.4
+  Hardware Class: unknown
+  Model: "nVidia MCP73 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07c8 "MCP73 Memory Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007C8sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 106.2: 0c00 FireWire (IEEE 1394) (OHCI)
+  [Created at pci.386]
+  Unique ID: iW9W.BcNI9WwZf01
+  Parent ID: bSAa.D_gmQlS73tA
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0/0000:01:06.2
+  SysFS BusID: 0000:01:06.2
+  Hardware Class: firewire controller
+  Model: "Creative SB Audigy FireWire Port"
+  Vendor: pci 0x1102 "Creative Labs"
+  Device: pci 0x4001 "SB Audigy FireWire Port"
+  SubVendor: pci 0x1102 "Creative Labs"
+  SubDevice: pci 0x0010 "SB Audigy FireWire Port"
+  Revision: 0x04
+  Driver: "firewire_ohci"
+  Driver Modules: "firewire_ohci"
+  Memory Range: 0xfebff800-0xfebfffff (rw,non-prefetchable)
+  Memory Range: 0xfebf8000-0xfebfbfff (rw,non-prefetchable)
+  IRQ: 19 (2 events)
+  Module Alias: "pci:v00001102d00004001sv00001102sd00000010bc0Csc00i10"
+  Driver Info #0:
+    Driver Status: ohci1394 is not active
+    Driver Activation Cmd: "modprobe ohci1394"
+  Driver Info #1:
+    Driver Status: firewire_ohci is active
+    Driver Activation Cmd: "modprobe firewire_ohci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+15: PCI 01.5: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: E5BX.U4QdunAzemD
+  SysFS ID: /devices/pci0000:00/0000:00:01.5
+  SysFS BusID: 0000:00:01.5
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d2 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D2sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 0f.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: uc1p.6bZSiWSUieF
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: network
+  Model: "nVidia MCP73 Ethernet"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07dc "MCP73 Ethernet"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s15
+  Memory Range: 0xfea77000-0xfea77fff (rw,non-prefetchable)
+  I/O Ports: 0xc880-0xc887 (rw)
+  Memory Range: 0xfea7e800-0xfea7e8ff (rw,non-prefetchable)
+  Memory Range: 0xfea7e400-0xfea7e40f (rw,non-prefetchable)
+  IRQ: 27 (197042 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v000010DEd000007DCsv00001025sd00000137bc02sc00i00"
+  Driver Info #0:
+    Driver Status: forcedeth is active
+    Driver Activation Cmd: "modprobe forcedeth"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 03.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: nKpy.5_0tFjL7L1F
+  SysFS ID: /devices/pci0000:00/0000:00:03.2
+  SysFS BusID: 0000:00:03.2
+  Hardware Class: unknown
+  Model: "nVidia MCP73 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d9 "MCP73 Memory Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D9sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.mlEeGscwmt7
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 Host Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07c2 "MCP73 Host Bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000007C2sv00001025sd00000137bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 106.0: 0401 Multimedia audio controller
+  [Created at pci.386]
+  Unique ID: zsAr.S9NnIoIZm17
+  Parent ID: bSAa.D_gmQlS73tA
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0/0000:01:06.0
+  SysFS BusID: 0000:01:06.0
+  Hardware Class: sound
+  Model: "Creative SB0280 Audigy 2 Platinum Ex"
+  Vendor: pci 0x1102 "Creative Labs"
+  Device: pci 0x0004 "EMU10k2/CA0100/CA0102/CA10200 [Sound Blaster Audigy Series]"
+  SubVendor: pci 0x1102 "Creative Labs"
+  SubDevice: pci 0x1005 "SB0280 Audigy 2 Platinum Ex"
+  Revision: 0x04
+  Driver: "snd_emu10k1"
+  Driver Modules: "snd_emu10k1"
+  I/O Ports: 0xec00-0xec3f (rw)
+  IRQ: 18 (42 events)
+  Module Alias: "pci:v00001102d00000004sv00001102sd00001005bc04sc01i00"
+  Driver Info #0:
+    Driver Status: snd_emu10k1 is active
+    Driver Activation Cmd: "modprobe snd_emu10k1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+20: PCI 01.3: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: VRCs.SFX7xexYb+C
+  SysFS ID: /devices/pci0000:00/0000:00:01.3
+  SysFS BusID: 0000:00:01.3
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d0 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D0sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 03.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: 3hqH.6gV472y+Xd5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 LPC Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d7 "MCP73 LPC Bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  I/O Ports: 0x4f00-0x4fff (rw)
+  Module Alias: "pci:v000010DEd000007D7sv00001025sd00000137bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 01.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: mnDB.QQedzVi8YEC
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07ce "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CEsv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 0b.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: gZD2.jCGyer9ErK7
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0
+  SysFS BusID: 0000:00:0b.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056e "MCP73 PCI Express bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v000010DEd0000056Esv00001025sd00000137bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 04.1: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: +6Nb.kFzvK+1cChC
+  SysFS ID: /devices/pci0000:00/0000:00:04.1
+  SysFS BusID: 0000:00:04.1
+  Hardware Class: usb controller
+  Model: "nVidia MCP73 [nForce 630i] USB 2.0 Controller (EHCI)"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056a "MCP73 [nForce 630i] USB 2.0 Controller (EHCI)"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "ehci-pci"
+  Memory Range: 0xfea7ec00-0xfea7ecff (rw,non-prefetchable)
+  IRQ: 22 (1207 events)
+  Module Alias: "pci:v000010DEd0000056Asv00001025sd00000137bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 09.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: WL76.gdqIr9SxRB4
+  SysFS ID: /devices/pci0000:00/0000:00:09.0
+  SysFS BusID: 0000:00:09.0
+  Hardware Class: sound
+  Model: "nVidia MCP73 High Definition Audio"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07fc "MCP73 High Definition Audio"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfea78000-0xfea7bfff (rw,non-prefetchable)
+  IRQ: 22 (1207 events)
+  Module Alias: "pci:v000010DEd000007FCsv00001025sd00000137bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 0e.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: vuMS.+ZWo_YRQKA9
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0
+  SysFS BusID: 0000:00:0e.0
+  Hardware Class: storage
+  Model: "nVidia MCP73 SATA Controller (IDE mode)"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07f0 "MCP73 SATA Controller (IDE mode)"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0xd480-0xd487 (rw)
+  I/O Ports: 0xd400-0xd403 (rw)
+  I/O Ports: 0xd080-0xd087 (rw)
+  I/O Ports: 0xd000-0xd003 (rw)
+  I/O Ports: 0xcc00-0xcc0f (rw)
+  Memory Range: 0xfea7c000-0xfea7dfff (rw,non-prefetchable)
+  IRQ: 20 (47417 events)
+  Module Alias: "pci:v000010DEd000007F0sv00001025sd00000137bc01sc01i85"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 02.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: _Znp.YkBdp3fnlIF
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d6 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D6sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 01.6: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 5QgM.+UMNNMIgA9E
+  SysFS ID: /devices/pci0000:00/0000:00:01.6
+  SysFS BusID: 0000:00:01.6
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d3 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D3sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 03.3: 0b40 Co-processor
+  [Created at pci.386]
+  Unique ID: ffIo.Detd4UsH+E7
+  SysFS ID: /devices/pci0000:00/0000:00:03.3
+  SysFS BusID: 0000:00:03.3
+  Hardware Class: unknown
+  Model: "nVidia MCP73 Co-processor"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07da "MCP73 Co-processor"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Memory Range: 0xfea80000-0xfeafffff (rw,non-prefetchable)
+  IRQ: 7 (no events)
+  Module Alias: "pci:v000010DEd000007DAsv00001025sd00000137bc0Bsc40i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 00.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: hgAj.O+AT4jn048F
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cb "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000007CBsv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 106.1: 0980 Input device controller
+  [Created at pci.386]
+  Unique ID: qBgg.wt1k4SJ8fu4
+  Parent ID: bSAa.D_gmQlS73tA
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0/0000:01:06.1
+  SysFS BusID: 0000:01:06.1
+  Hardware Class: unknown
+  Model: "Creative SB Audigy2 MIDI/Game Port"
+  Vendor: pci 0x1102 "Creative Labs"
+  Device: pci 0x7003 "SB Audigy Game Port"
+  SubVendor: pci 0x1102 "Creative Labs"
+  SubDevice: pci 0x0060 "SB Audigy2 MIDI/Game Port"
+  Revision: 0x04
+  Driver: "Emu10k1_gameport"
+  Driver Modules: "emu10k1_gp"
+  I/O Ports: 0xe880-0xe887 (rw)
+  Module Alias: "pci:v00001102d00007003sv00001102sd00000060bc09sc80i00"
+  Driver Info #0:
+    Driver Status: emu10k1_gp is active
+    Driver Activation Cmd: "modprobe emu10k1_gp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+32: PCI 0a.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: bSAa.D_gmQlS73tA
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0
+  SysFS BusID: 0000:00:0a.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056d "MCP73 PCI Express bridge"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd0000056Dsv00001025sd00000137bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 01.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: Mmhh.zfTtPD3G7OD
+  SysFS ID: /devices/pci0000:00/0000:00:01.4
+  SysFS BusID: 0000:00:01.4
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d1 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x0137 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D1sv00001025sd00000137bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.GjaL9rFy7pB
+  Parent ID: 37TO.DZns5D3zI8E
+  Hardware Class: monitor
+  Model: "EIZO EV2416W"
+  Vendor: ENC "EIZO"
+  Device: eisa 0x2388 "EV2416W"
+  Serial ID: --
+  Resolution: 640x480@60Hz
+  Resolution: 800x600@60Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1600x1200@60Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1280x960@60Hz
+  Resolution: 1920x1200@60Hz
+  Size: 519x324 mm
+  Year of Manufacture: 2016
+  Week of Manufacture: 20
+  Detailed Timings #0:
+     Resolution: 1920x1200
+     Horizontal: 1920 1968 2000 2080 (+48 +80 +160) -hsync
+       Vertical: 1200 1203 1209 1235 (+3 +9 +35) +vsync
+    Frequencies: 154.00 MHz, 74.04 kHz, 59.95 Hz
+  Driver Info #0:
+    Max. Resolution: 1920x1200
+    Vert. Sync Range: 59-61 Hz
+    Hor. Sync Range: 31-76 kHz
+    Bandwidth: 154 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (VGA compatible controller)
+
+35: SCSI 300.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KD9E.gP_2lQm0Xb5
+  Parent ID: vuMS.+ZWo_YRQKA9
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 3:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0e.0/ata4/host3/target3:0:0/3:0:0:0
+  Hardware Class: disk
+  Model: "ATAPI DVD A  DH16A6S"
+  Vendor: "ATAPI"
+  Device: "DVD A  DH16A6S"
+  Revision: "YA16"
+  Driver: "ahci", "sr"
+  Driver Modules: "ahci"
+  Device File: /dev/sr0 (/dev/sg0)
+  Device Number: block 11:0 (char 21:0)
+  BIOS id: 0x80
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (IDE interface)
+
+36: IDE 500.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.RgVGRfpu2SA
+  Parent ID: vuMS.+ZWo_YRQKA9
+  SysFS ID: /class/block/sda
+  SysFS BusID: 5:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0e.0/ata6/host5/target5:0:0/5:0:0:0
+  Hardware Class: disk
+  Model: "INTENSO SATA III"
+  Vendor: "INTENSO"
+  Device: "SATA III"
+  Revision: "61.2"
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  BIOS id: 0x81
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (IDE interface)
+
+37: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: +rmv.jANfq0hoNi2
+  Parent ID: pBe4.moLwSePIflE
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/usb2/2-5/2-5:1.0
+  SysFS BusID: 2-5:1.0
+  Hardware Class: mouse
+  Model: "IBM Red Wheel Mouse"
+  Hotplug: USB
+  Vendor: usb 0x04b3 "IBM Corp."
+  Device: usb 0x310b "Red Wheel Mouse"
+  Revision: "1.60"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04B3p310Bd0160dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (Hub)
+
+38: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: R_O4.CpYsQ9Gi5XB
+  Parent ID: pBe4.moLwSePIflE
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/usb2/2-6/2-6:1.0
+  SysFS BusID: 2-6:1.0
+  Hardware Class: keyboard
+  Model: "Dell USB Entry Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x2107 "Dell USB Entry Keyboard"
+  Revision: "1.78"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v413Cp2107d0178dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (Hub)
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.QtYiGM_hXFF
+  Parent ID: +6Nb.kFzvK+1cChC
+  SysFS ID: /devices/pci0000:00/0000:00:04.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.03"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0503dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (USB Controller)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.moLwSePIflE
+  Parent ID: 8otl.4LyC33TxwB5
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.03"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0503dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (USB Controller)
+
+41: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,cx16,xtpr,pdcm,sse4_1,xsave,lahf_lm,pti,tpr_shadow,vnmi,flexpriority,dtherm
+  Clock: 2950 MHz
+  BogoMips: 5999.69
+  Cache: 6144 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,cx16,xtpr,pdcm,sse4_1,xsave,lahf_lm,pti,tpr_shadow,vnmi,flexpriority,dtherm
+  Clock: 2975 MHz
+  BogoMips: 5999.69
+  Cache: 6144 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: hhrp.ndpeucax6V1
+  Parent ID: uc1p.6bZSiWSUieF
+  SysFS ID: /class/net/enp0s15
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s15
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (Ethernet controller)

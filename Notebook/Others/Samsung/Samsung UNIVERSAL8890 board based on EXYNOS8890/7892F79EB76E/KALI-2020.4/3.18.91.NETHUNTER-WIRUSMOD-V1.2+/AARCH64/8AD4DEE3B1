@@ -1,0 +1,478 @@
+09: PCI 00.0: 0280 Network controller
+  [Created at pci.386]
+  Unique ID: qLht.8yKYtt7U0c1
+  Parent ID: qZc7.VisNaQkP1a7
+  SysFS ID: /devices/15660000.pcie0/pci0000:ff/0000:ff:00.0/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: network
+  Model: "Broadcom Network controller"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x4415 
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x0751 
+  Revision: 0x09
+  Driver: "pcieh"
+  Memory Range: 0x1c200000-0x1c207fff (rw,non-prefetchable)
+  Memory Range: 0x1c400000-0x1c7fffff (rw,non-prefetchable)
+  IRQ: 236 (5922 events)
+  Module Alias: "pci:v000014E4d00004415sv000014E4sd00000751bc02sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (PCI bridge)
+
+10: PCI ff00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qZc7.VisNaQkP1a7
+  SysFS ID: /devices/15660000.pcie0/pci0000:ff/0000:ff:00.0
+  SysFS BusID: 0000:ff:00.0
+  Hardware Class: bridge
+  Model: "Samsung Electronics PCI bridge"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa544 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 3 (no events)
+  Module Alias: "pci:v0000144Dd0000A544sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: 1aQ9.Vu98QzaObUF
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "rt2800usb"
+  Device File: wlan1
+  Features: WLAN
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 36 38 40 42 44 46 48 52 54 56 58 60 62 64 100 102 104 106
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 2.484 5.18 5.19 5.2 5.21 5.22 5.23 5.24 5.26 5.27 5.28 5.29 5.3 5.31 5.32 5.5 5.51 5.52 5.53
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: _+w5.TAOITtdfnIE
+  SysFS ID: /devices/15400000.usb
+  SysFS BusID: 15400000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "exynos-dwc3"
+  Module Alias: "of:NusbT<NULL>Csamsung,exynos8890-dwusb3"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: gCAa._NN+DZ1HDn4
+  SysFS ID: /devices/15740000.dwmmc2/mmc_host/mmc0/mmc0:aaaa
+  SysFS BusID: mmc0:aaaa
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: R7kM.utXT87eH0gD
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/155a0000.ufs/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "SAMSUNG KLUBG4G1CE-B0B1"
+  Vendor: "SAMSUNG"
+  Device: "KLUBG4G1CE-B0B1"
+  Revision: "0009"
+  Driver: "exynos-ufs", "sd"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: SCSI 00.1: 10600 Disk
+  [Created at block.245]
+  Unique ID: uI_Q.utXT87eH0gD
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 0:0:0:1
+  SysFS Device Link: /devices/155a0000.ufs/host0/target0:0:0/0:0:0:1
+  Hardware Class: disk
+  Model: "SAMSUNG KLUBG4G1CE-B0B1"
+  Vendor: "SAMSUNG"
+  Device: "KLUBG4G1CE-B0B1"
+  Revision: "0009"
+  Driver: "exynos-ufs", "sd"
+  Device File: /dev/sdb
+  Device Number: block 8:16-8:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: SCSI 00.2: 10600 Disk
+  [Created at block.245]
+  Unique ID: LUEV.utXT87eH0gD
+  SysFS ID: /class/block/sdc
+  SysFS BusID: 0:0:0:2
+  SysFS Device Link: /devices/155a0000.ufs/host0/target0:0:0/0:0:0:2
+  Hardware Class: disk
+  Model: "SAMSUNG KLUBG4G1CE-B0B1"
+  Vendor: "SAMSUNG"
+  Device: "KLUBG4G1CE-B0B1"
+  Revision: "0009"
+  Driver: "exynos-ufs", "sd"
+  Device File: /dev/sdc
+  Device Number: block 8:32-8:47
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: SCSI 00.3: 10600 Disk
+  [Created at block.245]
+  Unique ID: ofUZ.utXT87eH0gD
+  SysFS ID: /class/block/sdd
+  SysFS BusID: 0:0:0:3
+  SysFS Device Link: /devices/155a0000.ufs/host0/target0:0:0/0:0:0:3
+  Hardware Class: disk
+  Model: "SAMSUNG KLUBG4G1CE-B0B1"
+  Vendor: "SAMSUNG"
+  Device: "KLUBG4G1CE-B0B1"
+  Revision: "0009"
+  Driver: "exynos-ufs", "sd"
+  Device File: /dev/sdd
+  Device Number: block 8:48-8:63
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: gCAa._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/15740000.dwmmc2/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_exynos", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:7
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (MMC Controller)
+
+19: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: lfzD.2IcWyDScHM3
+  Parent ID: ADDn.IazJ0es_4D2
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: unknown
+  Model: "Realtek 802.11ac NIC"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0xb812 "802.11ac NIC"
+  Revision: "2.10"
+  Serial ID: --
+  Speed: 12 Mbps
+  Module Alias: "usb:v0BDApB812d0210dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Hub)
+
+20: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: BobO.t9Fgrv2huID
+  Parent ID: ADDn.IazJ0es_4D2
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: unknown
+  Model: "Ralink RT5572 Wireless Adapter"
+  Hotplug: USB
+  Vendor: usb 0x148f "Ralink Technology, Corp."
+  Device: usb 0x5572 "RT5572 Wireless Adapter"
+  Revision: "1.01"
+  Serial ID: --
+  Driver: "rt2800usb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v148Fp5572d0101dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Hub)
+
+21: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.A_PWDWWeNsC
+  Parent ID: _+w5.TAOITtdfnIE
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "3.18"
+  Serial ID: --
+  Driver: "hub"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0318dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (USB Controller)
+
+22: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.IazJ0es_4D2
+  Parent ID: k4bc.A_PWDWWeNsC
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Atmel 4-Port Hub"
+  Hotplug: USB
+  Vendor: usb 0x03eb "Atmel Corp."
+  Device: usb 0x0902 "4-Port Hub"
+  Revision: "1.00"
+  Driver: "hub"
+  Speed: 12 Mbps
+  Module Alias: "usb:v03EBp0902d0100dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (Hub)
+
+23: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.h_UV+svBUl7
+  Parent ID: _+w5.TAOITtdfnIE
+  SysFS ID: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "3.18"
+  Serial ID: --
+  Driver: "hub"
+  Module Alias: "usb:v1D6Bp0003d0318dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (USB Controller)
+
+24: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (53)"
+  Model: 1.1.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (53)"
+  Model: 1.1.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: o9EA.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ram
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 01.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: djUx.QXn1l67RSa1
+  Parent ID: 1aQ9.Vu98QzaObUF
+  SysFS ID: /class/net/wlan1
+  SysFS Device Link: /devices/15400000.usb/15400000.dwc3/xhci-hcd.2.auto/usb1/1-1/1-1.2/1-1.2:1.0
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "rt2800usb"
+  Device File: wlan1
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (WLAN controller)
+
+32: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  SysFS ID: /class/net/wlan0
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "wl"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: h3uz.GSopYcFr9cF
+  SysFS ID: /class/net/umts_dm0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: umts_dm0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pG9W.ndpeucax6V1
+  SysFS ID: /class/net/p2p0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "p2p"
+  Device File: p2p0
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 01.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: gaPZ.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet1
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet1
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: DP9V.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 07.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: ewrN.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet7
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet7
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 05.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: VIQq.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet5
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet5
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 06.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: yTgu.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet6
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet6
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 04.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: 27Am.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet4
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 02.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: 7mfd.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet2
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 03.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: bxvh.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet3
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: rmnet3
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: HtAv.GSopYcFr9cF
+  SysFS ID: /class/net/ip6tnl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6tnl0
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

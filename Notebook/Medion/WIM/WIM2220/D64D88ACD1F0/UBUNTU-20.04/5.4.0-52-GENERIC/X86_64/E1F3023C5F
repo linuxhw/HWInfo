@@ -1,0 +1,886 @@
+05: PCI 1f.2: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: w7Y8.v_6qgft78a1
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2829 "82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0x18d8-0x18df (rw)
+  I/O Ports: 0x18cc-0x18cf (rw)
+  I/O Ports: 0x18d0-0x18d7 (rw)
+  I/O Ports: 0x18c8-0x18cb (rw)
+  I/O Ports: 0x18e0-0x18ff (rw)
+  Memory Range: 0xfa204000-0xfa2047ff (rw,non-prefetchable)
+  IRQ: 30 (141267 events)
+  Module Alias: "pci:v00008086d00002829sv000017C0sd00004083bc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: z8Q3.HwPu1UtOnO3
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x283f "82801H (ICH8 Family) PCI Express Port 1"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00008086d0000283Fsv000017C0sd00004083bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 1a.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: gFpy.iTsAZCDZS13
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1
+  SysFS BusID: 0000:00:1a.1
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2835 "82801H (ICH8 Family) USB UHCI Controller #5"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1820-0x183f (rw)
+  IRQ: 21 (160082 events)
+  Module Alias: "pci:v00008086d00002835sv000017C0sd00004083bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.4uRIaqiAYn0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2815 "82801HM (ICH8M) LPC Interface Controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00002815sv000017C0sd00004083bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 200.0: 0180 Storage controller
+  [Created at pci.386]
+  Unique ID: B35A.BIR6S2Liel2
+  Parent ID: z8Q3.HwPu1UtOnO3
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: storage
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x1095 "Silicon Image, Inc."
+  Device: pci 0x3531 "SiI 3531 [SATALink/SATARaid] Serial ATA Controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x01
+  Driver: "sata_sil24"
+  Driver Modules: "sata_sil24"
+  Memory Range: 0xf6000000-0xf600007f (rw,non-prefetchable)
+  Memory Range: 0xf4000000-0xf4001fff (rw,non-prefetchable)
+  I/O Ports: 0x3000-0x307f (rw)
+  IRQ: 16 (25 events)
+  Module Alias: "pci:v00001095d00003531sv000017C0sd00004083bc01sc80i00"
+  Driver Info #0:
+    Driver Status: sata_sil24 is active
+    Driver Activation Cmd: "modprobe sata_sil24"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (PCI bridge)
+
+10: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.ZZ+RM1W5Xt3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Intel Mobile PM965/GM965/GL960 PCI Express Root Port"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2a01 "Mobile PM965/GM965/GL960 PCI Express Root Port"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4082 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00008086d00002A01sv000017C0sd00004082bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 1d.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: vayM.ep4BewkkLV1
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1
+  SysFS BusID: 0000:00:1d.1
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2831 "82801H (ICH8 Family) USB UHCI Controller #2"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1860-0x187f (rw)
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d00002831sv000017C0sd00004083bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: VCu0.1yC9GwgPA1B
+  Parent ID: vSkL.ZZ+RM1W5Xt3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "nVidia G86M [GeForce 9300M G]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x042e "G86M [GeForce 9300M G]"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x208a 
+  Revision: 0xa1
+  Driver: "nvidia"
+  Driver Modules: "nvidia"
+  Memory Range: 0xc6000000-0xc6ffffff (rw,non-prefetchable)
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  Memory Range: 0xc4000000-0xc5ffffff (rw,non-prefetchable)
+  I/O Ports: 0x2000-0x207f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 33 (121821 events)
+  Module Alias: "pci:v000010DEd0000042Esv000017C0sd0000208Abc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is not active
+    Driver Activation Cmd: "modprobe nouveau"
+  Driver Info #2:
+    Driver Status: nvidia is active
+    Driver Activation Cmd: "modprobe nvidia"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (PCI bridge)
+
+13: PCI 1b.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: u1Nb.yxMCD9zgGiF
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel 82801H (ICH8 Family) HD Audio Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x284b "82801H (ICH8 Family) HD Audio Controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4085 
+  Revision: 0x04
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfa200000-0xfa203fff (rw,non-prefetchable)
+  IRQ: 32 (818 events)
+  Module Alias: "pci:v00008086d0000284Bsv000017C0sd00004085bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI a00.0: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: wVKk.AI5DsHTk+F7
+  Parent ID: Z7uZ.NP4Owuadxh5
+  SysFS ID: /devices/pci0000:00/0000:00:1c.3/0000:0a:00.0
+  SysFS BusID: 0000:0a:00.0
+  Hardware Class: network
+  Model: "Intel PRO/Wireless 4965 AG or AGN"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4229 "PRO/Wireless 4965 AG or AGN [Kedron] Network Connection"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x1101 "PRO/Wireless 4965 AG or AGN"
+  Revision: 0x61
+  Driver: "iwl4965"
+  Driver Modules: "iwl4965"
+  Device File: wlp10s0
+  Features: WLAN
+  Memory Range: 0xc2000000-0xc2001fff (rw,non-prefetchable)
+  IRQ: 31 (no events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62 5.64 5.66 5.68 5.7
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v00008086d00004229sv00008086sd00001101bc02sc80i00"
+  Driver Info #0:
+    Driver Status: iwl4965 is active
+    Driver Activation Cmd: "modprobe iwl4965"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (PCI bridge)
+
+15: PCI 1c.3: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: Z7uZ.NP4Owuadxh5
+  SysFS ID: /devices/pci0000:00/0000:00:1c.3
+  SysFS BusID: 0000:00:1c.3
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2845 "82801H (ICH8 Family) PCI Express Port 4"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "pcieport"
+  IRQ: 28 (no events)
+  Module Alias: "pci:v00008086d00002845sv000017C0sd00004083bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 1e.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: 6NW+.7ESJgAwkLT8
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0
+  SysFS BusID: 0000:00:1e.0
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2448 "82801 Mobile PCI Bridge"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0xf4
+  Module Alias: "pci:v00008086d00002448sv000017C0sd00004083bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 1f.3: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: nS1_.NdELPqdEcI3
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x283e "82801H (ICH8 Family) SMBus Controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0xc2800000-0xc28000ff (rw,non-prefetchable)
+  I/O Ports: 0x1c00-0x1c1f (rw)
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d0000283Esv000017C0sd00004083bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht._IIsqLNAB07
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2a00 "Mobile PM965/GM965/GL960 Memory Controller Hub"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4082 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x03
+  Module Alias: "pci:v00008086d00002A00sv000017C0sd00004082bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 1c.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qTvu.JlIO+c6pq94
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1
+  SysFS BusID: 0000:00:1c.1
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2841 "82801H (ICH8 Family) PCI Express Port 2"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v00008086d00002841sv000017C0sd00004083bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 600.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: 4Nnf.Kj1EkInWL62
+  Parent ID: qTvu.JlIO+c6pq94
+  SysFS ID: /devices/pci0000:00/0000:00:1c.1/0000:06:00.0
+  SysFS BusID: 0000:06:00.0
+  Hardware Class: network
+  Model: "Wistron RTL8101e Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8136 "RTL810xE PCI Express Fast Ethernet controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x1053 "RTL8101e Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x01
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp6s0
+  I/O Ports: 0x4000-0x40ff (rw)
+  Memory Range: 0xf8000000-0xf8000fff (rw,non-prefetchable)
+  Memory Range: 0xf8020000-0xf803ffff (ro,non-prefetchable,disabled)
+  IRQ: 17 (85593 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008136sv000017C0sd00001053bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (PCI bridge)
+
+21: PCI 1f.1: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: 3p2J.apMK4zz+y52
+  SysFS ID: /devices/pci0000:00/0000:00:1f.1
+  SysFS BusID: 0000:00:1f.1
+  Hardware Class: storage
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2850 "82801HM/HEM (ICH8M/ICH8M-E) IDE Controller"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0x18a0-0x18af (rw)
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d00002850sv000017C0sd00004083bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 1d.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: mvRC.9E1x6VsRtt1
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2
+  SysFS BusID: 0000:00:1d.2
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2832 "82801H (ICH8 Family) USB UHCI Controller #3"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1880-0x189f (rw)
+  IRQ: 18 (125 events)
+  Module Alias: "pci:v00008086d00002832sv000017C0sd00004083bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1a.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: pwJ7.B3wQ4e5swe2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2834 "82801H (ICH8 Family) USB UHCI Controller #4"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1800-0x181f (rw)
+  IRQ: 16 (25 events)
+  Module Alias: "pci:v00008086d00002834sv000017C0sd00004083bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 1d.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 1GTX.7P8R9Md1q61
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2830 "82801H (ICH8 Family) USB UHCI Controller #1"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x1840-0x185f (rw)
+  IRQ: 23 (32721 events)
+  Module Alias: "pci:v00008086d00002830sv000017C0sd00004083bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 1a.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: sClz.nYA6F3e3dM8
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7
+  SysFS BusID: 0000:00:1a.7
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x283a "82801H (ICH8 Family) USB2 EHCI Controller #2"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "ehci-pci"
+  Memory Range: 0xfa204800-0xfa204bff (rw,non-prefetchable)
+  IRQ: 18 (125 events)
+  Module Alias: "pci:v00008086d0000283Asv000017C0sd00004083bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 1c.4: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: QSNP.PEztt1q1+S6
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4
+  SysFS BusID: 0000:00:1c.4
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2847 "82801H (ICH8 Family) PCI Express Port 5"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "pcieport"
+  IRQ: 29 (no events)
+  Module Alias: "pci:v00008086d00002847sv000017C0sd00004083bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1d.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 5YuN.juO6Krp0WF8
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7
+  SysFS BusID: 0000:00:1d.7
+  Hardware Class: usb controller
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2836 "82801H (ICH8 Family) USB2 EHCI Controller #1"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "ehci-pci"
+  Memory Range: 0xfa204c00-0xfa204fff (rw,non-prefetchable)
+  IRQ: 23 (32721 events)
+  Module Alias: "pci:v00008086d00002836sv000017C0sd00004083bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 1c.2: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: hoOk.LaBuylLDuw4
+  SysFS ID: /devices/pci0000:00/0000:00:1c.2
+  SysFS BusID: 0000:00:1c.2
+  Hardware Class: bridge
+  Model: "Wistron Medion WIM 2210 Notebook PC [MD96850]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2843 "82801H (ICH8 Family) PCI Express Port 3"
+  SubVendor: pci 0x17c0 "Wistron Corp."
+  SubDevice: pci 0x4083 "Medion WIM 2210 Notebook PC [MD96850]"
+  Revision: 0x04
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00008086d00002843sv000017C0sd00004083bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: IDE 300.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.Hw7AMg2_n8C
+  Parent ID: w7Y8.v_6qgft78a1
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 3:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata4/host3/target3:0:0/3:0:0:0
+  Hardware Class: disk
+  Model: "KINGSTON SH103S3"
+  Vendor: "KINGSTON"
+  Device: "SH103S3"
+  Revision: "BBF0"
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sdb
+  Device Number: block 8:16-8:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (SATA controller)
+
+30: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KD9E.OWsa3WAipEB
+  Parent ID: 3p2J.apMK4zz+y52
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.1/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "HL-DT-ST DVDRAM GSA-T40N"
+  Vendor: "HL-DT-ST"
+  Device: "DVDRAM GSA-T40N"
+  Revision: "JQ01"
+  Driver: "ata_piix", "sr"
+  Driver Modules: "ata_piix"
+  Device File: /dev/sr0 (/dev/sg0)
+  Device Number: block 11:0 (char 21:0)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (IDE interface)
+
+31: SCSI 600.0: 10600 Disk
+  [Created at block.256]
+  Unique ID: R7kM.ZiH4cwUk08E
+  Parent ID: 5YuN.juO6Krp0WF8
+  SysFS ID: /class/block/sda
+  SysFS BusID: 6:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1d.7/usb2/2-4/2-4:1.0/host6/target6:0:0/6:0:0:0
+  Hardware Class: disk
+  Model: "Generic Multi-Card"
+  Vendor: "Generic-"
+  Device: "Multi-Card"
+  Revision: "1.00"
+  Driver: "ums-realtek", "sd"
+  Driver Modules: "ums_realtek"
+  Device File: /dev/sda (/dev/sg1)
+  Device Number: block 8:0-8:15 (char 21:1)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+32: USB 00.0: 10600 Disk
+  [Created at usb.122]
+  Unique ID: Zj8l.tEwsfsN5uV5
+  Parent ID: pBe4.9T1GDCLyFd9
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb2/2-4/2-4:1.0
+  SysFS BusID: 2-4:1.0
+  Hardware Class: disk
+  Model: "Realtek USB 2.0 multicard reader"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0x0158 "USB 2.0 multicard reader"
+  Revision: "51.95"
+  Serial ID: --
+  Driver: "ums-realtek"
+  Driver Modules: "ums_realtek"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDAp0158d5195dc00dsc00dp00ic08isc06ip50in00"
+  Driver Info #0:
+    Driver Status: ums_realtek is active
+    Driver Activation Cmd: "modprobe ums_realtek"
+  Driver Info #1:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Driver Info #2:
+    Driver Status: usb_storage is active
+    Driver Activation Cmd: "modprobe usb_storage"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (Hub)
+
+33: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.gkSaZmjGyhD
+  Parent ID: vayM.ep4BewkkLV1
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (USB Controller)
+
+34: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.MxUuepIFPaE
+  Parent ID: pwJ7.B3wQ4e5swe2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (USB Controller)
+
+35: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: BSFT.RTX9xWW_uz4
+  Parent ID: mvRC.9E1x6VsRtt1
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2/usb7/7-0:1.0
+  SysFS BusID: 7-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+36: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: dOTr.pt6GSBSC9iA
+  Parent ID: k4bc.cO89g+iefn1
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7/usb1/1-1/1-1:1.1
+  SysFS BusID: 1-1:1.1
+  Hardware Class: unknown
+  Model: "Suyin Acer/HP Integrated Webcam [CN0314]"
+  Hotplug: USB
+  Vendor: usb 0x064e "Suyin Corp."
+  Device: usb 0xa103 "Acer/HP Integrated Webcam [CN0314]"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "uvcvideo"
+  Driver Modules: "uvcvideo"
+  Speed: 480 Mbps
+  Module Alias: "usb:v064EpA103d0100dcEFdsc02dp01ic0Eisc02ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (Hub)
+
+37: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.7gZT0a5zLs5
+  Parent ID: gFpy.iTsAZCDZS13
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.cO89g+iefn1
+  Parent ID: sClz.nYA6F3e3dM8
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (USB Controller)
+
+39: USB 00.0: 11600 Fingerprint Reader
+  [Created at usb.122]
+  Unique ID: mZxt.olC6j2HWhg6
+  Parent ID: uIhY.MxUuepIFPaE
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb3/3-2/3-2:1.0
+  SysFS BusID: 3-2:1.0
+  Model: "AuthenTec AES1600"
+  Hotplug: USB
+  Vendor: usb 0x08ff "AuthenTec, Inc."
+  Device: usb 0x1600 "AES1600"
+  Revision: "c.10"
+  Speed: 12 Mbps
+  Module Alias: "usb:v08FFp1600d0C10dcFFdscFFdpFFicFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (Hub)
+
+40: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: PYMB.ZqT2h3riW55
+  Parent ID: zPk0.7gZT0a5zLs5
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1/usb4/4-1/4-1:1.0
+  SysFS BusID: 4-1:1.0
+  Hardware Class: mouse
+  Model: "Logitech Corded Tilt-Wheel Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc040 "Corded Tilt-Wheel Mouse"
+  Revision: "24.10"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse2)
+  Device Number: char 13:63 (char 13:34)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC040d2410dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (Hub)
+
+41: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.v+N+B0xY+P6
+  Parent ID: 1GTX.7P8R9Md1q61
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (USB Controller)
+
+43: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.9T1GDCLyFd9
+  Parent ID: 5YuN.juO6Krp0WF8
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+44: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.13 "Intel(R) Core(TM)2 Duo CPU     T5750  @ 2.00GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,dtherm
+  Clock: 1894 MHz
+  BogoMips: 3990.57
+  Cache: 2048 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.13 "Intel(R) Core(TM)2 Duo CPU     T5750  @ 2.00GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,dtherm
+  Clock: 1887 MHz
+  BogoMips: 3990.57
+  Cache: 2048 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: l02Y.ndpeucax6V1
+  Parent ID: 4Nnf.Kj1EkInWL62
+  SysFS ID: /class/net/enp6s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.1/0000:06:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp6s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Ethernet controller)
+
+47: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ia8l.ndpeucax6V1
+  Parent ID: wVKk.AI5DsHTk+F7
+  SysFS ID: /class/net/wlp10s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.3/0000:0a:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "iwl4965"
+  Driver Modules: "iwl4965"
+  Device File: wlp10s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (WLAN controller)
+
+48: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

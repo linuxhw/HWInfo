@@ -1,0 +1,784 @@
+11: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.htqiG6eBvt6
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "ATI RC410 Host Bridge"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x5a31 "RC410 Host Bridge"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x01
+  Module Alias: "pci:v00001002d00005A31sv00001179sd00000001bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 600.2: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: d7tP.TVfmKHyN1CC
+  Parent ID: tlG6.YmyOy7v6827
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.2
+  SysFS BusID: 0000:06:00.2
+  Hardware Class: usb controller
+  Model: "NEC uPD72010x USB 2.0 Controller"
+  Vendor: pci 0x1033 "NEC Corporation"
+  Device: pci 0x00e0 "uPD72010x USB 2.0 Controller"
+  SubVendor: pci 0x1033 "NEC Corporation"
+  SubDevice: pci 0x00e0 
+  Revision: 0x04
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0x8c002000-0x8c0020ff (rw,non-prefetchable)
+  IRQ: 22 (41647 events)
+  Module Alias: "pci:v00001033d000000E0sv00001033sd000000E0bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (CardBus bridge)
+
+13: PCI 406.1: 0607 CardBus bridge
+  [Created at pci.386]
+  Unique ID: tlG6.YmyOy7v6827
+  Parent ID: qscc.hV5J61pTkh5
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1
+  SysFS BusID: 0000:04:06.1
+  Hardware Class: bridge
+  Model: "Texas Instruments PCI1520 PC card Cardbus Controller"
+  Vendor: pci 0x104c "Texas Instruments"
+  Device: pci 0xac55 "PCI1520 PC card Cardbus Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x01
+  Driver: "yenta_cardbus"
+  Driver Modules: "yenta_socket"
+  Memory Range: 0x88000000-0x88000fff (rw,non-prefetchable)
+  IRQ: 22 (41647 events)
+  Module Alias: "pci:v0000104Cd0000AC55sv00001179sd00000001bc06sc07i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (PCI bridge)
+
+14: PCI 12.0: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: CLZK.EiBlzqLg9n8
+  SysFS ID: /devices/pci0000:00/0000:00:12.0
+  SysFS BusID: 0000:00:12.0
+  Hardware Class: storage
+  Model: "ATI IXP SB4x0 Serial ATA Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4379 "IXP SB4x0 Serial ATA Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Driver: "sata_sil"
+  Driver Modules: "sata_sil"
+  I/O Ports: 0xaff8-0xafff (rw)
+  I/O Ports: 0xaff4-0xaff7 (rw)
+  I/O Ports: 0xafe8-0xafef (rw)
+  I/O Ports: 0xafe4-0xafe7 (rw)
+  I/O Ports: 0xafa0-0xafaf (rw)
+  Memory Range: 0xffaffe00-0xffafffff (rw,non-prefetchable)
+  Memory Range: 0xffa00000-0xffa7ffff (ro,non-prefetchable,disabled)
+  IRQ: 22 (41647 events)
+  Module Alias: "pci:v00001002d00004379sv00001179sd00000001bc01sc01i8F"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 600.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: vTuk.ax+VlSzjMND
+  Parent ID: tlG6.YmyOy7v6827
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.0
+  SysFS BusID: 0000:06:00.0
+  Hardware Class: usb controller
+  Model: "NEC OHCI USB Controller"
+  Vendor: pci 0x1033 "NEC Corporation"
+  Device: pci 0x0035 "OHCI USB Controller"
+  SubVendor: pci 0x1033 "NEC Corporation"
+  SubDevice: pci 0x1033 
+  Revision: 0x43
+  Driver: "ohci-pci"
+  Driver Modules: "ohci_pci"
+  Memory Range: 0x8c000000-0x8c000fff (rw,non-prefetchable)
+  IRQ: 22 (41647 events)
+  Module Alias: "pci:v00001033d00000035sv00001033sd00001033bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (CardBus bridge)
+
+16: PCI 06.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: H0_h.roqi7EOaIa0
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: bridge
+  Model: "ATI RC4xx/RS4xx PCI Express Port 3"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x5a38 "RC4xx/RS4xx PCI Express Port 3"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Driver: "pcieport"
+  Module Alias: "pci:v00001002d00005A38sv00001179sd00000001bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 13.1: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: 9n5e.OyN4MOs1ycD
+  SysFS ID: /devices/pci0000:00/0000:00:13.1
+  SysFS BusID: 0000:00:13.1
+  Hardware Class: usb controller
+  Model: "ATI IXP SB4x0 USB Host Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4375 "IXP SB4x0 USB Host Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Driver: "ohci-pci"
+  Driver Modules: "ohci_pci"
+  Memory Range: 0xffafd000-0xffafdfff (rw,non-prefetchable)
+  IRQ: 19 (18411 events)
+  Module Alias: "pci:v00001002d00004375sv00001179sd00000001bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 14.4: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: qscc.hV5J61pTkh5
+  SysFS ID: /devices/pci0000:00/0000:00:14.4
+  SysFS BusID: 0000:00:14.4
+  Hardware Class: bridge
+  Model: "ATI IXP SB4x0 PCI-PCI Bridge"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4371 "IXP SB4x0 PCI-PCI Bridge"
+  Revision: 0x80
+  Module Alias: "pci:v00001002d00004371sv00000000sd00000000bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 105.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: ul7N.vWe0q+zd9o1
+  Parent ID: vSkL.SiRyUDDW_F3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:05.0
+  SysFS BusID: 0000:01:05.0
+  Hardware Class: graphics card
+  Model: "ATI Radeon XPRESS 200M 5A62 (PCIE)"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x5a62 "Radeon XPRESS 200M 5A62 (PCIE)"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0002 
+  Driver: "radeon"
+  Driver Modules: "radeon"
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  I/O Ports: 0xce00-0xceff (rw)
+  Memory Range: 0xffdf0000-0xffdfffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 17 (24704 events)
+  I/O Port: 0x00 (rw)
+  Module Alias: "pci:v00001002d00005A62sv00001179sd00000002bc03sc00i00"
+  Driver Info #0:
+    XFree86 v4 Server Module: radeon
+  Driver Info #1:
+    XFree86 v4 Server Module: fglrx
+    3D Support: yes
+    Extensions: dri
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (PCI bridge)
+
+20: PCI 14.2: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: 5Dex.dLYVM3tz8s2
+  SysFS ID: /devices/pci0000:00/0000:00:14.2
+  SysFS BusID: 0000:00:14.2
+  Hardware Class: sound
+  Model: "ATI IXP SB4x0 High Definition Audio Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x437b "IXP SB4x0 High Definition Audio Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x01
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xa8000000-0xa8003fff (rw,non-prefetchable)
+  IRQ: 25 (1384 events)
+  Module Alias: "pci:v00001002d0000437Bsv00001179sd00000001bc04sc03i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 14.0: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: MZfG.fmNKOVmP574
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: unknown
+  Model: "ATI IXP SB4x0 SMBus Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4372 "IXP SB4x0 SMBus Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x82
+  Driver: "piix4_smbus"
+  Driver Modules: "i2c_piix4"
+  I/O Ports: 0xd880-0xd88f (rw)
+  Memory Range: 0xa8004000-0xa80043ff (rw,non-prefetchable)
+  Module Alias: "pci:v00001002d00004372sv00001179sd00000001bc0Csc05i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 600.1: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: moNa.ax+VlSzjMND
+  Parent ID: tlG6.YmyOy7v6827
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.1
+  SysFS BusID: 0000:06:00.1
+  Hardware Class: usb controller
+  Model: "NEC OHCI USB Controller"
+  Vendor: pci 0x1033 "NEC Corporation"
+  Device: pci 0x0035 "OHCI USB Controller"
+  SubVendor: pci 0x1033 "NEC Corporation"
+  SubDevice: pci 0x1033 
+  Revision: 0x43
+  Driver: "ohci-pci"
+  Driver Modules: "ohci_pci"
+  Memory Range: 0x8c001000-0x8c001fff (rw,non-prefetchable)
+  IRQ: 22 (41647 events)
+  Module Alias: "pci:v00001033d00000035sv00001033sd00001033bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (CardBus bridge)
+
+23: PCI 406.0: 0607 CardBus bridge
+  [Created at pci.386]
+  Unique ID: +QnG.YmyOy7v6827
+  Parent ID: qscc.hV5J61pTkh5
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.0
+  SysFS BusID: 0000:04:06.0
+  Hardware Class: bridge
+  Model: "Texas Instruments PCI1520 PC card Cardbus Controller"
+  Vendor: pci 0x104c "Texas Instruments"
+  Device: pci 0xac55 "PCI1520 PC card Cardbus Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x01
+  Driver: "yenta_cardbus"
+  Driver Modules: "yenta_socket"
+  Memory Range: 0x80000000-0x80000fff (rw,non-prefetchable)
+  IRQ: 23 (1 event)
+  Module Alias: "pci:v0000104Cd0000AC55sv00001179sd00000001bc06sc07i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (PCI bridge)
+
+24: PCI 13.2: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 06bT.c7IgXlUnW+2
+  SysFS ID: /devices/pci0000:00/0000:00:13.2
+  SysFS BusID: 0000:00:13.2
+  Hardware Class: usb controller
+  Model: "ATI IXP SB4x0 USB2 Host Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4373 "IXP SB4x0 USB2 Host Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xffafc000-0xffafcfff (rw,non-prefetchable)
+  IRQ: 19 (18411 events)
+  Module Alias: "pci:v00001002d00004373sv00001179sd00000001bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.SiRyUDDW_F3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "ATI RC4xx/RS4xx PCI Bridge [int gfx]"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x5a3f "RC4xx/RS4xx PCI Bridge [int gfx]"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Module Alias: "pci:v00001002d00005A3Fsv00001179sd00000001bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 200.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: c3qJ.fDJwwtOIb5B
+  Parent ID: H0_h.roqi7EOaIa0
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Intel 82573L Gigabit Ethernet Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x109a "82573L Gigabit Ethernet Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp2s0
+  Memory Range: 0xffce0000-0xffcfffff (rw,non-prefetchable)
+  I/O Ports: 0xbfe0-0xbfff (rw)
+  IRQ: 24 (9219 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d0000109Asv00001179sd00000001bc02sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (PCI bridge)
+
+27: PCI 13.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: HSco.tXRKtpkKQED
+  SysFS ID: /devices/pci0000:00/0000:00:13.0
+  SysFS BusID: 0000:00:13.0
+  Hardware Class: usb controller
+  Model: "ATI IXP SB4x0 USB Host Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4374 "IXP SB4x0 USB Host Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Driver: "ohci-pci"
+  Driver Modules: "ohci_pci"
+  Memory Range: 0xffafe000-0xffafefff (rw,non-prefetchable)
+  IRQ: 19 (18411 events)
+  Module Alias: "pci:v00001002d00004374sv00001179sd00000001bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 14.3: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: yX7n.2SGaZiRT2t6
+  SysFS ID: /devices/pci0000:00/0000:00:14.3
+  SysFS BusID: 0000:00:14.3
+  Hardware Class: bridge
+  Model: "ATI IXP SB4x0 PCI-ISA Bridge"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4377 "IXP SB4x0 PCI-ISA Bridge"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Module Alias: "pci:v00001002d00004377sv00001179sd00000001bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 07.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: M71A.MDnScoVHqy0
+  SysFS ID: /devices/pci0000:00/0000:00:07.0
+  SysFS BusID: 0000:00:07.0
+  Hardware Class: bridge
+  Model: "ATI RC4xx/RS4xx PCI Express Port 4"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x5a39 "RC4xx/RS4xx PCI Express Port 4"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Driver: "pcieport"
+  Module Alias: "pci:v00001002d00005A39sv00001179sd00000001bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 14.1: 0101 IDE interface (ISA Compatibility mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: Eu86.Sewze5SKQHE
+  SysFS ID: /devices/pci0000:00/0000:00:14.1
+  SysFS BusID: 0000:00:14.1
+  Hardware Class: storage
+  Model: "ATI IXP SB4x0 IDE Controller"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4376 "IXP SB4x0 IDE Controller"
+  SubVendor: pci 0x1179 "Toshiba Corporation"
+  SubDevice: pci 0x0001 
+  Revision: 0x80
+  Driver: "pata_atiixp"
+  Driver Modules: "pata_atiixp"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xaf70-0xaf7f (rw)
+  IRQ: 16 (no events)
+  Module Alias: "pci:v00001002d00004376sv00001179sd00000001bc01sc01i80"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: z9pp.gNN83gfynbD
+  SysFS ID: /devices/pnp0/00:00
+  SysFS BusID: 00:00
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c01 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: H20r.BLEg2XC4+V0
+  SysFS ID: /devices/pnp0/00:09
+  SysFS BusID: 00:09
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: IFX 
+  SubDevice: eisa 0x0102 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: NhVi.BuKI+1soRmD
+  SysFS ID: /devices/pnp0/00:07
+  SysFS BusID: 00:07
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0501 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: E349.B+yZ9Ve8gC1
+  SysFS ID: /devices/pnp0/00:05
+  SysFS BusID: 00:05
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c02 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: KiZ0.t7Yh1tpgb13
+  SysFS ID: /devices/pnp0/00:03
+  SysFS BusID: 00:03
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0f13 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: QL3u.B+yZ9Ve8gC1
+  SysFS ID: /devices/pnp0/00:01
+  SysFS BusID: 00:01
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c02 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: qslm.YgT1Hy0M6x6
+  SysFS ID: /devices/pnp0/00:08
+  SysFS BusID: 00:08
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0401 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: hEKD.yhTOLOXWEq7
+  SysFS ID: /devices/pnp0/00:06
+  SysFS BusID: 00:06
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0700 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: ntp4.WYwRElrJa93
+  SysFS ID: /devices/pnp0/00:04
+  SysFS BusID: 00:04
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0b00 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: tWJy.xhndlW9HXJ7
+  SysFS ID: /devices/pnp0/00:02
+  SysFS BusID: 00:02
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0303 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kwWm.Fxp0d3BezAE
+  SysFS ID: /class/block/fd0
+  SysFS BusID: floppy.0
+  SysFS Device Link: /devices/platform/floppy.0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "floppy"
+  Driver Modules: "floppy"
+  Device File: /dev/fd0
+  Device Number: block 2:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.CL_V_i0xbU0
+  Parent ID: CLZK.EiBlzqLg9n8
+  SysFS ID: /class/block/sda
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:12.0/ata3/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD2500BEVT-7"
+  Vendor: "WDC"
+  Device: "WD2500BEVT-7"
+  Revision: "1A11"
+  Driver: "sata_sil", "sd"
+  Driver Modules: "sata_sil", "sd_mod"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (IDE interface)
+
+44: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.PaupGMfzSp8
+  Parent ID: 9n5e.OyN4MOs1ycD
+  SysFS ID: /devices/pci0000:00/0000:00:13.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (USB Controller)
+
+45: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.zU9iORWHvD8
+  Parent ID: d7tP.TVfmKHyN1CC
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.2/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (USB Controller)
+
+46: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.3f5c44ENLJ9
+  Parent ID: 06bT.c7IgXlUnW+2
+  SysFS ID: /devices/pci0000:00/0000:00:13.2/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (USB Controller)
+
+47: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.YhtKDz8A4S0
+  Parent ID: vTuk.ax+VlSzjMND
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.0/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+48: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: mZxt.ZUynZXfyJDE
+  Parent ID: uIhY.PaupGMfzSp8
+  SysFS ID: /devices/pci0000:00/0000:00:13.1/usb3/3-2/3-2:1.0
+  SysFS BusID: 3-2:1.0
+  Hardware Class: mouse
+  Model: "LANEED Black Grast Laser Mouse"
+  Hotplug: USB
+  Vendor: usb 0x056e "LANEED"
+  Device: usb 0x0054 "Black Grast Laser Mouse"
+  Revision: "0.02"
+  Compatible to: int 0x0210 0x0013
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event5
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v056Ep0054d0002dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 1
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Hub)
+
+49: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.erpEvbsFWX1
+  Parent ID: HSco.tXRKtpkKQED
+  SysFS ID: /devices/pci0000:00/0000:00:13.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+50: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.JQyvajxt0k7
+  Parent ID: moNa.ax+VlSzjMND
+  SysFS ID: /devices/pci0000:00/0000:00:14.4/0000:04:06.1/0000:06:00.1/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+51: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: YYjj.CbQnih9J7x1
+  Hardware Class: keyboard
+  Model: "BRLTTY 5.6 Linux Screen Driver Keyboard"
+  Device: "BRLTTY 5.6 Linux Screen Driver Keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event12
+  Device Number: char 13:76
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+53: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: Intel
+  Vendor: "GenuineIntel"
+  Model: 6.14.8 "Genuine Intel(R) CPU           T2300  @ 1.66GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,nx,constant_tsc,arch_perfmon,bts,cpuid,aperfmperf,pni,monitor,vmx,est,tm2,xtpr,pdcm,dtherm
+  Clock: 1619 MHz
+  BogoMips: 3324.98
+  Cache: 2048 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: Intel
+  Vendor: "GenuineIntel"
+  Model: 6.14.8 "Genuine Intel(R) CPU           T2300  @ 1.66GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,nx,constant_tsc,arch_perfmon,bts,cpuid,aperfmperf,pni,monitor,vmx,est,tm2,xtpr,pdcm,dtherm
+  Clock: 1653 MHz
+  BogoMips: 3324.98
+  Cache: 2048 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Ij4C.ndpeucax6V1
+  Parent ID: c3qJ.fDJwwtOIb5B
+  SysFS ID: /class/net/enp2s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:06.0/0000:02:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp2s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (Ethernet controller)
+
+56: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

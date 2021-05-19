@@ -1,0 +1,287 @@
+06: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: tgiO.TAOITtdfnIE
+  SysFS ID: /devices/soc0/7d000000.usb
+  SysFS BusID: 7d000000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "tegra-ehci"
+  Module Alias: "of:NusbT(null)Cnvidia,tegra30-ehciCusb-ehci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: jKk4.TzQFl_vZhO4
+  SysFS ID: /devices/soc0/78000600.mmc/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: jKk4.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: mmc1:0001
+  SysFS Device Link: /devices/soc0/78000600.mmc/mmc_host/mmc1/mmc1:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-tegra", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Files: /dev/mmcblk1, /dev/disk/by-id/mmc-MBG4GA_0xf110e58c, /dev/disk/by-path/platform-78000600.mmc
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 954240/4/16
+  Size: 61071360 sectors a 512 bytes
+  Capacity: 29 GB (31268536320 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+09: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: BobO.t0k+KVz15z0
+  Parent ID: tgiO.TAOITtdfnIE
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/soc0/7d000000.usb/usb1/1-1/1-1.2/1-1.2:1.0/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "Generic Flash Disk"
+  Vendor: usb 0x058f "Generic"
+  Device: usb 0x6387 "Flash Disk"
+  Revision: "8.07"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/platform-7d000000.usb-usb-0:1.2:1.0-scsi-0:0:0:0, /dev/disk/by-id/usb-Generic_Flash_Disk_...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 61440/4/32
+  Size: 7864320 sectors a 512 bytes
+  Capacity: 3 GB (4026531840 bytes)
+  Speed: 480 Mbps
+  Module Alias: "usb:v058Fp6387d0105dc00dsc00dp00ic08isc06ip50in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+10: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: WE6o.5frslUlhSyF
+  Parent ID: ADDn.xvTGa+XkbXF
+  SysFS ID: /devices/soc0/7d000000.usb/usb1/1-1/1-1.4/1-1.4:1.1
+  SysFS BusID: 1-1.4:1.1
+  Hardware Class: unknown
+  Model: "OPPO SDM665-IDP _SN:CEE3CC3F"
+  Hotplug: USB
+  Vendor: usb 0x22d9 "OPPO"
+  Device: usb 0x2766 "SDM665-IDP _SN:CEE3CC3F"
+  Revision: "4.14"
+  Serial ID: --
+  Driver: "rndis_host"
+  Speed: 480 Mbps
+  Module Alias: "usb:v22D9p2766d0414dc00dsc00dp00ic0Aisc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+12: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: DrDI.3Ob1cbbvnY2
+  Parent ID: ADDn.xvTGa+XkbXF
+  SysFS ID: /devices/soc0/7d000000.usb/usb1/1-1/1-1.1/1-1.1:1.1
+  SysFS BusID: 1-1.1:1.1
+  Hardware Class: unknown
+  Model: "Holtek Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x04d9 "Holtek Semiconductor, Inc."
+  Device: usb 0x1503 "Keyboard"
+  Revision: "3.10"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Files: /dev/input/event3, /dev/input/by-path/platform-7d000000.usb-usb-0:1.1:1.1-event, /dev/input/by-id/usb-_USB_...
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04D9p1503d0310dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+14: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.sqWiKRqgbX5
+  Parent ID: tgiO.TAOITtdfnIE
+  SysFS ID: /devices/soc0/7d000000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0511dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+16: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: lfzD.KHWtE3oJtV8
+  Parent ID: ADDn.xvTGa+XkbXF
+  SysFS ID: /devices/soc0/7d000000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: keyboard
+  Model: "Holtek Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x04d9 "Holtek Semiconductor, Inc."
+  Device: usb 0x1503 "Keyboard"
+  Revision: "3.10"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event2
+  Device Files: /dev/input/event2, /dev/input/by-path/platform-7d000000.usb-usb-0:1.1:1.0-event-kbd, /dev/input/by-id/usb-_USB_...
+  Device Number: char 13:66
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04D9p1503d0310dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+17: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.xvTGa+XkbXF
+  Parent ID: k4bc.sqWiKRqgbX5
+  SysFS ID: /devices/soc0/7d000000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Realtek 4-Port USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0x5411 "4-Port USB 2.0 Hub"
+  Revision: "1.04"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDAp5411d0104dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (Hub)
+
+18: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,neon,vfpv3,tls,vfpd32,
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: IhCv.SyfSGg7YspF
+  SysFS ID: /class/net/usb0
+  SysFS Device Link: /devices/soc0/7d000000.usb/usb1/1-1/1-1.4/1-1.4:1.0
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "rndis_host"
+  Device File: usb0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: HtAv.GSopYcFr9cF
+  SysFS ID: /class/net/ip6tnl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6tnl0
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dummy"
+  Device File: dummy0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

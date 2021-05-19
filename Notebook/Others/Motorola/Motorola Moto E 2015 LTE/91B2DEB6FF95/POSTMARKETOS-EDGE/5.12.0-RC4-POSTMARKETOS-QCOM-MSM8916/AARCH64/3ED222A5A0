@@ -1,0 +1,285 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: NvPh.TfPFe67fIBB
+  SysFS ID: /devices/platform/wwan
+  SysFS BusID: wwan
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet3
+  Module Alias: "of:NwwanT(null)Cqcom,bam-dmux"
+  Driver Info #0:
+    Driver Status: bam_dmux is active
+    Driver Activation Cmd: "modprobe bam_dmux"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: jn3A.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/a204000.remoteproc/remoteproc/remoteproc1/remoteproc1:smd-edge/remoteproc1:smd-edge.WCNSS_CTRL.-1.-1/a204000.remoteproc:smd-edge:wcnss:wifi
+  SysFS BusID: a204000.remoteproc:smd-edge:wcnss:wifi
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "wcn36xx"
+  Driver Modules: "wcn36xx"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NwifiT(null)Cqcom,wcnss-wlan"
+  Driver Info #0:
+    Driver Status: wcn36xx is active
+    Driver Activation Cmd: "modprobe wcn36xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: +i5j.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/78d9000.usb
+  SysFS BusID: 78d9000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "msm_hsusb"
+  Module Alias: "of:NusbT(null)Cqcom,ci-hdrc"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: C6la.TzQFl_vZhO4
+  SysFS ID: /devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: C6la.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci_msm", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/mmc-P1J95K_0x32912559, /dev/disk/by-path/platform-7824900.sdhci
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 239104/4/16
+  Size: 15302656 sectors a 512 bytes
+  Capacity: 7 GB (7834959872 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+11: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 38.40
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: nvtK.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyMSM0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 03.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: bxvh.GSopYcFr9cF
+  Parent ID: NvPh.TfPFe67fIBB
+  SysFS ID: /class/net/rmnet3
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet3
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+17: None 01.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: gaPZ.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet1
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet1
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 06.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: yTgu.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet6
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet6
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 04.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: 27Am.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet4
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: jn3A.TfPFe67fIBB
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc/a204000.remoteproc/remoteproc/remoteproc1/remoteproc1:smd-edge/remoteproc1:smd-edge.WCNSS_CTRL.-1.-1/a204000.remoteproc:smd-edge:wcnss:wifi
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "wcn36xx"
+  Driver Modules: "wcn36xx"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)
+
+21: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 02.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: 7mfd.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet2
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: DP9V.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet0
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: 9G5i.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet_usb0
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet_usb0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: IhCv.SyfSGg7YspF
+  SysFS ID: /class/net/usb0
+  SysFS Device Link: /devices/platform/soc/78d9000.usb/ci_hdrc.0/gadget
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "g_ether"
+  Device File: usb0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 07.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: ewrN.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet7
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet7
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 05.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: VIQq.GSopYcFr9cF
+  SysFS ID: /class/net/rmnet5
+  SysFS Device Link: /devices/platform/wwan
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "bam-dmux"
+  Driver Modules: "bam_dmux"
+  Device File: rmnet5
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

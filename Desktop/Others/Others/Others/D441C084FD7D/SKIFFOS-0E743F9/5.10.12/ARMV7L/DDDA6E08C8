@@ -1,0 +1,441 @@
+11: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: wloh.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/12120000.usb
+  SysFS BusID: 12120000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "exynos-ohci"
+  Module Alias: "of:NusbT(null)Csamsung,exynos4210-ohci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1049]
+  Unique ID: vgOE.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-1/12400000.dwc3/xhci-hcd.9.auto
+  SysFS BusID: xhci-hcd.9.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1049]
+  Unique ID: yFSJ.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-0/12000000.dwc3/xhci-hcd.8.auto
+  SysFS BusID: xhci-hcd.8.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: EHZk.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/12110000.usb
+  SysFS BusID: 12110000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "exynos-ehci"
+  Module Alias: "of:NusbT(null)Csamsung,exynos4210-ehci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: DbST._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/12220000.mmc/mmc_host/mmc0/mmc0:aaaa
+  SysFS BusID: mmc0:aaaa
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 200000 sectors a 512 bytes
+  Capacity: 0 GB (102400000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: DbST._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/platform/soc/12220000.mmc/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_exynos", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 1948992/4/16
+  Size: 124735488 sectors a 512 bytes
+  Capacity: 59 GB (63864569856 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (MMC Controller)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.rwSi3WnzBv0
+  Parent ID: pBe4.XzC3qDA+_A1
+  SysFS ID: /devices/platform/soc/soc:usb3-0/12000000.dwc3/xhci-hcd.8.auto/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0616 "hub"
+  Revision: "22.23"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v05E3p0616d2223dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+19: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.9IQVr0t5meD
+  Parent ID: vgOE.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-1/12400000.dwc3/xhci-hcd.9.auto/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (USB Controller)
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.07E4dRg_zU2
+  Parent ID: wloh.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/12120000.usb/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (USB Controller)
+
+21: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.0z742tmRuH6
+  Parent ID: yFSJ.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-0/12000000.dwc3/xhci-hcd.8.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (USB Controller)
+
+22: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.gIVUdNGfsX8
+  Parent ID: vgOE.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-1/12400000.dwc3/xhci-hcd.9.auto/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (USB Controller)
+
+23: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.lRoCB54l1cE
+  Parent ID: k4bc.0z742tmRuH6
+  SysFS ID: /devices/platform/soc/soc:usb3-0/12000000.dwc3/xhci-hcd.8.auto/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic 4-port hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0610 "4-port hub"
+  Revision: "22.23"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05E3p0610d2223dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (Hub)
+
+24: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: PYMB.wUwnLJEqXX4
+  Parent ID: zPk0.gIVUdNGfsX8
+  SysFS ID: /devices/platform/soc/soc:usb3-1/12400000.dwc3/xhci-hcd.9.auto/usb4/4-1/4-1:1.0
+  SysFS BusID: 4-1:1.0
+  Hardware Class: network
+  Model: "Realtek RTL8153 Gigabit Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0x8153 "RTL8153 Gigabit Ethernet Adapter"
+  Revision: "30.00"
+  Serial ID: --
+  Driver: "r8152"
+  Driver Modules: "r8152"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "usb:v0BDAp8153d3000dc00dsc00dp00icFFiscFFip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Hub)
+
+25: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.XzC3qDA+_A1
+  Parent ID: yFSJ.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:usb3-0/12000000.dwc3/xhci-hcd.8.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (USB Controller)
+
+26: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.8BnMuke1lWD
+  Parent ID: EHZk.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/12110000.usb/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (USB Controller)
+
+27: None 00.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpv4,idiva,idivt,vfpd32,lpae,evtstrm,
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 01.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 02.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 03.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 04.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 05.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 06.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 07.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.3.0 ""
+  Platform: "Hardkernel ODROID-XU4"
+  Features: half
+  BogoMips: 18.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: zoaJ.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttySAC2
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: PYMB.wUwnLJEqXX4
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/soc:usb3-1/12400000.dwc3/xhci-hcd.9.auto/usb4/4-1/4-1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8152"
+  Driver Modules: "r8152"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (Ethernet controller)
+
+38: None 40.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: J2S8.ndpeucax6V1
+  SysFS ID: /class/net/ztnfajkk64
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "tun"
+  Device File: ztnfajkk64
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7iXG.ndpeucax6V1
+  SysFS ID: /class/net/docker0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: docker0
+  HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dummy"
+  Device File: dummy0
+  HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

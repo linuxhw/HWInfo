@@ -1,0 +1,308 @@
+06: None 00.0: 0c03 USB Controller (EHCI)
+  [Created at pci.1082]
+  Unique ID: k36F.z_KtF4BMtg6
+  SysFS ID: /devices/platform/ff500000.usb
+  SysFS BusID: ff500000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "ehci-platform"
+  Module Alias: "of:NusbT(null)Cgeneric-ehci"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: 2uS0.Vu98QzaObUF
+  SysFS ID: /devices/platform/ff0d0000.dwmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 34 36 38 40 42 44 46 48 52 56 60 64 100 104 108 112 116 120 124
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.17 5.18 5.19 5.2 5.21 5.22 5.23 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "of:NdwmmcT(null)Crockchip,rk3288-dw-mshc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: S_34.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff540000.usb
+  SysFS BusID: ff540000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Module Alias: "of:NusbT(null)Crockchip,rk3288-usbCrockchip,rk3066-usbCsnps,dwc2"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: PdS_.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff580000.usb
+  SysFS BusID: ff580000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Module Alias: "of:NusbT(null)Crockchip,rk3288-usbCrockchip,rk3066-usbCsnps,dwc2"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: MMC 02.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: 3oW5.TzQFl_vZhO4
+  SysFS ID: /devices/platform/ff0f0000.dwmmc/mmc_host/mmc2/mmc2:0001
+  SysFS BusID: mmc2:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: j4op.VoJli79_k95
+  SysFS ID: /devices/platform/ff0d0000.dwmmc/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: 1JVH.+JPLo_ySGl4
+  Parent ID: j4op.VoJli79_k95
+  SysFS ID: /devices/platform/ff0d0000.dwmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "Broadcom BCM4354 WLAN card"
+  Vendor: sdio 0x02d0 "Broadcom Corp."
+  Device: sdio 0x4354 "BCM4354 WLAN card"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac"
+  Module Alias: "sdio:c00v02D0d4354"
+  Driver Info #0:
+    Driver Status: brcmfmac is active
+    Driver Activation Cmd: "modprobe brcmfmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (MMC Controller)
+
+15: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CXqs.Fxp0d3BezAE
+  Parent ID: 3oW5.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk2
+  SysFS BusID: mmc2:0001
+  SysFS Device Link: /devices/platform/ff0f0000.dwmmc/mmc_host/mmc2/mmc2:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_rockchip", "mmcblk"
+  Device File: /dev/mmcblk2
+  Device Files: /dev/mmcblk2, /dev/disk/by-path/platform-ff0f0000.dwmmc, /dev/disk/by-id/mmc-HAG2e__0x56b83d5e
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 481024/4/16
+  Size: 30785536 sectors a 512 bytes
+  Capacity: 14 GB (15762194432 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (MMC Controller)
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 253:0
+  Size: 524288 sectors a 4096 bytes
+  Capacity: 2 GB (2147483648 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.SkCjupJ7kGD
+  Parent ID: k36F.z_KtF4BMtg6
+  SysFS ID: /devices/platform/ff500000.usb/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+18: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: KRJj.iX8tv8c_kb0
+  Parent ID: uIhY.SkCjupJ7kGD
+  SysFS ID: /devices/platform/ff500000.usb/usb3/3-1/3-1:1.0
+  SysFS BusID: 3-1:1.0
+  Hardware Class: unknown
+  Model: "IMC Networks USB2.0 HD UVC WebCam"
+  Hotplug: USB
+  Vendor: usb 0x13d3 "IMC Networks"
+  Device: usb 0x5662 "USB2.0 HD UVC WebCam"
+  Revision: "1.19"
+  Driver: "uvcvideo"
+  Driver Modules: "uvcvideo"
+  Speed: 480 Mbps
+  Module Alias: "usb:v13D3p5662d0119dcEFdsc02dp01ic0Eisc01ip00in00"
+  Driver Info #0:
+    Driver Status: uvcvideo is active
+    Driver Activation Cmd: "modprobe uvcvideo"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Hub)
+
+19: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.WrXNaSYgO16
+  Parent ID: S_34.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.ays1G1guOcE
+  Parent ID: PdS_.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff580000.usb/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (USB Controller)
+
+22: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.xKrPZ_fSf+9
+  Hardware Class: keyboard
+  Model: "cros_ec"
+  Device: "cros_ec"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-path/platform-ff110000.spi-cs-0-platform-ff110000.spi:ec@0:keyboard-controller-event-kbd
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpv4,idiva,idivt,vfpd32,lpae,evtstrm,
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: 2uS0.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/ff0d0000.dwmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (WLAN controller)
+
+28: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

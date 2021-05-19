@@ -1,0 +1,372 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: 5OOi.TfPFe67fIBB
+  SysFS ID: /devices/platform/ff290000.ethernet
+  SysFS BusID: ff290000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "rk_gmac-dwmac"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Crockchip,rk3288-gmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: S_34.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff540000.usb
+  SysFS BusID: ff540000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Module Alias: "of:NusbT(null)Crockchip,rk3288-usbCrockchip,rk3066-usbCsnps,dwc2"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: PdS_.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff580000.usb
+  SysFS BusID: ff580000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Module Alias: "of:NusbT(null)Crockchip,rk3288-usbCrockchip,rk3066-usbCsnps,dwc2"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: wP8y._NN+DZ1HDn4
+  SysFS ID: /devices/platform/ff0f0000.mmc/mmc_host/mmc1/mmc1:59b4
+  SysFS BusID: mmc1:59b4
+  Model: "SD Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 1"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1867]
+  Unique ID: yueO._NN+DZ1HDn4
+  SysFS ID: /devices/platform/ff0c0000.mmc/mmc_host/mmc0/mmc0:0007
+  SysFS BusID: mmc0:0007
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: rVCW.Fxp0d3BezAE
+  SysFS ID: /class/block/zram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram1
+  Device Number: block 254:1
+  Size: 256173 sectors a 4096 bytes
+  Capacity: 0 GB (1049284608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: wP8y._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: mmc1:59b4
+  SysFS Device Link: /devices/platform/ff0f0000.mmc/mmc_host/mmc1/mmc1:59b4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_rockchip", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Files: /dev/mmcblk1, /dev/disk/by-path/platform-ff0f0000.mmc, /dev/disk/by-id/mmc-SDU1_0x06a123ff
+  Device Number: block 179:16-179:31
+  Geometry (Logical): CHS 979424/4/16
+  Size: 62683136 sectors a 512 bytes
+  Capacity: 29 GB (32093765632 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+14: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 254:0
+  Size: 12800 sectors a 4096 bytes
+  Capacity: 0 GB (52428800 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: yueO._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0007
+  SysFS Device Link: /devices/platform/ff0c0000.mmc/mmc_host/mmc0/mmc0:0007
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dwmmc_rockchip", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-path/platform-ff0c0000.mmc, /dev/disk/by-id/mmc-SD64G_0x01824784
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 1909248/4/16
+  Size: 122191872 sectors a 512 bytes
+  Capacity: 58 GB (62562238464 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (MMC Controller)
+
+16: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: N0O2.M1vnxHsqE3D
+  Parent ID: lfzD.HalI5eWl4S0
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-1/1-1.1/1-1.1.3/1-1.1.3:1.0
+  SysFS BusID: 1-1.1.3:1.0
+  Hardware Class: mouse
+  Model: "Sunplus Innovation USB Optical Wheel Mouse"
+  Hotplug: USB
+  Vendor: usb 0x1bcf "Sunplus Innovation Technology Inc."
+  Device: usb 0x0002 "USB Optical Wheel Mouse"
+  Revision: "1.12"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Files: /dev/input/event3, /dev/input/by-path/platform-ff540000.usb-usb-0:1.1.3:1.0-event-mouse, /dev/input/by-id/usb-1bcf_USB_Optical_Wheel_...
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1BCFp0002d0112dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (Hub)
+
+17: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: Vl7j.C9WLN1IX8S8
+  Parent ID: lfzD.HalI5eWl4S0
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.0
+  SysFS BusID: 1-1.1.1:1.0
+  Hardware Class: keyboard
+  Model: "Dell Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x2010 "Keyboard"
+  Revision: "2.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-id/usb-Dell_Dell_USB_..., /dev/input/by-path/platform-ff540000.usb-usb-0:1.1.1:1.0-event-kbd
+  Device Number: char 13:64
+  Speed: 12 Mbps
+  Module Alias: "usb:v413Cp2010d0200dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (Hub)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.WrXNaSYgO16
+  Parent ID: S_34.TAOITtdfnIE
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0509dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+19: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: lfzD.HalI5eWl4S0
+  Parent ID: ADDn.d7FDLX76qXB
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: hub
+  Model: "Dell Keyboard Hub"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x1003 "Keyboard Hub"
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v413Cp1003d0200dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.d7FDLX76qXB
+  Parent ID: k4bc.WrXNaSYgO16
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic Hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0608 "Hub"
+  Revision: "85.36"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05E3p0608d8536dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+21: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ywNn.xFbVkZ573V2
+  Parent ID: lfzD.HalI5eWl4S0
+  SysFS ID: /devices/platform/ff540000.usb/usb1/1-1/1-1.1/1-1.1.1/1-1.1.1:1.1
+  SysFS BusID: 1-1.1.1:1.1
+  Hardware Class: unknown
+  Model: "Dell Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x2010 "Keyboard"
+  Revision: "2.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event1
+  Device Number: char 13:65
+  Speed: 12 Mbps
+  Module Alias: "usb:v413Cp2010d0200dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (Hub)
+
+22: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpv4,idiva,idivt,vfpd32,lpae,evtstrm,
+  BogoMips: 172.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 172.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 172.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.1.0 ""
+  Platform: "Rockchip (Device Tree)"
+  Features: half
+  BogoMips: 172.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dummy"
+  Device File: dummy0
+  HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: 5OOi.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/ff290000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "rk_gmac-dwmac"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+29: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: HtAv.GSopYcFr9cF
+  SysFS ID: /class/net/ip6tnl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6tnl0
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

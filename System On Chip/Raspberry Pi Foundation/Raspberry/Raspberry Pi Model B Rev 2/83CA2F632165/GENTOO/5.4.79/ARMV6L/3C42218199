@@ -1,0 +1,198 @@
+03: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.996]
+  Unique ID: BvRR.nXi7rxFKh4B
+  SysFS ID: /devices/platform/soc/20980000.usb
+  SysFS BusID: 20980000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB 0"
+  Device: "ARM USB 0"
+  Driver: "dwc_otg"
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2708-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/platform/soc/20202000.mmc/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhost-bcm2835", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 973968/4/16
+  Size: 62333952 sectors a 512 bytes
+  Capacity: 29 GB (31914983424 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: BobO.aXQvOj3qBS6
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: mouse
+  Model: "Razer Krait Mouse"
+  Hotplug: USB
+  Vendor: usb 0x1532 "Razer USA, Ltd"
+  Device: usb 0x0003 "Krait Mouse"
+  Revision: "23.10"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1532p0003d2310dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (Hub)
+
+06: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: dwDZ.eZRaBnFeMl6
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-1/1-1.3/1-1.3:1.0
+  SysFS BusID: 1-1.3:1.0
+  Hardware Class: keyboard
+  Model: "Cherry CyMotion Master Linux Keyboard G230"
+  Hotplug: USB
+  Vendor: usb 0x046a "Cherry GmbH"
+  Device: usb 0x0023 "CyMotion Master Linux Keyboard G230"
+  Revision: "0.32"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046Ap0023d0032dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (Hub)
+
+07: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc._IRPx9fxNx7
+  Parent ID: BvRR.nXi7rxFKh4B
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (USB Controller)
+
+08: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: 46Ud.NgWkYJ3EHo0
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-1/1-1.3/1-1.3:1.1
+  SysFS BusID: 1-1.3:1.1
+  Hardware Class: unknown
+  Model: "Cherry CyMotion Master Linux Keyboard G230"
+  Hotplug: USB
+  Vendor: usb 0x046a "Cherry GmbH"
+  Device: usb 0x0023 "CyMotion Master Linux Keyboard G230"
+  Revision: "0.32"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046Ap0023d0032dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (Hub)
+
+09: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: lfzD.Sed3PcmdZ23
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems SMSC9512/9514 Fast Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0xec00 "SMSC9512/9514 Fast Ethernet Adapter"
+  Revision: "2.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  Speed: 480 Mbps
+  HW Address: 335BFB6A03798E8F0F6656C0E49DE84F
+  Link detected: yes
+  Module Alias: "usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: smsc95xx is active
+    Driver Activation Cmd: "modprobe smsc95xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (Hub)
+
+10: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.IKhPgutgmvF
+  Parent ID: k4bc._IRPx9fxNx7
+  SysFS ID: /devices/platform/soc/20980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems SMC9514 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x9514 "SMC9514 Hub"
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9514d0200dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Hub)
+
+11: None 00.0: 10103 CPU
+  [Created at cpu.270]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.7.0 ""
+  Platform: "BCM2835"
+  Features: half,thumb,fastmult,vfp,edsp,java,tls,
+  BogoMips: 697.95
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 10700 Loopback
+  [Created at net.125]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10701 Ethernet
+  [Created at net.125]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: lfzD.Sed3PcmdZ23
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/20980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: 335BFB6A03798E8F0F6656C0E49DE84F
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (Ethernet controller)

@@ -1,0 +1,396 @@
+05: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: +vC8.Vu98QzaObUF
+  SysFS ID: /devices/bus/180f0000.wifi
+  SysFS BusID: 180f0000.wifi
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "mt-wifi"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 2.484
+  WLAN bitrates: 6 9 12 18 24 36 48 54
+  WLAN encryption modes: WEP40 WEP128 WEP128 WEP128 WEP104 WEP128 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "of:NwifiT<NULL>Cmediatek,wifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: +vC8.TfPFe67fIBB
+  SysFS ID: /devices/bus/180f0000.wifi
+  SysFS BusID: 180f0000.wifi
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "mt-wifi"
+  Device File: p2p0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NwifiT<NULL>Cmediatek,wifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: DkD6.TzQFl_vZhO4
+  SysFS ID: /devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 02.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: NzoE.VoJli79_k95
+  SysFS ID: /devices/mtk-msdc.0/11260000.msdc3/mmc_host/mmc2/mmc2:0001
+  SysFS BusID: mmc2:0001
+  Model: "SDIO Controller 2"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 254:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ni5P.Fxp0d3BezAE
+  Parent ID: DkD6.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0rpmb
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0rpmb
+  Device Number: block 179:96-179:127
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Hj0w.Fxp0d3BezAE
+  Parent ID: DkD6.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot0
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot0
+  Device Number: block 179:32-179:63
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+13: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kuG_.Fxp0d3BezAE
+  Parent ID: DkD6.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot1
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot1
+  Device Number: block 179:64-179:95
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+14: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: DkD6.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/mtk-msdc.0/11230000.msdc0/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mtk-msdc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+15: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.rrwvRypp9F4
+  SysFS ID: /devices/platform/mt_usb/musb-hdrc.0.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "3.18"
+  Serial ID: --
+  Driver: "hub"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0318dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 "AArch64 Processor rev 4 (aarch64)"
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  BogoMips: 26.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 "AArch64 Processor rev 4 (aarch64)"
+  Platform: "MT6753"
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32
+  BogoMips: 26.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: DZtK.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyMT0
+  Speed: 921.6 kbps
+  Config: 1 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: HtAv.GSopYcFr9cF
+  SysFS ID: /class/net/ip6tnl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6tnl0
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: cm8X.ndpeucax6V1
+  SysFS ID: /class/net/cc3mni0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: cc3mni0
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: W7ff.ndpeucax6V1
+  SysFS ID: /class/net/cc3mni2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: cc3mni2
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3yOb.ndpeucax6V1
+  SysFS ID: /class/net/cc3mni1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: cc3mni1
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: +vC8.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/bus/180f0000.wifi
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "mt-wifi"
+  Device File: wlan0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (WLAN controller)
+
+24: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: OgUs.GSopYcFr9cF
+  SysFS ID: /class/net/tunl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: tunl0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pG9W.ndpeucax6V1
+  Parent ID: +vC8.TfPFe67fIBB
+  SysFS ID: /class/net/p2p0
+  SysFS Device Link: /devices/bus/180f0000.wifi
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "mt-wifi"
+  Device File: p2p0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+27: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: lpif.ndpeucax6V1
+  SysFS ID: /class/net/ifb1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ifb1
+  HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: IeSb.ndpeucax6V1
+  SysFS ID: /class/net/ifb0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ifb0
+  HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 07.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: TOzL.ndpeucax6V1
+  SysFS ID: /class/net/ccmni7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni7
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: nxns.ndpeucax6V1
+  SysFS ID: /class/net/ccmni6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni6
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 05.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: KmXo.ndpeucax6V1
+  SysFS ID: /class/net/ccmni5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni5
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: W2XX.ndpeucax6V1
+  SysFS ID: /class/net/ccmni1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni1
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3tGT.ndpeucax6V1
+  SysFS ID: /class/net/ccmni0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: taHk.ndpeucax6V1
+  SysFS ID: /class/net/ccmni4
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni4
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: QP1g.ndpeucax6V1
+  SysFS ID: /class/net/ccmni3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni3
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: zDnb.ndpeucax6V1
+  SysFS ID: /class/net/ccmni2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: ccmni2
+  HW Address: ...
+  Permanent HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

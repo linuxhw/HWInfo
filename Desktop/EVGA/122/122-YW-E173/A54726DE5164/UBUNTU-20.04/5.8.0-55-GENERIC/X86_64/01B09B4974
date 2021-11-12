@@ -1,0 +1,1123 @@
+05: PCI 300.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: svHJ.sfA846qyj+4
+  Parent ID: B35A.wrs2bTPzBoE
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch for GTX 295"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b8 "NF200 PCIe 2.0 switch for GTX 295"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x064e 
+  Revision: 0xa3
+  Driver: "pcieport"
+  Module Alias: "pci:v000010DEd000005B8sv000010DEsd0000064Ebc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (PCI bridge)
+
+06: PCI 900.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: 9Ky7.8+jUpm1EaUE
+  Parent ID: H0_h.WGbokgrfoU2
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:09:00.0
+  SysFS BusID: 0000:09:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x8111 
+  Revision: 0x01
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp9s0
+  I/O Ports: 0xbe00-0xbeff (rw)
+  Memory Range: 0xdfeff000-0xdfefffff (rw,non-prefetchable)
+  Memory Range: 0xdfe00000-0xdfe0ffff (ro,non-prefetchable,disabled)
+  IRQ: 16 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000010ECd00008168sv00003842sd00008111bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (PCI bridge)
+
+07: PCI 0d.0: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: qnJ_.bpC3TGgVg46
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: storage
+  Model: "nVidia MCP51 IDE"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0265 "MCP51 IDE"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Driver: "pata_amd"
+  Driver Modules: "pata_amd"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xfd00-0xfd0f (rw)
+  Module Alias: "pci:v000010DEd00000265sv00003842sd00001005bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_amd is active
+    Driver Activation Cmd: "modprobe pata_amd"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 01.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: e6j0.ngNIzO8YsF5
+  SysFS ID: /devices/pci0000:00/0000:00:01.2
+  SysFS BusID: 0000:00:01.2
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03af "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003AFsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 0b.1: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: Xuit.p11EdssOtJ0
+  SysFS ID: /devices/pci0000:00/0000:00:0b.1
+  SysFS BusID: 0000:00:0b.1
+  Hardware Class: usb controller
+  Model: "nVidia MCP51 USB Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x026e "MCP51 USB Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa3
+  Driver: "ehci-pci"
+  Memory Range: 0xdfffe000-0xdfffe0ff (rw,non-prefetchable)
+  IRQ: 21 (292190 events)
+  Module Alias: "pci:v000010DEd0000026Esv00003842sd00001005bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: PCI 10.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: 37TO.ryKLPOPKUP8
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: bridge
+  Model: "nVidia MCP51 PCI Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x026f "MCP51 PCI Bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0xcb84 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd0000026Fsv000010DEsd0000CB84bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 200.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: B35A.wrs2bTPzBoE
+  Parent ID: VCu0.FVDYAudx7PD
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b1 "NF200 PCIe 2.0 switch"
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000005B1sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (PCI bridge)
+
+12: PCI 01.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: vSkL.lrUo+Fv7pU4
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03ad "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003ADsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 00.6: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 0Jdu.t92orprm0Z7
+  SysFS ID: /devices/pci0000:00/0000:00:00.6
+  SysFS BusID: 0000:00:00.6
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b5 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B5sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 402.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: i_aO.2arNVJ07+54
+  Parent ID: svHJ.sfA846qyj+4
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0/0000:03:00.0/0000:04:02.0
+  SysFS BusID: 0000:04:02.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch for GTX 295"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b8 "NF200 PCIe 2.0 switch for GTX 295"
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd000005B8sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (PCI bridge)
+
+15: PCI 00.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: HfeD.j0cI27gjlj3
+  SysFS ID: /devices/pci0000:00/0000:00:00.4
+  SysFS BusID: 0000:00:00.4
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03ab "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003ABsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 100.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: VCu0.FVDYAudx7PD
+  Parent ID: 3hqH.URiInXcFlj1
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b1 "NF200 PCIe 2.0 switch"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0c19 
+  Revision: 0xa2
+  Driver: "pcieport"
+  Module Alias: "pci:v000010DEd000005B1sv000010DEsd00000C19bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+17: PCI 02.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: ruGf.U3f1Dl0xip8
+  SysFS ID: /devices/pci0000:00/0000:00:02.1
+  SysFS BusID: 0000:00:02.1
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03bc "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003BCsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 00.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: Z+fY.CcfYZYY0EL3
+  SysFS ID: /devices/pci0000:00/0000:00:00.2
+  SysFS BusID: 0000:00:00.2
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03aa "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003AAsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 0a.1: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: SnfP.BJtz2fCiUu5
+  SysFS ID: /devices/pci0000:00/0000:00:0a.1
+  SysFS BusID: 0000:00:0a.1
+  Hardware Class: unknown
+  Model: "nVidia MCP51 SMBus"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0264 "MCP51 SMBus"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa3
+  Driver: "nForce2_smbus"
+  Driver Modules: "i2c_nforce2"
+  I/O Ports: 0x1c00-0x1c3f (rw)
+  I/O Ports: 0x1c80-0x1cbf (rw)
+  IRQ: 10 (no events)
+  Module Alias: "pci:v000010DEd00000264sv00003842sd00001005bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_nforce2 is active
+    Driver Activation Cmd: "modprobe i2c_nforce2"
+  Driver Info #1:
+    Driver Status: nv_tco is not active
+    Driver Activation Cmd: "modprobe nv_tco"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 01.5: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: E5BX.KwCYP6VfRP6
+  SysFS ID: /devices/pci0000:00/0000:00:01.5
+  SysFS BusID: 0000:00:01.5
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b2 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B2sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 0f.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: _+Pw.YiHj72rv+F3
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: storage
+  Model: "nVidia MCP51 Serial ATA Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0267 "MCP51 Serial ATA Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Driver: "sata_nv"
+  Driver Modules: "sata_nv"
+  I/O Ports: 0x9e0-0x9e7 (rw)
+  I/O Ports: 0xbe0-0xbe3 (rw)
+  I/O Ports: 0x960-0x967 (rw)
+  I/O Ports: 0xb60-0xb63 (rw)
+  I/O Ports: 0xf300-0xf30f (rw)
+  Memory Range: 0xdfffc000-0xdfffcfff (rw,non-prefetchable)
+  IRQ: 23 (145675 events)
+  Module Alias: "pci:v000010DEd00000267sv00003842sd00001005bc01sc01i85"
+  Driver Info #0:
+    Driver Status: sata_nv is active
+    Driver Activation Cmd: "modprobe sata_nv"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.70_IGl2K5v0
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "nVidia C55 Host Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03a3 "C55 Host Bridge"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000003A3sv00003842sd00001005bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 01.3: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: VRCs.I5K2SzFFOe5
+  SysFS ID: /devices/pci0000:00/0000:00:01.3
+  SysFS BusID: 0000:00:01.3
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b0 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B0sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 600.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: vTuk.VgLXRrLHAc3
+  Parent ID: i_aO.2arNVJ07+54
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0/0000:03:00.0/0000:04:02.0/0000:06:00.0
+  SysFS BusID: 0000:06:00.0
+  Hardware Class: graphics card
+  Model: "nVidia GT200 [GeForce GTX 295]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05eb "GT200 [GeForce GTX 295]"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1295 
+  Revision: 0xa1
+  Driver: "nouveau"
+  Driver Modules: "nouveau"
+  Memory Range: 0xd8000000-0xd8ffffff (rw,non-prefetchable)
+  Memory Range: 0xb0000000-0xbfffffff (ro,non-prefetchable)
+  Memory Range: 0xd6000000-0xd7ffffff (rw,non-prefetchable)
+  I/O Ports: 0xdf00-0xdf7f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 28 (138608 events)
+  Module Alias: "pci:v000010DEd000005EBsv00003842sd00001295bc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (PCI bridge)
+
+25: PCI 202.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: LHB6.wrs2bTPzBoE
+  Parent ID: VCu0.FVDYAudx7PD
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:02.0
+  SysFS BusID: 0000:02:02.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b1 "NF200 PCIe 2.0 switch"
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000005B1sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (PCI bridge)
+
+26: PCI 03.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 3hqH.URiInXcFlj1
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "nVidia C55 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b7 "C55 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0c55 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v000010DEd000003B7sv000010DEsd00000C55bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 10.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: wRyD.eVk8jYYFf65
+  SysFS ID: /devices/pci0000:00/0000:00:10.1
+  SysFS BusID: 0000:00:10.1
+  Hardware Class: sound
+  Model: "nVidia MCP51 High Definition Audio"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x026c "MCP51 High Definition Audio"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa2
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xdfff4000-0xdfff7fff (rw,non-prefetchable)
+  IRQ: 20 (796 events)
+  Module Alias: "pci:v000010DEd0000026Csv00003842sd00001005bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI a09.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: EPhY.gOwSRscY5B8
+  Parent ID: 37TO.ryKLPOPKUP8
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/0000:0a:09.0
+  SysFS BusID: 0000:0a:09.0
+  Hardware Class: network
+  Model: "Hewlett-Packard Company EN-1207D Fast Ethernet Adapter"
+  Vendor: pci 0x1113 "Accton Technology Corporation"
+  Device: pci 0x1211 "SMC2-1211TX"
+  SubVendor: pci 0x103c "Hewlett-Packard Company"
+  SubDevice: pci 0x1207 "EN-1207D Fast Ethernet Adapter"
+  Revision: 0x10
+  Driver: "8139too"
+  Driver Modules: "8139too"
+  Device File: enp10s9
+  I/O Ports: 0xcc00-0xccff (rw)
+  Memory Range: 0xdfdff000-0xdfdff0ff (rw,non-prefetchable)
+  IRQ: 16 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v00001113d00001211sv0000103Csd00001207bc02sc00i00"
+  Driver Info #0:
+    Driver Status: 8139too is active
+    Driver Activation Cmd: "modprobe 8139too"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (PCI bridge)
+
+29: PCI 01.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: mnDB.GGRYUq0rKt4
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03ae "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003AEsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 00.7: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: ud6k.Ml52NFk3VA7
+  SysFS ID: /devices/pci0000:00/0000:00:00.7
+  SysFS BusID: 0000:00:00.7
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b4 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B4sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 06.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: H0_h.WGbokgrfoU2
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: bridge
+  Model: "nVidia C55 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b9 "C55 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0c55 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v000010DEd000003B9sv000010DEsd00000C55bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 0b.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: gZD2.2dHO+ntXjn9
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0
+  SysFS BusID: 0000:00:0b.0
+  Hardware Class: usb controller
+  Model: "nVidia MCP51 USB Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x026d "MCP51 USB Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa3
+  Driver: "ohci-pci"
+  Memory Range: 0xdffff000-0xdfffffff (rw,non-prefetchable)
+  IRQ: 22 (27427 events)
+  Module Alias: "pci:v000010DEd0000026Dsv00003842sd00001005bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 500.0: 0302 3D controller
+  [Created at pci.386]
+  Unique ID: Ddhb.X5EyyOMOar1
+  Parent ID: YmUS.2arNVJ07+54
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0/0000:03:00.0/0000:04:00.0/0000:05:00.0
+  SysFS BusID: 0000:05:00.0
+  Hardware Class: graphics card
+  Model: "nVidia GT200 [GeForce GTX 295]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05eb "GT200 [GeForce GTX 295]"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1295 
+  Revision: 0xa1
+  Driver: "nouveau"
+  Driver Modules: "nouveau"
+  Memory Range: 0xdc000000-0xdcffffff (rw,non-prefetchable)
+  Memory Range: 0xc0000000-0xcfffffff (ro,non-prefetchable)
+  Memory Range: 0xda000000-0xdbffffff (rw,non-prefetchable)
+  I/O Ports: 0xef00-0xef7f (rw)
+  Memory Range: 0xdd000000-0xdd07ffff (ro,non-prefetchable,disabled)
+  IRQ: 27 (2 events)
+  Module Alias: "pci:v000010DEd000005EBsv00003842sd00001295bc03sc02i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (PCI bridge)
+
+34: PCI 00.5: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 9_73.hb889KlbHd6
+  SysFS ID: /devices/pci0000:00/0000:00:00.5
+  SysFS BusID: 0000:00:00.5
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03a8 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000003A8sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 09.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: WL76.A0lwsGP95UD
+  SysFS ID: /devices/pci0000:00/0000:00:09.0
+  SysFS BusID: 0000:00:09.0
+  Hardware Class: unknown
+  Model: "nVidia MCP51 Host Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0270 "MCP51 Host Bridge"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd00000270sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI 0e.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: vuMS.1ILzeTjCUt2
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0
+  SysFS BusID: 0000:00:0e.0
+  Hardware Class: storage
+  Model: "nVidia MCP51 Serial ATA Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0266 "MCP51 Serial ATA Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Driver: "sata_nv"
+  Driver Modules: "sata_nv"
+  I/O Ports: 0x9f0-0x9f7 (rw)
+  I/O Ports: 0xbf0-0xbf3 (rw)
+  I/O Ports: 0x970-0x977 (rw)
+  I/O Ports: 0xb70-0xb73 (rw)
+  I/O Ports: 0xf800-0xf80f (rw)
+  Memory Range: 0xdfffd000-0xdfffdfff (rw,non-prefetchable)
+  IRQ: 23 (145675 events)
+  Module Alias: "pci:v000010DEd00000266sv00003842sd00001005bc01sc01i85"
+  Driver Info #0:
+    Driver Status: sata_nv is active
+    Driver Activation Cmd: "modprobe sata_nv"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: PCI 02.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: jDmU.SEmXFcnWf28
+  SysFS ID: /devices/pci0000:00/0000:00:02.2
+  SysFS BusID: 0000:00:02.2
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03ba "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003BAsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 00.3: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: QK9O.hBjo4_QJiy2
+  SysFS ID: /devices/pci0000:00/0000:00:00.3
+  SysFS BusID: 0000:00:00.3
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03a9 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003A9sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: PCI a0a.0: 0401 Multimedia audio controller
+  [Created at pci.386]
+  Unique ID: O+A0.SkI7fguunbB
+  Parent ID: 37TO.ryKLPOPKUP8
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/0000:0a:0a.0
+  SysFS BusID: 0000:0a:0a.0
+  Hardware Class: sound
+  Model: "Creative SB0410 SBLive! 24-bit"
+  Vendor: pci 0x1102 "Creative Labs"
+  Device: pci 0x0007 "CA0106/CA0111 [SB Live!/Audigy/X-Fi Series]"
+  SubVendor: pci 0x1102 "Creative Labs"
+  SubDevice: pci 0x1006 "SB0410 SBLive! 24-bit"
+  Driver: "snd_ca0106"
+  Driver Modules: "snd_ca0106"
+  I/O Ports: 0xcf00-0xcf1f (rw)
+  IRQ: 17 (134 events)
+  Module Alias: "pci:v00001102d00000007sv00001102sd00001006bc04sc01i00"
+  Driver Info #0:
+    Driver Status: snd_ca0106 is active
+    Driver Activation Cmd: "modprobe snd_ca0106"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (PCI bridge)
+
+40: PCI 400.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: YmUS.2arNVJ07+54
+  Parent ID: svHJ.sfA846qyj+4
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:00.0/0000:03:00.0/0000:04:00.0
+  SysFS BusID: 0000:04:00.0
+  Hardware Class: bridge
+  Model: "nVidia NF200 PCIe 2.0 switch for GTX 295"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x05b8 "NF200 PCIe 2.0 switch for GTX 295"
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd000005B8sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (PCI bridge)
+
+41: PCI 02.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: _Znp.Oa_XKOzTYx7
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b6 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B6sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: PCI 0a.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: K69F.jf+VNK4ZFI2
+  SysFS ID: /devices/pci0000:00/0000:00:0a.2
+  SysFS BusID: 0000:00:0a.2
+  Hardware Class: unknown
+  Model: "nVidia MCP51 Memory Controller 0"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0272 "MCP51 Memory Controller 0"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd00000272sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: PCI 01.6: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 5QgM.rK9IugcMzn6
+  SysFS ID: /devices/pci0000:00/0000:00:01.6
+  SysFS BusID: 0000:00:01.6
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b3 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B3sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: PCI 00.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: hgAj.ERY2XhnQH64
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03ac "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003ACsv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: PCI 05.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: CvwD.+re2G6kyG62
+  SysFS ID: /devices/pci0000:00/0000:00:05.0
+  SysFS BusID: 0000:00:05.0
+  Hardware Class: bridge
+  Model: "nVidia C55 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b8 "C55 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0c55 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v000010DEd000003B8sv000010DEsd00000C55bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: PCI 0a.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: bSAa.zu+e+cLAwiE
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0
+  SysFS BusID: 0000:00:0a.0
+  Hardware Class: bridge
+  Model: "nVidia MCP51 LPC Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0260 "MCP51 LPC Bridge"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd00000260sv00003842sd00001005bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: PCI 01.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: Mmhh.pVGowXNyv06
+  SysFS ID: /devices/pci0000:00/0000:00:01.4
+  SysFS BusID: 0000:00:01.4
+  Hardware Class: unknown
+  Model: "nVidia C55 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x03b1 "C55 Memory Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1005 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000003B1sv00003842sd00001005bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.E5VAVhJ2n49
+  Parent ID: vTuk.VgLXRrLHAc3
+  Hardware Class: monitor
+  Model: "SONY SDM-HX93"
+  Vendor: SNY "SONY"
+  Device: eisa 0x1590 "SDM-HX93"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 800x600@60Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1280x960@60Hz
+  Size: 376x301 mm
+  Year of Manufacture: 2003
+  Week of Manufacture: 51
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) +vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 57-63 Hz
+    Hor. Sync Range: 28-65 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (VGA compatible controller)
+
+49: IDE 500.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.ja_U3DRen99
+  Parent ID: _+Pw.YiHj72rv+F3
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 5:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0/ata6/host5/target5:0:0/5:0:0:0
+  Hardware Class: disk
+  Model: "WDC WDBNCE5000P"
+  Vendor: "WDC"
+  Device: "WDBNCE5000P"
+  Revision: "20RL"
+  Driver: "sata_nv", "sd"
+  Driver Modules: "sata_nv"
+  Device File: /dev/sdb
+  Device Number: block 8:16-8:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (IDE interface)
+
+50: SCSI 200.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KD9E.keCYAHVfjgE
+  Parent ID: qnJ_.bpC3TGgVg46
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 2:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0
+  Hardware Class: disk
+  Model: "HL-DT-ST DVD-RW GWA-4165B"
+  Vendor: "HL-DT-ST"
+  Device: "DVD-RW GWA-4165B"
+  Revision: "DG01"
+  Driver: "pata_amd", "sr"
+  Driver Modules: "pata_amd"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Number: block 11:0 (char 21:1)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (IDE interface)
+
+51: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.bGuB+VckPlE
+  Parent ID: vuMS.1ILzeTjCUt2
+  SysFS ID: /class/block/sda
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0e.0/ata2/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD10SPZX-08Z"
+  Vendor: "WDC"
+  Device: "WD10SPZX-08Z"
+  Revision: "1A05"
+  Driver: "sata_nv", "sd"
+  Driver Modules: "sata_nv"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #36 (IDE interface)
+
+52: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: 1Nxo.MhXiXCo5Ll5
+  Parent ID: pBe4.Uu0aCsrHYoB
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0/usb2/2-8/2-8:1.0
+  SysFS BusID: 2-8:1.0
+  Hardware Class: keyboard
+  Model: "Logitech Internet 350 Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc313 "Internet 350 Keyboard"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC313d0100dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #57 (Hub)
+
+53: USB 00.0: 0282 WLAN controller
+  [Created at usb.122]
+  Unique ID: MtLc.7o35Fr4ndt9
+  Parent ID: k4bc.8zDM0aQhQIC
+  SysFS ID: /devices/pci0000:00/0000:00:0b.1/usb1/1-6/1-6:1.0
+  SysFS BusID: 1-6:1.0
+  Hardware Class: network
+  Model: "NetGear WNA1100 Wireless-N 150 [Atheros AR9271]"
+  Hotplug: USB
+  Vendor: usb 0x0846 "NetGear, Inc."
+  Device: usb 0x9030 "WNA1100 Wireless-N 150 [Atheros AR9271]"
+  Revision: "1.08"
+  Serial ID: --
+  Driver: "ath9k_htc"
+  Driver Modules: "ath9k_htc"
+  Device File: wlxe0469a0d41f8
+  Features: WLAN
+  Speed: 480 Mbps
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "usb:v0846p9030d0108dcFFdscFFdpFFicFFisc00ip00in00"
+  Driver Info #0:
+    Driver Status: ath9k_htc is active
+    Driver Activation Cmd: "modprobe ath9k_htc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (Hub)
+
+54: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: +rmv.0beoEMUbxx3
+  Parent ID: pBe4.Uu0aCsrHYoB
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0/usb2/2-5/2-5:1.0
+  SysFS BusID: 2-5:1.0
+  Hardware Class: mouse
+  Model: "Logitech M-BT96a Pilot Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc03d "M-BT96a Pilot Optical Mouse"
+  Revision: "20.00"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC03Dd2000dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #57 (Hub)
+
+55: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: VYBt.5ocsukbhFoF
+  Parent ID: pBe4.Uu0aCsrHYoB
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0/usb2/2-8/2-8:1.1
+  SysFS BusID: 2-8:1.1
+  Hardware Class: unknown
+  Model: "Logitech Internet 350 Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc313 "Internet 350 Keyboard"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event5
+  Device Number: char 13:69
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC313d0100dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #57 (Hub)
+
+56: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.8zDM0aQhQIC
+  Parent ID: Xuit.p11EdssOtJ0
+  SysFS ID: /devices/pci0000:00/0000:00:0b.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.08"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0508dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (USB Controller)
+
+57: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.Uu0aCsrHYoB
+  Parent ID: gZD2.2dHO+ntXjn9
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.08"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0508dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (USB Controller)
+
+58: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.6 "Intel(R) Core(TM)2 CPU          6600  @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,tpr_shadow,dtherm
+  Clock: 2400 MHz
+  BogoMips: 4800.12
+  Cache: 4096 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.6 "Intel(R) Core(TM)2 CPU          6600  @ 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,tpr_shadow,dtherm
+  Clock: 2400 MHz
+  BogoMips: 4800.12
+  Cache: 4096 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 0UVZ.ndpeucax6V1
+  Parent ID: EPhY.gOwSRscY5B8
+  SysFS ID: /class/net/enp10s9
+  SysFS Device Link: /devices/pci0000:00/0000:00:10.0/0000:0a:09.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "8139too"
+  Driver Modules: "8139too"
+  Device File: enp10s9
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (Ethernet controller)
+
+61: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 6SIa.ndpeucax6V1
+  Parent ID: MtLc.7o35Fr4ndt9
+  SysFS ID: /class/net/wlxe0469a0d41f8
+  SysFS Device Link: /devices/pci0000:00/0000:00:0b.1/usb1/1-6/1-6:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ath9k_htc"
+  Driver Modules: "ath9k_htc"
+  Device File: wlxe0469a0d41f8
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #53 (WLAN controller)
+
+62: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: qzC0.ndpeucax6V1
+  Parent ID: 9Ky7.8+jUpm1EaUE
+  SysFS ID: /class/net/enp9s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:06.0/0000:09:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp9s0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+63: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

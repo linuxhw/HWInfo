@@ -1,0 +1,193 @@
+07: PCI 100.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: VCu0.dcS5mYOxquB
+  Parent ID: qLht.q0+3OCCb7VF
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: storage
+  Model: "Marvell SATA controller"
+  Vendor: pci 0x1b4b "Marvell Technology Group Ltd."
+  Device: pci 0x9215 
+  SubVendor: pci 0x1b4b "Marvell Technology Group Ltd."
+  SubDevice: pci 0x9215 
+  Revision: 0x11
+  Memory Range: 0x600040000-0x6000407ff (rw,non-prefetchable)
+  Memory Range: 0x600000000-0x60003ffff (ro,non-prefetchable)
+  Module Alias: "pci:v00001B4Bd00009215sv00001B4Bsd00009215bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (PCI bridge)
+
+08: PCI 00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qLht.q0+3OCCb7VF
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Broadcom PCI bridge"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x2711 
+  Revision: 0x20
+  Driver: "pcieport"
+  IRQ: 50 (no events)
+  Module Alias: "pci:v000014E4d00002711sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: 2cnT.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/fe980000.usb
+  SysFS BusID: fe980000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Driver Modules: "dwc2"
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2835-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: dwc2 is active
+    Driver Activation Cmd: "modprobe dwc2"
+  Driver Info #2:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: iojd.TzQFl_vZhO4
+  SysFS ID: /devices/platform/emmc2bus/fe340000.emmc2/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: iojd.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/emmc2bus/fe340000.emmc2/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-iproc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/mmc-AJTD4R_0xc4a9fef7, /dev/disk/by-path/platform-fe340000.emmc2
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 477120/4/16
+  Size: 30535680 sectors a 512 bytes
+  Capacity: 14 GB (15634268160 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (MMC Controller)
+
+12: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.dIJcy0Uoj6B
+  Parent ID: 2cnT.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/fe980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0511dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (USB Controller)
+
+13: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.YCWTDwYJz_B
+  Parent ID: k4bc.dIJcy0Uoj6B
+  SysFS ID: /devices/platform/soc/fe980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Microchip Technology, Inc. (formerly SMSC) USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0x2514 "USB 2.0 Hub"
+  Revision: "b.b3"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p2514d0BB3dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Hub)
+
+14: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Platform: "BCM2835"
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/scb/fd580000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bcmgenet"
+  Device File: eth0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

@@ -1,0 +1,100 @@
+02: None 00.0: 10600 Disk
+  [Created at block.243]
+  Unique ID: HAKk.Fxp0d3BezAE
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:e624
+  SysFS Device Link: /devices/platform/mmc_host/mmc0/mmc0:e624
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/memstick-SU02G_0x1b39ee51
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 60352/4/16
+  Size: 3862528 sectors a 512 bytes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+03: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.FQtHCIKp2CD
+  SysFS ID: /devices/platform/bcm2708_usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux 3.2.27+ dwc_otg_hcd DWC OTG Controller"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux 3.2.27+ dwc_otg_hcd"
+  Device: usb 0x0002 "DWC OTG Controller"
+  Revision: "3.02"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0302dc09dsc00dp01ic09isc00ip00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.GVovileGj8F
+  Parent ID: k4bc.FQtHCIKp2CD
+  SysFS ID: /devices/platform/bcm2708_usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x9512 
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9512d0200dc09dsc00dp02ic09isc00ip02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (Hub)
+
+05: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: lfzD.Sed3PcmdZ23
+  Parent ID: ADDn.GVovileGj8F
+  SysFS ID: /devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0xec00 
+  Revision: "2.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  Speed: 480 Mbps
+  HW Address:  ...
+  Link detected: yes
+  Module Alias: "usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFF"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (Hub)
+
+06: None 00.0: 10700 Loopback
+  [Created at net.124]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 10701 Ethernet
+  [Created at net.124]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: lfzD.Sed3PcmdZ23
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/bcm2708_usb/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (Ethernet controller)

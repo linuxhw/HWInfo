@@ -1,0 +1,807 @@
+05: PCI 03.1: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: w+J7.iXEFwxuH562
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: unknown
+  Model: "nVidia MCP73 SMBus"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d8 "MCP73 SMBus"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Driver: "nForce2_smbus"
+  Driver Modules: "i2c_nforce2"
+  I/O Ports: 0xff00-0xff3f (rw)
+  I/O Ports: 0x1c00-0x1c3f (rw)
+  I/O Ports: 0x1c80-0x1cbf (rw)
+  IRQ: 7 (no events)
+  Module Alias: "pci:v000010DEd000007D8sv00001631sd0000E03Abc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_nforce2 is active
+    Driver Activation Cmd: "modprobe i2c_nforce2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 08.0: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: RE4e.flLKI+uIhF9
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: storage
+  Model: "nVidia MCP73 IDE Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056c "MCP73 IDE Controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Driver: "pata_amd"
+  Driver Modules: "pata_amd"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xfc00-0xfc0f (rw)
+  Module Alias: "pci:v000010DEd0000056Csv00001631sd0000E03Abc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_amd is active
+    Driver Activation Cmd: "modprobe pata_amd"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 0d.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qnJ_.7LV4kjgE0dA
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCIe x1 port"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056f "MCP73 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0000 "MCP73 PCIe x1 port"
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v000010DEd0000056Fsv000010DEsd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 01.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: e6j0.NMfYBaiik67
+  SysFS ID: /devices/pci0000:00/0000:00:01.2
+  SysFS BusID: 0000:00:01.2
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cf "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CFsv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: PCI 200.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: B35A.kzeRGR4Ska0
+  Parent ID: gZD2.cwYKF9ZXUEA
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: graphics card
+  Model: "nVidia G98 [GeForce 9300 GE]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x06e0 "G98 [GeForce 9300 GE]"
+  SubVendor: pci 0x174b "PC Partner Limited / Sapphire Technology"
+  SubDevice: pci 0x9830 
+  Revision: 0xa1
+  Driver: "nouveau"
+  Driver Modules: "nouveau"
+  Memory Range: 0xec000000-0xecffffff (rw,non-prefetchable)
+  Memory Range: 0xd0000000-0xdfffffff (ro,non-prefetchable)
+  Memory Range: 0xea000000-0xebffffff (rw,non-prefetchable)
+  I/O Ports: 0xbf00-0xbf7f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 27 (86038 events)
+  Module Alias: "pci:v000010DEd000006E0sv0000174Bsd00009830bc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (PCI bridge)
+
+10: PCI 01.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: vSkL.LXm2ERTIhL6
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cd "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CDsv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 04.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: 8otl.Ws0OoYLobhF
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: usb controller
+  Model: "nVidia MCP73 OHCI USB 1.1 Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07fe "MCP73 OHCI USB 1.1 Controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Driver: "ohci-pci"
+  Memory Range: 0xeffff000-0xefffffff (rw,non-prefetchable)
+  IRQ: 23 (1191 events)
+  Module Alias: "pci:v000010DEd000007FEsv00001631sd0000E03Abc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 0c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: lgGW.7LV4kjgE0dA
+  SysFS ID: /devices/pci0000:00/0000:00:0c.0
+  SysFS BusID: 0000:00:0c.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCIe x1 port"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056f "MCP73 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0000 "MCP73 PCIe x1 port"
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v000010DEd0000056Fsv000010DEsd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 03.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: W_nd.mS2Jqatm2R4
+  SysFS ID: /devices/pci0000:00/0000:00:03.4
+  SysFS BusID: 0000:00:03.4
+  Hardware Class: unknown
+  Model: "nVidia MCP73 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07c8 "MCP73 Memory Controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007C8sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 01.5: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: E5BX.wbUodH3qJG8
+  SysFS ID: /devices/pci0000:00/0000:00:01.5
+  SysFS BusID: 0000:00:01.5
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d2 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D2sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 0f.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: uc1p.Y6edR0LLN8A
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: network
+  Model: "nVidia MCP73 Ethernet"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07dc "MCP73 Ethernet"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa2
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s15
+  Memory Range: 0xefffd000-0xefffdfff (rw,non-prefetchable)
+  I/O Ports: 0xf600-0xf607 (rw)
+  Memory Range: 0xefffc000-0xefffc0ff (rw,non-prefetchable)
+  Memory Range: 0xefffb000-0xefffb00f (rw,non-prefetchable)
+  IRQ: 28 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000010DEd000007DCsv00001631sd0000E03Abc02sc00i00"
+  Driver Info #0:
+    Driver Status: forcedeth is active
+    Driver Activation Cmd: "modprobe forcedeth"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 03.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: nKpy.XV52+CE_+W9
+  SysFS ID: /devices/pci0000:00/0000:00:03.2
+  SysFS BusID: 0000:00:03.2
+  Hardware Class: unknown
+  Model: "nVidia MCP73 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d9 "MCP73 Memory Controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D9sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.nL1ZPC5J4I4
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "nVidia Host bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07c7 
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000007C7sv00001631sd0000E03Abc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 01.3: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: VRCs.umbIg8qPGV7
+  SysFS ID: /devices/pci0000:00/0000:00:01.3
+  SysFS BusID: 0000:00:01.3
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d0 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D0sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 03.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: 3hqH.YBaFsXqsC70
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 LPC Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d7 "MCP73 LPC Bridge"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000007D7sv00001631sd0000E03Abc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 01.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: mnDB.sxioi+a+Ck6
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07ce "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007CEsv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 0b.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: gZD2.cwYKF9ZXUEA
+  SysFS ID: /devices/pci0000:00/0000:00:0b.0
+  SysFS BusID: 0000:00:0b.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCIe x16 port"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056e "MCP73 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0000 "MCP73 PCIe x16 port"
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v000010DEd0000056Esv000010DEsd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 04.1: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: +6Nb.An154VwStA7
+  SysFS ID: /devices/pci0000:00/0000:00:04.1
+  SysFS BusID: 0000:00:04.1
+  Hardware Class: usb controller
+  Model: "nVidia MCP73 [nForce 630i] USB 2.0 Controller (EHCI)"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056a "MCP73 [nForce 630i] USB 2.0 Controller (EHCI)"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Driver: "ehci-pci"
+  Memory Range: 0xefffe000-0xefffe0ff (rw,non-prefetchable)
+  IRQ: 22 (819644 events)
+  Module Alias: "pci:v000010DEd0000056Asv00001631sd0000E03Abc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 09.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: WL76.69vTafKo6hE
+  SysFS ID: /devices/pci0000:00/0000:00:09.0
+  SysFS BusID: 0000:00:09.0
+  Hardware Class: sound
+  Model: "nVidia MCP73 High Definition Audio"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07fc "MCP73 High Definition Audio"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xefff4000-0xefff7fff (rw,non-prefetchable)
+  IRQ: 23 (1191 events)
+  Module Alias: "pci:v000010DEd000007FCsv00001631sd0000E03Abc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 0e.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: vuMS.01lWHZjxXn5
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0
+  SysFS BusID: 0000:00:0e.0
+  Hardware Class: storage
+  Model: "nVidia GeForce 7100/nForce 630i SATA"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07f4 "GeForce 7100/nForce 630i SATA"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa2
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0x9f0-0x9f7 (rw)
+  I/O Ports: 0xbf0-0xbf3 (rw)
+  I/O Ports: 0x970-0x977 (rw)
+  I/O Ports: 0xb70-0xb73 (rw)
+  I/O Ports: 0xf700-0xf70f (rw)
+  Memory Range: 0xefff8000-0xefff9fff (rw,non-prefetchable)
+  IRQ: 20 (31531 events)
+  Module Alias: "pci:v000010DEd000007F4sv00001631sd0000E03Abc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 02.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: _Znp._FGoYZXeQo9
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d6 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D6sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 01.6: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 5QgM.R0RY6sAXre8
+  SysFS ID: /devices/pci0000:00/0000:00:01.6
+  SysFS BusID: 0000:00:01.6
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d3 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D3sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 108.0: 0c00 FireWire (IEEE 1394) (OHCI)
+  [Created at pci.386]
+  Unique ID: 75Hn.6lpYXWrmZKF
+  Parent ID: bSAa.fVlx9FL_jM5
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0/0000:01:08.0
+  SysFS BusID: 0000:01:08.0
+  Hardware Class: firewire controller
+  Model: "VIA VT6306/7/8 [Fire II(M)] IEEE 1394 OHCI Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3044 "VT6306/7/8 [Fire II(M)] IEEE 1394 OHCI Controller"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x3044 
+  Revision: 0xc0
+  Driver: "firewire_ohci"
+  Driver Modules: "firewire_ohci"
+  Memory Range: 0xefcff000-0xefcff7ff (rw,non-prefetchable)
+  I/O Ports: 0xcf00-0xcf7f (rw)
+  IRQ: 19 (2 events)
+  Module Alias: "pci:v00001106d00003044sv00001106sd00003044bc0Csc00i10"
+  Driver Info #0:
+    Driver Status: ohci1394 is not active
+    Driver Activation Cmd: "modprobe ohci1394"
+  Driver Info #1:
+    Driver Status: firewire_ohci is active
+    Driver Activation Cmd: "modprobe firewire_ohci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (PCI bridge)
+
+28: PCI 00.1: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: hgAj.qWFepCgtkd9
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07cb "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa2
+  Module Alias: "pci:v000010DEd000007CBsv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 0a.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: bSAa.fVlx9FL_jM5
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0
+  SysFS BusID: 0000:00:0a.0
+  Hardware Class: bridge
+  Model: "nVidia MCP73 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x056d "MCP73 PCI Express bridge"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd0000056Dsv00001631sd0000E03Abc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 01.4: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: Mmhh.PBY29jx6ot7
+  SysFS ID: /devices/pci0000:00/0000:00:01.4
+  SysFS BusID: 0000:00:01.4
+  Hardware Class: unknown
+  Model: "nVidia nForce 610i/630i memory controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x07d1 "nForce 610i/630i memory controller"
+  SubVendor: pci 0x1631 "Packard Bell B.V."
+  SubDevice: pci 0xe03a 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd000007D1sv00001631sd0000E03Abc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 00.0: 10000 Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.bhNPGNa89+4
+  Parent ID: B35A.kzeRGR4Ska0
+  Hardware Class: monitor
+  Model: "PROVIEW MA980"
+  Vendor: PTS "PROVIEW"
+  Device: eisa 0x0519 "MA980"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 640x480@60Hz
+  Resolution: 800x600@60Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1280x1024@60Hz
+  Size: 376x301 mm
+  Year of Manufacture: 2004
+  Week of Manufacture: 10
+  Detailed Timings #0:
+     Resolution: 1280x1024
+     Horizontal: 1280 1328 1440 1688 (+48 +160 +408) +hsync
+       Vertical: 1024 1025 1028 1066 (+1 +4 +42) +vsync
+    Frequencies: 108.00 MHz, 63.98 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1280x1024
+    Vert. Sync Range: 60-75 Hz
+    Hor. Sync Range: 30-80 kHz
+    Bandwidth: 108 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (VGA compatible controller)
+
+32: SCSI 700.2: 10600 Disk
+  [Created at block.256]
+  Unique ID: MtLc.W76wHtZZy03
+  Parent ID: +6Nb.An154VwStA7
+  SysFS ID: /class/block/sdd
+  SysFS BusID: 7:0:0:2
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.1/usb1/1-6/1-6:1.0/host7/target7:0:0/7:0:0:2
+  Hardware Class: disk
+  Model: "Generic 2.0 Reader    -2"
+  Vendor: usb 0x0bda "Generic"
+  Device: usb 0x0111 "2.0 Reader    -2"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sdd (/dev/sg4)
+  Device Number: block 8:48-8:63 (char 21:4)
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDAp0111d1122dc00dsc00dp00ic08isc06ip50in00"
+  Driver Info #0:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Driver Info #1:
+    Driver Status: usb_storage is active
+    Driver Activation Cmd: "modprobe usb_storage"
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+33: SCSI 700.0: 10600 Disk
+  [Created at block.256]
+  Unique ID: uI_Q.i0g93o6CA5B
+  Parent ID: +6Nb.An154VwStA7
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 7:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.1/usb1/1-6/1-6:1.0/host7/target7:0:0/7:0:0:0
+  Hardware Class: disk
+  Model: "Generic 2.0 Reader    -0"
+  Vendor: usb 0x0bda "Generic"
+  Device: usb 0x0111 "2.0 Reader    -0"
+  Revision: "1.00"
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sdb (/dev/sg2)
+  Device Number: block 8:16-8:31 (char 21:2)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+34: SCSI 300.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KD9E.gP_2lQm0Xb5
+  Parent ID: vuMS.01lWHZjxXn5
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 3:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0e.0/ata4/host3/target3:0:0/3:0:0:0
+  Hardware Class: disk
+  Model: "ATAPI DVD A  DH16A6S"
+  Vendor: "ATAPI"
+  Device: "DVD A  DH16A6S"
+  Revision: "YA16"
+  Driver: "ahci", "sr"
+  Driver Modules: "ahci"
+  Device File: /dev/sr0 (/dev/sg0)
+  Device Number: block 11:0 (char 21:0)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (SATA controller)
+
+35: SCSI 700.3: 10600 Disk
+  [Created at block.256]
+  Unique ID: Frkd.i0g93o6CA5B
+  Parent ID: +6Nb.An154VwStA7
+  SysFS ID: /class/block/sde
+  SysFS BusID: 7:0:0:3
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.1/usb1/1-6/1-6:1.0/host7/target7:0:0/7:0:0:3
+  Hardware Class: disk
+  Model: "Generic 2.0 Reader    -3"
+  Vendor: usb 0x0bda "Generic"
+  Device: usb 0x0111 "2.0 Reader    -3"
+  Revision: "1.00"
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sde (/dev/sg5)
+  Device Number: block 8:64-8:79 (char 21:5)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+36: SCSI 700.1: 10600 Disk
+  [Created at block.256]
+  Unique ID: LUEV.i0g93o6CA5B
+  Parent ID: +6Nb.An154VwStA7
+  SysFS ID: /class/block/sdc
+  SysFS BusID: 7:0:0:1
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.1/usb1/1-6/1-6:1.0/host7/target7:0:0/7:0:0:1
+  Hardware Class: disk
+  Model: "Generic 2.0 Reader    -1"
+  Vendor: usb 0x0bda "Generic"
+  Device: usb 0x0111 "2.0 Reader    -1"
+  Revision: "1.00"
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sdc (/dev/sg3)
+  Device Number: block 8:32-8:47 (char 21:3)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+37: IDE 500.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.fN_Ua6AauZE
+  Parent ID: vuMS.01lWHZjxXn5
+  SysFS ID: /class/block/sda
+  SysFS BusID: 5:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0e.0/ata6/host5/target5:0:0/5:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD6400AAKS-2"
+  Vendor: "WDC"
+  Device: "WD6400AAKS-2"
+  Revision: "3B01"
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (SATA controller)
+
+39: USB 00.0: 0282 WLAN controller
+  [Created at usb.122]
+  Unique ID: 2UT6.eg6tWnpkCk1
+  Parent ID: k4bc.QtYiGM_hXFF
+  SysFS ID: /devices/pci0000:00/0000:00:04.1/usb1/1-3/1-3:1.0
+  SysFS BusID: 1-3:1.0
+  Hardware Class: network
+  Model: "AVM FRITZ WLAN N v2 [RT5572/rt2870.bin]"
+  Hotplug: USB
+  Vendor: usb 0x057c "AVM GmbH"
+  Device: usb 0x8501 "FRITZ WLAN N v2 [RT5572/rt2870.bin]"
+  Revision: "4.24"
+  Serial ID: --
+  Driver: "rt2800usb"
+  Driver Modules: "rt2800usb"
+  Device File: wlxe8df70153503
+  Features: WLAN
+  Speed: 480 Mbps
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 100 102 104 106
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.19 5.2 5.21 5.22 5.23 5.24 5.25 5.26 5.27 5.28 5.29 5.3 5.31 5.32 5.5 5.51 5.52 5.53
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "usb:v057Cp8501d0424dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: rt2800usb is active
+    Driver Activation Cmd: "modprobe rt2800usb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (Hub)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.QtYiGM_hXFF
+  Parent ID: +6Nb.An154VwStA7
+  SysFS ID: /devices/pci0000:00/0000:00:04.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0511dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (USB Controller)
+
+41: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.moLwSePIflE
+  Parent ID: 8otl.Ws0OoYLobhF
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0511dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (USB Controller)
+
+42: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.13 "Intel(R) Pentium(R) Dual  CPU  E2200  @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,dtherm
+  Clock: 2030 MHz
+  BogoMips: 4399.94
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.15.13 "Intel(R) Pentium(R) Dual  CPU  E2200  @ 2.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,est,tm2,ssse3,cx16,xtpr,pdcm,lahf_lm,pti,dtherm
+  Clock: 1650 MHz
+  BogoMips: 4399.94
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: rEk9.ndpeucax6V1
+  Parent ID: 2UT6.eg6tWnpkCk1
+  SysFS ID: /class/net/wlxe8df70153503
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.1/usb1/1-3/1-3:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "rt2800usb"
+  Driver Modules: "rt2800usb"
+  Device File: wlxe8df70153503
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #39 (WLAN controller)
+
+46: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: hhrp.ndpeucax6V1
+  Parent ID: uc1p.Y6edR0LLN8A
+  SysFS ID: /class/net/enp0s15
+  SysFS Device Link: /devices/pci0000:00/0000:00:0f.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s15
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Ethernet controller)

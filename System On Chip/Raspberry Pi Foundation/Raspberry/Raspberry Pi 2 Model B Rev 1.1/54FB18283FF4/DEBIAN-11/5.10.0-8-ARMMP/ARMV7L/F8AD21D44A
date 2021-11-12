@@ -1,0 +1,230 @@
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: YEYa.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2835-usb"
+  Driver Info #0:
+    Driver Status: dwc2 is active
+    Driver Activation Cmd: "modprobe dwc2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: Y+hx._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa
+  SysFS BusID: mmc0:aaaa
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: VBUu.NmyAdz+KxYA
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "SanDisk Ultra Fit"
+  Vendor: usb 0x0781 "SanDisk"
+  Device: usb 0x5583 "Ultra Fit"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage", "sd_mod"
+  Device File: /dev/sda (/dev/sg0)
+  Device Files: /dev/sda, /dev/disk/by-uuid/3e87dc7b-7f6f-4c73-b10f-917cd63ccf91, /dev/disk/by-path/platform-3f980000.usb-usb-0:1.5:1.0-scsi-0:0:0:0, /dev/disk/by-id/usb-SanDisk_Ultra_Fit_...
+  Device Number: block 8:0-8:15 (char 21:0)
+  Geometry (Logical): CHS 14955/255/63
+  Size: 240254976 sectors a 512 bytes
+  Capacity: 114 GB (123010547712 bytes)
+  Speed: 480 Mbps
+  Module Alias: "usb:v0781p5583d0100dc00dsc00dp00ic08isc06ip50in00"
+  Driver Info #0:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Driver Info #1:
+    Driver Status: usb_storage is active
+    Driver Activation Cmd: "modprobe usb_storage"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: Y+hx._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhost-bcm2835", "mmcblk"
+  Driver Modules: "bcm2835"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-path/platform-3f202000.mmc, /dev/disk/by-id/mmc-SL16G_0x01636f0d
+  Device Number: block 179:0-179:255
+  Geometry (Logical): CHS 486192/4/16
+  Size: 31116288 sectors a 512 bytes
+  Capacity: 14 GB (15931539456 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: lfzD.QgWEN3_7hfA
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: unknown
+  Model: "Microchip Technology, Inc. (formerly SMSC) SMSC9512/9514 Fast Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0xec00 "SMSC9512/9514 Fast Ethernet Adapter"
+  Revision: "2.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: smsc95xx is active
+    Driver Activation Cmd: "modprobe smsc95xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+13: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.IKhPgutgmvF
+  Parent ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Microchip Technology, Inc. (formerly SMSC) SMC9514 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0x9514 "SMC9514 Hub"
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9514d0200dc09dsc00dp02ic09isc00ip02in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpv4,idiva,idivt,vfpd32,lpae,evtstrm,
+  BogoMips: 44.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 44.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 44.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 44.80
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: i7s0.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS1
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: YEYa.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)

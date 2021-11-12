@@ -1,0 +1,2248 @@
+24: PCI c00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: zb5c.imaggGrPYnE
+  Parent ID: 8otl.8vEt6sW69n4
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/0000:0c:00.0
+  SysFS BusID: 0000:0c:00.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (PCI bridge)
+
+25: PCI 1f.2: 0101 IDE interface
+  [Created at pci.378]
+  Unique ID: w7Y8.6c4qHDzmXTF
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel 631xESB/632xESB/3100 Chipset SATA IDE Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2680 "631xESB/632xESB/3100 Chipset SATA IDE Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 
+  Revision: 0x09
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xfc00-0xfc0f (rw)
+  Memory Range: 0xc8a00000-0xc8a003ff (rw,non-prefetchable)
+  Module Alias: "pci:v00008086d00002680sv00001028sd000001F0bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: ata_piix is active
+    Driver Activation Cmd: "modprobe ata_piix"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #2:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: z8Q3.qNH66YmQkPD
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel 631xESB/632xESB/3100 Chipset PCI Express Root Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2690 "631xESB/632xESB/3100 Chipset PCI Express Root Port 1"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 
+  Revision: 0x09
+  Driver: "pcieport"
+  IRQ: 175 (no events)
+  Module Alias: "pci:v00008086d00002690sv00001028sd000001F0bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 10.2: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: nmR3.qRXrJDrae3C
+  SysFS ID: /devices/pci0000:00/0000:00:10.2
+  SysFS BusID: 0000:00:10.2
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FSB Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360c "7300 Chipset FSB Registers"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 7300 Chipset FSB Registers"
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Csv00001028sd000001F0bc06sc00i00"
+  Driver Info #0:
+    Driver Status: i7300_edac is active
+    Driver Activation Cmd: "modprobe i7300_edac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 900.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: mY_N.JbpPEO1nD7F
+  Parent ID: GBI1.w3JJhplF_tC
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:03.0/0000:08:00.0/0000:09:00.0
+  SysFS BusID: 0000:09:00.0
+  Hardware Class: network
+  Device Name: "Embedded NIC 3"
+  Model: "Broadcom NetXtreme II BCM5708 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x164c "NetXtreme II BCM5708 Gigabit Ethernet"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 Broadcom NetXtreme II BCM5708"
+  Revision: 0x12
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth2
+  Memory Range: 0xd8000000-0xd9ffffff (rw,non-prefetchable)
+  IRQ: 216 (3 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000014E4d0000164Csv00001028sd000001F0bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+29: PCI 1d.3: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: eEx1.q+R8132L2YD
+  SysFS ID: /devices/pci0000:00/0000:00:1d.3
+  SysFS BusID: 0000:00:1d.3
+  Hardware Class: usb controller
+  Model: "Intel 631xESB/632xESB/3100 Chipset UHCI USB Controller #4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x268b "631xESB/632xESB/3100 Chipset UHCI USB Controller #4"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 onboard USB"
+  Revision: 0x09
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xcce0-0xccff (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00008086d0000268Bsv00001028sd000001F0bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 1700.1: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: GjA8.yWB5PHVX3QA
+  Parent ID: Ok5n.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:04.0/0000:17:00.1
+  SysFS BusID: 0000:17:00.1
+  Hardware Class: network
+  Model: "Broadcom NetXtreme II BCM5709 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x1639 "NetXtreme II BCM5709 Gigabit Ethernet"
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x1906 
+  Revision: 0x20
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth7
+  Memory Range: 0xd0000000-0xd1ffffff (rw,non-prefetchable)
+  IRQ: 37 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000014E4d00001639sv000014E4sd00001906bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #73 (PCI bridge)
+
+31: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.378]
+  Unique ID: BUZT.UYIoj6U6BA3
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel 631xESB/632xESB/3100 Chipset LPC Interface Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2670 "631xESB/632xESB/3100 Chipset LPC Interface Controller"
+  Revision: 0x09
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00002670sv00000000sd00000000bc06sc01i00"
+  Driver Info #0:
+    Driver Status: intel_rng is not active
+    Driver Activation Cmd: "modprobe intel_rng"
+  Driver Info #1:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 1400.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: PRil.ahtGia0dTl1
+  Parent ID: vSkL.bfPdg8A+Zd3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0
+  SysFS BusID: 0000:14:00.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES12T3G2 PCI Express Gen2 Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x8061 "PES12T3G2 PCI Express Gen2 Switch"
+  Revision: 0x01
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd00008061sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (PCI bridge)
+
+33: PCI 10.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: 37TO.qRXrJDrae3C
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FSB Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360c "7300 Chipset FSB Registers"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 7300 Chipset FSB Registers"
+  Revision: 0x01
+  Driver: "i7300_edac"
+  Driver Modules: "i7300_edac"
+  Module Alias: "pci:v00008086d0000360Csv00001028sd000001F0bc06sc00i00"
+  Driver Info #0:
+    Driver Status: i7300_edac is active
+    Driver Activation Cmd: "modprobe i7300_edac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: vSkL.bfPdg8A+Zd3
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset PCI Express Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3604 "7300 Chipset PCI Express Port 1"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 170 (no events)
+  Module Alias: "pci:v00008086d00003604sv00008086sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 1d.1: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: vayM.oAZe3wow_mC
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1
+  SysFS BusID: 0000:00:1d.1
+  Hardware Class: usb controller
+  Model: "Intel 631xESB/632xESB/3100 Chipset UHCI USB Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2689 "631xESB/632xESB/3100 Chipset UHCI USB Controller #2"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 onboard USB"
+  Revision: 0x09
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xcca0-0xccbf (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00008086d00002689sv00001028sd000001F0bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI b00.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: DkES.JbpPEO1nD7F
+  Parent ID: cuhJ.w3JJhplF_tC
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:02.0/0000:0a:00.0/0000:0b:00.0
+  SysFS BusID: 0000:0b:00.0
+  Hardware Class: network
+  Device Name: "Embedded NIC 4"
+  Model: "Broadcom NetXtreme II BCM5708 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x164c "NetXtreme II BCM5708 Gigabit Ethernet"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 Broadcom NetXtreme II BCM5708"
+  Revision: 0x12
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth3
+  Memory Range: 0xd6000000-0xd7ffffff (rw,non-prefetchable)
+  IRQ: 215 (3 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000014E4d0000164Csv00001028sd000001F0bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #49 (PCI bridge)
+
+37: PCI 11.3: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: kC_M.GZK0yHffwUF
+  SysFS ID: /devices/pci0000:00/0000:00:11.3
+  SysFS BusID: 0000:00:11.3
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset Snoop Filter Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360d "7300 Chipset Snoop Filter Registers"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Dsv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 800.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: GBI1.w3JJhplF_tC
+  Parent ID: QOEa._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:03.0/0000:08:00.0
+  SysFS BusID: 0000:08:00.0
+  Hardware Class: bridge
+  Model: "Broadcom EPB PCI-Express to PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0103 "EPB PCI-Express to PCI-X Bridge"
+  Revision: 0xc3
+  Module Alias: "pci:v00001166d00000103sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (PCI bridge)
+
+39: PCI 13.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: HSco.nzGmQsmMStF
+  SysFS ID: /devices/pci0000:00/0000:00:13.0
+  SysFS BusID: 0000:00:13.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset Debug and Miscellaneous Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360e "7300 Chipset Debug and Miscellaneous Registers"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Esv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: PCI 203.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: QOEa._Da9KXz51h5
+  Parent ID: VCu0._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:03.0
+  SysFS BusID: 0000:02:03.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (PCI bridge)
+
+41: PCI d02.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: pgOh.imaggGrPYnE
+  Parent ID: zb5c.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/0000:0c:00.0/0000:0d:02.0
+  SysFS BusID: 0000:0d:02.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (PCI bridge)
+
+42: PCI 04.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: 8otl.8vEt6sW69n4
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset PCI Express Port 4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3607 "7300 Chipset PCI Express Port 4"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 173 (no events)
+  Module Alias: "pci:v00008086d00003607sv00008086sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: PCI 1600.1: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: 75la.i6OtqP4nlTF
+  Parent ID: EW+q.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:02.0/0000:16:00.1
+  SysFS BusID: 0000:16:00.1
+  Hardware Class: network
+  Model: "Broadcom NetXtreme II BCM5709 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x1639 "NetXtreme II BCM5709 Gigabit Ethernet"
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x0906 
+  Revision: 0x20
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth5
+  Memory Range: 0xd4000000-0xd5ffffff (rw,non-prefetchable)
+  IRQ: 32 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v000014E4d00001639sv000014E4sd00000906bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #51 (PCI bridge)
+
+44: PCI 1300.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: juQC.h_SxU19CN51
+  Parent ID: W5CG.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:02.0/0000:13:00.0
+  SysFS BusID: 0000:13:00.0
+  Hardware Class: network
+  Model: "Intel Ethernet 10G 2P X540-t Adapter"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1528 "Ethernet Controller 10-Gigabit X540-AT2"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x5003 "Ethernet 10G 2P X540-t Adapter"
+  Revision: 0x01
+  Driver: "ixgbe"
+  Driver Modules: "ixgbe"
+  Device File: eth8
+  Memory Range: 0xc8200000-0xc83fffff (ro,non-prefetchable)
+  Memory Range: 0xc81f8000-0xc81fbfff (ro,non-prefetchable)
+  Memory Range: 0xde400000-0xde47ffff (ro,non-prefetchable,disabled)
+  IRQ: 36 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001528sv00008086sd00005003bc02sc00i00"
+  Driver Info #0:
+    Driver Status: ixgbe is active
+    Driver Activation Cmd: "modprobe ixgbe"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #82 (PCI bridge)
+
+45: PCI 1c00.0: 0104 RAID bus controller
+  [Created at pci.378]
+  Unique ID: ix0U.u4TO97j8xUC
+  Parent ID: LEdB.0d4DBxekHW9
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:19:00.0/0000:1a:00.0/0000:1c:00.0
+  SysFS BusID: 0000:1c:00.0
+  Hardware Class: storage
+  Model: "Dell PERC 6/i Integrated RAID Controller"
+  Vendor: pci 0x1000 "LSI Logic / Symbios Logic"
+  Device: pci 0x0060 "MegaRAID SAS 1078"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x1f0c "PERC 6/i Integrated RAID Controller"
+  Revision: 0x04
+  Driver: "megaraid_sas"
+  Driver Modules: "megaraid_sas"
+  Memory Range: 0xde380000-0xde3bffff (rw,non-prefetchable)
+  I/O Ports: 0xec00-0xecff (rw)
+  Memory Range: 0xde3c0000-0xde3fffff (rw,non-prefetchable)
+  Memory Range: 0xde200000-0xde207fff (ro,non-prefetchable,disabled)
+  IRQ: 17 (1338725 events)
+  Module Alias: "pci:v00001000d00000060sv00001028sd00001F0Cbc01sc04i00"
+  Driver Info #0:
+    Driver Status: megaraid_sas is active
+    Driver Activation Cmd: "modprobe megaraid_sas"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (PCI bridge)
+
+46: PCI 1a01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: QLgf.4HsC6D7ZO2B
+  Parent ID: fNQ2.m_zDVplSsN3
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:19:00.0/0000:1a:01.0
+  SysFS BusID: 0000:1a:01.0
+  Hardware Class: bridge
+  Model: "Intel 6311ESB/6321ESB PCI Express Downstream Port E2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3514 "6311ESB/6321ESB PCI Express Downstream Port E2"
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 18 (no events)
+  Module Alias: "pci:v00008086d00003514sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (PCI bridge)
+
+47: PCI 16.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: WnlC.po9GO++mVe0
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FBD Branch 1 Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3610 "7300 Chipset FBD Branch 1 Registers"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  Module Alias: "pci:v00008086d00003610sv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: PCI 100.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: VCu0._Da9KXz51h5
+  Parent ID: 3hqH.dUI7eHPPdO4
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #59 (PCI bridge)
+
+49: PCI a00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: cuhJ.w3JJhplF_tC
+  Parent ID: LHB6._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:02.0/0000:0a:00.0
+  SysFS BusID: 0000:0a:00.0
+  Hardware Class: bridge
+  Model: "Broadcom EPB PCI-Express to PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0103 "EPB PCI-Express to PCI-X Bridge"
+  Revision: 0xc3
+  Module Alias: "pci:v00001166d00000103sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #58 (PCI bridge)
+
+50: PCI 1900.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: fNQ2.m_zDVplSsN3
+  Parent ID: _Znp.64MN9jHi504
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:19:00.0
+  SysFS BusID: 0000:19:00.0
+  Hardware Class: bridge
+  Model: "Intel 6311ESB/6321ESB PCI Express Upstream Port"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3500 "6311ESB/6321ESB PCI Express Upstream Port"
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 17 (1338725 events)
+  Module Alias: "pci:v00008086d00003500sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #78 (PCI bridge)
+
+51: PCI 1502.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: EW+q.ahtGia0dTl1
+  Parent ID: PRil.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:02.0
+  SysFS BusID: 0000:15:02.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES12T3G2 PCI Express Gen2 Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x8061 "PES12T3G2 PCI Express Gen2 Switch"
+  Revision: 0x01
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd00008061sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+52: PCI 700.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: JNkJ.JbpPEO1nD7F
+  Parent ID: vTuk.w3JJhplF_tC
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:04.0/0000:06:00.0/0000:07:00.0
+  SysFS BusID: 0000:07:00.0
+  Hardware Class: network
+  Device Name: "Embedded NIC 2"
+  Model: "Broadcom NetXtreme II BCM5708 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x164c "NetXtreme II BCM5708 Gigabit Ethernet"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 Broadcom NetXtreme II BCM5708"
+  Revision: 0x12
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth1
+  Memory Range: 0xda000000-0xdbffffff (rw,non-prefetchable)
+  IRQ: 217 (22124564 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v000014E4d0000164Csv00001028sd000001F0bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #57 (PCI bridge)
+
+53: PCI 1104.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: gJIC.imaggGrPYnE
+  Parent ID: h0vA.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:04.0
+  SysFS BusID: 0000:11:04.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #72 (PCI bridge)
+
+54: PCI 1e.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.378]
+  Unique ID: 6NW+.UBEzBRjO62A
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0
+  SysFS BusID: 0000:00:1e.0
+  Hardware Class: bridge
+  Model: "Intel 82801 PCI Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x244e "82801 PCI Bridge"
+  Revision: 0xd9
+  Module Alias: "pci:v00008086d0000244Esv00000000sd00000000bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: PCI 00.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: qLht.ZA3Hit6V4WA
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset Memory Controller Hub"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3600 "7300 Chipset Memory Controller Hub"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  IRQ: 11 (no events)
+  Module Alias: "pci:v00008086d00003600sv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: PCI 10.3: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: f5xu.qRXrJDrae3C
+  SysFS ID: /devices/pci0000:00/0000:00:10.3
+  SysFS BusID: 0000:00:10.3
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FSB Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360c "7300 Chipset FSB Registers"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 7300 Chipset FSB Registers"
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Csv00001028sd000001F0bc06sc00i00"
+  Driver Info #0:
+    Driver Status: i7300_edac is active
+    Driver Activation Cmd: "modprobe i7300_edac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: PCI 600.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: vTuk.w3JJhplF_tC
+  Parent ID: UVH2._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:04.0/0000:06:00.0
+  SysFS BusID: 0000:06:00.0
+  Hardware Class: bridge
+  Model: "Broadcom EPB PCI-Express to PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0103 "EPB PCI-Express to PCI-X Bridge"
+  Revision: 0xc3
+  Module Alias: "pci:v00001166d00000103sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #81 (PCI bridge)
+
+58: PCI 202.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: LHB6._Da9KXz51h5
+  Parent ID: VCu0._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:02.0
+  SysFS BusID: 0000:02:02.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (PCI bridge)
+
+59: PCI 03.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: 3hqH.dUI7eHPPdO4
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset PCI Express Port 3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3606 "7300 Chipset PCI Express Port 3"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 172 (no events)
+  Module Alias: "pci:v00008086d00003606sv00008086sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: PCI 10.1: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: wRyD.qRXrJDrae3C
+  SysFS ID: /devices/pci0000:00/0000:00:10.1
+  SysFS BusID: 0000:00:10.1
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FSB Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360c "7300 Chipset FSB Registers"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 7300 Chipset FSB Registers"
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Csv00001028sd000001F0bc06sc00i00"
+  Driver Info #0:
+    Driver Status: i7300_edac is active
+    Driver Activation Cmd: "modprobe i7300_edac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+61: PCI 1a00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: LEdB.0d4DBxekHW9
+  Parent ID: fNQ2.m_zDVplSsN3
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:19:00.0/0000:1a:00.0
+  SysFS BusID: 0000:1a:00.0
+  Hardware Class: bridge
+  Model: "Intel 6311ESB/6321ESB PCI Express Downstream Port E1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3510 "6311ESB/6321ESB PCI Express Downstream Port E1"
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 17 (1338725 events)
+  Module Alias: "pci:v00008086d00003510sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (PCI bridge)
+
+62: PCI 15.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: Rgik.IODWvQu3_F0
+  SysFS ID: /devices/pci0000:00/0000:00:15.0
+  SysFS BusID: 0000:00:15.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset FBD Branch 0 Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360f "7300 Chipset FBD Branch 0 Registers"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Fsv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: PCI 1d.2: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: mvRC.JbVOYUwdW9D
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2
+  SysFS BusID: 0000:00:1d.2
+  Hardware Class: usb controller
+  Model: "Intel 631xESB/632xESB/3100 Chipset UHCI USB Controller #3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x268a "631xESB/632xESB/3100 Chipset UHCI USB Controller #3"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 onboard USB"
+  Revision: 0x09
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xccc0-0xccdf (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00008086d0000268Asv00001028sd000001F0bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: PCI 205.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: ZcKW._Da9KXz51h5
+  Parent ID: VCu0._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:05.0
+  SysFS BusID: 0000:02:05.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (PCI bridge)
+
+65: PCI d04.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: yuUd.imaggGrPYnE
+  Parent ID: zb5c.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/0000:0c:00.0/0000:0d:04.0
+  SysFS BusID: 0000:0d:04.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (PCI bridge)
+
+66: PCI 06.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: H0_h.Ak7N4+lWCY5
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset PCI Express Port 6"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3609 "7300 Chipset PCI Express Port 6"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 174 (no events)
+  Module Alias: "pci:v00008086d00003609sv00008086sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: PCI 1700.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: aG+e.yWB5PHVX3QA
+  Parent ID: Ok5n.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:04.0/0000:17:00.0
+  SysFS BusID: 0000:17:00.0
+  Hardware Class: network
+  Model: "Broadcom NetXtreme II BCM5709 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x1639 "NetXtreme II BCM5709 Gigabit Ethernet"
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x1906 
+  Revision: 0x20
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth6
+  Memory Range: 0xce000000-0xcfffffff (rw,non-prefetchable)
+  IRQ: 36 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v000014E4d00001639sv000014E4sd00001906bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #73 (PCI bridge)
+
+68: PCI 500.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: rBUF.JbpPEO1nD7F
+  Parent ID: YmUS.w3JJhplF_tC
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:05.0/0000:04:00.0/0000:05:00.0
+  SysFS BusID: 0000:05:00.0
+  Hardware Class: network
+  Device Name: "Embedded NIC 1"
+  Model: "Broadcom NetXtreme II BCM5708 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x164c "NetXtreme II BCM5708 Gigabit Ethernet"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 Broadcom NetXtreme II BCM5708"
+  Revision: 0x12
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth0
+  Memory Range: 0xdc000000-0xddffffff (rw,non-prefetchable)
+  IRQ: 218 (7933296 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v000014E4d0000164Csv00001028sd000001F0bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #76 (PCI bridge)
+
+69: PCI 1900.3: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: FMuY.yyIDGfAwA_7
+  Parent ID: _Znp.64MN9jHi504
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/0000:19:00.3
+  SysFS BusID: 0000:19:00.3
+  Hardware Class: bridge
+  Model: "Intel 6311ESB/6321ESB PCI Express to PCI-X Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x350c "6311ESB/6321ESB PCI Express to PCI-X Bridge"
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000350Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #78 (PCI bridge)
+
+70: PCI 1d.0: 0c03 USB Controller (UHCI)
+  [Created at pci.378]
+  Unique ID: 1GTX.HmcuaLhDTOC
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel 631xESB/632xESB/3100 Chipset UHCI USB Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2688 "631xESB/632xESB/3100 Chipset UHCI USB Controller #1"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 onboard USB"
+  Revision: 0x09
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xcc80-0xcc9f (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00008086d00002688sv00001028sd000001F0bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: PCI 1300.1: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: A4hG.h_SxU19CN51
+  Parent ID: W5CG.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:02.0/0000:13:00.1
+  SysFS BusID: 0000:13:00.1
+  Hardware Class: network
+  Model: "Intel Ethernet 10G 2P X540-t Adapter"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1528 "Ethernet Controller 10-Gigabit X540-AT2"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x5003 "Ethernet 10G 2P X540-t Adapter"
+  Revision: 0x01
+  Driver: "ixgbe"
+  Driver Modules: "ixgbe"
+  Device File: eth9
+  Memory Range: 0xc8400000-0xc85fffff (ro,non-prefetchable)
+  Memory Range: 0xc81fc000-0xc81fffff (ro,non-prefetchable)
+  Memory Range: 0xde480000-0xde4fffff (ro,non-prefetchable,disabled)
+  IRQ: 35 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001528sv00008086sd00005003bc02sc00i00"
+  Driver Info #0:
+    Driver Status: ixgbe is active
+    Driver Activation Cmd: "modprobe ixgbe"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #82 (PCI bridge)
+
+72: PCI 1000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: h0vA.imaggGrPYnE
+  Parent ID: H0_h.Ak7N4+lWCY5
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:10:00.0
+  SysFS BusID: 0000:10:00.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #66 (PCI bridge)
+
+73: PCI 1504.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: Ok5n.ahtGia0dTl1
+  Parent ID: PRil.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:04.0
+  SysFS BusID: 0000:15:04.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES12T3G2 PCI Express Gen2 Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x8061 "PES12T3G2 PCI Express Gen2 Switch"
+  Revision: 0x01
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd00008061sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (PCI bridge)
+
+74: PCI 1600.0: 0200 Ethernet controller
+  [Created at pci.378]
+  Unique ID: gvUW.i6OtqP4nlTF
+  Parent ID: EW+q.ahtGia0dTl1
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:02.0/0000:16:00.0
+  SysFS BusID: 0000:16:00.0
+  Hardware Class: network
+  Model: "Broadcom NetXtreme II BCM5709 Gigabit Ethernet"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x1639 "NetXtreme II BCM5709 Gigabit Ethernet"
+  SubVendor: pci 0x14e4 "Broadcom"
+  SubDevice: pci 0x0906 
+  Revision: 0x20
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth4
+  Memory Range: 0xd2000000-0xd3ffffff (rw,non-prefetchable)
+  IRQ: 38 (no events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v000014E4d00001639sv000014E4sd00000906bc02sc00i00"
+  Driver Info #0:
+    Driver Status: bnx2 is active
+    Driver Activation Cmd: "modprobe bnx2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #51 (PCI bridge)
+
+75: PCI 11.0: 0600 Host bridge
+  [Created at pci.378]
+  Unique ID: 7EWs.GZK0yHffwUF
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset Snoop Filter Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x360d "7300 Chipset Snoop Filter Registers"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x8086 
+  Revision: 0x01
+  Module Alias: "pci:v00008086d0000360Dsv00008086sd00008086bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+76: PCI 400.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: YmUS.w3JJhplF_tC
+  Parent ID: ZcKW._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:05.0/0000:04:00.0
+  SysFS BusID: 0000:04:00.0
+  Hardware Class: bridge
+  Model: "Broadcom EPB PCI-Express to PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0103 "EPB PCI-Express to PCI-X Bridge"
+  Revision: 0xc3
+  Module Alias: "pci:v00001166d00000103sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #64 (PCI bridge)
+
+77: PCI 201.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: GA8e._Da9KXz51h5
+  Parent ID: VCu0._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:01.0
+  SysFS BusID: 0000:02:01.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (PCI bridge)
+
+78: PCI 02.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: _Znp.64MN9jHi504
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: bridge
+  Model: "Intel 7300 Chipset PCI Express Port 2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3605 "7300 Chipset PCI Express Port 2"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 171 (no events)
+  Module Alias: "pci:v00008086d00003605sv00008086sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+79: PCI 1e0c.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.378]
+  Unique ID: zz+O.35SA5nlAlU7
+  Parent ID: 6NW+.UBEzBRjO62A
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0/0000:1e:0c.0
+  SysFS BusID: 0000:1e:0c.0
+  Hardware Class: graphics card
+  Model: "ATI ES1000 515E"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x515e "ES1000 515E"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 Embedded ATI ES1000"
+  Revision: 0x02
+  Memory Range: 0xc0000000-0xc7ffffff (ro,non-prefetchable)
+  I/O Ports: 0xdc00-0xdcff (rw)
+  Memory Range: 0xde5f0000-0xde5fffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 10 (no events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v00001002d0000515Esv00001028sd000001F0bc03sc00i00"
+  Driver Info #0:
+    XFree86 v4 Server Module: radeon
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #54 (PCI bridge)
+
+80: PCI 1d.7: 0c03 USB Controller (EHCI)
+  [Created at pci.378]
+  Unique ID: 5YuN.rQ_3oheo5m2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7
+  SysFS BusID: 0000:00:1d.7
+  Hardware Class: usb controller
+  Model: "Intel 631xESB/632xESB/3100 Chipset EHCI USB2 Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x268c "631xESB/632xESB/3100 Chipset EHCI USB2 Controller"
+  SubVendor: pci 0x1028 "Dell"
+  SubDevice: pci 0x01f0 "PowerEdge R900 onboard USB"
+  Revision: 0x09
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xde0ffc00-0xde0fffff (rw,non-prefetchable)
+  IRQ: 21 (518 events)
+  Module Alias: "pci:v00008086d0000268Csv00001028sd000001F0bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+81: PCI 204.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: UVH2._Da9KXz51h5
+  Parent ID: VCu0._Da9KXz51h5
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:04.0
+  SysFS BusID: 0000:02:04.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24T6 PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x802e "PES24T6 PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000802Esv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (PCI bridge)
+
+82: PCI 1102.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: W5CG.imaggGrPYnE
+  Parent ID: h0vA.imaggGrPYnE
+  SysFS ID: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:02.0
+  SysFS BusID: 0000:11:02.0
+  Hardware Class: bridge
+  Model: "Integrated Device Technology, Inc. [IDT] PES24N3A PCI Express Switch"
+  Vendor: pci 0x111d "Integrated Device Technology, Inc. [IDT]"
+  Device: pci 0x801c "PES24N3A PCI Express Switch"
+  Revision: 0x0e
+  Driver: "pcieport"
+  Module Alias: "pci:v0000111Dd0000801Csv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #72 (PCI bridge)
+
+85: SCSI c00.1: 10600 Disk
+  [Created at block.245]
+  Unique ID: i0+h.LESbSujTYb3
+  SysFS ID: /class/block/sdf
+  SysFS BusID: 12:0:0:1
+  SysFS Device Link: /devices/platform/host12/session2/target12:0:0/12:0:0:1
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdf (/dev/sg7)
+  Device Files: /dev/sdf, /dev/disk/by-id/scsi-360003ff44dc75adc816c2f9e095396e2, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-192.168.11.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-1, /dev/disk/by-scsibus/360003ff44dc75adc816c2f9e095396e2-12:0:0:1, /dev/disk/by-scsid/360003ff44dc75adc816c2f9e095396e2/sdf, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/LUN1, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/SESSIONID-12/LUN1
+  Device Number: block 8:80-8:95 (char 21:7)
+  Geometry (Logical): CHS 133674/255/63
+  Size: 2147483648 sectors a 512 bytes
+  Capacity: 1024 GB (1099511627776 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+86: SCSI b00.2: 10600 Disk
+  [Created at block.245]
+  Unique ID: ofUZ.6NUFN7fht9E
+  SysFS ID: /class/block/sdd
+  SysFS BusID: 11:0:0:2
+  SysFS Device Link: /devices/platform/host11/session1/target11:0:0/11:0:0:2
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdd (/dev/sg5)
+  Device Files: /dev/sdd, /dev/disk/by-id/scsi-360003ff44dc75adca906ede5d78ecb8f, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-172.21.1.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-2, /dev/disk/by-scsibus/360003ff44dc75adca906ede5d78ecb8f-11:0:0:2, /dev/disk/by-scsid/360003ff44dc75adca906ede5d78ecb8f/sdd, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/LUN2, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/SESSIONID-11/LUN2
+  Device Number: block 8:48-8:63 (char 21:5)
+  Geometry (Logical): CHS 401024/255/63
+  Size: 6442450944 sectors a 512 bytes
+  Capacity: 3072 GB (3298534883328 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+87: SCSI b00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: uI_Q.P3T0bk7o94F
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 11:0:0:0
+  SysFS Device Link: /devices/platform/host11/session1/target11:0:0/11:0:0:0
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdb (/dev/sg3)
+  Device Files: /dev/sdb, /dev/disk/by-id/scsi-360003ff44dc75adcb17974f4462da0c1, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-172.21.1.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-0, /dev/disk/by-scsibus/360003ff44dc75adcb17974f4462da0c1-11:0:0:0, /dev/disk/by-scsid/360003ff44dc75adcb17974f4462da0c1/sdb, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/LUN0, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/SESSIONID-11/LUN0
+  Device Number: block 8:16-8:31 (char 21:3)
+  Geometry (Logical): CHS 534698/255/63
+  Size: 8589934592 sectors a 512 bytes
+  Capacity: 4096 GB (4398046511104 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+88: SCSI e00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 4Zlu.5FXJ5AKys32
+  SysFS ID: /class/block/sdi
+  SysFS BusID: 14:0:0:0
+  SysFS Device Link: /devices/platform/host14/session48/target14:0:0/14:0:0:0
+  Hardware Class: disk
+  Model: "DELL MD38xxi"
+  Vendor: "DELL"
+  Device: "MD38xxi"
+  Revision: "0825"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdi (/dev/sg11)
+  Device Files: /dev/sdi, /dev/disk/by-id/scsi-3600a0980006de819000002c8560b0ab5, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-172.21.1.203:3260-iscsi-iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9-lun-0, /dev/disk/by-scsibus/3600a0980006de819000002c8560b0ab5-14:0:0:0, /dev/disk/by-scsid/3600a0980006de819000002c8560b0ab5/sdi, /dev/iscsi/iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9/172.21.1.203:3260/LUN0, /dev/iscsi/iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9/172.21.1.203:3260/SESSIONID-14/LUN0
+  Device Number: block 8:128-8:143 (char 21:11)
+  Geometry (Logical): CHS 267349/255/63
+  Size: 4294967296 sectors a 512 bytes
+  Capacity: 2048 GB (2199023255552 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+89: SCSI 100.0: 10602 CD-ROM (DVD)
+  [Created at block.249]
+  Unique ID: KD9E.+GDci+D40mD
+  Parent ID: w7Y8.6c4qHDzmXTF
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata1/host1/target1:0:0/1:0:0:0
+  Hardware Class: cdrom
+  Model: "TEAC DVD-ROM DV28SV"
+  Vendor: "TEAC"
+  Device: "DVD-ROM DV28SV"
+  Revision: "D.0K"
+  Driver: "ata_piix", "sr"
+  Driver Modules: "ata_piix", "sr_mod"
+  Device File: /dev/sr0 (/dev/sg2)
+  Device Files: /dev/sr0, /dev/cdrom, /dev/disk/by-id/ata-TEAC_DVD-ROM_DV28SV_..., /dev/disk/by-path/pci-0000:00:1f.2-ata-1.0, /dev/xapi/cd/sr0
+  Device Number: block 11:0 (char 21:2)
+  Features: DVD, MRW, MRW-W
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (IDE interface)
+  Drive Speed: 24
+
+90: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: bocZ.Fxp0d3BezAE
+  SysFS ID: /class/block/tda
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/tda
+  Device Number: block 254:0
+  Geometry (Logical): CHS 2610/255/63
+  Size: 41943040 sectors a 512 bytes
+  Capacity: 20 GB (21474836480 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+91: SCSI c00.2: 10600 Disk
+  [Created at block.245]
+  Unique ID: ACFm.6NUFN7fht9E
+  SysFS ID: /class/block/sdg
+  SysFS BusID: 12:0:0:2
+  SysFS Device Link: /devices/platform/host12/session2/target12:0:0/12:0:0:2
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdg (/dev/sg8)
+  Device Files: /dev/sdg, /dev/disk/by-id/scsi-360003ff44dc75adca906ede5d78ecb8f, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-192.168.11.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-2, /dev/disk/by-scsibus/360003ff44dc75adca906ede5d78ecb8f-12:0:0:2, /dev/disk/by-scsid/360003ff44dc75adca906ede5d78ecb8f/sdg, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/LUN2, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/SESSIONID-12/LUN2
+  Device Number: block 8:96-8:111 (char 21:8)
+  Geometry (Logical): CHS 401024/255/63
+  Size: 6442450944 sectors a 512 bytes
+  Capacity: 3072 GB (3298534883328 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+92: SCSI c00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Frkd.P3T0bk7o94F
+  SysFS ID: /class/block/sde
+  SysFS BusID: 12:0:0:0
+  SysFS Device Link: /devices/platform/host12/session2/target12:0:0/12:0:0:0
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sde (/dev/sg6)
+  Device Files: /dev/sde, /dev/disk/by-id/scsi-360003ff44dc75adcb17974f4462da0c1, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-192.168.11.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-0, /dev/disk/by-scsibus/360003ff44dc75adcb17974f4462da0c1-12:0:0:0, /dev/disk/by-scsid/360003ff44dc75adcb17974f4462da0c1/sde, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/LUN0, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/192.168.11.101:3260/SESSIONID-12/LUN0
+  Device Number: block 8:64-8:79 (char 21:6)
+  Geometry (Logical): CHS 534698/255/63
+  Size: 8589934592 sectors a 512 bytes
+  Capacity: 4096 GB (4398046511104 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+93: SCSI b00.1: 10600 Disk
+  [Created at block.245]
+  Unique ID: LUEV.LESbSujTYb3
+  SysFS ID: /class/block/sdc
+  SysFS BusID: 11:0:0:1
+  SysFS Device Link: /devices/platform/host11/session1/target11:0:0/11:0:0:1
+  Hardware Class: disk
+  Model: "MSFT Virtual HD"
+  Vendor: "MSFT"
+  Device: "Virtual HD"
+  Revision: "6.3"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdc (/dev/sg4)
+  Device Files: /dev/sdc, /dev/disk/by-id/scsi-360003ff44dc75adc816c2f9e095396e2, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-172.21.1.101:3260-iscsi-iqn.1991-05.com.microsoft:cm-wss01-xenserver-target-lun-1, /dev/disk/by-scsibus/360003ff44dc75adc816c2f9e095396e2-11:0:0:1, /dev/disk/by-scsid/360003ff44dc75adc816c2f9e095396e2/sdc, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/LUN1, /dev/iscsi/iqn.1991-05.com.microsoft:cm-wss01-xenserver-target/172.21.1.101:3260/SESSIONID-11/LUN1
+  Device Number: block 8:32-8:47 (char 21:4)
+  Geometry (Logical): CHS 133674/255/63
+  Size: 2147483648 sectors a 512 bytes
+  Capacity: 1024 GB (1099511627776 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+94: SCSI 20.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: R7kM.GOaWLRpaLG4
+  Parent ID: ix0U.u4TO97j8xUC
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:2:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:02.0/0000:19:00.0/0000:1a:00.0/0000:1c:00.0/host0/target0:2:0/0:2:0:0
+  Hardware Class: disk
+  Model: "DELL PERC 6/i"
+  Vendor: "DELL"
+  Device: "PERC 6/i"
+  Revision: "1.22"
+  Serial ID: --
+  Driver: "megaraid_sas", "sd"
+  Driver Modules: "megaraid_sas", "sd_mod"
+  Device File: /dev/sda (/dev/sg1)
+  Device Files: /dev/sda, /dev/disk/by-id/scsi-360026b904c572b0027e7361720a6d7ca, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/pci-0000:1c:00.0-scsi-0:2:0:0, /dev/disk/by-scsibus/360026b904c572b0027e7361720a6d7ca-0:2:0:0, /dev/disk/by-scsid/360026b904c572b0027e7361720a6d7ca/sda
+  Device Number: block 8:0-8:15 (char 21:1)
+  BIOS id: 0x80
+  Geometry (Logical): CHS 29110/255/63
+  Size: 467664896 sectors a 512 bytes
+  Capacity: 223 GB (239444426752 bytes)
+  Geometry (BIOS Legacy): CHS 1023/255/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #45 (RAID bus controller)
+
+95: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: zKNm.Fxp0d3BezAE
+  SysFS ID: /class/block/tdd
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/tdd
+  Device Number: block 254:3
+  Geometry (Logical): CHS 2610/255/63
+  Size: 41943040 sectors a 512 bytes
+  Capacity: 20 GB (21474836480 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+96: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 2_sd.Fxp0d3BezAE
+  SysFS ID: /class/block/tdb
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/tdb
+  Device Number: block 254:1
+  Geometry (Logical): CHS 2610/255/63
+  Size: 41943040 sectors a 512 bytes
+  Capacity: 20 GB (21474836480 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+97: SCSI d00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: dNVq.RwBFSHa+U60
+  SysFS ID: /class/block/sdh
+  SysFS BusID: 13:0:0:0
+  SysFS Device Link: /devices/platform/host13/session47/target13:0:0/13:0:0:0
+  Hardware Class: disk
+  Model: "DELL MD38xxi"
+  Vendor: "DELL"
+  Device: "MD38xxi"
+  Revision: "0825"
+  Serial ID: --
+  Driver: "sd"
+  Driver Modules: "sd_mod"
+  Device File: /dev/sdh (/dev/sg9)
+  Device Files: /dev/sdh, /dev/disk/by-id/scsi-3600a0980006de819000002c8560b0ab5, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/ip-172.21.1.204:3260-iscsi-iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9-lun-0, /dev/disk/by-scsibus/3600a0980006de819000002c8560b0ab5-13:0:0:0, /dev/disk/by-scsid/3600a0980006de819000002c8560b0ab5/sdh, /dev/iscsi/iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9/172.21.1.204:3260/LUN0, /dev/iscsi/iqn.1984-05.com.dell:powervault.md3800i.600a0980006de81c0000000055f1cfc9/172.21.1.204:3260/SESSIONID-13/LUN0
+  Device Number: block 8:112-8:127 (char 21:9)
+  Geometry (Logical): CHS 267349/255/63
+  Size: 4294967296 sectors a 512 bytes
+  Capacity: 2048 GB (2199023255552 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+98: SCSI e00.1f: 10680 Storage Device
+  [Created at scsi.1778]
+  Unique ID: e1Uu.sMja25qsu2B
+  SysFS ID: /class/scsi_generic/sg12
+  SysFS BusID: 14:0:0:31
+  Hardware Class: unknown
+  Model: "DELL Universal Xport"
+  Vendor: "DELL"
+  Device: "Universal Xport"
+  Revision: "0825"
+  Device File: /dev/sg12
+  Device Number: char 21:12
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+99: SCSI d00.1f: 10680 Storage Device
+  [Created at scsi.1778]
+  Unique ID: jgzl.sMja25qsu2B
+  SysFS ID: /class/scsi_generic/sg10
+  SysFS BusID: 13:0:0:31
+  Hardware Class: unknown
+  Model: "DELL Universal Xport"
+  Vendor: "DELL"
+  Device: "Universal Xport"
+  Revision: "0825"
+  Device File: /dev/sg10
+  Device Number: char 21:10
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+100: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: C1e4._cOmnuCBvb4
+  Parent ID: X7GA._cOmnuCBvb4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb1/1-7/1-7.1/1-7.1:1.0
+  SysFS BusID: 1-7.1:1.0
+  Hardware Class: hub
+  Model: "Cypress CY7C65640 USB-2.0 "TetraHub""
+  Hotplug: USB
+  Vendor: usb 0x04b4 "Cypress Semiconductor Corp."
+  Device: usb 0x6560 "CY7C65640 USB-2.0 "TetraHub""
+  Revision: "90.15"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v04B4p6560d9015dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #102 (Hub)
+
+101: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.gkSaZmjGyhD
+  Parent ID: vayM.oAZe3wow_mC
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #35 (USB Controller)
+
+102: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: X7GA._cOmnuCBvb4
+  Parent ID: k4bc.9T1GDCLyFd9
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb1/1-7/1-7:1.0
+  SysFS BusID: 1-7:1.0
+  Hardware Class: hub
+  Model: "Cypress CY7C65640 USB-2.0 "TetraHub""
+  Hotplug: USB
+  Vendor: usb 0x04b4 "Cypress Semiconductor Corp."
+  Device: usb 0x6560 "CY7C65640 USB-2.0 "TetraHub""
+  Revision: "90.15"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v04B4p6560d9015dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #104 (Hub)
+
+103: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.RTX9xWW_uz4
+  Parent ID: mvRC.JbVOYUwdW9D
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #63 (USB Controller)
+
+104: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.9T1GDCLyFd9
+  Parent ID: 5YuN.rQ_3oheo5m2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #80 (USB Controller)
+
+105: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.CCckIHJirFC
+  Parent ID: eEx1.q+R8132L2YD
+  SysFS ID: /devices/pci0000:00/0000:00:1d.3/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (USB Controller)
+
+106: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.v+N+B0xY+P6
+  Parent ID: 1GTX.HmcuaLhDTOC
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0419dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #70 (USB Controller)
+
+107: None 00.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+108: None 01.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+109: None 02.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+110: None 03.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+111: None 04.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+112: None 05.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+113: None 06.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+114: None 07.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+115: None 08.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: TWbB.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+116: None 09.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: Ydef.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+117: None 0a.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: dkh7.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+118: None 0b.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: hrkb.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+119: None 0c.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: myn3.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+120: None 0d.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: r3rX.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+121: None 0e.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: wAu+.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+122: None 0f.0: 10103 CPU
+  [Created at cpu.457]
+  Unique ID: +HxT.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.29.1 "Intel(R) Xeon(R) CPU           E7450  @ 2.40GHz"
+  Features: fpu,de,tsc,msr,pae,mce,cx8,apic,sep,mca,cmov,pat,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,syscall,nx,lm,constant_tsc,rep_good,nopl,cpuid,pni,est,ssse3,cx16,sse4_1,hypervisor,lahf_lm
+  Clock: 2393 MHz
+  BogoMips: 4787.78
+  Cache: 12288 kb
+  Units/Processor: 8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+123: None 00.0: 10000 Monitor
+  [Created at fb.71]
+  Unique ID: rdCR.EY_qmtb9YY0
+  Hardware Class: monitor
+  Model: "Generic Monitor"
+  Vendor: "Generic"
+  Device: "Monitor"
+  Resolution: 640x480@73Hz
+  Year of Manufacture: 0
+  Week of Manufacture: 0
+  Driver Info #0:
+    Max. Resolution: 640x480
+    Vert. Sync Range: 50-90 Hz
+    Hor. Sync Range: 31-38 kHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+124: None 09.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7N7M.ndpeucax6V1
+  SysFS ID: /class/net/xapi9
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi9
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+125: None 08.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: mZAT.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/eth8
+  SysFS Device Link: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:02.0/0000:13:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ixgbe"
+  Driver Modules: "ixgbe"
+  Device File: eth8
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+126: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: dV6k.ndpeucax6V1
+  SysFS ID: /class/net/xenbr3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xenbr3
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+127: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: dxkv.ndpeucax6V1
+  Parent ID: aG+e.yWB5PHVX3QA
+  SysFS ID: /class/net/eth6
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:04.0/0000:17:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth6
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #67 (Ethernet controller)
+
+128: None 0b.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 86qx.ndpeucax6V1
+  SysFS ID: /class/net/xapi11
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi11
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+129: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+130: None 05.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3OBg.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/xapi5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi5
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+131: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: jaEn.ndpeucax6V1
+  Parent ID: gvUW.i6OtqP4nlTF
+  SysFS ID: /class/net/eth4
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:02.0/0000:16:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth4
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #74 (Ethernet controller)
+
+132: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 91hX.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/xapi3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi3
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+133: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pDke.ndpeucax6V1
+  Parent ID: mY_N.JbpPEO1nD7F
+  SysFS ID: /class/net/eth2
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:03.0/0000:08:00.0/0000:09:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth2
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (Ethernet controller)
+
+134: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: FgAP.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/xapi1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi1
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+135: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: rBUF.JbpPEO1nD7F
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:05.0/0000:04:00.0/0000:05:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #68 (Ethernet controller)
+
+136: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: _1tw.ndpeucax6V1
+  Parent ID: aG+e.yWB5PHVX3QA
+  SysFS ID: /class/net/xenbr6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xenbr6
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #67 (Ethernet controller)
+
+137: None 09.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: DlQX.ndpeucax6V1
+  Parent ID: A4hG.h_SxU19CN51
+  SysFS ID: /class/net/eth9
+  SysFS Device Link: /devices/pci0000:00/0000:00:06.0/0000:10:00.0/0000:11:02.0/0000:13:00.1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ixgbe"
+  Driver Modules: "ixgbe"
+  Device File: eth9
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #71 (Ethernet controller)
+
+138: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 1t42.ndpeucax6V1
+  SysFS ID: /class/net/vif29.0
+  SysFS Device Link: /devices/vif-29-0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "vif"
+  Driver Modules: "xen_netfront", "xen_netback"
+  Device File: vif29.0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+139: None 08.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: gBtH.ndpeucax6V1
+  Parent ID: A4hG.h_SxU19CN51
+  SysFS ID: /class/net/xapi8
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi8
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #71 (Ethernet controller)
+
+140: None 07.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: JOwO.ndpeucax6V1
+  Parent ID: GjA8.yWB5PHVX3QA
+  SysFS ID: /class/net/eth7
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:04.0/0000:17:00.1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth7
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (Ethernet controller)
+
+141: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WZRk.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/xapi6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi6
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+142: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: AKsf.ndpeucax6V1
+  Parent ID: mY_N.JbpPEO1nD7F
+  SysFS ID: /class/net/xenbr2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xenbr2
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (Ethernet controller)
+
+143: None 05.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: AmUr.ndpeucax6V1
+  Parent ID: 75la.i6OtqP4nlTF
+  SysFS ID: /class/net/eth5
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.0/0000:14:00.0/0000:15:02.0/0000:16:00.1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth5
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (Ethernet controller)
+
+144: None 0a.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: hwZt.ndpeucax6V1
+  Parent ID: A4hG.h_SxU19CN51
+  SysFS ID: /class/net/xapi10
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi10
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #71 (Ethernet controller)
+
+145: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: cCxb.ndpeucax6V1
+  Parent ID: juQC.h_SxU19CN51
+  SysFS ID: /class/net/xapi4
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi4
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Ethernet controller)
+
+146: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GP_i.ndpeucax6V1
+  Parent ID: DkES.JbpPEO1nD7F
+  SysFS ID: /class/net/eth3
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:02.0/0000:0a:00.0/0000:0b:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth3
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #36 (Ethernet controller)
+
+147: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: _YGv.ndpeucax6V1
+  SysFS ID: /class/net/vif5.0
+  SysFS Device Link: /devices/vif-5-0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "vif"
+  Driver Modules: "xen_netfront", "xen_netback"
+  Device File: vif5.0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+148: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: AYbC.ndpeucax6V1
+  SysFS ID: /class/net/vif28.0
+  SysFS Device Link: /devices/vif-28-0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "vif"
+  Driver Modules: "xen_netfront", "xen_netback"
+  Device File: vif28.0
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+149: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: irQT.ndpeucax6V1
+  Parent ID: A4hG.h_SxU19CN51
+  SysFS ID: /class/net/xapi2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xapi2
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #71 (Ethernet controller)
+
+150: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: L2Ua.ndpeucax6V1
+  Parent ID: JNkJ.JbpPEO1nD7F
+  SysFS ID: /class/net/eth1
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0/0000:02:04.0/0000:06:00.0/0000:07:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bnx2"
+  Driver Modules: "bnx2"
+  Device File: eth1
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #52 (Ethernet controller)
+
+151: None 07.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: hU2Q.ndpeucax6V1
+  Parent ID: GjA8.yWB5PHVX3QA
+  SysFS ID: /class/net/xenbr7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: xenbr7
+  HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (Ethernet controller)
+
+152: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: O1nj.ndpeucax6V1
+  SysFS ID: /class/net/ovs-system
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "openvswitch"
+  Device File: ovs-system
+  HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

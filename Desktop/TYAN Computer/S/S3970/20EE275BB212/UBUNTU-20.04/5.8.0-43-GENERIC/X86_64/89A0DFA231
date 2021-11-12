@@ -1,0 +1,595 @@
+07: PCI 03.1: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: w+J7.CeKGmWHChbD
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: usb controller
+  Model: "Broadcom BCM5785 [HT1000] USB"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0223 "BCM5785 [HT1000] USB"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0223 
+  Revision: 0x01
+  Driver: "ohci-pci"
+  Memory Range: 0xff6b5000-0xff6b5fff (rw,non-prefetchable)
+  I/O Ports: 0xe400-0xe4ff (rw)
+  IRQ: 10 (2 events)
+  Module Alias: "pci:v00001166d00000223sv00001166sd00000223bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 10e.1: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: S43R.jAG39iOM8vE
+  Parent ID: vSkL.1pKuvYkZs9D
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:0e.1
+  SysFS BusID: 0000:01:0e.1
+  Hardware Class: storage
+  Model: "Broadcom BCM5785 [HT1000] SATA (PATA/IDE Mode)"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x024b "BCM5785 [HT1000] SATA (PATA/IDE Mode)"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x024b 
+  I/O Ports: 0xcc00-0xcc07 (rw)
+  I/O Ports: 0xc880-0xc883 (rw)
+  I/O Ports: 0xc800-0xc807 (rw)
+  I/O Ports: 0xc480-0xc483 (rw)
+  I/O Ports: 0xc400-0xc40f (rw)
+  IRQ: 11 (60587 events)
+  Module Alias: "pci:v00001166d0000024Bsv00001166sd0000024Bbc01sc01i8F"
+  Driver Info #0:
+    Driver Status: sata_svw is active
+    Driver Activation Cmd: "modprobe sata_svw"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (PCI bridge)
+
+09: PCI 18.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Fhhh.M7aE7ttHy94
+  SysFS ID: /devices/pci0000:00/0000:00:18.3
+  SysFS BusID: 0000:00:18.3
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Miscellaneous Control"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1103 "K8 [Athlon64/Opteron] Miscellaneous Control"
+  Driver: "k8temp"
+  Driver Modules: "k8temp"
+  Module Alias: "pci:v00001022d00001103sv00000000sd00000000bc06sc00i00"
+  Driver Info #0:
+    Driver Status: k8temp is active
+    Driver Activation Cmd: "modprobe k8temp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: PCI 18.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: W1j0.KIhk9ketuO3
+  SysFS ID: /devices/pci0000:00/0000:00:18.1
+  SysFS BusID: 0000:00:18.1
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Address Map"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1101 "K8 [Athlon64/Opteron] Address Map"
+  Module Alias: "pci:v00001022d00001101sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.1pKuvYkZs9D
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Broadcom BCM5785 [HT1000] PCI/PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0036 "BCM5785 [HT1000] PCI/PCI-X Bridge"
+  Module Alias: "pci:v00001166d00000036sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: PCI 04.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: i7sv.W9Y+9IGS246
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: network
+  Model: "Intel 82541GI Gigabit Ethernet Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1076 "82541GI Gigabit Ethernet Controller"
+  SubVendor: pci 0x10f1 "Tyan Computer"
+  SubDevice: pci 0x3870 
+  Revision: 0x05
+  Driver: "e1000"
+  Driver Modules: "e1000"
+  Device File: enp0s4
+  Memory Range: 0xff680000-0xff69ffff (rw,non-prefetchable)
+  Memory Range: 0xff660000-0xff67ffff (rw,non-prefetchable)
+  I/O Ports: 0xdc00-0xdc3f (rw)
+  Memory Range: 0xff640000-0xff65ffff (ro,non-prefetchable,disabled)
+  IRQ: 16 (142871 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001076sv000010F1sd00003870bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000 is active
+    Driver Activation Cmd: "modprobe e1000"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 19.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: TTFK.ridUeImaQn3
+  SysFS ID: /devices/pci0000:00/0000:00:19.2
+  SysFS BusID: 0000:00:19.2
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] DRAM Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1102 "K8 [Athlon64/Opteron] DRAM Controller"
+  Module Alias: "pci:v00001022d00001102sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 02.1: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: ruGf.wUCJvb4YcTA
+  SysFS ID: /devices/pci0000:00/0000:00:02.1
+  SysFS BusID: 0000:00:02.1
+  Hardware Class: storage
+  Model: "Broadcom BCM5785 [HT1000] IDE"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0214 "BCM5785 [HT1000] IDE"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0214 
+  Driver: "pata_serverworks"
+  Driver Modules: "pata_serverworks"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xffa0-0xffaf (rw)
+  Module Alias: "pci:v00001166d00000214sv00001166sd00000214bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_serverworks is active
+    Driver Activation Cmd: "modprobe pata_serverworks"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 19.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: kpGf.ptk_g9XAN03
+  SysFS ID: /devices/pci0000:00/0000:00:19.0
+  SysFS BusID: 0000:00:19.0
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1100 "K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Module Alias: "pci:v00001022d00001100sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 03.2: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: nKpy.Se7Mv09MJl3
+  SysFS ID: /devices/pci0000:00/0000:00:03.2
+  SysFS BusID: 0000:00:03.2
+  Hardware Class: usb controller
+  Model: "Broadcom BCM5785 [HT1000] USB"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0223 "BCM5785 [HT1000] USB"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0223 
+  Revision: 0x01
+  Driver: "ehci-pci"
+  Memory Range: 0xff6b6000-0xff6b6fff (rw,non-prefetchable)
+  I/O Ports: 0xe800-0xe8ff (rw)
+  IRQ: 10 (2 events)
+  Module Alias: "pci:v00001166d00000223sv00001166sd00000223bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 03.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: 3hqH.CeKGmWHChbD
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: usb controller
+  Model: "Broadcom BCM5785 [HT1000] USB"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0223 "BCM5785 [HT1000] USB"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0223 
+  Revision: 0x01
+  Driver: "ohci-pci"
+  Memory Range: 0xff6b4000-0xff6b4fff (rw,non-prefetchable)
+  I/O Ports: 0xe000-0xe0ff (rw)
+  IRQ: 10 (2 events)
+  Module Alias: "pci:v00001166d00000223sv00001166sd00000223bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 10e.0: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: alZb.jAG39iOM8vE
+  Parent ID: vSkL.1pKuvYkZs9D
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:0e.0
+  SysFS BusID: 0000:01:0e.0
+  Hardware Class: storage
+  Model: "Broadcom BCM5785 [HT1000] SATA (PATA/IDE Mode)"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x024b "BCM5785 [HT1000] SATA (PATA/IDE Mode)"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x024b 
+  Driver: "sata_svw"
+  Driver Modules: "sata_svw"
+  I/O Ports: 0xc080-0xc087 (rw)
+  I/O Ports: 0xc000-0xc003 (rw)
+  I/O Ports: 0xbc00-0xbc07 (rw)
+  I/O Ports: 0xb880-0xb883 (rw)
+  I/O Ports: 0xb800-0xb80f (rw)
+  Memory Range: 0xff3fe000-0xff3fffff (rw,non-prefetchable)
+  Memory Range: 0xff3c0000-0xff3dffff (ro,non-prefetchable,disabled)
+  IRQ: 11 (60587 events)
+  Module Alias: "pci:v00001166d0000024Bsv00001166sd0000024Bbc01sc01i8F"
+  Driver Info #0:
+    Driver Status: sata_svw is active
+    Driver Activation Cmd: "modprobe sata_svw"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (PCI bridge)
+
+19: PCI 18.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: OMCs.ridUeImaQn3
+  SysFS ID: /devices/pci0000:00/0000:00:18.2
+  SysFS BusID: 0000:00:18.2
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] DRAM Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1102 "K8 [Athlon64/Opteron] DRAM Controller"
+  Module Alias: "pci:v00001022d00001102sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 06.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: H0_h.BlpuihJcb_5
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: graphics card
+  Model: "XGI Volari Z7"
+  Vendor: pci 0x18ca "XGI Technology Inc."
+  Device: pci 0x0020 "Volari Z7"
+  SubVendor: pci 0x18ca "XGI Technology Inc."
+  SubDevice: pci 0x0020 
+  Memory Range: 0xf8000000-0xfbffffff (ro,non-prefetchable)
+  Memory Range: 0xff6c0000-0xff6fffff (rw,non-prefetchable)
+  I/O Ports: 0xec00-0xec7f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  Module Alias: "pci:v000018CAd00000020sv000018CAsd00000020bc03sc00i00"
+  Driver Info #0:
+    XFree86 v4 Server Module: sis
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 18.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: fiDB.ptk_g9XAN03
+  SysFS ID: /devices/pci0000:00/0000:00:18.0
+  SysFS BusID: 0000:00:18.0
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1100 "K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Module Alias: "pci:v00001022d00001100sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 19.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Kok9.M7aE7ttHy94
+  SysFS ID: /devices/pci0000:00/0000:00:19.3
+  SysFS BusID: 0000:00:19.3
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Miscellaneous Control"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1103 "K8 [Athlon64/Opteron] Miscellaneous Control"
+  Driver: "k8temp"
+  Driver Modules: "k8temp"
+  Module Alias: "pci:v00001022d00001103sv00000000sd00000000bc06sc00i00"
+  Driver Info #0:
+    Driver Status: k8temp is active
+    Driver Activation Cmd: "modprobe k8temp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 02.2: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: jDmU.nYeWxJdQ_s8
+  SysFS ID: /devices/pci0000:00/0000:00:02.2
+  SysFS BusID: 0000:00:02.2
+  Hardware Class: bridge
+  Model: "Broadcom BCM5785 [HT1000] LPC"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0234 "BCM5785 [HT1000] LPC"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0230 
+  Module Alias: "pci:v00001166d00000234sv00001166sd00000230bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 19.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: b8mU.KIhk9ketuO3
+  SysFS ID: /devices/pci0000:00/0000:00:19.1
+  SysFS BusID: 0000:00:19.1
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Address Map"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1101 "K8 [Athlon64/Opteron] Address Map"
+  Module Alias: "pci:v00001022d00001101sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 02.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: _Znp.orCLtNYZ_VB
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: bridge
+  Model: "Broadcom BCM5785 [HT1000] Legacy South Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0205 "BCM5785 [HT1000] Legacy South Bridge"
+  SubVendor: pci 0x1166 "Broadcom"
+  SubDevice: pci 0x0201 
+  Driver: "piix4_smbus"
+  Driver Modules: "i2c_piix4"
+  Module Alias: "pci:v00001166d00000205sv00001166sd00000201bc06sc00i00"
+  Driver Info #0:
+    Driver Status: i2c_piix4 is active
+    Driver Activation Cmd: "modprobe i2c_piix4"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 10d.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: VeW7.wygR6CT4Jd4
+  Parent ID: vSkL.1pKuvYkZs9D
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:0d.0
+  SysFS BusID: 0000:01:0d.0
+  Hardware Class: bridge
+  Model: "Broadcom BCM5785 [HT1000] PCI/PCI-X Bridge"
+  Vendor: pci 0x1166 "Broadcom"
+  Device: pci 0x0104 "BCM5785 [HT1000] PCI/PCI-X Bridge"
+  SubVendor: pci 0x0080 
+  SubDevice: pci 0x4040 
+  Revision: 0xc0
+  Module Alias: "pci:v00001166d00000104sv00000080sd00004040bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (PCI bridge)
+
+27: PCI 05.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: 9J6_.W9Y+9IGS246
+  SysFS ID: /devices/pci0000:00/0000:00:05.0
+  SysFS BusID: 0000:00:05.0
+  Hardware Class: network
+  Model: "Intel 82541GI Gigabit Ethernet Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1076 "82541GI Gigabit Ethernet Controller"
+  SubVendor: pci 0x10f1 "Tyan Computer"
+  SubDevice: pci 0x3870 
+  Revision: 0x05
+  Driver: "e1000"
+  Driver Modules: "e1000"
+  Device File: enp0s5
+  Memory Range: 0xff620000-0xff63ffff (rw,non-prefetchable)
+  Memory Range: 0xff600000-0xff61ffff (rw,non-prefetchable)
+  I/O Ports: 0xd880-0xd8bf (rw)
+  Memory Range: 0xff5e0000-0xff5fffff (ro,non-prefetchable,disabled)
+  IRQ: 17 (1114 events)
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Module Alias: "pci:v00008086d00001076sv000010F1sd00003870bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000 is active
+    Driver Activation Cmd: "modprobe e1000"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kwWm.Fxp0d3BezAE
+  SysFS ID: /class/block/fd0
+  SysFS BusID: floppy.0
+  SysFS Device Link: /devices/platform/floppy.0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "floppy"
+  Driver Modules: "floppy"
+  Device File: /dev/fd0
+  Device Number: block 2:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: IDE 200.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.dHnzu_8One2
+  Parent ID: alZb.jAG39iOM8vE
+  SysFS ID: /class/block/sda
+  SysFS BusID: 2:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:01.0/0000:01:0e.0/ata3/host2/target2:0:0/2:0:0:0
+  Hardware Class: disk
+  Model: "ST3808110AS"
+  Device: "ST3808110AS"
+  Revision: "H"
+  Serial ID: --
+  Driver: "sata_svw", "sd"
+  Driver Modules: "sata_svw"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 9726/255/63
+  Size: 156250000 sectors a 512 bytes
+  Capacity: 74 GB (80000000000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (IDE interface)
+
+30: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.0W7TJ+_EPQ3
+  Parent ID: w+J7.CeKGmWHChbD
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.08"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0508dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+31: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.gaKF7jZeHw3
+  Parent ID: nKpy.Se7Mv09MJl3
+  SysFS ID: /devices/pci0000:00/0000:00:03.2/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.08"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0508dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+32: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.Fn2uxECXS8C
+  Parent ID: 3hqH.CeKGmWHChbD
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.08"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0508dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (USB Controller)
+
+33: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.65.2 "Dual-Core AMD Opteron(tm) Processor 8218"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 2200 MHz
+  BogoMips: 5186.58
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.65.2 "Dual-Core AMD Opteron(tm) Processor 8218"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 2200 MHz
+  BogoMips: 5186.66
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 02.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.65.2 "Dual-Core AMD Opteron(tm) Processor 8218"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 1000 MHz
+  BogoMips: 5186.68
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 03.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.65.2 "Dual-Core AMD Opteron(tm) Processor 8218"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall
+  Clock: 1000 MHz
+  BogoMips: 5186.65
+  Cache: 1024 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: qyMs.ndpeucax6V1
+  Parent ID: 9J6_.W9Y+9IGS246
+  SysFS ID: /class/net/enp0s5
+  SysFS Device Link: /devices/pci0000:00/0000:00:05.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000"
+  Driver Modules: "e1000"
+  Device File: enp0s5
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (Ethernet controller)
+
+38: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Nn6o.ndpeucax6V1
+  Parent ID: i7sv.W9Y+9IGS246
+  SysFS ID: /class/net/enp0s4
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000"
+  Driver Modules: "e1000"
+  Device File: enp0s4
+  HW Address:  ...
+  Permanent HW Address:  ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Ethernet controller)

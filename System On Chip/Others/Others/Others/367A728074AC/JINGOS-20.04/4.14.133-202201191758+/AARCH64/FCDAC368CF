@@ -1,0 +1,704 @@
+10: PCI 10000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: GUJ2.6FoCKvo3fO9
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20c00000.pcie/pci0001:00/0001:00:00.0
+  SysFS BusID: 0001:00:00.0
+  Hardware Class: bridge
+  Model: "Synopsys DWC_usb3 / PCIe bridge"
+  Vendor: pci 0x16c3 "Synopsys, Inc."
+  Device: pci 0xabcd "DWC_usb3 / PCIe bridge"
+  Revision: 0x01
+  Driver: "pcieport"
+  Module Alias: "pci:v000016C3d0000ABCDsv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 1100.0: 0d80 Wireless controller
+  [Created at pci.386]
+  Unique ID: Nt5K.9qKfI_DYgV7
+  Parent ID: h0vA.6FoCKvo3fO9
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20d00000.pcie/pci0000:10/0000:10:00.0/0000:11:00.0
+  SysFS BusID: 0000:11:00.0
+  Hardware Class: unknown
+  Model: "Synopsys DWC_usb3 / PCIe bridge"
+  Vendor: pci 0x16c3 "Synopsys, Inc."
+  Device: pci 0xabcd "DWC_usb3 / PCIe bridge"
+  Revision: 0x01
+  Driver: "sprd-pcie-ep-device"
+  Memory Range: 0x280000000-0x28fffffff (ro,non-prefetchable)
+  Memory Range: 0x2b0000000-0x2b000ffff (rw,non-prefetchable)
+  Memory Range: 0x290000000-0x29fffffff (ro,non-prefetchable)
+  Memory Range: 0x2b0010000-0x2b001ffff (rw,non-prefetchable)
+  Memory Range: 0x2a0000000-0x2afffffff (rw,non-prefetchable)
+  Memory Range: 0x2b0020000-0x2b002ffff (rw,non-prefetchable)
+  IRQ: 91 (no events)
+  Module Alias: "pci:v000016C3d0000ABCDsv00000000sd00000000bc0Dsc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (PCI bridge)
+
+12: PCI 1000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: h0vA.6FoCKvo3fO9
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20d00000.pcie/pci0000:10/0000:10:00.0
+  SysFS BusID: 0000:10:00.0
+  Hardware Class: bridge
+  Model: "Synopsys DWC_usb3 / PCIe bridge"
+  Vendor: pci 0x16c3 "Synopsys, Inc."
+  Device: pci 0xabcd "DWC_usb3 / PCIe bridge"
+  Revision: 0x01
+  Driver: "pcieport"
+  Module Alias: "pci:v000016C3d0000ABCDsv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 10100.0: 0280 Network controller
+  [Created at pci.386]
+  Unique ID: xKWB.jtuZSRQt5ZF
+  Parent ID: GUJ2.6FoCKvo3fO9
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20c00000.pcie/pci0001:00/0001:00:00.0/0001:01:00.0
+  SysFS BusID: 0001:01:00.0
+  Hardware Class: network
+  Model: "Network controller"
+  Vendor: pci 0x1db3 
+  Device: pci 0x2355 
+  Revision: 0x01
+  Driver: "wcn_pcie"
+  Memory Range: 0x3f8000000-0x3f83fffff (ro,non-prefetchable)
+  Memory Range: 0x3f8400000-0x3f87fffff (ro,non-prefetchable)
+  Memory Range: 0x3f8800000-0x3f88fffff (rw,non-prefetchable)
+  Memory Range: 0x3f8900000-0x3f89fffff (rw,non-prefetchable)
+  IRQ: 158 (no events)
+  Module Alias: "pci:v00001DB3d00002355sv00000000sd00000000bc02sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (PCI bridge)
+
+14: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: SJB7.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/soc:aon/5fff0000.usb
+  SysFS BusID: 5fff0000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "musb-sprd"
+  Module Alias: "of:NusbT<NULL>Csprd,roc1-musb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1082]
+  Unique ID: pMgr.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20f00000.usb3/20f00000.dwc3/xhci-hcd.3.auto
+  SysFS BusID: xhci-hcd.3.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: KkQi.TfPFe67fIBB
+  SysFS ID: /devices/platform/21040064.sprd-wlan
+  SysFS BusID: 21040064.sprd-wlan
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "sc2355"
+  Driver Modules: "sprdwl_ng"
+  Device File: wlan0
+  HW Address: F5A372C3FD43229165438F514CDA622C
+  Permanent HW Address: F5A372C3FD43229165438F514CDA622C
+  Link detected: yes
+  Module Alias: "of:Nsprd-wlanT<NULL>Csprd,sc2355-wifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7tlP.Fxp0d3BezAE
+  SysFS ID: /class/block/ram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram2
+  Device Number: block 1:2
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: SCSI 00.1: 10600 Disk
+  [Created at block.245]
+  Unique ID: uI_Q.ePPniwP2Dg5
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 0:0:0:1
+  SysFS Device Link: /devices/platform/soc/soc:ap-apb/71900000.ufs/host0/target0:0:0/0:0:0:1
+  Hardware Class: disk
+  Model: "MICRON MT256GASAO8U21"
+  Vendor: "MICRON"
+  Device: "MT256GASAO8U21"
+  Revision: "0608"
+  Driver: "ufshcd-sprd", "sd"
+  Device File: /dev/sdb
+  Device Number: block 8:16-8:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: XOSI.Fxp0d3BezAE
+  SysFS ID: /class/block/ram9
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram9
+  Device Number: block 1:9
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: s19p.Fxp0d3BezAE
+  SysFS ID: /class/block/ram14
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram14
+  Device Number: block 1:14
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: d1y9.Fxp0d3BezAE
+  SysFS ID: /class/block/ram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram7
+  Device Number: block 1:7
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ygeg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram12
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram12
+  Device Number: block 1:12
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: UPWc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram5
+  Device Number: block 1:5
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 2K8Y.Fxp0d3BezAE
+  SysFS ID: /class/block/ram10
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram10
+  Device Number: block 1:10
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: a20U.Fxp0d3BezAE
+  SysFS ID: /class/block/ram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram3
+  Device Number: block 1:3
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ghVL.Fxp0d3BezAE
+  SysFS ID: /class/block/ram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram1
+  Device Number: block 1:1
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: SCSI 00.2: 10600 Disk
+  [Created at block.245]
+  Unique ID: LUEV.ePPniwP2Dg5
+  SysFS ID: /class/block/sdc
+  SysFS BusID: 0:0:0:2
+  SysFS Device Link: /devices/platform/soc/soc:ap-apb/71900000.ufs/host0/target0:0:0/0:0:0:2
+  Hardware Class: disk
+  Model: "MICRON MT256GASAO8U21"
+  Vendor: "MICRON"
+  Device: "MT256GASAO8U21"
+  Revision: "0608"
+  Driver: "ufshcd-sprd", "sd"
+  Device File: /dev/sdc
+  Device Number: block 8:32-8:47
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: JDPt.Fxp0d3BezAE
+  SysFS ID: /class/block/ram15
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram15
+  Device Number: block 1:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: R7kM.ePPniwP2Dg5
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/soc/soc:ap-apb/71900000.ufs/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "MICRON MT256GASAO8U21"
+  Vendor: "MICRON"
+  Device: "MT256GASAO8U21"
+  Revision: "0608"
+  Driver: "ufshcd-sprd", "sd"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 4DCE.Fxp0d3BezAE
+  SysFS ID: /class/block/ram8
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram8
+  Device Number: block 1:8
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 254:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Psuk.Fxp0d3BezAE
+  SysFS ID: /class/block/ram13
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram13
+  Device Number: block 1:13
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: xamg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram6
+  Device Number: block 1:6
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: VVOc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram11
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram11
+  Device Number: block 1:11
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 1EGY.Fxp0d3BezAE
+  SysFS ID: /class/block/ram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram4
+  Device Number: block 1:4
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.qJnwo00sL6F
+  Parent ID: pMgr.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20f00000.usb3/20f00000.dwc3/xhci-hcd.3.auto/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0414dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.7WVm2G08vy2
+  Parent ID: SJB7.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/soc:aon/5fff0000.usb/musb-hdrc.2.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0414dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (USB Controller)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.JJix0gcIFD4
+  Parent ID: pMgr.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/soc:ap-ahb/20f00000.usb3/20f00000.dwc3/xhci-hcd.3.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0414dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+41: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: f2vv.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "Sprd Keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "Sprd Keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event8
+  Device Number: char 13:72
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 3.1.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 3.1.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 3.1.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+49: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 3.1.0 ""
+  Platform: "T7510"
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp,cpuid,asimdrdm,lrcpc,dcpop,asimddp
+  BogoMips: 52.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+50: None 07.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: ySRS.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth7
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth7
+  HW Address: B70782F8CE6ED79D0CBDB10D768E748B
+  Permanent HW Address: B70782F8CE6ED79D0CBDB10D768E748B
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: None 05.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: pq+u.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth5
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth5
+  HW Address: 9688BBC080D1E3AB7D7D94177786A3DD
+  Permanent HW Address: 9688BBC080D1E3AB7D7D94177786A3DD
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: qdX2.GSopYcFr9cF
+  SysFS ID: /class/net/ip6_vti0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6_vti0
+  Permanent HW Address: 66736C66D53C1FD67D349608160C8D4E:9B615E889BC3EDDF63600C8DAA6D56CC:00:00:00:00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+53: None 03.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: uTVm.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth3
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth3
+  HW Address: 105350511AA5AF51E362FAC9037CD894
+  Permanent HW Address: 105350511AA5AF51E362FAC9037CD894
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: None 01.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: _6+d.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth1
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth1
+  HW Address: 4640668CF7D2D8488DE142260E64D5A9
+  Permanent HW Address: 4640668CF7D2D8488DE142260E64D5A9
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dummy"
+  Device File: dummy0
+  HW Address: 471D75DAE4B090D269B258505BC20214
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: None 06.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: G0Gz.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth6
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth6
+  HW Address: 097C1E5E5FADD97ECC91F23E55FDA500
+  Permanent HW Address: 097C1E5E5FADD97ECC91F23E55FDA500
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 04.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: Lflq.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth4
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth4
+  HW Address: 07F9A63AD2CC6C67783743A6FFD565FE
+  Permanent HW Address: 07F9A63AD2CC6C67783743A6FFD565FE
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: KkQi.TfPFe67fIBB
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/21040064.sprd-wlan
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "sc2355"
+  Driver Modules: "sprdwl_ng"
+  Device File: wlan0
+  HW Address: F5A372C3FD43229165438F514CDA622C
+  Permanent HW Address: F5A372C3FD43229165438F514CDA622C
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (Ethernet controller)
+
+61: None 00.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: IhCv.SyfSGg7YspF
+  SysFS ID: /class/net/usb0
+  SysFS Device Link: /devices/platform/soc/soc:ap-ahb/20f00000.usb3/20f00000.dwc3/gadget
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "g_ether"
+  Device File: usb0
+  HW Address: 7E92A08C25E179E3623B30DDDFE1BC5E
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+62: None 02.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: RIFi.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth2
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth2
+  HW Address: 344925626A229AB8A32D011A6ACD2F33
+  Permanent HW Address: 344925626A229AB8A32D011A6ACD2F33
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Vbky.ndpeucax6V1
+  SysFS ID: /class/net/lxcbr0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: lxcbr0
+  HW Address: 6EF9CCBCAA162DCDA28E0015BE2AA9F1
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: XxkZ.GSopYcFr9cF
+  SysFS ID: /class/net/sipa_eth0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sipa_eth0
+  HW Address: 940339F948F0ECAC8CFFFC036F0C37CD
+  Permanent HW Address: 940339F948F0ECAC8CFFFC036F0C37CD
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+65: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: HtAv.GSopYcFr9cF
+  SysFS ID: /class/net/ip6tnl0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip6tnl0
+  Permanent HW Address: 27B39967D68706F8EA56F98EF1253BAA:9B615E889BC3EDDF63600C8DAA6D56CC:00:00:00:00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: b8Rv.GSopYcFr9cF
+  SysFS ID: /class/net/ip_vti0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: ip_vti0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

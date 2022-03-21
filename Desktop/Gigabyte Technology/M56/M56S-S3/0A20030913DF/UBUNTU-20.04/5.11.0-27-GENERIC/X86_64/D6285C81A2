@@ -1,0 +1,645 @@
+05: PCI 08.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: RE4e.umaYMhch966
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: bridge
+  Model: "nVidia MCP65 PCI bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0449 "MCP65 PCI bridge"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x026f 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd00000449sv00001458sd0000026Fbc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: PCI 18.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Fhhh.M7aE7ttHy94
+  SysFS ID: /devices/pci0000:00/0000:00:18.3
+  SysFS BusID: 0000:00:18.3
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Miscellaneous Control"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1103 "K8 [Athlon64/Opteron] Miscellaneous Control"
+  Driver: "k8temp"
+  Driver Modules: "k8temp"
+  Module Alias: "pci:v00001022d00001103sv00000000sd00000000bc06sc00i00"
+  Driver Info #0:
+    Driver Status: k8temp is active
+    Driver Activation Cmd: "modprobe k8temp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: PCI 0d.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qnJ_.dQFbIMwVCHB
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: bridge
+  Model: "nVidia MCP65 PCI Express bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0458 "MCP65 PCI Express bridge"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x0000 "MCP65 PCI Express bridge"
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v000010DEd00000458sv000010DEsd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: PCI 200.2: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: wi3r.a7uxN7PvYdF
+  Parent ID: qnJ_.dQFbIMwVCHB
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.2
+  SysFS BusID: 0000:02:00.2
+  Hardware Class: usb controller
+  Model: "nVidia TU106 USB 3.1 Host Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x1ada "TU106 USB 3.1 Host Controller"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x12fe 
+  Revision: 0xa1
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xdff80000-0xdffbffff (ro,non-prefetchable)
+  Memory Range: 0xdfff0000-0xdfffffff (ro,non-prefetchable)
+  IRQ: 26 (no events)
+  Module Alias: "pci:v000010DEd00001ADAsv000010DEsd000012FEbc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (PCI bridge)
+
+09: PCI 01.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: e6j0.ghVLPeEm2w4
+  SysFS ID: /devices/pci0000:00/0000:00:01.2
+  SysFS BusID: 0000:00:01.2
+  Hardware Class: unknown
+  Model: "nVidia MCP65 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0445 "MCP65 Memory Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x0c11 
+  Revision: 0xa1
+  Module Alias: "pci:v000010DEd00000445sv00001458sd00000C11bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: PCI 18.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: W1j0.KIhk9ketuO3
+  SysFS ID: /devices/pci0000:00/0000:00:18.1
+  SysFS BusID: 0000:00:18.1
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] Address Map"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1101 "K8 [Athlon64/Opteron] Address Map"
+  Module Alias: "pci:v00001022d00001101sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: PCI 200.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: B35A.zYzn9oytko0
+  Parent ID: qnJ_.dQFbIMwVCHB
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: graphics card
+  Model: "nVidia TU106 [GeForce RTX 2070]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x1f02 "TU106 [GeForce RTX 2070]"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x12fe 
+  Revision: 0xa1
+  Memory Range: 0xfb000000-0xfbffffff (rw,non-prefetchable)
+  Memory Range: 0xc0000000-0xcfffffff (ro,non-prefetchable)
+  Memory Range: 0xdc000000-0xddffffff (ro,non-prefetchable)
+  I/O Ports: 0xbc00-0xbc7f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 5 (no events)
+  Module Alias: "pci:v000010DEd00001F02sv000010DEsd000012FEbc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidiafb is not active
+    Driver Activation Cmd: "modprobe nvidiafb"
+  Driver Info #1:
+    Driver Status: nouveau is not active
+    Driver Activation Cmd: "modprobe nouveau"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (PCI bridge)
+
+12: PCI 01.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: vSkL.ANT8sk1EJoE
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "nVidia MCP65 LPC Bridge"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0441 "MCP65 LPC Bridge"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x0c11 
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd00000441sv00001458sd00000C11bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 02.1: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: ruGf.zSAXCaC_hhF
+  SysFS ID: /devices/pci0000:00/0000:00:02.1
+  SysFS BusID: 0000:00:02.1
+  Hardware Class: usb controller
+  Model: "nVidia MCP65 USB 2.0 EHCI Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0455 "MCP65 USB 2.0 EHCI Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5004 
+  Revision: 0xa3
+  Driver: "ehci-pci"
+  Memory Range: 0xfe02e000-0xfe02e0ff (rw,non-prefetchable)
+  IRQ: 22 (3 events)
+  Module Alias: "pci:v000010DEd00000455sv00001458sd00005004bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 07.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: M71A.sBsq21EpWG1
+  SysFS ID: /devices/pci0000:00/0000:00:07.0
+  SysFS BusID: 0000:00:07.0
+  Hardware Class: sound
+  Model: "nVidia MCP65 High Definition Audio"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x044a "MCP65 High Definition Audio"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xa002 
+  Revision: 0xa1
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfe024000-0xfe027fff (rw,non-prefetchable)
+  IRQ: 23 (17392 events)
+  Module Alias: "pci:v000010DEd0000044Asv00001458sd0000A002bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 00.0: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: qLht.VXZnZa_mNoE
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: unknown
+  Model: "nVidia MCP65 Memory Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0444 "MCP65 Memory Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5001 
+  Revision: 0xa3
+  Module Alias: "pci:v000010DEd00000444sv00001458sd00005001bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 200.3: 0c80 Serial bus controller
+  [Created at pci.386]
+  Unique ID: n1Zg.owXAaV42IMC
+  Parent ID: qnJ_.dQFbIMwVCHB
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.3
+  SysFS BusID: 0000:02:00.3
+  Hardware Class: unknown
+  Model: "nVidia TU106 USB Type-C UCSI Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x1adb "TU106 USB Type-C UCSI Controller"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x12fe 
+  Revision: 0xa1
+  Driver: "nvidia-gpu"
+  Driver Modules: "i2c_nvidia_gpu"
+  Memory Range: 0xfcfff000-0xfcffffff (rw,non-prefetchable)
+  IRQ: 27 (no events)
+  Module Alias: "pci:v000010DEd00001ADBsv000010DEsd000012FEbc0Csc80i00"
+  Driver Info #0:
+    Driver Status: i2c_nvidia_gpu is active
+    Driver Activation Cmd: "modprobe i2c_nvidia_gpu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (PCI bridge)
+
+17: PCI 10e.0: 0c00 FireWire (IEEE 1394) (OHCI)
+  [Created at pci.386]
+  Unique ID: alZb.yKpOLevOUQ8
+  Parent ID: RE4e.umaYMhch966
+  SysFS ID: /devices/pci0000:00/0000:00:08.0/0000:01:0e.0
+  SysFS BusID: 0000:01:0e.0
+  Hardware Class: firewire controller
+  Model: "Texas Instruments TSB43AB23 IEEE-1394a-2000 Controller (PHY/Link)"
+  Vendor: pci 0x104c "Texas Instruments"
+  Device: pci 0x8024 "TSB43AB23 IEEE-1394a-2000 Controller (PHY/Link)"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x1000 "Motherboard"
+  Driver: "firewire_ohci"
+  Driver Modules: "firewire_ohci"
+  Memory Range: 0xfdeff000-0xfdeff7ff (rw,non-prefetchable)
+  Memory Range: 0xfdef8000-0xfdefbfff (rw,non-prefetchable)
+  IRQ: 18 (2 events)
+  Module Alias: "pci:v0000104Cd00008024sv00001458sd00001000bc0Csc00i10"
+  Driver Info #0:
+    Driver Status: ohci1394 is not active
+    Driver Activation Cmd: "modprobe ohci1394"
+  Driver Info #1:
+    Driver Status: firewire_ohci is active
+    Driver Activation Cmd: "modprobe firewire_ohci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (PCI bridge)
+
+18: PCI 18.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: OMCs.ridUeImaQn3
+  SysFS ID: /devices/pci0000:00/0000:00:18.2
+  SysFS BusID: 0000:00:18.2
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] DRAM Controller"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1102 "K8 [Athlon64/Opteron] DRAM Controller"
+  Module Alias: "pci:v00001022d00001102sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 200.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: 2Oa+.HEy_xvKd+l0
+  Parent ID: qnJ_.dQFbIMwVCHB
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.1
+  SysFS BusID: 0000:02:00.1
+  Hardware Class: sound
+  Model: "nVidia TU106 High Definition Audio Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x10f9 "TU106 High Definition Audio Controller"
+  SubVendor: pci 0x10de "nVidia Corporation"
+  SubDevice: pci 0x12fe 
+  Revision: 0xa1
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfcff8000-0xfcffbfff (rw,non-prefetchable)
+  IRQ: 16 (327 events)
+  Module Alias: "pci:v000010DEd000010F9sv000010DEsd000012FEbc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (PCI bridge)
+
+20: PCI 01.1: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: mnDB.tYX2IW8UBGE
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: unknown
+  Model: "nVidia MCP65 SMBus"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0446 "MCP65 SMBus"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x0c11 
+  Revision: 0xa1
+  Driver: "nForce2_smbus"
+  Driver Modules: "i2c_nforce2"
+  I/O Ports: 0xfc00-0xfc3f (rw)
+  I/O Ports: 0x1c00-0x1c3f (rw)
+  I/O Ports: 0x1c40-0x1c7f (rw)
+  IRQ: 5 (no events)
+  Module Alias: "pci:v000010DEd00000446sv00001458sd00000C11bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_nforce2 is active
+    Driver Activation Cmd: "modprobe i2c_nforce2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 06.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: cUM2.N7tXnqwvUF7
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: network
+  Model: "nVidia MCP65 Ethernet"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0450 "MCP65 Ethernet"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xe000 
+  Revision: 0xa3
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s6
+  Memory Range: 0xfe02d000-0xfe02dfff (rw,non-prefetchable)
+  I/O Ports: 0xf000-0xf007 (rw)
+  IRQ: 28 (437045 events)
+  HW Address: 06FCCD4491CF0421168EAED0EE0A560B
+  Permanent HW Address: 06FCCD4491CF0421168EAED0EE0A560B
+  Link detected: yes
+  Module Alias: "pci:v000010DEd00000450sv00001458sd0000E000bc02sc00i00"
+  Driver Info #0:
+    Driver Status: forcedeth is active
+    Driver Activation Cmd: "modprobe forcedeth"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 18.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: fiDB.ptk_g9XAN03
+  SysFS ID: /devices/pci0000:00/0000:00:18.0
+  SysFS BusID: 0000:00:18.0
+  Hardware Class: bridge
+  Model: "AMD K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Vendor: pci 0x1022 "AMD"
+  Device: pci 0x1100 "K8 [Athlon64/Opteron] HyperTransport Technology Configuration"
+  Module Alias: "pci:v00001022d00001100sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 09.0: 0101 IDE interface (ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: WL76.fLPVw1audiC
+  SysFS ID: /devices/pci0000:00/0000:00:09.0
+  SysFS BusID: 0000:00:09.0
+  Hardware Class: storage
+  Model: "nVidia MCP65 IDE"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0448 "MCP65 IDE"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5002 
+  Revision: 0xa1
+  Driver: "pata_amd"
+  Driver Modules: "pata_amd"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xec00-0xec0f (rw)
+  Module Alias: "pci:v000010DEd00000448sv00001458sd00005002bc01sc01i8A"
+  Driver Info #0:
+    Driver Status: pata_amd is active
+    Driver Activation Cmd: "modprobe pata_amd"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 02.0: 0c03 USB Controller (OHCI)
+  [Created at pci.386]
+  Unique ID: _Znp.C2RhaVD7Y99
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: usb controller
+  Model: "nVidia MCP65 USB 1.1 OHCI Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0454 "MCP65 USB 1.1 OHCI Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5004 
+  Revision: 0xa3
+  Driver: "ohci-pci"
+  Memory Range: 0xfe02f000-0xfe02ffff (rw,non-prefetchable)
+  IRQ: 23 (17392 events)
+  Module Alias: "pci:v000010DEd00000454sv00001458sd00005004bc0Csc03i10"
+  Driver Info #0:
+    Driver Status: ohci-hcd is not active
+    Driver Activation Cmd: "modprobe ohci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 0a.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: bSAa.xC_rCJHoCg0
+  SysFS ID: /devices/pci0000:00/0000:00:0a.0
+  SysFS BusID: 0000:00:0a.0
+  Hardware Class: storage
+  Model: "nVidia MCP65 SATA Controller"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x045d "MCP65 SATA Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xb002 
+  Revision: 0xa3
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0x9f0-0x9f7 (rw)
+  I/O Ports: 0xbf0-0xbf3 (rw)
+  I/O Ports: 0x970-0x977 (rw)
+  I/O Ports: 0xb70-0xb73 (rw)
+  I/O Ports: 0xd800-0xd80f (rw)
+  Memory Range: 0xfe02a000-0xfe02bfff (rw,non-prefetchable)
+  IRQ: 25 (150291 events)
+  Module Alias: "pci:v000010DEd0000045Dsv00001458sd0000B002bc01sc01i85"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kwWm.Fxp0d3BezAE
+  SysFS ID: /class/block/fd0
+  SysFS BusID: floppy.0
+  SysFS Device Link: /devices/platform/floppy.0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "floppy"
+  Driver Modules: "floppy"
+  Device File: /dev/fd0
+  Device Number: block 2:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: IDE 500.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.O4D2wr1YoH7
+  Parent ID: bSAa.xC_rCJHoCg0
+  SysFS ID: /class/block/sda
+  SysFS BusID: 5:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:0a.0/ata6/host5/target5:0:0/5:0:0:0
+  Hardware Class: disk
+  Model: "HS-SSD-E100 256G"
+  Vendor: "HS-SSD-E100"
+  Device: "256G"
+  Revision: "0A0"
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (IDE interface)
+
+28: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.PA0+Aq7fQoA
+  Parent ID: wi3r.a7uxN7PvYdF
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.2/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0511dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+29: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: hSuP.YfdoTVwuZYE
+  Parent ID: pBe4.kllrQr_lFX9
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/usb2/2-2/2-2:1.0
+  SysFS BusID: 2-2:1.0
+  Hardware Class: mouse
+  Model: "KYE Gaming Mouse"
+  Hotplug: USB
+  Vendor: usb 0x0458 "KYE Systems"
+  Device: usb 0x018b "Gaming Mouse"
+  Revision: "24.58"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v0458p018Bd2458dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #33 (Hub)
+
+30: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.IW8CdnvKM04
+  Parent ID: wi3r.a7uxN7PvYdF
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0/0000:02:00.2/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0511dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+31: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.OqydEZZ981A
+  Parent ID: ruGf.zSAXCaC_hhF
+  SysFS ID: /devices/pci0000:00/0000:00:02.1/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0511dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (USB Controller)
+
+32: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: 8e8U.M6eYAxaVw34
+  Parent ID: pBe4.kllrQr_lFX9
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/usb2/2-2/2-2:1.1
+  SysFS BusID: 2-2:1.1
+  Hardware Class: unknown
+  Model: "KYE Gaming Mouse"
+  Hotplug: USB
+  Vendor: usb 0x0458 "KYE Systems"
+  Device: usb 0x018b "Gaming Mouse"
+  Revision: "24.58"
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v0458p018Bd2458dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #33 (Hub)
+
+33: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.kllrQr_lFX9
+  Parent ID: _Znp.C2RhaVD7Y99
+  SysFS ID: /devices/pci0000:00/0000:00:02.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.11"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0511dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (USB Controller)
+
+34: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.107.1 "AMD Athlon(tm) 64 X2 Dual Core Processor 4000+"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall,lbrv
+  Clock: 1800 MHz
+  BogoMips: 4219.24
+  Cache: 512 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "AuthenticAMD"
+  Model: 15.107.1 "AMD Athlon(tm) 64 X2 Dual Core Processor 4000+"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,mmx,fxsr,sse,sse2,ht,syscall,nx,mmxext,fxsr_opt,rdtscp,lm,3dnowext,3dnow,rep_good,nopl,cpuid,extd_apicid,pni,cx16,lahf_lm,cmp_legacy,svm,extapic,cr8_legacy,3dnowprefetch,vmmcall,lbrv
+  Clock: 1800 MHz
+  BogoMips: 4219.30
+  Cache: 512 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: I8dw.ndpeucax6V1
+  Parent ID: cUM2.N7tXnqwvUF7
+  SysFS ID: /class/net/enp0s6
+  SysFS Device Link: /devices/pci0000:00/0000:00:06.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "forcedeth"
+  Driver Modules: "forcedeth"
+  Device File: enp0s6
+  HW Address: 06FCCD4491CF0421168EAED0EE0A560B
+  Permanent HW Address: 06FCCD4491CF0421168EAED0EE0A560B
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (Ethernet controller)

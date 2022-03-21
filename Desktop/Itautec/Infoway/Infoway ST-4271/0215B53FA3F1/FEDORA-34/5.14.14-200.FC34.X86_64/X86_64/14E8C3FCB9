@@ -1,0 +1,924 @@
+12: PCI 1f.2: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: w7Y8.IGTlHCz9hU5
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel 5 Series/3400 Series Chipset 4 port SATA IDE Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b20 "5 Series/3400 Series Chipset 4 port SATA IDE Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xb002 
+  Revision: 0x06
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0xf800-0xf807 (rw)
+  I/O Ports: 0xf700-0xf703 (rw)
+  I/O Ports: 0xf600-0xf607 (rw)
+  I/O Ports: 0xf500-0xf503 (rw)
+  I/O Ports: 0xf400-0xf40f (rw)
+  I/O Ports: 0xf300-0xf30f (rw)
+  IRQ: 19 (69347 events)
+  Module Alias: "pci:v00008086d00003B20sv00001458sd0000B002bc01sc01i8F"
+  Driver Info #0:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: z8Q3.CURyyd6flt8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel 5 Series/3400 Series Chipset PCI Express Root Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b42 "5 Series/3400 Series Chipset PCI Express Root Port 1"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5001 
+  Revision: 0x06
+  Driver: "pcieport"
+  IRQ: 16 (no events)
+  Module Alias: "pci:v00008086d00003B42sv00001458sd00005001bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.neFtm+HZ8v0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel Q57 Chipset LPC Interface Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b0a "Q57 Chipset LPC Interface Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5001 
+  Revision: 0x06
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00003B0Asv00001458sd00005001bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 3f02.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: 3jKX.vKqmN5UbUD7
+  SysFS ID: /devices/pci0000:3f/0000:3f:02.3
+  SysFS BusID: 0000:3f:02.3
+  Hardware Class: bridge
+  Model: "Intel 1st Generation Core i3/5/7 Processor Reserved"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2d13 "1st Generation Core i3/5/7 Processor Reserved"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002D13sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 301.1: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: pLqc.v1zDCX_ri7F
+  Parent ID: 6NW+.fSkZtr3ym+B
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0/0000:03:01.1
+  SysFS BusID: 0000:03:01.1
+  Hardware Class: unknown
+  Model: "MosChip PCI 9865 Multi-I/O Controller"
+  Vendor: pci 0x9710 "MosChip Semiconductor Technology Ltd."
+  Device: pci 0x9865 "PCI 9865 Multi-I/O Controller"
+  SubVendor: pci 0xa000 
+  SubDevice: pci 0x1000 
+  Driver: "serial"
+  I/O Ports: 0xce00-0xce07 (rw)
+  Memory Range: 0xfbefd000-0xfbefdfff (rw,non-prefetchable)
+  Memory Range: 0xfbefc000-0xfbefcfff (rw,non-prefetchable)
+  IRQ: 18 (13896 events)
+  Module Alias: "pci:v00009710d00009865sv0000A000sd00001000bc07sc00i02"
+  Driver Info #0:
+    Driver Status: parport_pc is active
+    Driver Activation Cmd: "modprobe parport_pc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+17: PCI 200.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: B35A.6bbcG90sZzE
+  Parent ID: QSNP.Ko_xoB3IzxB
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: storage
+  Model: "JMicron JMB368 IDE controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x2368 "JMB368 IDE controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xb000 
+  Driver: "pata_jmicron"
+  Driver Modules: "pata_jmicron"
+  I/O Ports: 0xdf00-0xdf07 (rw)
+  I/O Ports: 0xde00-0xde03 (rw)
+  I/O Ports: 0xdd00-0xdd07 (rw)
+  I/O Ports: 0xdc00-0xdc03 (rw)
+  I/O Ports: 0xdb00-0xdb0f (rw)
+  IRQ: 16 (no events)
+  Module Alias: "pci:v0000197Bd00002368sv00001458sd0000B000bc01sc01i85"
+  Driver Info #0:
+    Driver Status: pata_jmicron is active
+    Driver Activation Cmd: "modprobe pata_jmicron"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Driver Info #2:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+18: PCI 16.2: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: FRkt.rBmnoF3Hh+A
+  SysFS ID: /devices/pci0000:00/0000:00:16.2
+  SysFS BusID: 0000:00:16.2
+  Hardware Class: storage
+  Model: "Intel 5 Series/3400 Series Chipset PT IDER Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b66 "5 Series/3400 Series Chipset PT IDER Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x3b66 
+  Revision: 0x06
+  Driver: "ata_generic"
+  Driver Modules: "ata_generic"
+  I/O Ports: 0xff00-0xff07 (rw)
+  I/O Ports: 0xfe00-0xfe03 (rw)
+  I/O Ports: 0xfd00-0xfd07 (rw)
+  I/O Ports: 0xfc00-0xfc03 (rw)
+  I/O Ports: 0xfb00-0xfb0f (rw)
+  IRQ: 18 (13896 events)
+  Module Alias: "pci:v00008086d00003B66sv00001458sd00003B66bc01sc01i85"
+  Driver Info #0:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 3f02.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: L3Ms.tVxGQyEBRS6
+  SysFS ID: /devices/pci0000:3f/0000:3f:02.1
+  SysFS BusID: 0000:3f:02.1
+  Hardware Class: bridge
+  Model: "Intel 1st Generation Core i3/5/7 Processor QPI Physical 0"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2d11 "1st Generation Core i3/5/7 Processor QPI Physical 0"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002D11sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 16.0: 0780 Communication controller
+  [Created at pci.386]
+  Unique ID: WnlC.HupWySurkM3
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: unknown
+  Model: "Intel 5 Series/3400 Series Chipset HECI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b64 "5 Series/3400 Series Chipset HECI Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x3b64 
+  Revision: 0x06
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0xfbfff000-0xfbfff00f (rw,non-prefetchable)
+  IRQ: 25 (25 events)
+  Module Alias: "pci:v00008086d00003B64sv00001458sd00003B64bc07sc80i00"
+  Driver Info #0:
+    Driver Status: mei_me is active
+    Driver Activation Cmd: "modprobe mei_me"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: VCu0.FfA1SRVlU3E
+  Parent ID: z8Q3.CURyyd6flt8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "nVidia GF106 [GeForce GTS 450]"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0dc4 "GF106 [GeForce GTS 450]"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1452 
+  Revision: 0xa1
+  Driver: "nvidia"
+  Driver Modules: "nvidia"
+  Memory Range: 0xf6000000-0xf6ffffff (rw,non-prefetchable)
+  Memory Range: 0xe0000000-0xe7ffffff (ro,non-prefetchable)
+  Memory Range: 0xec000000-0xedffffff (ro,non-prefetchable)
+  I/O Ports: 0xbf00-0xbf7f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 27 (41908 events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v000010DEd00000DC4sv00003842sd00001452bc03sc00i00"
+  Driver Info #0:
+    Driver Status: nouveau is not active
+    Driver Activation Cmd: "modprobe nouveau"
+  Driver Info #1:
+    Driver Status: nvidia_drm is active
+    Driver Activation Cmd: "modprobe nvidia_drm"
+  Driver Info #2:
+    Driver Status: nvidia is active
+    Driver Activation Cmd: "modprobe nvidia"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (PCI bridge)
+
+22: PCI 1b.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: u1Nb.kFNviVz3E80
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel 5 Series/3400 Series Chipset High Definition Audio"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b56 "5 Series/3400 Series Chipset High Definition Audio"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xa002 
+  Revision: 0x06
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfbff4000-0xfbff7fff (rw,non-prefetchable)
+  IRQ: 26 (761 events)
+  Module Alias: "pci:v00008086d00003B56sv00001458sd0000A002bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1f.5: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: W60f.EtVZauXOPc0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.5
+  SysFS BusID: 0000:00:1f.5
+  Hardware Class: storage
+  Model: "Intel 5 Series/3400 Series Chipset 2 port SATA IDE Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b26 "5 Series/3400 Series Chipset 2 port SATA IDE Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0xb002 
+  Revision: 0x06
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0xf100-0xf107 (rw)
+  I/O Ports: 0xf000-0xf003 (rw)
+  I/O Ports: 0xef00-0xef07 (rw)
+  I/O Ports: 0xee00-0xee03 (rw)
+  I/O Ports: 0xed00-0xed0f (rw)
+  I/O Ports: 0xec00-0xec0f (rw)
+  IRQ: 19 (69347 events)
+  Module Alias: "pci:v00008086d00003B26sv00001458sd0000B002bc01sc01i85"
+  Driver Info #0:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Driver Info #1:
+    Driver Status: pata_acpi is active
+    Driver Activation Cmd: "modprobe pata_acpi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 3f00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: JWm4.UGwxT6iktJA
+  SysFS ID: /devices/pci0000:3f/0000:3f:00.0
+  SysFS BusID: 0000:3f:00.0
+  Hardware Class: bridge
+  Model: "Intel Core Processor QuickPath Architecture Generic Non-core Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2c61 "Core Processor QuickPath Architecture Generic Non-core Registers"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002C61sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 19.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: ID95.tiimps8WwjF
+  SysFS ID: /devices/pci0000:00/0000:00:19.0
+  SysFS BusID: 0000:00:19.0
+  Hardware Class: network
+  Model: "Intel 82578DM Gigabit Network Connection"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x10ef "82578DM Gigabit Network Connection"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Revision: 0x06
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp0s25
+  Memory Range: 0xfbfc0000-0xfbfdffff (rw,non-prefetchable)
+  Memory Range: 0xfbffd000-0xfbffdfff (rw,non-prefetchable)
+  I/O Ports: 0xf900-0xf91f (rw)
+  IRQ: 24 (15634 events)
+  HW Address: 70B477F4A58068BB91116BF01DFFACBB
+  Permanent HW Address: 70B477F4A58068BB91116BF01DFFACBB
+  Link detected: yes
+  Module Alias: "pci:v00008086d000010EFsv00008086sd00000000bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000e is active
+    Driver Activation Cmd: "modprobe e1000e"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 1e.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: 6NW+.fSkZtr3ym+B
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0
+  SysFS BusID: 0000:00:1e.0
+  Hardware Class: bridge
+  Model: "Intel 82801 PCI Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x244e "82801 PCI Bridge"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 "Motherboard"
+  Revision: 0xa6
+  Module Alias: "pci:v00008086d0000244Esv00001458sd00005000bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1f.3: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: nS1_.X8Dg9MWHdh3
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Intel 5 Series/3400 Series Chipset SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b30 "5 Series/3400 Series Chipset SMBus Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5001 
+  Revision: 0x06
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0xfbffa000-0xfbffa0ff (rw,non-prefetchable)
+  I/O Ports: 0x500-0x51f (rw)
+  IRQ: 18 (13896 events)
+  Module Alias: "pci:v00008086d00003B30sv00001458sd00005001bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.4FCSM_R1gA0
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel Core Processor DRAM Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0040 "Core Processor DRAM Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x18
+  Module Alias: "pci:v00008086d00000040sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 301.2: 0701 Parallel controller (IEEE1284)
+  [Created at pci.386]
+  Unique ID: ggJS.hrZjn8KGT65
+  Parent ID: 6NW+.fSkZtr3ym+B
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0/0000:03:01.2
+  SysFS BusID: 0000:03:01.2
+  Hardware Class: unknown
+  Model: "MosChip PCI 9865 Multi-I/O Controller"
+  Vendor: pci 0x9710 "MosChip Semiconductor Technology Ltd."
+  Device: pci 0x9865 "PCI 9865 Multi-I/O Controller"
+  SubVendor: pci 0xa000 
+  SubDevice: pci 0x2000 
+  Driver: "parport_pc"
+  Driver Modules: "parport_pc", "parport_pc"
+  I/O Ports: 0xcd00-0xcd07 (rw)
+  I/O Ports: 0xcc00-0xcc07 (rw)
+  Memory Range: 0xfbefb000-0xfbefbfff (rw,non-prefetchable)
+  Memory Range: 0xfbefa000-0xfbefafff (rw,non-prefetchable)
+  IRQ: 16 (no events)
+  Module Alias: "pci:v00009710d00009865sv0000A000sd00002000bc07sc01i03"
+  Driver Info #0:
+    Driver Status: parport_pc is active
+    Driver Activation Cmd: "modprobe parport_pc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+30: PCI 1a.0: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: pwJ7.mnBaBofYSVF
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Intel 5 Series/3400 Series Chipset USB2 Enhanced Host Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b3c "5 Series/3400 Series Chipset USB2 Enhanced Host Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5006 
+  Revision: 0x06
+  Driver: "ehci-pci"
+  Memory Range: 0xfbffc000-0xfbffc3ff (rw,non-prefetchable)
+  IRQ: 18 (13896 events)
+  Module Alias: "pci:v00008086d00003B3Csv00001458sd00005006bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 16.3: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: 6mDj.PKjJoKrmhx1
+  SysFS ID: /devices/pci0000:00/0000:00:16.3
+  SysFS BusID: 0000:00:16.3
+  Hardware Class: unknown
+  Model: "Intel 5 Series/3400 Series Chipset KT Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b67 "5 Series/3400 Series Chipset KT Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x3b67 
+  Revision: 0x06
+  Driver: "serial"
+  I/O Ports: 0xfa00-0xfa07 (rw)
+  Memory Range: 0xfbffe000-0xfbffefff (rw,non-prefetchable)
+  IRQ: 17 (1216 events)
+  Module Alias: "pci:v00008086d00003B67sv00001458sd00003B67bc07sc00i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 3f02.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: COrh.Owt0vWMuyq6
+  SysFS ID: /devices/pci0000:3f/0000:3f:02.2
+  SysFS BusID: 0000:3f:02.2
+  Hardware Class: bridge
+  Model: "Intel 1st Generation Core i3/5/7 Processor Reserved"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2d12 "1st Generation Core i3/5/7 Processor Reserved"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002D12sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 301.0: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: x0Ln.v1zDCX_ri7F
+  Parent ID: 6NW+.fSkZtr3ym+B
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0/0000:03:01.0
+  SysFS BusID: 0000:03:01.0
+  Hardware Class: unknown
+  Model: "MosChip PCI 9865 Multi-I/O Controller"
+  Vendor: pci 0x9710 "MosChip Semiconductor Technology Ltd."
+  Device: pci 0x9865 "PCI 9865 Multi-I/O Controller"
+  SubVendor: pci 0xa000 
+  SubDevice: pci 0x1000 
+  Driver: "serial"
+  I/O Ports: 0xcf00-0xcf07 (rw)
+  Memory Range: 0xfbeff000-0xfbefffff (rw,non-prefetchable)
+  Memory Range: 0xfbefe000-0xfbefefff (rw,non-prefetchable)
+  IRQ: 19 (69347 events)
+  Module Alias: "pci:v00009710d00009865sv0000A000sd00001000bc07sc00i02"
+  Driver Info #0:
+    Driver Status: parport_pc is active
+    Driver Activation Cmd: "modprobe parport_pc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+34: PCI 1d.0: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 1GTX.eTeaLINhEsD
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel 5 Series/3400 Series Chipset USB2 Enhanced Host Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b34 "5 Series/3400 Series Chipset USB2 Enhanced Host Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5006 
+  Revision: 0x06
+  Driver: "ehci-pci"
+  Memory Range: 0xfbffb000-0xfbffb3ff (rw,non-prefetchable)
+  IRQ: 23 (35 events)
+  Module Alias: "pci:v00008086d00003B34sv00001458sd00005006bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 100.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: NXNs.cKvGG3ZR8KF
+  Parent ID: z8Q3.CURyyd6flt8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:01:00.1
+  SysFS BusID: 0000:01:00.1
+  Hardware Class: sound
+  Model: "eVga.com GeForce GTS 450"
+  Vendor: pci 0x10de "nVidia Corporation"
+  Device: pci 0x0be9 "GF106 High Definition Audio Controller"
+  SubVendor: pci 0x3842 "eVga.com. Corp."
+  SubDevice: pci 0x1452 "GeForce GTS 450"
+  Revision: 0xa1
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xf9ffc000-0xf9ffffff (rw,non-prefetchable)
+  IRQ: 17 (1216 events)
+  Module Alias: "pci:v000010DEd00000BE9sv00003842sd00001452bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (PCI bridge)
+
+36: PCI 3f02.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Tks0.M5+WxN7Uv36
+  SysFS ID: /devices/pci0000:3f/0000:3f:02.0
+  SysFS BusID: 0000:3f:02.0
+  Hardware Class: bridge
+  Model: "Intel Core Processor QPI Link 0"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2d10 "Core Processor QPI Link 0"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002D10sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: PCI 3f00.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: BrFw.dtqHkqLv+J0
+  SysFS ID: /devices/pci0000:3f/0000:3f:00.1
+  SysFS BusID: 0000:3f:00.1
+  Hardware Class: bridge
+  Model: "Intel Core Processor QuickPath Architecture System Address Decoder"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2d01 "Core Processor QuickPath Architecture System Address Decoder"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5000 
+  Revision: 0x05
+  Module Alias: "pci:v00008086d00002D01sv00001458sd00005000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 1c.4: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: QSNP.Ko_xoB3IzxB
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4
+  SysFS BusID: 0000:00:1c.4
+  Hardware Class: bridge
+  Model: "Intel 5 Series/3400 Series Chipset PCI Express Root Port 5"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3b4a "5 Series/3400 Series Chipset PCI Express Root Port 5"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x5001 
+  Revision: 0x06
+  Driver: "pcieport"
+  IRQ: 16 (no events)
+  Module Alias: "pci:v00008086d00003B4Asv00001458sd00005001bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.haKOin9XR28
+  Parent ID: VCu0.FfA1SRVlU3E
+  Hardware Class: monitor
+  Model: "Union TV"
+  Vendor: XXX 
+  Device: eisa 0x2841 "Union TV"
+  Resolution: 640x480@60Hz
+  Resolution: 800x600@60Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1280x960@60Hz
+  Resolution: 1600x1200@60Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1280x720@60Hz
+  Resolution: 1366x768@60Hz
+  Resolution: 1920x1080@60Hz
+  Size: 1209x680 mm
+  Year of Manufacture: 2018
+  Week of Manufacture: 35
+  Detailed Timings #0:
+     Resolution: 1920x1080
+     Horizontal: 1920 2008 2052 2200 (+88 +132 +280) +hsync
+       Vertical: 1080 1084 1089 1125 (+4 +9 +45) +vsync
+    Frequencies: 148.50 MHz, 67.50 kHz, 60.00 Hz
+  Year of Manufacture: 2018
+  Week of Manufacture: 35
+  Detailed Timings #1:
+     Resolution: 1366x768
+     Horizontal: 1366 1436 1480 1792 (+70 +114 +426) +hsync
+       Vertical:  768  771  774  798 (+3 +6 +30) +vsync
+    Frequencies: 85.50 MHz, 47.71 kHz, 59.79 Hz
+  Driver Info #0:
+    Max. Resolution: 1920x1080
+    Vert. Sync Range: 56-70 Hz
+    Hor. Sync Range: 14-83 kHz
+    Bandwidth: 148 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (VGA compatible controller)
+
+45: IDE 101.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.YbX9n9Lyxk9
+  Parent ID: w7Y8.IGTlHCz9hU5
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 1:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata2/host1/target1:0:1/1:0:1:0
+  Hardware Class: disk
+  Model: "ST500LM012 HN-M5"
+  Vendor: "ST500LM012"
+  Device: "HN-M5"
+  Revision: "0003"
+  Serial ID: --
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix"
+  Device File: /dev/sdb
+  Device Files: /dev/sdb, /dev/disk/by-id/ata-ST500LM012_HN-M500MBB_..., /dev/disk/by-path/pci-0000:00:1f.2-ata-2, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/pci-0000:00:1f.2-ata-2.1
+  Device Number: block 8:16-8:31
+  BIOS id: 0x80
+  Geometry (Logical): CHS 60801/255/63
+  Size: 976773168 sectors a 512 bytes
+  Capacity: 465 GB (500107862016 bytes)
+  Geometry (BIOS EDD): CHS 969021/16/63
+  Size (BIOS EDD): 976773168 sectors
+  Geometry (BIOS Legacy): CHS 1024/240/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (IDE interface)
+
+46: IDE 01.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.1Xt6YoCytxE
+  Parent ID: w7Y8.IGTlHCz9hU5
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:1/0:0:1:0
+  Hardware Class: disk
+  Model: "ST500DM002-1BD14"
+  Device: "ST500DM002-1BD14"
+  Revision: "KC48"
+  Serial ID: --
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/pci-0000:00:1f.2-ata-1.1, /dev/disk/by-path/pci-0000:00:1f.2-ata-1, /dev/disk/by-id/ata-ST500DM002-1BD142_...
+  Device Number: block 8:0-8:15
+  BIOS id: 0x81
+  Geometry (Logical): CHS 60800/255/63
+  Size: 976764911 sectors a 512 bytes
+  Capacity: 465 GB (500103634432 bytes)
+  Geometry (BIOS EDD): CHS 969012/16/63
+  Size (BIOS EDD): 976764911 sectors
+  Geometry (BIOS Legacy): CHS 1024/240/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (IDE interface)
+
+47: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 252:0
+  Size: 2014720 sectors a 4096 bytes
+  Capacity: 7 GB (8252293120 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ezrS.pZtsMtdrLs5
+  Parent ID: ADDn.0j9+vWlqL56
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.1
+  SysFS BusID: 1-1.2:1.1
+  Hardware Class: unknown
+  Model: "SINO WEALTH USB KEYBOARD"
+  Hotplug: USB
+  Vendor: usb 0x258a "SINO WEALTH"
+  Device: usb 0x1006 "USB KEYBOARD"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event5
+  Device Number: char 13:69
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v258Ap1006d0100dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #53 (Hub)
+
+49: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.0j9+vWlqL56
+  Parent ID: pBe4.oLWCeziExdF
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "Intel Integrated Rate Matching Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0020 "Integrated Rate Matching Hub"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0020d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #54 (Hub)
+
+50: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: lfzD.DsI5EuRA5g9
+  Parent ID: ADDn.0j9+vWlqL56
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: mouse
+  Model: "Sunplus Innovation Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x1bcf "Sunplus Innovation Technology Inc."
+  Device: usb 0x0005 "Optical Mouse"
+  Revision: "0.14"
+  Compatible to: int 0x0210 0x0045
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event2, /dev/input/by-id/usb-1bcf_USB_Optical_..., /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.1:1.0-event-mouse, /dev/input/by-id/usb-1bcf_USB_Optical_..., /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.1:1.0-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1BCFp0005d0014dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 5
+    Wheels: 4
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #53 (Hub)
+
+51: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: BobO.4Toi+KqFRpB
+  Parent ID: ADDn.0j9+vWlqL56
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: keyboard
+  Model: "SINO WEALTH USB KEYBOARD"
+  Hotplug: USB
+  Vendor: usb 0x258a "SINO WEALTH"
+  Device: usb 0x1006 "USB KEYBOARD"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Files: /dev/input/event3, /dev/input/by-path/pci-0000:00:1a.0-usb-0:1.2:1.0-event-kbd, /dev/input/by-id/usb-SINO_WEALTH_USB_...
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v258Ap1006d0100dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #53 (Hub)
+
+52: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.FHd55n4xKo7
+  Parent ID: pwJ7.mnBaBofYSVF
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0514dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (USB Controller)
+
+53: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.0j9+vWlqL56
+  Parent ID: k4bc.FHd55n4xKo7
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Intel Integrated Rate Matching Hub"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0020 "Integrated Rate Matching Hub"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v8087p0020d0000dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #52 (Hub)
+
+54: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.oLWCeziExdF
+  Parent ID: 1GTX.eTeaLINhEsD
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0514dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (USB Controller)
+
+55: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.37.5 "Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,popcnt,lahf_lm,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,dtherm,arat,flush_l1d
+  Clock: 1995 MHz
+  BogoMips: 6133.19
+  Cache: 4096 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.37.5 "Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,popcnt,lahf_lm,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,dtherm,arat,flush_l1d
+  Clock: 1253 MHz
+  BogoMips: 6133.19
+  Cache: 4096 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: None 02.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.37.5 "Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,popcnt,lahf_lm,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,dtherm,arat,flush_l1d
+  Clock: 1197 MHz
+  BogoMips: 6133.19
+  Cache: 4096 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: None 03.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.37.5 "Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,rdtscp,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,popcnt,lahf_lm,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,dtherm,arat,flush_l1d
+  Clock: 1197 MHz
+  BogoMips: 6133.19
+  Cache: 4096 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 4Iz5.ndpeucax6V1
+  Parent ID: ID95.tiimps8WwjF
+  SysFS ID: /class/net/enp0s25
+  SysFS Device Link: /devices/pci0000:00/0000:00:19.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: enp0s25
+  HW Address: 70B477F4A58068BB91116BF01DFFACBB
+  Permanent HW Address: 70B477F4A58068BB91116BF01DFFACBB
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Ethernet controller)

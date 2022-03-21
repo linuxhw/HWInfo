@@ -1,0 +1,1026 @@
+35: PCI 00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qLht.9uSLGHD7gY8
+  SysFS ID: /devices/platform/a0090000.pcie/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Huawei PCI bridge"
+  Vendor: pci 0x19e5 "Huawei Technologies Co., Ltd."
+  Device: pci 0x1610 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 967 (no events)
+  Module Alias: "pci:v000019E5d00001610sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI 100.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: VCu0.e4I671hFo39
+  Parent ID: qLht.9uSLGHD7gY8
+  SysFS ID: /devices/platform/a0090000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: bridge
+  Model: "PLX PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8724 "PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8724 
+  Revision: 0xca
+  Driver: "pcieport"
+  Memory Range: 0xb0200000-0xb023ffff (rw,non-prefetchable)
+  IRQ: 1003 (no events)
+  Module Alias: "pci:v000010B5d00008724sv000010B5sd00008724bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #35 (PCI bridge)
+
+37: PCI 200.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: B35A.e4I671hFo39
+  Parent ID: VCu0.e4I671hFo39
+  SysFS ID: /devices/platform/a0090000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: bridge
+  Model: "PLX PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8724 "PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8724 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1004 (3 events)
+  Module Alias: "pci:v000010B5d00008724sv000010B5sd00008724bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #36 (PCI bridge)
+
+38: PCI 208.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: oxTw.e4I671hFo39
+  Parent ID: VCu0.e4I671hFo39
+  SysFS ID: /devices/platform/a0090000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/0000:02:08.0
+  SysFS BusID: 0000:02:08.0
+  Hardware Class: bridge
+  Model: "PLX PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8724 "PEX 8724 24-Lane, 6-Port PCI Express Gen 3 (8 GT/s) Switch, 19 x 19mm FCBGA"
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8724 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1005 (no events)
+  Module Alias: "pci:v000010B5d00008724sv000010B5sd00008724bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #36 (PCI bridge)
+
+39: PCI 300.0: 0b40 Co-processor
+  [Created at pci.386]
+  Unique ID: svHJ.K_eVylh6Ik2
+  Parent ID: B35A.e4I671hFo39
+  SysFS ID: /devices/platform/a0090000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/0000:02:00.0/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: unknown
+  Model: "Intel DH895XCC Series QAT"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x0435 "DH895XCC Series QAT"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0000 
+  Driver: "dh895xcc"
+  Driver Modules: "qat_dh895xcc"
+  Memory Range: 0xb0300000-0xb037ffff (ro,non-prefetchable)
+  Memory Range: 0xb0000000-0xb003ffff (rw,non-prefetchable)
+  Memory Range: 0xb0040000-0xb007ffff (rw,non-prefetchable)
+  IRQ: 967 (no events)
+  Module Alias: "pci:v00008086d00000435sv00008086sd00000000bc0Bsc40i00"
+  Driver Info #0:
+    Driver Status: qat_dh895xcc is active
+    Driver Activation Cmd: "modprobe qat_dh895xcc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (PCI bridge)
+
+40: PCI 2000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: PMq2.9uSLGHD7gY8
+  SysFS ID: /devices/platform/a0200000.pcie/pci0000:20/0000:20:00.0
+  SysFS BusID: 0000:20:00.0
+  Hardware Class: bridge
+  Model: "Huawei PCI bridge"
+  Vendor: pci 0x19e5 "Huawei Technologies Co., Ltd."
+  Device: pci 0x1610 
+  Revision: 0x01
+  Driver: "pcieport"
+  Memory Range: 0xb8000000-0xb801ffff (ro,non-prefetchable,disabled)
+  IRQ: 968 (no events)
+  Module Alias: "pci:v000019E5d00001610sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: PCI 4000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: +MzD.9uSLGHD7gY8
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0
+  SysFS BusID: 0000:40:00.0
+  Hardware Class: bridge
+  Model: "Huawei PCI bridge"
+  Vendor: pci 0x19e5 "Huawei Technologies Co., Ltd."
+  Device: pci 0x1610 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 969 (no events)
+  Module Alias: "pci:v000019E5d00001610sv00000000sd00000000bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: PCI 4100.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: gDAN.g6qHiQn8C3D
+  Parent ID: +MzD.9uSLGHD7gY8
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0
+  SysFS BusID: 0000:41:00.0
+  Hardware Class: bridge
+  Model: "PLX PCI bridge"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8725 
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8725 
+  Revision: 0xca
+  Driver: "pcieport"
+  Memory Range: 0xad000000-0xad03ffff (rw,non-prefetchable)
+  IRQ: 1006 (no events)
+  Module Alias: "pci:v000010B5d00008725sv000010B5sd00008725bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #41 (PCI bridge)
+
+43: PCI 4200.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: M4NW.g6qHiQn8C3D
+  Parent ID: gDAN.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:00.0
+  SysFS BusID: 0000:42:00.0
+  Hardware Class: bridge
+  Model: "PLX PCI bridge"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8725 
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8725 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1007 (1 event)
+  Module Alias: "pci:v000010B5d00008725sv000010B5sd00008725bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (PCI bridge)
+
+44: PCI 4201.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: RBQ_.g6qHiQn8C3D
+  Parent ID: gDAN.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:01.0
+  SysFS BusID: 0000:42:01.0
+  Hardware Class: bridge
+  Model: "PLX PCI bridge"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8725 
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8725 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1008 (1 event)
+  Module Alias: "pci:v000010B5d00008725sv000010B5sd00008725bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (PCI bridge)
+
+45: PCI 4202.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: WITS.g6qHiQn8C3D
+  Parent ID: gDAN.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:02.0
+  SysFS BusID: 0000:42:02.0
+  Hardware Class: bridge
+  Model: "PLX PCI bridge"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8725 
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8725 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1009 (no events)
+  Module Alias: "pci:v000010B5d00008725sv000010B5sd00008725bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (PCI bridge)
+
+46: PCI 4208.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: zylG.g6qHiQn8C3D
+  Parent ID: gDAN.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:08.0
+  SysFS BusID: 0000:42:08.0
+  Hardware Class: bridge
+  Model: "PLX PCI bridge"
+  Vendor: pci 0x10b5 "PLX Technology, Inc."
+  Device: pci 0x8725 
+  SubVendor: pci 0x10b5 "PLX Technology, Inc."
+  SubDevice: pci 0x8725 
+  Revision: 0xca
+  Driver: "pcieport"
+  IRQ: 1010 (no events)
+  Module Alias: "pci:v000010B5d00008725sv000010B5sd00008725bc06sc04i00"
+  Driver Info #0:
+    Driver Status: shpchp is active
+    Driver Activation Cmd: "modprobe shpchp"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (PCI bridge)
+
+47: PCI 4300.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: 1xZf.pepho2F5hMF
+  Parent ID: M4NW.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:00.0/0000:43:00.0
+  SysFS BusID: 0000:43:00.0
+  Hardware Class: graphics card
+  Model: "NVIDIA GP108 [GeForce GT 1030]"
+  Vendor: pci 0x10de "NVIDIA Corporation"
+  Device: pci 0x1d01 "GP108 [GeForce GT 1030]"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x375c 
+  Revision: 0xa1
+  Driver: "nvidia"
+  Driver Modules: "nvidia"
+  Memory Range: 0xab000000-0xabffffff (rw,non-prefetchable)
+  I/O Ports: 0x20000-0x2007f (rw)
+  Memory Range: 0xac000000-0xac07ffff (ro,non-prefetchable,disabled)
+  IRQ: 969 (no events)
+  Module Alias: "pci:v000010DEd00001D01sv00001458sd0000375Cbc03sc00i00"
+  Driver Info #0:
+    Driver Status: nvidia_drm is active
+    Driver Activation Cmd: "modprobe nvidia_drm"
+  Driver Info #1:
+    Driver Status: nvidia is active
+    Driver Activation Cmd: "modprobe nvidia"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (PCI bridge)
+
+48: PCI 4300.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: vF3V.mBwCD4Pnw90
+  Parent ID: M4NW.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:00.0/0000:43:00.1
+  SysFS BusID: 0000:43:00.1
+  Hardware Class: sound
+  Model: "NVIDIA GP108 High Definition Audio Controller"
+  Vendor: pci 0x10de "NVIDIA Corporation"
+  Device: pci 0x0fb8 "GP108 High Definition Audio Controller"
+  SubVendor: pci 0x1458 "Gigabyte Technology Co., Ltd"
+  SubDevice: pci 0x375c 
+  Revision: 0xa1
+  Memory Range: 0xac080000-0xac083fff (rw,non-prefetchable,disabled)
+  IRQ: 969 (no events)
+  Module Alias: "pci:v000010DEd00000FB8sv00001458sd0000375Cbc04sc03i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (PCI bridge)
+
+49: PCI 4400.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: jnmo.COWmXc7EjN1
+  Parent ID: RBQ_.g6qHiQn8C3D
+  SysFS ID: /devices/platform/a00a0000.pcie/pci0000:40/0000:40:00.0/0000:41:00.0/0000:42:01.0/0000:44:00.0
+  SysFS BusID: 0000:44:00.0
+  Hardware Class: graphics card
+  Model: "Huawei Hi1710 [iBMC Intelligent Management system chip w/VGA support]"
+  Vendor: pci 0x19e5 "Huawei Technologies Co., Ltd."
+  Device: pci 0x1711 "Hi1710 [iBMC Intelligent Management system chip w/VGA support]"
+  Revision: 0x01
+  Driver: "hisifb"
+  Memory Range: 0xa8000000-0xa9ffffff (ro,non-prefetchable)
+  Memory Range: 0xaa000000-0xaa1fffff (rw,non-prefetchable)
+  IRQ: 969 (no events)
+  Module Alias: "pci:v000019E5d00001711sv00000000sd00000000bc03sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (PCI bridge)
+
+50: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: Z4eY.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@000000000/soc@000000000:ethernet@0
+  SysFS BusID: soc@000000000:ethernet@0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "hns-nic"
+  Device File: eth2
+  HW Address: BCB5EDBBF7604BAA0AD6DA86E1A41ED8
+  Permanent HW Address: BCB5EDBBF7604BAA0AD6DA86E1A41ED8
+  Link detected: no
+  Module Alias: "of:NethernetT<NULL>Chisilicon,hns-nic-v2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: 0Guc.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@000000000/soc@000000000:ethernet@1
+  SysFS BusID: soc@000000000:ethernet@1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "hns-nic"
+  Device File: eth3
+  HW Address: 51C2C6EBF9D0C40BB0D1401D4CE060E0
+  Permanent HW Address: 51C2C6EBF9D0C40BB0D1401D4CE060E0
+  Link detected: no
+  Module Alias: "of:NethernetT<NULL>Chisilicon,hns-nic-v2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: Noep.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@000000000/soc@000000000:ethernet@4
+  SysFS BusID: soc@000000000:ethernet@4
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "hns-nic"
+  Device File: eth0
+  HW Address: F2E9EB7F986D7F4CC4BE25570AA0F401
+  Permanent HW Address: F2E9EB7F986D7F4CC4BE25570AA0F401
+  Link detected: no
+  Module Alias: "of:NethernetT<NULL>Chisilicon,hns-nic-v2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+53: None 00.0: 0200 Ethernet controller
+  [Created at pci.1017]
+  Unique ID: qzut.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@000000000/soc@000000000:ethernet@5
+  SysFS BusID: soc@000000000:ethernet@5
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "hns-nic"
+  Device File: eth1
+  HW Address: 9B0F72132FB34A1AEA3EDDC457D80B13
+  Permanent HW Address: 9B0F72132FB34A1AEA3EDDC457D80B13
+  Link detected: yes
+  Module Alias: "of:NethernetT<NULL>Chisilicon,hns-nic-v2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1049]
+  Unique ID: dNPq.TAOITtdfnIE
+  SysFS ID: /devices/platform/peripherals/a7030000.usb_ohci
+  SysFS BusID: a7030000.usb_ohci
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "ohci-platform"
+  Module Alias: "of:Nusb_ohciT<NULL>Chisi,_hi1710-ohciCgeneric-ohci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: None 00.0: 0c03 USB Controller (EHCI)
+  [Created at pci.1049]
+  Unique ID: 2eM3.z_KtF4BMtg6
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci
+  SysFS BusID: a7020000.usb_ehci
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "ehci-platform"
+  Module Alias: "of:Nusb_ehciT<NULL>Chisi,_hi1710-ehciCgeneric-ehci"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.8BbqFXxSMd1
+  SysFS ID: /class/block/sda
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/platform/a2000000.sas/host1/port-1:0/expander-1:0/port-1:0:0/end_device-1:0:0/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "WDC WUH721414AL"
+  Vendor: "WDC"
+  Device: "WUH721414AL"
+  Revision: "W240"
+  Serial ID: --
+  Driver: "hisi_sas_v2_hw", "sd"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/wwn-0x..., /dev/disk/by-id/ata-WDC_WUH721414ALE6L4_..., /dev/disk/by-path/platform-a2000000.sas-sas-exp0x500e004aaaaaaa1f-phy0-lun-0
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 1702132/255/63
+  Size: 27344764928 sectors a 512 bytes
+  Capacity: 13039 GB (14000519643136 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: IDE 101.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.PRPVcMRV_vD
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 1:0:1:0
+  SysFS Device Link: /devices/platform/a2000000.sas/host1/port-1:0/expander-1:0/port-1:0:1/end_device-1:0:1/target1:0:1/1:0:1:0
+  Hardware Class: disk
+  Model: "KINGSTON SV300S3"
+  Vendor: "KINGSTON"
+  Device: "SV300S3"
+  Revision: "BBF0"
+  Serial ID: --
+  Driver: "hisi_sas_v2_hw", "sd"
+  Device File: /dev/sdb
+  Device Files: /dev/sdb, /dev/disk/by-id/wwn-0x..., /dev/disk/by-id/ata-KINGSTON_SV300S37A120G_...
+  Device Number: block 8:16-8:31
+  Geometry (Logical): CHS 14593/255/63
+  Size: 234441648 sectors a 512 bytes
+  Capacity: 111 GB (120034123776 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: qm0i.jViHHkT1ma7
+  Parent ID: cLrx.YCWTDwYJz_B
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci/usb1/1-2/1-2.1/1-2.1:1.0
+  SysFS BusID: 1-2.1:1.0
+  Hardware Class: keyboard
+  Model: "Huawei Keyboard/Mouse KVM 1.1.0"
+  Hotplug: USB
+  Vendor: usb 0x12d1 "Huawei Technologies Co., Ltd."
+  Device: usb 0x0003 "Keyboard/Mouse KVM 1.1.0"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-id/usb-12d1_Keyboard_Mouse_KVM_..., /dev/input/by-path/platform-a7020000.usb_ehci-usb-0:2.1:1.0-event-kbd
+  Device Number: char 13:64
+  Speed: 12 Mbps
+  Module Alias: "usb:v12D1p0003d0100dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #63 (Hub)
+
+60: USB 00.1: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: HyGm.Ausb+cXU_L5
+  Parent ID: cLrx.YCWTDwYJz_B
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci/usb1/1-2/1-2.1/1-2.1:1.1
+  SysFS BusID: 1-2.1:1.1
+  Hardware Class: mouse
+  Model: "Huawei Keyboard/Mouse KVM 1.1.0"
+  Hotplug: USB
+  Vendor: usb 0x12d1 "Huawei Technologies Co., Ltd."
+  Device: usb 0x0003 "Keyboard/Mouse KVM 1.1.0"
+  Revision: "1.00"
+  Compatible to: int 0x0210 0x0013
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event1, /dev/input/by-id/usb-12d1_Keyboard_Mouse_KVM_..., /dev/input/by-path/platform-a7020000.usb_ehci-usb-0:2.1:1.1-event-mouse, /dev/input/by-path/platform-a7020000.usb_ehci-usb-0:2.1:1.1-mouse, /dev/input/by-id/usb-12d1_Keyboard_Mouse_KVM_...
+  Device Number: char 13:63 (char 13:32)
+  Speed: 12 Mbps
+  Module Alias: "usb:v12D1p0003d0100dc00dsc00dp00ic03isc01ip02in01"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 1
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #63 (Hub)
+
+61: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.bQfbVvLpJ9A
+  Parent ID: 2eM3.z_KtF4BMtg6
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #55 (USB Controller)
+
+62: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.YCWTDwYJz_B
+  Parent ID: k4bc.bQfbVvLpJ9A
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x2514 "USB 2.0 Hub"
+  Revision: "b.b3"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p2514d0BB3dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+63: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: cLrx.YCWTDwYJz_B
+  Parent ID: k4bc.bQfbVvLpJ9A
+  SysFS ID: /devices/platform/peripherals/a7020000.usb_ehci/usb1/1-2/1-2:1.0
+  SysFS BusID: 1-2:1.0
+  Hardware Class: hub
+  Model: "Standard Microsystems USB 2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x2514 "USB 2.0 Hub"
+  Revision: "b.b3"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p2514d0BB3dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+64: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.N+EpHrMwRr1
+  Parent ID: dNPq.TAOITtdfnIE
+  SysFS ID: /devices/platform/peripherals/a7030000.usb_ohci/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "4.01"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0401dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #54 (USB Controller)
+
+65: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+68: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+69: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+72: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+73: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+74: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+75: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+76: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+77: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+78: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+79: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+80: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+81: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+82: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+83: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+84: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+85: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+86: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+87: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+88: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+89: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+90: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+91: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+92: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+93: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+94: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+95: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+96: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.1.0 ""
+  Features: fp,asimd,aes,pmull,sha1,sha2,crc32
+  BogoMips: 100.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+97: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+98: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+99: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GP_i.ndpeucax6V1
+  Parent ID: 0Guc.TfPFe67fIBB
+  SysFS ID: /class/net/eth3
+  SysFS Device Link: /devices/platform/soc@000000000/soc@000000000:ethernet@1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "hns-nic"
+  Device File: eth3
+  HW Address: 51C2C6EBF9D0C40BB0D1401D4CE060E0
+  Permanent HW Address: 51C2C6EBF9D0C40BB0D1401D4CE060E0
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #51 (Ethernet controller)
+
+100: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pDke.ndpeucax6V1
+  Parent ID: Z4eY.TfPFe67fIBB
+  SysFS ID: /class/net/eth2
+  SysFS Device Link: /devices/platform/soc@000000000/soc@000000000:ethernet@0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "hns-nic"
+  Device File: eth2
+  HW Address: BCB5EDBBF7604BAA0AD6DA86E1A41ED8
+  Permanent HW Address: BCB5EDBBF7604BAA0AD6DA86E1A41ED8
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (Ethernet controller)
+
+101: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: L2Ua.ndpeucax6V1
+  Parent ID: qzut.TfPFe67fIBB
+  SysFS ID: /class/net/eth1
+  SysFS Device Link: /devices/platform/soc@000000000/soc@000000000:ethernet@5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "hns-nic"
+  Device File: eth1
+  HW Address: 9B0F72132FB34A1AEA3EDDC457D80B13
+  Permanent HW Address: 9B0F72132FB34A1AEA3EDDC457D80B13
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #53 (Ethernet controller)
+
+102: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: Noep.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc@000000000/soc@000000000:ethernet@4
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "hns-nic"
+  Device File: eth0
+  HW Address: F2E9EB7F986D7F4CC4BE25570AA0F401
+  Permanent HW Address: F2E9EB7F986D7F4CC4BE25570AA0F401
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #52 (Ethernet controller)

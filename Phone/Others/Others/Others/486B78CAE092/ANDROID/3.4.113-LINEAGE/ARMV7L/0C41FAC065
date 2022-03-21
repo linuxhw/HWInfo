@@ -1,0 +1,270 @@
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: oiDr.TfPFe67fIBB
+  SysFS ID: /devices/platform/msm_hsusb/gadget
+  SysFS BusID: gadget
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Device File: usb0
+  HW Address: CBA4C567D36A4AAFD9CAB5113FA9937E
+  Link detected: yes
+  Module Alias: "platform:msm_hsusb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: zpBA.Vu98QzaObUF
+  SysFS ID: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  SysFS BusID: mmc1:0001:2
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "bcmsdh_sdmmc"
+  Device File: p2p0
+  Features: WLAN
+  HW Address: 9120FF09CBDB55D42F26C9757A2AB09A
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 132 136 140 144 149 153 157 161
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.66 5.68 5.7 5.72 5.745 5.765 5.785 5.805
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:msm_sdcc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: zpBA.Vu98QzaObUF
+  SysFS ID: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  SysFS BusID: mmc1:0001:2
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "bcmsdh_sdmmc"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: 801BC24E464A7A5C0D4AA9FF6FA4A010
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 132 136 140 144 149 153 157 161
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.66 5.68 5.7 5.72 5.745 5.765 5.785 5.805
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:msm_sdcc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: BfAo.TzQFl_vZhO4
+  SysFS ID: /devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: kS2H.VoJli79_k95
+  SysFS ID: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: 9QgZ.0U87vNyNxHA
+  Parent ID: kS2H.VoJli79_k95
+  SysFS ID: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  SysFS BusID: mmc1:0001:2
+  Hardware Class: network
+  Model: "Broadcom BCM4335/BCM4339 WLAN card"
+  Vendor: sdio 0x02d0 "Broadcom Corp."
+  Device: sdio 0x4335 "BCM4335/BCM4339 WLAN card"
+  Driver: "bcmsdh_sdmmc"
+  Module Alias: "sdio:c00v02D0d4335"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (MMC Controller)
+
+15: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: BfAo.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "msm_sdcc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/mmc-016G94_0x198bea33, /dev/disk/by-path/platform-msm_sdcc.1
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 480896/4/16
+  Size: 30777344 sectors a 512 bytes
+  Capacity: 14 GB (15758000128 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (MMC Controller)
+
+16: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.33nfMUXJz79
+  SysFS ID: /devices/platform/msm_hsic_host/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "3.04"
+  Serial ID: --
+  Driver: "hub"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0304dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ADDn.HZrWp43mcQ6
+  Parent ID: k4bc.33nfMUXJz79
+  SysFS ID: /devices/platform/msm_hsic_host/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: unknown
+  Model: "Qualcomm Gobi Wireless Modem (QDL mode)"
+  Hotplug: USB
+  Vendor: usb 0x05c6 "Qualcomm, Inc."
+  Device: usb 0x9008 "Gobi Wireless Modem (QDL mode)"
+  Driver: "ks_bridge"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05C6p9008d0000dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (Hub)
+
+18: None 00.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "SAMSUNG JF"
+  Features: swp,half,thumb,fastmult,vfp,edsp,neon,vfpv3,tls,vfpv4,idiva,idivt,
+  BogoMips: 33.83
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 01.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "SAMSUNG JF"
+  Features: swp
+  BogoMips: 33.83
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 02.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "SAMSUNG JF"
+  Features: swp
+  BogoMips: 33.83
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 03.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "SAMSUNG JF"
+  Features: swp
+  BogoMips: 33.83
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10000 Monitor
+  [Created at fb.71]
+  Unique ID: rdCR.EY_qmtb9YY0
+  Hardware Class: monitor
+  Model: "Generic Monitor"
+  Vendor: "Generic"
+  Device: "Monitor"
+  Resolution: 1080x1920@0Hz
+  Year of Manufacture: 0
+  Week of Manufacture: 0
+  Driver Info #0:
+    Max. Resolution: 1080x1920
+    Vert. Sync Range: 50-60 Hz
+    Hor. Sync Range: 31-36 kHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 1070c USB-Link
+  [Created at net.126]
+  Unique ID: IhCv.SyfSGg7YspF
+  Parent ID: oiDr.TfPFe67fIBB
+  SysFS ID: /class/net/usb0
+  SysFS Device Link: /devices/platform/msm_hsusb/gadget
+  Hardware Class: network interface
+  Model: "USB-Link network interface"
+  Driver: "driver"
+  Device File: usb0
+  HW Address: CBA4C567D36A4AAFD9CAB5113FA9937E
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)
+
+25: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pG9W.ndpeucax6V1
+  Parent ID: zpBA.Vu98QzaObUF
+  SysFS ID: /class/net/p2p0
+  SysFS Device Link: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bcmsdh_sdmmc"
+  Device File: p2p0
+  HW Address: 9120FF09CBDB55D42F26C9757A2AB09A
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (WLAN controller)
+
+27: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: zpBA.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/msm_sdcc.3/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "bcmsdh_sdmmc"
+  Device File: wlan0
+  HW Address: 801BC24E464A7A5C0D4AA9FF6FA4A010
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (WLAN controller)

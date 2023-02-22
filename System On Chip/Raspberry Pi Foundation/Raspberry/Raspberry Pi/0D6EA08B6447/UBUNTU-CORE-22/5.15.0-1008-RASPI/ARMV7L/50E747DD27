@@ -1,0 +1,205 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: YEYa.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: D43DF7EC1E86E9495CC5E92FDDDC28CF
+  Permanent HW Address: D43DF7EC1E86E9495CC5E92FDDDC28CF
+  Link detected: yes
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2708-usb"
+  Driver Info #0:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: u6iB._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:b368
+  SysFS BusID: mmc0:b368
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: u6iB._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:b368
+  SysFS Device Link: /devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:b368
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhost-bcm2835", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+09: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.15"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: lfzD.QgWEN3_7hfA
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: unknown
+  Model: "Microchip Technology, Inc. (formerly SMSC) SMSC9512/9514 Fast Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0xec00 "SMSC9512/9514 Fast Ethernet Adapter"
+  Revision: "2.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424pEC00d0200dcFFdsc00dp01icFFisc00ipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.IKhPgutgmvF
+  Parent ID: k4bc.D6ER+lJeRh3
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Microchip Technology, Inc. (formerly SMSC) SMC9514 Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0x9514 "SMC9514 Hub"
+  Revision: "2.00"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9514d0200dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (Hub)
+
+12: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: VBUu.fQMxlKmf_Q8
+  Parent ID: ADDn.IKhPgutgmvF
+  SysFS ID: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0
+  SysFS BusID: 1-1.5:1.0
+  Hardware Class: unknown
+  Model: "Realtek 802.11ac NIC"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0xc811 "802.11ac NIC"
+  Revision: "2.00"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDApC811d0200dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,neon,vfpv3,tls,vfpv4,idiva,idivt,vfpd32,lpae,evtstrm,
+  BogoMips: 57.60
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 01.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 57.60
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 02.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 57.60
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 03.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 0.5.0 ""
+  Platform: "BCM2835"
+  Features: half
+  BogoMips: 57.60
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: +x7U.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyAMA0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: YEYa.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: D43DF7EC1E86E9495CC5E92FDDDC28CF
+  Permanent HW Address: D43DF7EC1E86E9495CC5E92FDDDC28CF
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+19: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

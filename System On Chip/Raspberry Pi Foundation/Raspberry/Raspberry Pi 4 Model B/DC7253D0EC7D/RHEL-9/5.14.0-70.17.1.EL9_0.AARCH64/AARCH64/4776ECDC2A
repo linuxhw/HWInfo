@@ -1,0 +1,365 @@
+06: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: Uhhc._NN+DZ1HDn4
+  SysFS ID: /devices/system/container/ACPI0004:01/BRCME88C:00/mmc_host/mmc1/mmc1:59b4
+  SysFS BusID: mmc1:59b4
+  Model: "SD Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 1"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: ynfw.VoJli79_k95
+  SysFS ID: /devices/system/container/ACPI0004:00/BCM2847:00/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "SDIO Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 0"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: Uhhc._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: mmc1:59b4
+  SysFS Device Link: /devices/system/container/ACPI0004:01/BRCME88C:00/mmc_host/mmc1/mmc1:59b4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-iproc", "mmcblk"
+  Driver Modules: "sdhci_iproc"
+  Device File: /dev/mmcblk1
+  Device Files: /dev/mmcblk1, /dev/disk/by-id/mmc-SDU1_0x14a12513, /dev/disk/by-path/platform-BRCME88C:00
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 1929280/4/16
+  Size: 123473920 sectors a 512 bytes
+  Capacity: 58 GB (63218647040 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (MMC Controller)
+
+12: USB 00.2: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: zPMs.uadmpsdCAuB
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-1/1-1.4/1-1.4:1.2
+  SysFS BusID: 1-1.4:1.2
+  Hardware Class: unknown
+  Model: "Generalplus WEB CAM"
+  Hotplug: USB
+  Vendor: usb 0x1b3f "Generalplus Technology Inc."
+  Device: usb 0x1167 "WEB CAM"
+  Revision: "1.00"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1B3Fp1167d0100dcEFdsc02dp01ic01isc01ip00in02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+14: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: 46Ud.dPsn2MBaU3F
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-1/1-1.3/1-1.3:1.1
+  SysFS BusID: 1-1.3:1.1
+  Hardware Class: unknown
+  Model: "SiGma Micro USB Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x1c4f "SiGma Micro"
+  Device: usb 0x0016 "USB Keyboard"
+  Revision: "1.10"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1C4Fp0016d0110dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+17: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: BobO.ChzS7lmSk10
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: mouse
+  Model: "Pixart Imaging Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x093a "Pixart Imaging, Inc."
+  Device: usb 0x2510 "Optical Mouse"
+  Revision: "1.00"
+  Compatible to: int 0x0210 0x0023
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event0, /dev/input/by-id/usb-PixArt_USB_Optical_..., /dev/input/by-path/platform-PNP0D10:00-usb-0:1.2:1.0-event-mouse, /dev/input/by-path/platform-PNP0D10:00-usb-0:1.2:1.0-mouse, /dev/input/by-id/usb-PixArt_USB_Optical_...
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v093Ap2510d0100dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+18: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.mOMa0Nf81G6
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0514dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: dwDZ.uIndhpN_Z05
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-1/1-1.3/1-1.3:1.0
+  SysFS BusID: 1-1.3:1.0
+  Hardware Class: keyboard
+  Model: "SiGma Micro USB Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x1c4f "SiGma Micro"
+  Device: usb 0x0016 "USB Keyboard"
+  Revision: "1.10"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event1
+  Device Files: /dev/input/event1, /dev/input/by-path/platform-PNP0D10:00-usb-0:1.3:1.0-event-kbd, /dev/input/by-id/usb-SIGMACHIP_USB_...
+  Device Number: char 13:65
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v1C4Fp0016d0110dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.mUqILwxEtWB
+  Parent ID: k4bc.mOMa0Nf81G6
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "VIA Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x3431 "Hub"
+  Revision: "4.21"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p3431d0421dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Hub)
+
+21: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.vPr5YehZafA
+  SysFS ID: /devices/system/container/ACPI0004:02/PNP0D10:00/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.14"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0514dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10000 Monitor
+  [Created at fb.71]
+  Unique ID: rdCR.EY_qmtb9YY0
+  Hardware Class: monitor
+  Model: "Generic Monitor"
+  Vendor: "Generic"
+  Device: "Monitor"
+  Resolution: 1920x1200@77Hz
+  Year of Manufacture: 0
+  Week of Manufacture: 0
+  Driver Info #0:
+    Max. Resolution: 1920x1200
+    Vert. Sync Range: 50-90 Hz
+    Hor. Sync Range: 31-96 kHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: xy58.ndpeucax6V1
+  SysFS ID: /class/net/enabcm6e4ei0
+  SysFS Device Link: /devices/platform/BCM6E4E:00
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bcmgenet"
+  Driver Modules: "genet"
+  Device File: enabcm6e4ei0
+  HW Address: 716EE0F94A68D9B664B0B8DFBCF7CE45
+  Permanent HW Address: 716EE0F94A68D9B664B0B8DFBCF7CE45
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: w7fU.ndpeucax6V1
+  SysFS ID: /class/net/veth110eda8c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth110eda8c
+  HW Address: 3B2E10F7338F42A5D8AEA317DB1433C2
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 820Y.ndpeucax6V1
+  SysFS ID: /class/net/cni0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: cni0
+  HW Address: BFC4169B95A598C404F793B05662DCE0
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: j2Yp.ndpeucax6V1
+  SysFS ID: /class/net/virbr0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: virbr0
+  HW Address: 9A5FFC47EE1340F129FF4F311DFEF03D
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: kmKr.ndpeucax6V1
+  SysFS ID: /class/net/flannel.1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "vxlan"
+  Device File: flannel.1
+  HW Address: 6CB79F4C157450CDD7082BB5B463ED19
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3vK2.ndpeucax6V1
+  SysFS ID: /class/net/veth2ae89d75
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth2ae89d75
+  HW Address: 0041B9FEA4B09071F25C2B82E24BF885
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: iAOT.ndpeucax6V1
+  SysFS ID: /class/net/veth93e8bf70
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth93e8bf70
+  HW Address: F7020C4E59BA91D5A47CFA6901A1AEEC
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: i8Fm.ndpeucax6V1
+  SysFS ID: /class/net/vethb091d1ed
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethb091d1ed
+  HW Address: 6187D6ADADD6D60656FAA6AC30376A5B
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: lHm9.ndpeucax6V1
+  SysFS ID: /class/net/vethf6be5ea9
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethf6be5ea9
+  HW Address: C0BB72890981A1C3EAA0A2F9A97A9D08
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

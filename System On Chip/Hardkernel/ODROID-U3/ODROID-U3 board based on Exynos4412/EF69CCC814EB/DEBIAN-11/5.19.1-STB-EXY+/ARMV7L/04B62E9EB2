@@ -1,0 +1,229 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: LDNz.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/12580000.usb/usb2/2-2/2-2:1.0
+  SysFS BusID: 2-2:1.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NusbT(null)Csamsung,exynos4210-ehci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: U_N7._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc/12530000.sdhci/mmc_host/mmc0/mmc0:59b4
+  SysFS BusID: mmc0:59b4
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: U_N7._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:59b4
+  SysFS Device Link: /devices/platform/soc/12530000.sdhci/mmc_host/mmc0/mmc0:59b4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "s3c-sdhci", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-path/platform-12530000.sdhci
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 977376/4/16
+  Size: 62552064 sectors a 512 bytes
+  Capacity: 29 GB (32026656768 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (MMC Controller)
+
+09: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: hSuP.jq9EDk4dvvA
+  Parent ID: pBe4.3IgQKmbtKzA
+  SysFS ID: /devices/platform/soc/12580000.usb/usb2/2-2/2-2:1.0
+  SysFS BusID: 2-2:1.0
+  Hardware Class: unknown
+  Model: "Microchip Technology, Inc. (formerly SMSC) Unclassified device"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0x9730 
+  Revision: "1.00"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p9730d0100dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: smsc95xx is active
+    Driver Activation Cmd: "modprobe smsc95xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Hub)
+
+10: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.LU08n+fyfo8
+  SysFS ID: /devices/platform/soc/12480000.hsotg/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0519dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7bWa.1K3t6K6b8vD
+  Parent ID: pBe4.3IgQKmbtKzA
+  SysFS ID: /devices/platform/soc/12580000.usb/usb2/2-3/2-3:1.0
+  SysFS BusID: 2-3:1.0
+  Hardware Class: hub
+  Model: "Microchip Technology, Inc. (formerly SMSC) Hub"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Microchip Technology, Inc. (formerly SMSC)"
+  Device: usb 0x3503 
+  Revision: "a1.a0"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0424p3503dA1A0dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Hub)
+
+12: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.3IgQKmbtKzA
+  SysFS ID: /devices/platform/soc/12580000.usb/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.19"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0519dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 3.0.0 ""
+  Platform: "Samsung Exynos (Flattened Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,neon,vfpv3,tls,vfpd32,
+  BogoMips: 43.20
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 3.0.0 ""
+  Platform: "Samsung Exynos (Flattened Device Tree)"
+  Features: half
+  BogoMips: 43.20
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 3.0.0 ""
+  Platform: "Samsung Exynos (Flattened Device Tree)"
+  Features: half
+  BogoMips: 43.20
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 3.0.0 ""
+  Platform: "Samsung Exynos (Flattened Device Tree)"
+  Features: half
+  BogoMips: 43.20
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 01.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: yfW0.GSopYcFr9cF
+  SysFS ID: /class/net/wg1
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "wireguard"
+  Device File: wg1
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: LDNz.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/12580000.usb/usb2/2-2/2-2:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "smsc95xx"
+  Driver Modules: "smsc95xx"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+19: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: UUGy.GSopYcFr9cF
+  SysFS ID: /class/net/wg0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "wireguard"
+  Device File: wg0
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

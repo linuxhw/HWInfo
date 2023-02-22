@@ -1,0 +1,1550 @@
+11: PCI 50100.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.378]
+  Unique ID: hs0s.AxGd7hiuG+6
+  Parent ID: 00qi.ry1duzAl_E1
+  SysFS ID: /devices/141a0000.pcie/pci0005:00/0005:00:00.0/0005:01:00.0
+  SysFS BusID: 0005:01:00.0
+  Hardware Class: storage
+  Model: "Samsung Electronics Non-Volatile memory controller"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0x1f40000000-0x1f40003fff (rw,non-prefetchable)
+  IRQ: 39 (1 event)
+  Module Alias: "pci:v0000144Dd0000A808sv0000144Dsd0000A801bc01sc08i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (PCI bridge)
+
+12: PCI 50000.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.378]
+  Unique ID: 00qi.ry1duzAl_E1
+  SysFS ID: /devices/141a0000.pcie/pci0005:00/0005:00:00.0
+  SysFS BusID: 0005:00:00.0
+  Hardware Class: bridge
+  Model: "NVIDIA PCI bridge"
+  Vendor: pci 0x10de "NVIDIA Corporation"
+  Device: pci 0x1ad0 
+  Revision: 0xa1
+  Driver: "pcieport"
+  IRQ: 39 (1 event)
+  Module Alias: "pci:v000010DEd00001AD0sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 0200 Ethernet controller
+  [Created at pci.988]
+  Unique ID: +jd0.nuQvqdpV7ND
+  SysFS ID: /devices/2490000.ether_qos
+  SysFS BusID: 2490000.ether_qos
+  Hardware Class: network
+  Model: "ARM Ethernet 0"
+  Device: "ARM Ethernet 0"
+  Driver: "eqos"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "of:Nether_qosT<NULL>Cnvidia,eqos"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1820]
+  Unique ID: woUE.TzQFl_vZhO4
+  SysFS ID: /devices/3460000.sdhci/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: VVOc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram11
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram11
+  Device Number: block 1:11
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: preK.Fxp0d3BezAE
+  SysFS ID: /class/block/zram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram7
+  Device Number: block 252:7
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7tlP.Fxp0d3BezAE
+  SysFS ID: /class/block/ram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram2
+  Device Number: block 1:2
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: gDDn.Fxp0d3BezAE
+  SysFS ID: /class/block/zram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram5
+  Device Number: block 252:5
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ni5P.Fxp0d3BezAE
+  Parent ID: woUE.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0rpmb
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/3460000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0rpmb
+  Device Number: block 179:96-179:127
+  Geometry (Logical): CHS 128/4/16
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (MMC Controller)
+
+22: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: XOSI.Fxp0d3BezAE
+  SysFS ID: /class/block/ram9
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram9
+  Device Number: block 1:9
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: lsie.Fxp0d3BezAE
+  SysFS ID: /class/block/zram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram3
+  Device Number: block 252:3
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: d1y9.Fxp0d3BezAE
+  SysFS ID: /class/block/ram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram7
+  Device Number: block 1:7
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: rVCW.Fxp0d3BezAE
+  SysFS ID: /class/block/zram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram1
+  Device Number: block 252:1
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: s19p.Fxp0d3BezAE
+  SysFS ID: /class/block/ram14
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram14
+  Device Number: block 1:14
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: UPWc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram5
+  Device Number: block 1:5
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Hj0w.Fxp0d3BezAE
+  Parent ID: woUE.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot0
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/3460000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot0
+  Device Files: /dev/mmcblk0boot0, /dev/disk/by-path/platform-3460000.sdhci-boot0
+  Device Number: block 179:32-179:63
+  Geometry (Logical): CHS 256/4/16
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (MMC Controller)
+
+29: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ygeg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram12
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram12
+  Device Number: block 1:12
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: a20U.Fxp0d3BezAE
+  SysFS ID: /class/block/ram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram3
+  Device Number: block 1:3
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 2K8Y.Fxp0d3BezAE
+  SysFS ID: /class/block/ram10
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram10
+  Device Number: block 1:10
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7PTr.Fxp0d3BezAE
+  SysFS ID: /class/block/zram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram6
+  Device Number: block 252:6
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ghVL.Fxp0d3BezAE
+  SysFS ID: /class/block/ram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram1
+  Device Number: block 1:1
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: C2zi.Fxp0d3BezAE
+  SysFS ID: /class/block/zram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram4
+  Device Number: block 252:4
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 4DCE.Fxp0d3BezAE
+  SysFS ID: /class/block/ram8
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram8
+  Device Number: block 1:8
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: IhSa.Fxp0d3BezAE
+  SysFS ID: /class/block/zram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram2
+  Device Number: block 252:2
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: JDPt.Fxp0d3BezAE
+  SysFS ID: /class/block/ram15
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram15
+  Device Number: block 1:15
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: wLCS.EJHvc9MwvZ7
+  Parent ID: hs0s.AxGd7hiuG+6
+  SysFS ID: /class/block/nvme0n1
+  SysFS BusID: nvme0
+  SysFS Device Link: /devices/141a0000.pcie/pci0005:00/0005:00:00.0/0005:01:00.0/nvme/nvme0
+  Hardware Class: disk
+  Model: "Samsung Electronics Disk"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme0n1
+  Device Files: /dev/nvme0n1, /dev/disk/by-id/nvme-Samsung_SSD_970_EVO_Plus_2TB_..., /dev/disk/by-id/nvme-eui.002538581191bc57, /dev/disk/by-path/platform-141a0000.pcie-pci-0005:01:00.0-nvme-1
+  Device Number: block 259:11
+  Geometry (Logical): CHS 1907729/64/32
+  Size: 3907029168 sectors a 512 bytes
+  Capacity: 1863 GB (2000398934016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Non-Volatile memory controller)
+
+39: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: xamg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram6
+  Device Number: block 1:6
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 252:0
+  Size: 253064 sectors a 4096 bytes
+  Capacity: 0 GB (1036550144 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kuG_.Fxp0d3BezAE
+  Parent ID: woUE.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot1
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/3460000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot1
+  Device Files: /dev/mmcblk0boot1, /dev/disk/by-path/platform-3460000.sdhci-boot1
+  Device Number: block 179:64-179:95
+  Geometry (Logical): CHS 256/4/16
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (MMC Controller)
+
+42: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: woUE.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/3460000.sdhci/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-tegra", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/mmc-HBG4a2_0x18f5f50e, /dev/disk/by-path/platform-3460000.sdhci
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 954368/4/16
+  Size: 61079552 sectors a 512 bytes
+  Capacity: 29 GB (31272730624 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (MMC Controller)
+
+43: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Psuk.Fxp0d3BezAE
+  SysFS ID: /class/block/ram13
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram13
+  Device Number: block 1:13
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 1EGY.Fxp0d3BezAE
+  SysFS ID: /class/block/ram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram4
+  Device Number: block 1:4
+  Size: 16384 sectors a 512 bytes
+  Capacity: 0 GB (8388608 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: n8KV.8_I5RcIC_05
+  Parent ID: 2UT6.w2XNfEOIAJ1
+  SysFS ID: /devices/3610000.xhci/usb1/1-3/1-3.3/1-3.3:1.0
+  SysFS BusID: 1-3.3:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x7800 
+  Revision: "3.00"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth3
+  Speed: 480 Mbps
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "usb:v0424p7800d0300dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: lan78xx is active
+    Driver Activation Cmd: "modprobe lan78xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (Hub)
+
+46: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: 1VxH.8_I5RcIC_05
+  Parent ID: 7bWa.WKVLQFeA0NF
+  SysFS ID: /devices/3610000.xhci/usb2/2-3/2-3.2/2-3.2:1.0
+  SysFS BusID: 2-3.2:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x7800 
+  Revision: "3.00"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth2
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "usb:v0424p7800d0300dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: lan78xx is active
+    Driver Activation Cmd: "modprobe lan78xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #54 (Hub)
+
+47: USB 00.3: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: LXtq.+eBWUBJxB10
+  Parent ID: Uc5H.NBBjexHwhrA
+  SysFS ID: /devices/3610000.xhci/usb1/1-4/1-4.1/1-4.1:1.3
+  SysFS BusID: 1-4.1:1.3
+  Hardware Class: unknown
+  Model: "Quectel EG21-G"
+  Hotplug: USB
+  Vendor: usb 0x2c7c "Quectel"
+  Device: usb 0x0121 "EG21-G"
+  Revision: "3.18"
+  Driver: "option"
+  Device File: /dev/ttyUSB3
+  Device Files: /dev/ttyUSB3, /dev/serial/by-id/usb-Quectel_..., /dev/serial/by-path/platform-3610000.xhci-usb-0:4.1:1.3-port0
+  Device Number: char 188:3
+  Speed: 480 Mbps
+  Module Alias: "usb:v2C7Cp0121d0318dcEFdsc02dp01icFFisc00ip00in03"
+  Driver Info #0:
+    Driver Status: option is active
+    Driver Activation Cmd: "modprobe option"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #52 (Hub)
+
+48: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: DHyf.8_I5RcIC_05
+  Parent ID: 2UT6.w2XNfEOIAJ1
+  SysFS ID: /devices/3610000.xhci/usb1/1-3/1-3.4/1-3.4:1.0
+  SysFS BusID: 1-3.4:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x7800 
+  Revision: "3.00"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth4
+  Speed: 480 Mbps
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "usb:v0424p7800d0300dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: lan78xx is active
+    Driver Activation Cmd: "modprobe lan78xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #50 (Hub)
+
+50: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2UT6.w2XNfEOIAJ1
+  Parent ID: k4bc.+N3vcF8QTi8
+  SysFS ID: /devices/3610000.xhci/usb1/1-3/1-3:1.0
+  SysFS BusID: 1-3:1.0
+  Hardware Class: hub
+  Model: "Texas Instruments Hub"
+  Hotplug: USB
+  Vendor: usb 0x0451 "Texas Instruments, Inc."
+  Device: usb 0x8242 
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0451p8242d0100dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #51 (Hub)
+
+51: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.+N3vcF8QTi8
+  SysFS ID: /devices/3610000.xhci/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0409dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: Uc5H.NBBjexHwhrA
+  Parent ID: k4bc.+N3vcF8QTi8
+  SysFS ID: /devices/3610000.xhci/usb1/1-4/1-4:1.0
+  SysFS BusID: 1-4:1.0
+  Hardware Class: hub
+  Model: "Texas Instruments Hub"
+  Hotplug: USB
+  Vendor: usb 0x0451 "Texas Instruments, Inc."
+  Device: usb 0x8242 
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v0451p8242d0100dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #51 (Hub)
+
+54: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7bWa.WKVLQFeA0NF
+  Parent ID: pBe4.ujB63Dw5Pw1
+  SysFS ID: /devices/3610000.xhci/usb2/2-3/2-3:1.0
+  SysFS BusID: 2-3:1.0
+  Hardware Class: hub
+  Model: "Texas Instruments Hub"
+  Hotplug: USB
+  Vendor: usb 0x0451 "Texas Instruments, Inc."
+  Device: usb 0x8240 
+  Revision: "1.10"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v0451p8240d0110dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #58 (Hub)
+
+56: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: bMJ7.8_I5RcIC_05
+  Parent ID: 7bWa.WKVLQFeA0NF
+  SysFS ID: /devices/3610000.xhci/usb2/2-3/2-3.1/2-3.1:1.0
+  SysFS BusID: 2-3.1:1.0
+  Hardware Class: network
+  Model: "Standard Microsystems Ethernet controller"
+  Hotplug: USB
+  Vendor: usb 0x0424 "Standard Microsystems Corp."
+  Device: usb 0x7800 
+  Revision: "3.00"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth1
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "usb:v0424p7800d0300dcFFdsc00dpFFicFFisc00ipFFin00"
+  Driver Info #0:
+    Driver Status: lan78xx is active
+    Driver Activation Cmd: "modprobe lan78xx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #54 (Hub)
+
+58: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.ujB63Dw5Pw1
+  SysFS ID: /devices/3610000.xhci/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0409dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: Zj8l.WKVLQFeA0NF
+  Parent ID: pBe4.ujB63Dw5Pw1
+  SysFS ID: /devices/3610000.xhci/usb2/2-4/2-4:1.0
+  SysFS BusID: 2-4:1.0
+  Hardware Class: hub
+  Model: "Texas Instruments Hub"
+  Hotplug: USB
+  Vendor: usb 0x0451 "Texas Instruments, Inc."
+  Device: usb 0x8240 
+  Revision: "1.10"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v0451p8240d0110dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #58 (Hub)
+
+60: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+61: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+62: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+65: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: None 00.0: 10103 CPU
+  [Created at cpu.338]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "unknown (4e)"
+  Model: 0.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 62.50
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+68: None 1c.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: +nY4.ndpeucax6V1
+  SysFS ID: /class/net/vethffdfe28
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethffdfe28
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+69: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 2A0f.ndpeucax6V1
+  SysFS ID: /class/net/veth21dab08
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth21dab08
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: PA1L.ndpeucax6V1
+  SysFS ID: /class/net/veth3adf201
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth3adf201
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ADz4.ndpeucax6V1
+  SysFS ID: /class/net/veth407cd14
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth407cd14
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+72: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: oZUv.ndpeucax6V1
+  SysFS ID: /class/net/veth727cf26
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth727cf26
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+73: None 240.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: FDM6.ndpeucax6V1
+  SysFS ID: /class/net/vethfafd576
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethfafd576
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+74: None 57187e.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Kl5K.ndpeucax6V1
+  SysFS ID: /class/net/veth5707902
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth5707902
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+75: None 196.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: taTX.ndpeucax6V1
+  SysFS ID: /class/net/veth0000406
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth0000406
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+76: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: YQYn.ndpeucax6V1
+  SysFS ID: /class/net/vetha96ec05
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vetha96ec05
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+77: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Q1tZ.ndpeucax6V1
+  SysFS ID: /class/net/vethf1715f7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethf1715f7
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+78: None 15e73.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: TUQp.ndpeucax6V1
+  SysFS ID: /class/net/vethcd89715
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethcd89715
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+79: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 4ltd.ndpeucax6V1
+  SysFS ID: /class/net/veth3fd1fd9
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth3fd1fd9
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+80: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: cMEL.ndpeucax6V1
+  SysFS ID: /class/net/veth47f7b21
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth47f7b21
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+81: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Atqd.ndpeucax6V1
+  SysFS ID: /class/net/vethc338e6e
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethc338e6e
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+82: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 99fD.ndpeucax6V1
+  SysFS ID: /class/net/veth1156ba0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth1156ba0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+83: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: C5Hr.ndpeucax6V1
+  SysFS ID: /class/net/vethbe74ae2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethbe74ae2
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+84: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: myUZ.ndpeucax6V1
+  SysFS ID: /class/net/veth9ea16c1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth9ea16c1
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+85: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: jaEn.ndpeucax6V1
+  Parent ID: DHyf.8_I5RcIC_05
+  SysFS ID: /class/net/eth4
+  SysFS Device Link: /devices/3610000.xhci/usb1/1-3/1-3.4/1-3.4:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth4
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #48 (Ethernet controller)
+
+86: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Zzs5.ndpeucax6V1
+  SysFS ID: /class/net/vetheda2f86
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vetheda2f86
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+87: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: gzBf.ndpeucax6V1
+  SysFS ID: /class/net/veth2d4c484
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth2d4c484
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+88: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dummy"
+  Device File: dummy0
+  HW Address: ...
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+89: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: IgEh.ndpeucax6V1
+  SysFS ID: /class/net/veth1f3aa27
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth1f3aa27
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+90: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: W4M1.ndpeucax6V1
+  SysFS ID: /class/net/veth0d9a74a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth0d9a74a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+91: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: YM+Z.ndpeucax6V1
+  SysFS ID: /class/net/vetha08234a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vetha08234a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+92: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: uNr8.ndpeucax6V1
+  SysFS ID: /class/net/vethe49c298
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethe49c298
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+93: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7iXG.ndpeucax6V1
+  SysFS ID: /class/net/docker0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: docker0
+  HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+94: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pDke.ndpeucax6V1
+  Parent ID: 1VxH.8_I5RcIC_05
+  SysFS ID: /class/net/eth2
+  SysFS Device Link: /devices/3610000.xhci/usb2/2-3/2-3.2/2-3.2:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth2
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #46 (Ethernet controller)
+
+95: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ErL2.ndpeucax6V1
+  SysFS ID: /class/net/veth3ea0a97
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth3ea0a97
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+96: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: J+VM.ndpeucax6V1
+  SysFS ID: /class/net/vethe83daf0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethe83daf0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+97: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Pdxw.ndpeucax6V1
+  SysFS ID: /class/net/vethb2d0abb
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethb2d0abb
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+98: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: sGHk.ndpeucax6V1
+  SysFS ID: /class/net/veth2b77eb1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth2b77eb1
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+99: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: bHoc.ndpeucax6V1
+  SysFS ID: /class/net/veth9273f2c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth9273f2c
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+100: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3Trh.ndpeucax6V1
+  SysFS ID: /class/net/veth0f7b10d
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth0f7b10d
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+101: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 2jQM.ndpeucax6V1
+  SysFS ID: /class/net/veth2a4db1c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth2a4db1c
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+102: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 6kyl.ndpeucax6V1
+  SysFS ID: /class/net/vethffc1d4c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethffc1d4c
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+103: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: +jd0.nuQvqdpV7ND
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/2490000.ether_qos
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "eqos"
+  Device File: eth0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Ethernet controller)
+
+104: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 2AK0.ndpeucax6V1
+  SysFS ID: /class/net/veth44318c7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth44318c7
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+105: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 04er.ndpeucax6V1
+  SysFS ID: /class/net/veth96f98f5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth96f98f5
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+106: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: wGEg.ndpeucax6V1
+  SysFS ID: /class/net/veth17b1719
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth17b1719
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+107: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: eQrT.ndpeucax6V1
+  SysFS ID: /class/net/veth3c88a93
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth3c88a93
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+108: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: dqER.ndpeucax6V1
+  SysFS ID: /class/net/veth68c1ff3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth68c1ff3
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+109: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 5zLp.ndpeucax6V1
+  SysFS ID: /class/net/veth364df51
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth364df51
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+110: None 00.0: 10780 Network Interface
+  [Created at net.126]
+  Unique ID: tovL.GSopYcFr9cF
+  SysFS ID: /class/net/tun0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Driver: "tun"
+  Device File: tun0
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+111: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: +9Pz.ndpeucax6V1
+  SysFS ID: /class/net/br-63526e168a47
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: br-63526e168a47
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+112: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 9eip.ndpeucax6V1
+  SysFS ID: /class/net/vethda0c43c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethda0c43c
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+113: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: unXm.ndpeucax6V1
+  SysFS ID: /class/net/vethced6a0b
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethced6a0b
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+114: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: OwQ9.ndpeucax6V1
+  SysFS ID: /class/net/veth9fa6a2a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth9fa6a2a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+115: None c4f3.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: oXo_.ndpeucax6V1
+  SysFS ID: /class/net/vethee50419
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethee50419
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+116: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: FPzM.ndpeucax6V1
+  SysFS ID: /class/net/veth0ebb96c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth0ebb96c
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+117: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ileC.ndpeucax6V1
+  SysFS ID: /class/net/vetha25939a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vetha25939a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+118: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: lGUU.ndpeucax6V1
+  SysFS ID: /class/net/vethfd0e557
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethfd0e557
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+119: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 6YRd.ndpeucax6V1
+  SysFS ID: /class/net/vethf1a4f6a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethf1a4f6a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+120: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 0DPE.ndpeucax6V1
+  SysFS ID: /class/net/veth8ca3684
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth8ca3684
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+121: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: oPYn.ndpeucax6V1
+  SysFS ID: /class/net/veth61f5286
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth61f5286
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+122: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Xh8w.ndpeucax6V1
+  SysFS ID: /class/net/vethf374b5a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethf374b5a
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+123: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ZB0R.ndpeucax6V1
+  SysFS ID: /class/net/veth83b13be
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth83b13be
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+124: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ykuQ.ndpeucax6V1
+  SysFS ID: /class/net/veth662e6c5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth662e6c5
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+125: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GP_i.ndpeucax6V1
+  Parent ID: n8KV.8_I5RcIC_05
+  SysFS ID: /class/net/eth3
+  SysFS Device Link: /devices/3610000.xhci/usb1/1-3/1-3.3/1-3.3:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth3
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #45 (Ethernet controller)
+
+126: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Pqad.ndpeucax6V1
+  SysFS ID: /class/net/veth488a0df
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth488a0df
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+127: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+128: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: L2Ua.ndpeucax6V1
+  Parent ID: bMJ7.8_I5RcIC_05
+  SysFS ID: /class/net/eth1
+  SysFS Device Link: /devices/3610000.xhci/usb2/2-3/2-3.1/2-3.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "lan78xx"
+  Driver Modules: "lan78xx"
+  Device File: eth1
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #56 (Ethernet controller)
+
+129: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: VnDT.ndpeucax6V1
+  SysFS ID: /class/net/veth0e17248
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth0e17248
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+130: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: rXH+.ndpeucax6V1
+  SysFS ID: /class/net/vethed3bf61
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethed3bf61
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

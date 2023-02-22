@@ -1,0 +1,276 @@
+03: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: Yp_P.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@3000000/4500000.eth
+  SysFS BusID: 4500000.eth
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "sunxi-gmac"
+  Device File: eth0
+  HW Address: 2BA3BD3C28A10EC0E14E5A9F380A855C
+  Link detected: no
+  Module Alias: "of:NethTgmac0Callwinner,sunxi-gmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: 67My.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc@3000000/4021000.sdmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "xradio_wlan"
+  Device File: wlan0
+  HW Address: 76478DEBC55A167F9B0394E5CA8F87A7
+  Permanent HW Address: 76478DEBC55A167F9B0394E5CA8F87A7
+  Link detected: yes
+  Module Alias: "of:NsdmmcTsdc1Callwinner,sunxi-mmc-v5p3x"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: ORWw.VoJli79_k95
+  SysFS ID: /devices/platform/soc@3000000/4021000.sdmmc/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: 0OA+._NN+DZ1HDn4
+  SysFS ID: /devices/platform/soc@3000000/4020000.sdmmc/mmc_host/mmc0/mmc0:aaaa
+  SysFS BusID: mmc0:aaaa
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: lh6k.wWOd_VqBiP8
+  Parent ID: ORWw.VoJli79_k95
+  SysFS ID: /devices/platform/soc@3000000/4021000.sdmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "Network controller"
+  Vendor: sdio 0x0a9e 
+  Device: sdio 0x2282 
+  Driver: "xradio_wlan"
+  Module Alias: "sdio:c00v0A9Ed2282"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (MMC Controller)
+
+08: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: 0OA+._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:aaaa
+  SysFS Device Link: /devices/platform/soc@3000000/4020000.sdmmc/mmc_host/mmc0/mmc0:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sunxi-mmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 1948992/4/16
+  Size: 124735488 sectors a 512 bytes
+  Capacity: 59 GB (63864569856 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (MMC Controller)
+
+09: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: 46Ud.fZI0GLAJVPD
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc@3000000/4200000.ehci1-controller/usb1/1-1/1-1.3/1-1.3:1.1
+  SysFS BusID: 1-1.3:1.1
+  Hardware Class: unknown
+  Model: "USBKB"
+  Hotplug: USB
+  Vendor: usb 0x2a7a 
+  Device: usb 0x2e71 "USBKB"
+  Revision: "0.01"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event5
+  Device Number: char 13:69
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v2A7Ap2E71d0001dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+10: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: BobO.X6dNvsW26p7
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc@3000000/4200000.ehci1-controller/usb1/1-1/1-1.2/1-1.2:1.0
+  SysFS BusID: 1-1.2:1.0
+  Hardware Class: mouse
+  Model: "Dell MS116 Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x413c "Dell Computer Corp."
+  Device: usb 0x301a "Dell MS116 Optical Mouse"
+  Revision: "1.00"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event2
+  Device Number: char 13:66
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v413Cp301Ad0100dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.m67O25inlLC
+  SysFS ID: /devices/platform/soc@3000000/4200000.ehci1-controller/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: dwDZ.wSDsuoMjaM3
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc@3000000/4200000.ehci1-controller/usb1/1-1/1-1.3/1-1.3:1.0
+  SysFS BusID: 1-1.3:1.0
+  Hardware Class: keyboard
+  Model: "USBKB"
+  Hotplug: USB
+  Vendor: usb 0x2a7a 
+  Device: usb 0x2e71 "USBKB"
+  Revision: "0.01"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event3
+  Device Number: char 13:67
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v2A7Ap2E71d0001dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+13: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.lRoCB54l1cE
+  Parent ID: k4bc.m67O25inlLC
+  SysFS ID: /devices/platform/soc@3000000/4200000.ehci1-controller/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic Hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0610 "Hub"
+  Revision: "6.55"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05E3p0610d0655dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+14: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.XnIQ6PHfnsD
+  SysFS ID: /devices/platform/soc@3000000/4200400.ohci1-controller/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.04"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0504dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Model: 0.0.0 "rv64imafdcvu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: Serial 00.0: 10801 Console
+  [Created at kbd.180]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: 67My.TfPFe67fIBB
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc@3000000/4021000.sdmmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "xradio_wlan"
+  Device File: wlan0
+  HW Address: 76478DEBC55A167F9B0394E5CA8F87A7
+  Permanent HW Address: 76478DEBC55A167F9B0394E5CA8F87A7
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (Ethernet controller)
+
+18: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: Yp_P.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc@3000000/4500000.eth
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "sunxi-gmac"
+  Device File: eth0
+  HW Address: 2BA3BD3C28A10EC0E14E5A9F380A855C
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (Ethernet controller)

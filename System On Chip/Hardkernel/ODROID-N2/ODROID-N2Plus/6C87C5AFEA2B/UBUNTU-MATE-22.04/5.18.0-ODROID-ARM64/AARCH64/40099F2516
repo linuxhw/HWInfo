@@ -1,0 +1,570 @@
+09: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: Tg3d.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff400000.usb
+  SysFS BusID: ff400000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Module Alias: "of:NusbT(null)Camlogic,meson-g12a-usbCsnps,dwc2"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1082]
+  Unique ID: GmA5.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto
+  SysFS BusID: xhci-hcd.0.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: mYtj.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb
+  SysFS BusID: ff500000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc3"
+  Module Alias: "of:NusbT(null)Csnps,dwc3"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: BAzX.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/ff3f0000.ethernet
+  SysFS BusID: ff3f0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "meson8b-dwmac"
+  Driver Modules: "dwmac_meson8b"
+  Device File: eth0
+  HW Address: 18AF319C72C3ABBCA437E48C560EE96F
+  Permanent HW Address: 18AF319C72C3ABBCA437E48C560EE96F
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Camlogic,meson-g12a-dwmacCsnps,dwmac-3.70aCsnps,dwmac"
+  Driver Info #0:
+    Driver Status: dwmac_meson8b is active
+    Driver Activation Cmd: "modprobe dwmac_meson8b"
+  Driver Info #1:
+    Driver Status: dwmac_generic is active
+    Driver Activation Cmd: "modprobe dwmac_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: J767.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/ffe09000.usb
+  SysFS BusID: ffe09000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc3-meson-g12a"
+  Module Alias: "of:NusbT(null)Camlogic,meson-g12a-usb-ctrl"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: wFFL.TzQFl_vZhO4
+  SysFS ID: /devices/platform/soc/ffe07000.mmc/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 7tlP.Fxp0d3BezAE
+  SysFS ID: /class/block/ram2
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram2
+  Device Number: block 1:2
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: CWFH.Fxp0d3BezAE
+  SysFS ID: /class/block/ram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram0
+  Device Number: block 1:0
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: wFFL.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/soc/ffe07000.mmc/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "meson-gx-mmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-path/platform-ffe07000.mmc, /dev/disk/by-id/mmc-BJTD4R_0xcdcbc01b
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 954240/4/16
+  Size: 61071360 sectors a 512 bytes
+  Capacity: 29 GB (31268536320 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (MMC Controller)
+
+18: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Hj0w.Fxp0d3BezAE
+  Parent ID: wFFL.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot0
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/platform/soc/ffe07000.mmc/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot0
+  Device Files: /dev/mmcblk0boot0, /dev/disk/by-path/platform-ffe07000.mmc-boot0
+  Device Number: block 179:32-179:63
+  Geometry (Logical): CHS 128/4/16
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (MMC Controller)
+
+19: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: d1y9.Fxp0d3BezAE
+  SysFS ID: /class/block/ram7
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram7
+  Device Number: block 1:7
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: UPWc.Fxp0d3BezAE
+  SysFS ID: /class/block/ram5
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram5
+  Device Number: block 1:5
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: a20U.Fxp0d3BezAE
+  SysFS ID: /class/block/ram3
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram3
+  Device Number: block 1:3
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ghVL.Fxp0d3BezAE
+  SysFS ID: /class/block/ram1
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram1
+  Device Number: block 1:1
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kuG_.Fxp0d3BezAE
+  Parent ID: wFFL.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot1
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/platform/soc/ffe07000.mmc/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot1
+  Device Files: /dev/mmcblk0boot1, /dev/disk/by-path/platform-ffe07000.mmc-boot1
+  Device Number: block 179:64-179:95
+  Geometry (Logical): CHS 128/4/16
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (MMC Controller)
+
+24: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: R7kM.JBJQNurwDh6
+  Parent ID: GmA5.vcc7vMyNqX6
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb2/2-1/2-1.3/2-1.3:1.0/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "ASMT ASM105x"
+  Vendor: "ASMT"
+  Device: "ASM105x"
+  Revision: "0"
+  Serial ID: --
+  Driver: "uas", "sd"
+  Driver Modules: "uas"
+  Device File: /dev/sda (/dev/sg0)
+  Device Files: /dev/sda, /dev/disk/by-path/platform-xhci-hcd.0.auto-usb-0:1.3:1.0-scsi-0:0:0:0, /dev/disk/by-id/scsi-SASMT_ASM105x_..., /dev/disk/by-id/scsi-35000000000000001, /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15 (char 21:0)
+  Geometry (Logical): CHS 60701/255/63
+  Size: 975175680 sectors a 512 bytes
+  Capacity: 465 GB (499289948160 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (USB Controller)
+
+25: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 251:0
+  Size: 469261 sectors a 4096 bytes
+  Capacity: 1 GB (1922093056 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: xamg.Fxp0d3BezAE
+  SysFS ID: /class/block/ram6
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram6
+  Device Number: block 1:6
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 1EGY.Fxp0d3BezAE
+  SysFS ID: /class/block/ram4
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/ram4
+  Device Number: block 1:4
+  Size: 8192 sectors a 512 bytes
+  Capacity: 0 GB (4194304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: USB 00.2: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: zPMs.GnW6rMMwYQ6
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-1/1-1.4/1-1.4:1.2
+  SysFS BusID: 1-1.4:1.2
+  Hardware Class: unknown
+  Model: "Realtek 802.11ac NIC"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0xc820 "802.11ac NIC"
+  Revision: "2.00"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDApC820d0200dcEFdsc02dp01icFFiscFFipFFin02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (Hub)
+
+30: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.+3vBt8JFTJ3
+  Parent ID: pBe4.PKweOZjtk19
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic USB3.1 Hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0620 "USB3.1 Hub"
+  Revision: "93.04"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v05E3p0620d9304dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (Hub)
+
+31: USB 00.2: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: g0UM.lVLMBtrsHd4
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.2
+  SysFS BusID: 1-1.1:1.2
+  Hardware Class: unknown
+  Model: "Logitech Unifying Receiver"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc52b "Unifying Receiver"
+  Revision: "12.03"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 12 Mbps
+  Module Alias: "usb:v046DpC52Bd1203dc00dsc00dp00ic03isc00ip00in02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (Hub)
+
+32: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: lfzD.0PGCqK2HNaA
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: keyboard
+  Model: "Logitech Unifying Receiver"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc52b "Unifying Receiver"
+  Revision: "12.03"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-id/usb-Logitech_USB_..., /dev/input/by-path/platform-xhci-hcd.0.auto-usb-0:1.1:1.0-event-kbd
+  Device Number: char 13:64
+  Speed: 12 Mbps
+  Module Alias: "usb:v046DpC52Bd1203dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (Hub)
+
+33: USB 00.0: 10600 Disk
+  [Created at usb.122]
+  Unique ID: JPTW.VAETyXnv0F5
+  Parent ID: FKGF.+3vBt8JFTJ3
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb2/2-1/2-1.3/2-1.3:1.0
+  SysFS BusID: 2-1.3:1.0
+  Hardware Class: disk
+  Model: "ASMedia Name: ASM1051E SATA 6Gb/s bridge, ASM1053E SATA 6Gb/s bridge, ASM1153 SATA 3Gb/s bridge, ASM1153E SATA 6Gb/s bridge"
+  Hotplug: USB
+  Vendor: usb 0x174c "ASMedia Technology Inc."
+  Device: usb 0x55aa "Name: ASM1051E SATA 6Gb/s bridge, ASM1053E SATA 6Gb/s bridge, ASM1153 SATA 3Gb/s bridge, ASM1153E SATA 6Gb/s bridge"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "uas"
+  Driver Modules: "uas"
+  Module Alias: "usb:v174Cp55AAd0100dc00dsc00dp00ic08isc06ip62in00"
+  Driver Info #0:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (Hub)
+
+35: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.uJrfcCKKe8E
+  Parent ID: GmA5.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0518dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (USB Controller)
+
+36: USB 00.1: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: DrDI.IXoYI3BWHT2
+  Parent ID: ADDn.lRoCB54l1cE
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.1
+  SysFS BusID: 1-1.1:1.1
+  Hardware Class: mouse
+  Model: "Logitech Unifying Receiver"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc52b "Unifying Receiver"
+  Revision: "12.03"
+  Compatible to: int 0x0210 0x0048
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event1, /dev/input/by-id/usb-Logitech_USB_..., /dev/input/by-path/platform-xhci-hcd.0.auto-usb-0:1.1:1.1-event-mouse, /dev/input/by-id/usb-Logitech_USB_..., /dev/input/by-path/platform-xhci-hcd.0.auto-usb-0:1.1:1.1-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 12 Mbps
+  Module Alias: "usb:v046DpC52Bd1203dc00dsc00dp00ic03isc01ip02in01"
+  Driver Info #0:
+    Buttons: 8
+    Wheels: 4
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (Hub)
+
+37: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.lRoCB54l1cE
+  Parent ID: k4bc.uJrfcCKKe8E
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "Genesys Logic 4-port hub"
+  Hotplug: USB
+  Vendor: usb 0x05e3 "Genesys Logic, Inc."
+  Device: usb 0x0610 "4-port hub"
+  Revision: "93.04"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v05E3p0610d9304dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #35 (Hub)
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.PKweOZjtk19
+  Parent ID: GmA5.vcc7vMyNqX6
+  SysFS ID: /devices/platform/soc/ffe09000.usb/ff500000.usb/xhci-hcd.0.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.18"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0518dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (USB Controller)
+
+39: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.4.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.2.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.2.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.2.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.2.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,cpuid
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: BAzX.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/ff3f0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "meson8b-dwmac"
+  Driver Modules: "dwmac_meson8b"
+  Device File: eth0
+  HW Address: 18AF319C72C3ABBCA437E48C560EE96F
+  Permanent HW Address: 18AF319C72C3ABBCA437E48C560EE96F
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (Ethernet controller)

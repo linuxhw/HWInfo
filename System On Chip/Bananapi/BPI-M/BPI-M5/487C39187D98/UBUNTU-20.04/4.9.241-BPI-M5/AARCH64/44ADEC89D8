@@ -1,0 +1,388 @@
+06: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: PP78.TfPFe67fIBB
+  SysFS ID: /devices/platform/ff3f0000.ethernet
+  SysFS BusID: ff3f0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "meson6-dwmac"
+  Device File: eth0
+  HW Address: C33AE3C8183A9EBE38F9078588912AFC
+  Permanent HW Address: C33AE3C8183A9EBE38F9078588912AFC
+  Link detected: yes
+  Module Alias: "of:NethernetT<NULL>Camlogic,_g12a-eth-dwmacCsnps,dwmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0c03 USB Controller (XHCI)
+  [Created at pci.1082]
+  Unique ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto
+  SysFS BusID: xhci-hcd.0.auto
+  Hardware Class: usb controller
+  Model: "ARM USB XHCI controller"
+  Device: "ARM USB XHCI controller"
+  Driver: "xhci-hcd"
+  Module Alias: "platform:xhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: CgKD.TzQFl_vZhO4
+  SysFS ID: /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001
+  SysFS BusID: emmc:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: Pzjc._NN+DZ1HDn4
+  SysFS ID: /devices/platform/ffe05000.sd/mmc_host/sd/sd:aaaa
+  SysFS BusID: sd:aaaa
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kLao.Fxp0d3BezAE
+  Parent ID: Pzjc._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk1
+  SysFS BusID: sd:aaaa
+  SysFS Device Link: /devices/platform/ffe05000.sd/mmc_host/sd/sd:aaaa
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "meson-aml-mmc", "mmcblk"
+  Device File: /dev/mmcblk1
+  Device Number: block 179:128-179:159
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+11: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: Hj0w.Fxp0d3BezAE
+  Parent ID: CgKD.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot0
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot0
+  Device Number: block 179:32-179:63
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+12: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kuG_.Fxp0d3BezAE
+  Parent ID: CgKD.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0boot1
+  SysFS BusID: mmcblk0
+  SysFS Device Link: /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001/block/mmcblk0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "mmcblk"
+  Device File: /dev/mmcblk0boot1
+  Device Number: block 179:64-179:95
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+13: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: CgKD.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: emmc:0001
+  SysFS Device Link: /devices/platform/ffe07000.emmc/mmc_host/emmc/emmc:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "meson-aml-mmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+14: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: WE6o.VZyYPA9pfk4
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.4/1-1.4:1.1
+  SysFS BusID: 1-1.4:1.1
+  Hardware Class: unknown
+  Model: "Edimax EW-7611ULB 802.11b/g/n and Bluetooth 4.0 Adapter"
+  Hotplug: USB
+  Vendor: usb 0x7392 "Edimax Technology Co., Ltd"
+  Device: usb 0xa611 "EW-7611ULB 802.11b/g/n and Bluetooth 4.0 Adapter"
+  Revision: "2.00"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v7392pA611d0200dcEFdsc02dp01icE0isc01ip01in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+15: USB 00.5: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: 1ZEZ.nZ191i7x9PE
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.5
+  SysFS BusID: 1-1.1:1.5
+  Hardware Class: keyboard
+  Model: "Corsair CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Hotplug: USB
+  Vendor: usb 0x1b1c "Corsair"
+  Device: usb 0x1b81 "CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Revision: "5.05"
+  Serial ID: --
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event4
+  Device Number: char 13:68
+  Speed: 12 Mbps
+  Module Alias: "usb:v1B1Cp1B81d0505dc00dsc00dp00ic03isc01ip01in05"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+17: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.AneSAPsLcPF
+  Parent ID: pBe4.PKweOZjtk19
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "VIA USB3.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x0817 "USB3.0 Hub"
+  Revision: "90.23"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v2109p0817d9023dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (Hub)
+
+18: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: DrDI.e+0ZR0w3E43
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.1
+  SysFS BusID: 1-1.1:1.1
+  Hardware Class: unknown
+  Model: "Corsair CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Hotplug: USB
+  Vendor: usb 0x1b1c "Corsair"
+  Device: usb 0x1b81 "CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Revision: "5.05"
+  Serial ID: --
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1B1Cp1B81d0505dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+20: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.uJrfcCKKe8E
+  Parent ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0409dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+24: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: lfzD.J7XRm_xJAn6
+  Parent ID: ADDn.g5rjI1SjqE3
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: mouse
+  Model: "Corsair CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Hotplug: USB
+  Vendor: usb 0x1b1c "Corsair"
+  Device: usb 0x1b81 "CORSAIR DARK CORE RGB PRO Gaming Dongle"
+  Revision: "5.05"
+  Serial ID: --
+  Compatible to: int 0x0210 0x0028
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse1)
+  Device Files: /dev/input/mice, /dev/input/mouse1, /dev/input/event3, /dev/input/js0
+  Device Number: char 13:63 (char 13:33)
+  Speed: 12 Mbps
+  Module Alias: "usb:v1B1Cp1B81d0505dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 8
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Hub)
+
+25: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.g5rjI1SjqE3
+  Parent ID: k4bc.uJrfcCKKe8E
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "VIA USB2.0 Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x2817 "USB2.0 Hub"
+  Revision: "90.23"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p2817d9023dc09dsc00dp02ic09isc00ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (Hub)
+
+26: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.PKweOZjtk19
+  Parent ID: IiIy.vcc7vMyNqX6
+  SysFS ID: /devices/platform/ff500000.dwc3/xhci-hcd.0.auto/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "4.09"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0409dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+27: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "aml_remote"
+  Vendor: 0x0001 
+  Device: 0x0001 "aml_remote"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 00.0: 10103 CPU
+  [Created at cpu.340]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 1.0.0 ""
+  Platform: "Bananapi BPI-M5"
+  Features: fp,asimd,evtstrm,aes,pmull,sha1,sha2,crc32,atomics,fphp,asimdhp
+  BogoMips: 48.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: Serial 00.0: 10801 Console
+  [Created at kbd.165]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: PP78.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/ff3f0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "meson6-dwmac"
+  Device File: eth0
+  HW Address: C33AE3C8183A9EBE38F9078588912AFC
+  Permanent HW Address: C33AE3C8183A9EBE38F9078588912AFC
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (Ethernet controller)
+
+35: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7iXG.ndpeucax6V1
+  SysFS ID: /class/net/docker0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: docker0
+  HW Address: C531F8C200194B62189B6928A9C67941
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

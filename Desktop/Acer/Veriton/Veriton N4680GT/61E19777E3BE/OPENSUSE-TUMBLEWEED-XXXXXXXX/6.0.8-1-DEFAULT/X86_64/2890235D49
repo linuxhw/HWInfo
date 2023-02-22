@@ -1,0 +1,997 @@
+19: PCI 17.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: abAj.sHsGQhVLLH5
+  SysFS ID: /devices/pci0000:00/0000:00:17.0
+  SysFS BusID: 0000:00:17.0
+  Hardware Class: storage
+  Model: "Intel SATA controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43d2 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0x9ea00000-0x9ea01fff (rw,non-prefetchable)
+  Memory Range: 0x9ea03000-0x9ea030ff (rw,non-prefetchable)
+  I/O Ports: 0x4090-0x4097 (rw)
+  I/O Ports: 0x4080-0x4083 (rw)
+  I/O Ports: 0x4060-0x407f (rw)
+  Memory Range: 0x9ea02000-0x9ea027ff (rw,non-prefetchable)
+  IRQ: 124 (294 events)
+  Module Alias: "pci:v00008086d000043D2sv00001025sd00001514bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43be 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "pcieport"
+  IRQ: 123 (no events)
+  Module Alias: "pci:v00008086d000043BEsv00001025sd00001514bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 200.2: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: wi3r.nDur6Erx3p7
+  Parent ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.2
+  SysFS BusID: 0000:02:00.2
+  Hardware Class: unknown
+  Model: "Realtek RTL8111xP UART #2"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x816b "RTL8111xP UART #2"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x0e
+  Driver: "serial"
+  I/O Ports: 0x3400-0x34ff (rw)
+  Memory Range: 0x9e816000-0x9e816fff (rw,non-prefetchable)
+  Memory Range: 0x9e808000-0x9e80bfff (rw,non-prefetchable)
+  IRQ: 16 (3 events)
+  Module Alias: "pci:v000010ECd0000816Bsv00001025sd00001514bc07sc00i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+22: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.gOGYuZUOnq0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel ISA bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4387 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Module Alias: "pci:v00008086d00004387sv00001025sd00001514bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 200.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: jbRH.7BZuaCBOor1
+  Parent ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x0e
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp2s0f0
+  I/O Ports: 0x3c00-0x3cff (rw)
+  Memory Range: 0x9e818000-0x9e818fff (rw,non-prefetchable)
+  Memory Range: 0x9e810000-0x9e813fff (rw,non-prefetchable)
+  IRQ: 18 (no events)
+  HW Address: 3778A813681549BAAA8CFF335FD3BD0E
+  Permanent HW Address: 3778A813681549BAAA8CFF335FD3BD0E
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008168sv00001025sd00001514bc02sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+24: PCI 04.0: 1180 Signal processing controller
+  [Created at pci.386]
+  Unique ID: 8otl.nBdtQFMsf82
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: unknown
+  Model: "Intel Signal processing controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4c03 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x01
+  Memory Range: 0x6001110000-0x600111ffff (rw,non-prefetchable,disabled)
+  IRQ: 255 (no events)
+  Module Alias: "pci:v00008086d00004C03sv00001025sd00001514bc11sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 14.3: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: Dhtl.asdwFJRtth9
+  SysFS ID: /devices/pci0000:00/0000:00:14.3
+  SysFS BusID: 0000:00:14.3
+  Hardware Class: network
+  Model: "Intel Wi-Fi 6 AX201 160MHz"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43f0 "Tiger Lake PCH CNVi WiFi"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x0074 "Wi-Fi 6 AX201 160MHz"
+  Revision: 0x11
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp0s20f3
+  Features: WLAN
+  Memory Range: 0x6001124000-0x6001127fff (rw,non-prefetchable)
+  IRQ: 16 (3 events)
+  HW Address: 3D718E7F557E72489A7EDEA763F20D00
+  Permanent HW Address: 3D718E7F557E72489A7EDEA763F20D00
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62 5.64 5.66 5.68 5.7
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v00008086d000043F0sv00008086sd00000074bc02sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 16.0: 0780 Communication controller
+  [Created at pci.386]
+  Unique ID: WnlC.3apIqNcy8_8
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: unknown
+  Model: "Intel Tiger Lake-H Management Engine Interface"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43e0 "Tiger Lake-H Management Engine Interface"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0x600112d000-0x600112dfff (rw,non-prefetchable)
+  IRQ: 141 (94 events)
+  Module Alias: "pci:v00008086d000043E0sv00001025sd00001514bc07sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 100.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.386]
+  Unique ID: VCu0.AYTUnRMzZ9E
+  Parent ID: u1Nb.2jT0lpwvY55
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: storage
+  Model: "Sandisk WD Blue SN550 NVMe SSD"
+  Vendor: pci 0x15b7 "Sandisk Corp"
+  Device: pci 0x5009 "WD Blue SN550 NVMe SSD"
+  SubVendor: pci 0x15b7 "Sandisk Corp"
+  SubDevice: pci 0x5009 "WD Blue SN550 NVMe SSD"
+  Revision: 0x01
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0x9e900000-0x9e903fff (rw,non-prefetchable)
+  Memory Range: 0x9e904000-0x9e9040ff (rw,non-prefetchable)
+  IRQ: 16 (3 events)
+  Module Alias: "pci:v000015B7d00005009sv000015B7sd00005009bc01sc08i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (PCI bridge)
+
+28: PCI 1b.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: u1Nb.2jT0lpwvY55
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: bridge
+  Model: "Intel PCI bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43c4 
+  Revision: 0x11
+  Driver: "pcieport"
+  IRQ: 122 (no events)
+  Module Alias: "pci:v00008086d000043C4sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 1f.5: 0c80 Serial bus controller
+  [Created at pci.386]
+  Unique ID: W60f.C8ywZgISlo1
+  SysFS ID: /devices/pci0000:00/0000:00:1f.5
+  SysFS BusID: 0000:00:1f.5
+  Hardware Class: unknown
+  Model: "Intel Tiger Lake-H SPI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43a4 "Tiger Lake-H SPI Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "intel-spi"
+  Driver Modules: "spi_intel_pci"
+  Memory Range: 0x9ea04000-0x9ea04fff (rw,non-prefetchable)
+  Module Alias: "pci:v00008086d000043A4sv00001025sd00001514bc0Csc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 1f.3: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: nS1_.BnOqcV4HYlC
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: sound
+  Model: "Intel Tiger Lake-H HD Audio Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43c8 "Tiger Lake-H HD Audio Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Memory Range: 0x6001120000-0x6001123fff (rw,non-prefetchable)
+  Memory Range: 0x6001000000-0x60010fffff (rw,non-prefetchable)
+  IRQ: 16 (3 events)
+  Module Alias: "pci:v00008086d000043C8sv00001025sd00001514bc04sc03i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.szcsnRU0Cb2
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel Host bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4c53 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x01
+  Driver: "icl_uncore"
+  Module Alias: "pci:v00008086d00004C53sv00001025sd00001514bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 200.3: 0c07 IPMI Interface (KCS)
+  [Created at pci.386]
+  Unique ID: n1Zg.zLKaEeYg_43
+  Parent ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.3
+  SysFS BusID: 0000:02:00.3
+  Hardware Class: unknown
+  Model: "Realtek RTL8111xP IPMI interface"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x816c "RTL8111xP IPMI interface"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x0e
+  I/O Ports: 0x3000-0x30ff (rw,disabled)
+  Memory Range: 0x9e815000-0x9e815fff (rw,non-prefetchable,disabled)
+  Memory Range: 0x9e804000-0x9e807fff (rw,non-prefetchable,disabled)
+  IRQ: 255 (no events)
+  Module Alias: "pci:v000010ECd0000816Csv00001025sd00001514bc0Csc07i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+33: PCI 15.2: 0c80 Serial bus controller
+  [Created at pci.386]
+  Unique ID: AKhP.I81NCSGFdn9
+  SysFS ID: /devices/pci0000:00/0000:00:15.2
+  SysFS BusID: 0000:00:15.2
+  Hardware Class: unknown
+  Model: "Intel Serial bus controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43ea 
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "intel-lpss"
+  Driver Modules: "intel_lpss_pci"
+  Memory Range: 0x4010001000-0x4010001fff (rw,non-prefetchable)
+  IRQ: 29 (no events)
+  Module Alias: "pci:v00008086d000043EAsv00001025sd00001514bc0Csc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 200.1: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: 2Oa+.Gpx5efjEYQ7
+  Parent ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.1
+  SysFS BusID: 0000:02:00.1
+  Hardware Class: unknown
+  Model: "Realtek RTL8111xP UART #1"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x816a "RTL8111xP UART #1"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x0e
+  Driver: "serial"
+  I/O Ports: 0x3800-0x38ff (rw)
+  Memory Range: 0x9e817000-0x9e817fff (rw,non-prefetchable)
+  Memory Range: 0x9e80c000-0x9e80ffff (rw,non-prefetchable)
+  IRQ: 19 (no events)
+  Module Alias: "pci:v000010ECd0000816Asv00001025sd00001514bc07sc00i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+35: PCI 15.0: 0c80 Serial bus controller
+  [Created at pci.386]
+  Unique ID: Rgik.GJ8tEJ1rZ09
+  SysFS ID: /devices/pci0000:00/0000:00:15.0
+  SysFS BusID: 0000:00:15.0
+  Hardware Class: unknown
+  Model: "Intel Tiger Lake-H Serial IO I2C Controller #0"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43e8 "Tiger Lake-H Serial IO I2C Controller #0"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "intel-lpss"
+  Driver Modules: "intel_lpss_pci"
+  Memory Range: 0x4010000000-0x4010000fff (rw,non-prefetchable)
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00008086d000043E8sv00001025sd00001514bc0Csc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: PCI 14.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 5Dex.8ClTrtR_xTB
+  SysFS ID: /devices/pci0000:00/0000:00:14.2
+  SysFS BusID: 0000:00:14.2
+  Hardware Class: unknown
+  Model: "Intel Tiger Lake-H Shared SRAM"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43ef "Tiger Lake-H Shared SRAM"
+  Revision: 0x11
+  Memory Range: 0x6001128000-0x600112bfff (rw,non-prefetchable,disabled)
+  Memory Range: 0x6001130000-0x6001130fff (rw,non-prefetchable,disabled)
+  Module Alias: "pci:v00008086d000043EFsv00000000sd00000000bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: _Znp.jm_ZJbITAOC
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Model: "Intel RocketLake-S GT1 [UHD Graphics 750]"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4c8a "RocketLake-S GT1 [UHD Graphics 750]"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x04
+  Driver: "i915"
+  Driver Modules: "i915"
+  Memory Range: 0x6000000000-0x6000ffffff (rw,non-prefetchable)
+  Memory Range: 0x4000000000-0x400fffffff (ro,non-prefetchable)
+  I/O Ports: 0x4000-0x403f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 140 (302205 events)
+  Module Alias: "pci:v00008086d00004C8Asv00001025sd00001514bc03sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 14.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: MZfG.8+88xL3x_aE
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: usb controller
+  Model: "Intel Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43ed "Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0x6001100000-0x600110ffff (rw,non-prefetchable)
+  IRQ: 139 (64887 events)
+  Module Alias: "pci:v00008086d000043EDsv00001025sd00001514bc0Csc03i30"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: PCI 1f.4: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: fnWp.GlnrTDX3+nF
+  SysFS ID: /devices/pci0000:00/0000:00:1f.4
+  SysFS BusID: 0000:00:1f.4
+  Hardware Class: unknown
+  Model: "Intel Tiger Lake-H SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x43a3 "Tiger Lake-H SMBus Controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x11
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0x600112c000-0x600112c0ff (rw,non-prefetchable)
+  I/O Ports: 0xefa0-0xefbf (rw)
+  IRQ: 16 (3 events)
+  Module Alias: "pci:v00008086d000043A3sv00001025sd00001514bc0Csc05i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: PCI 200.4: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: eM2W.vkk5ihjJUv7
+  Parent ID: z8Q3.apVtbdBnsQ8
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.4
+  SysFS BusID: 0000:02:00.4
+  Hardware Class: usb controller
+  Model: "Realtek RTL811x EHCI host controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x816d "RTL811x EHCI host controller"
+  SubVendor: pci 0x1025 "Acer Incorporated [ALI]"
+  SubDevice: pci 0x1514 
+  Revision: 0x0e
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0x9e814000-0x9e814fff (rw,non-prefetchable)
+  Memory Range: 0x9e800000-0x9e803fff (rw,non-prefetchable)
+  IRQ: 138 (no events)
+  Module Alias: "pci:v000010ECd0000816Dsv00001025sd00001514bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+41: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.E7c0QbX75ME
+  Parent ID: _Znp.jm_ZJbITAOC
+  Hardware Class: monitor
+  Model: "SAMSUNG T27B350"
+  Vendor: SAM "SAMSUNG"
+  Device: eisa 0x0945 "T27B350"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1152x864@75Hz
+  Resolution: 1280x720@60Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1366x768@60Hz
+  Resolution: 1920x1080@60Hz
+  Size: 598x336 mm
+  Year of Manufacture: 2011
+  Week of Manufacture: 47
+  Detailed Timings #0:
+     Resolution: 1920x1080
+     Horizontal: 1920 2008 2052 2200 (+88 +132 +280) +hsync
+       Vertical: 1080 1084 1089 1125 (+4 +9 +45) +vsync
+    Frequencies: 148.50 MHz, 67.50 kHz, 60.00 Hz
+  Year of Manufacture: 2011
+  Week of Manufacture: 47
+  Detailed Timings #1:
+     Resolution: 1366x768
+     Horizontal: 1366 1436 1579 1792 (+70 +213 +426) +hsync
+       Vertical:  768  771  774  798 (+3 +6 +30) +vsync
+    Frequencies: 85.50 MHz, 47.71 kHz, 59.79 Hz
+  Driver Info #0:
+    Max. Resolution: 1920x1080
+    Vert. Sync Range: 24-75 Hz
+    Hor. Sync Range: 26-81 kHz
+    Bandwidth: 148 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #37 (VGA compatible controller)
+
+43: NVME 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: GP4z.gKgdXIOIlA9
+  Parent ID: VCu0.AYTUnRMzZ9E
+  SysFS ID: /class/block/nvme0n1
+  SysFS BusID: nvme0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1b.0/0000:01:00.0/nvme/nvme0
+  Hardware Class: disk
+  Model: "Sandisk WD Blue SN550 NVMe SSD"
+  Vendor: pci 0x15b7 "Sandisk Corp"
+  Device: pci 0x5009 "WD Blue SN550 NVMe SSD"
+  SubVendor: pci 0x15b7 "Sandisk Corp"
+  SubDevice: pci 0x5009 "WD Blue SN550 NVMe SSD"
+  Serial ID: --
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme0n1
+  Device Number: block 259:0
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (Non-Volatile memory controller)
+
+44: SCSI 500.0: 10602 CD-ROM (DVD)
+  [Created at block.259]
+  Unique ID: tGrL.JWzLvcUyk25
+  Parent ID: MZfG.8+88xL3x_aE
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 5:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.2/2-1.2:1.0/host5/target5:0:0/5:0:0:0
+  Hardware Class: cdrom
+  Model: "HP DVD Writer 557s"
+  Vendor: usb 0x03f0 "HP"
+  Device: usb 0x5907 "DVD Writer 557s"
+  Revision: "QH22"
+  Serial ID: --
+  Driver: "usb-storage", "sr"
+  Driver Modules: "usb_storage", "sr_mod"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Number: block 11:0 (char 21:1)
+  Features: CD-R, CD-RW, DVD, DVD-R, DVD-RW, DVD-R DL, DVD+R, DVD+RW, DVD+R DL, DVD-RAM, MRW, MRW-W
+  Speed: 480 Mbps
+  Module Alias: "usb:v03F0p5907d0100dc00dsc00dp00ic08isc06ip50in00"
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (USB Controller)
+  Drive Speed: 8
+
+45: IDE 200.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: 3OOL.cif_3JoKPCC
+  Parent ID: abAj.sHsGQhVLLH5
+  SysFS ID: /class/block/sda
+  SysFS BusID: 2:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:17.0/ata3/host2/target2:0:0/2:0:0:0
+  Hardware Class: disk
+  Model: "Fanxiang S101 51"
+  Vendor: "Fanxiang"
+  Device: "S101 51"
+  Revision: "8A0"
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Number: block 8:0-8:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (SATA controller)
+
+46: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: 1Nxo.igCAi8FPRT5
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.0
+  SysFS BusID: 2-8:1.0
+  Hardware Class: keyboard
+  Model: "Colorado HP PR1101U / Primax PMX-KPR1101U Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x0461 "Colorado"
+  Device: usb 0x0010 "HP PR1101U / Primax PMX-KPR1101U Keyboard"
+  Revision: "1.13"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event19
+  Device Number: char 13:83
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v0461p0010d0113dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+47: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FKGF.DFkaVl_rzX0
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0
+  SysFS BusID: 2-1:1.0
+  Hardware Class: hub
+  Model: "Terminus Hub"
+  Hotplug: USB
+  Vendor: usb 0x1a40 "Terminus Technology Inc."
+  Device: usb 0x0101 "Hub"
+  Revision: "1.11"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1A40p0101d0111dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+49: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.xYNhIwdOaa6
+  Parent ID: MZfG.8+88xL3x_aE
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "6.00"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0600dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (USB Controller)
+
+50: USB 00.0: 11500 Bluetooth Device
+  [Created at usb.122]
+  Unique ID: VBHk.HXwYSyIoMXE
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-14/2-14:1.0
+  SysFS BusID: 2-14:1.0
+  Hardware Class: bluetooth
+  Model: "Intel Bluetooth Device"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0026 
+  Revision: "0.02"
+  Driver: "btusb"
+  Driver Modules: "btusb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v8087p0026d0002dcE0dsc01dp01icE0isc01ip01in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+51: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: TVZz._DHUr4WNNo5
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-9/2-9:1.0
+  SysFS BusID: 2-9:1.0
+  Hardware Class: mouse
+  Model: "[Maxxter] USB GAMING MOUSE"
+  Hotplug: USB
+  Vendor: usb 0x18f8 "[Maxxter]"
+  Device: usb 0x1286 "USB GAMING MOUSE"
+  Revision: "1.00"
+  Compatible to: int 0x0210 0x0025
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event23
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v18F8p1286d0100dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 5
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+52: USB 00.2: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: Dmze.FqlZ6mZk44A
+  Parent ID: FKGF.DFkaVl_rzX0
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1.3/2-1.3:1.2
+  SysFS BusID: 2-1.3:1.2
+  Hardware Class: unknown
+  Model: "Microdia USB 2.0 Camera"
+  Hotplug: USB
+  Vendor: usb 0x0c45 "Microdia"
+  Device: usb 0x636b "USB 2.0 Camera"
+  Revision: "1.00"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v0C45p636Bd0100dcEFdsc02dp01ic01isc01ip00in02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #47 (Hub)
+
+53: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: VYBt.RnHK3h2+LWF
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-8/2-8:1.1
+  SysFS BusID: 2-8:1.1
+  Hardware Class: unknown
+  Model: "Colorado HP PR1101U / Primax PMX-KPR1101U Keyboard"
+  Hotplug: USB
+  Vendor: usb 0x0461 "Colorado"
+  Device: usb 0x0010 "HP PR1101U / Primax PMX-KPR1101U Keyboard"
+  Revision: "1.13"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event21
+  Device Number: char 13:85
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v0461p0010d0113dc00dsc00dp00ic03isc00ip00in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+55: USB 00.0: 10900 Printer
+  [Created at usb.122]
+  Unique ID: R_O4.Hoy0++fu6vE
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0
+  SysFS BusID: 2-6:1.0
+  Hardware Class: printer
+  Model: "HP Color LaserJet CP1215"
+  Hotplug: USB
+  Vendor: usb 0x03f0 "HP"
+  Device: usb 0x4717 "Color LaserJet CP1215"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "usblp"
+  Driver Modules: "usblp"
+  Speed: 480 Mbps
+  Module Alias: "usb:v03F0p4717d0100dc00dsc00dp00ic07isc01ip02in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+56: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.xd99wKj4KM9
+  Parent ID: eM2W.vkk5ihjJUv7
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.4/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "6.00"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0600dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #40 (USB Controller)
+
+58: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: xgp1._bs_gOtsRl0
+  Parent ID: pBe4.2DFUsyrieMD
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-9/2-9:1.1
+  SysFS BusID: 2-9:1.1
+  Hardware Class: unknown
+  Model: "[Maxxter] USB GAMING MOUSE"
+  Hotplug: USB
+  Vendor: usb 0x18f8 "[Maxxter]"
+  Device: usb 0x1286 "USB GAMING MOUSE"
+  Revision: "1.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event24
+  Device Number: char 13:88
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v18F8p1286d0100dc00dsc00dp00ic03isc00ip01in01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #61 (Hub)
+
+61: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.2DFUsyrieMD
+  Parent ID: MZfG.8+88xL3x_aE
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "6.00"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0600dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (USB Controller)
+
+62: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 2350 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 2190 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: None 02.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1500 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+65: None 03.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1500 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+66: None 04.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1358 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+67: None 05.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1500 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+68: None 06.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1100 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+69: None 07.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1500 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+70: None 08.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: TWbB.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1428 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+71: None 09.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: Ydef.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 1120 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+72: None 0a.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: dkh7.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 2421 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+73: None 0b.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: hrkb.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.167.1 "11th Gen Intel(R) Core(TM) i5-11500T @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,ssbd,ibrs,ibpb,stibp,ibrs_enhanced,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,avx512f,avx512dq,rdseed,adx,smap,avx512ifma,clflushopt,intel_pt,avx512cd,sha_ni,avx512bw,avx512vl,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,hwp_pkg_req,avx512vbmi,umip,pku,ospke,avx512_vbmi2,gfni,vpclmulqdq,avx512_vnni,avx512_bitalg,avx512_vpopcntdq,rdpid,fsrm,md_clear,flush_l1d,arch_capabilities
+  Clock: 2250 MHz
+  BogoMips: 3024.00
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+74: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+75: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 63Vg.ndpeucax6V1
+  Parent ID: Dhtl.asdwFJRtth9
+  SysFS ID: /class/net/wlp0s20f3
+  SysFS Device Link: /devices/pci0000:00/0000:00:14.3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp0s20f3
+  HW Address: 3D718E7F557E72489A7EDEA763F20D00
+  Permanent HW Address: 3D718E7F557E72489A7EDEA763F20D00
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (WLAN controller)
+
+76: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GVli.ndpeucax6V1
+  Parent ID: jbRH.7BZuaCBOor1
+  SysFS ID: /class/net/enp2s0f0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp2s0f0
+  HW Address: 3778A813681549BAAA8CFF335FD3BD0E
+  Permanent HW Address: 3778A813681549BAAA8CFF335FD3BD0E
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (Ethernet controller)

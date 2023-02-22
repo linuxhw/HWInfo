@@ -1,0 +1,782 @@
+19: PCI 17.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: abAj.slnxnTtN7V6
+  SysFS ID: /devices/pci0000:00/0000:00:17.0
+  SysFS BusID: 0000:00:17.0
+  Hardware Class: storage
+  Device Name: "Onboard - SATA"
+  Model: "Intel Cannon Lake PCH SATA AHCI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa352 "Cannon Lake PCH SATA AHCI Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0xb1334000-0xb1335fff (rw,non-prefetchable)
+  Memory Range: 0xb133a000-0xb133a0ff (rw,non-prefetchable)
+  I/O Ports: 0x3090-0x3097 (rw)
+  I/O Ports: 0x3080-0x3083 (rw)
+  I/O Ports: 0x3060-0x307f (rw)
+  Memory Range: 0xb1339000-0xb13397ff (rw,non-prefetchable)
+  IRQ: 124 (512 events)
+  Module Alias: "pci:v00008086d0000A352sv000017AAsd00003135bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 08.0: 0880 System peripheral
+  [Created at pci.386]
+  Unique ID: RE4e.hXdigupN90B
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1911 "Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Memory Range: 0xb133e000-0xb133efff (rw,non-prefetchable,disabled)
+  IRQ: 255 (no events)
+  Module Alias: "pci:v00008086d00001911sv000017AAsd00003135bc08sc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.9SFTnnkj1g1
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Device Name: "Onboard - Other"
+  Model: "Intel Q370 Chipset LPC/eSPI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa306 "Q370 Chipset LPC/eSPI Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Module Alias: "pci:v00008086d0000A306sv000017AAsd00003135bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 1b.4: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: LLKx.odps6ipVHCB
+  SysFS ID: /devices/pci0000:00/0000:00:1b.4
+  SysFS BusID: 0000:00:1b.4
+  Hardware Class: bridge
+  Model: "Intel Cannon Lake PCH PCI Express Root Port #21"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa32c "Cannon Lake PCH PCI Express Root Port #21"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0xf0
+  Driver: "pcieport"
+  IRQ: 123 (no events)
+  Module Alias: "pci:v00008086d0000A32Csv000017AAsd00003135bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 200.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.386]
+  Unique ID: B35A.AxGd7hiuG+6
+  Parent ID: LLKx.odps6ipVHCB
+  SysFS ID: /devices/pci0000:00/0000:00:1b.4/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: storage
+  Model: "Samsung Electronics NVMe SSD Controller SM981/PM981"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 "NVMe SSD Controller SM981/PM981"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0xb1100000-0xb1103fff (rw,non-prefetchable)
+  IRQ: 16 (2 events)
+  Module Alias: "pci:v0000144Dd0000A808sv0000144Dsd0000A801bc01sc08i02"
+  Driver Info #0:
+    Driver Status: nvme is active
+    Driver Activation Cmd: "modprobe nvme"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (PCI bridge)
+
+24: PCI 16.0: 0780 Communication controller
+  [Created at pci.386]
+  Unique ID: WnlC.32lzBA__wBA
+  SysFS ID: /devices/pci0000:00/0000:00:16.0
+  SysFS BusID: 0000:00:16.0
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH HECI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa360 "Cannon Lake PCH HECI Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0xb133c000-0xb133cfff (rw,non-prefetchable)
+  IRQ: 154 (63 events)
+  Module Alias: "pci:v00008086d0000A360sv000017AAsd00003135bc07sc80i00"
+  Driver Info #0:
+    Driver Status: mei_me is active
+    Driver Activation Cmd: "modprobe mei_me"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 100.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.386]
+  Unique ID: VCu0.AxGd7hiuG+6
+  Parent ID: u1Nb.6whrj1XqpR1
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: storage
+  Model: "Samsung Electronics NVMe SSD Controller SM981/PM981"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 "NVMe SSD Controller SM981/PM981"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0xb1200000-0xb1203fff (rw,non-prefetchable)
+  IRQ: 16 (2 events)
+  Module Alias: "pci:v0000144Dd0000A808sv0000144Dsd0000A801bc01sc08i02"
+  Driver Info #0:
+    Driver Status: nvme is active
+    Driver Activation Cmd: "modprobe nvme"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (PCI bridge)
+
+26: PCI 1b.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: u1Nb.6whrj1XqpR1
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: bridge
+  Model: "Intel Cannon Lake PCH PCI Express Root Port #17"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa340 "Cannon Lake PCH PCI Express Root Port #17"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0xf0
+  Driver: "pcieport"
+  IRQ: 122 (no events)
+  Module Alias: "pci:v00008086d0000A340sv000017AAsd00003135bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1f.5: 0c80 Serial bus controller
+  [Created at pci.386]
+  Unique ID: W60f.CctbxSgUX03
+  SysFS ID: /devices/pci0000:00/0000:00:1f.5
+  SysFS BusID: 0000:00:1f.5
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH SPI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa324 "Cannon Lake PCH SPI Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Memory Range: 0xfe010000-0xfe010fff (rw,non-prefetchable)
+  Module Alias: "pci:v00008086d0000A324sv000017AAsd00003135bc0Csc80i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 1f.3: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: nS1_.BHiD7ZOLRJ1
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: sound
+  Device Name: "Onboard - Sound"
+  Model: "Intel Cannon Lake PCH cAVS"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa348 "Cannon Lake PCH cAVS"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "sof-audio-pci-intel-cnl"
+  Driver Modules: "snd_sof_pci_intel_cnl"
+  Memory Range: 0xb1330000-0xb1333fff (rw,non-prefetchable)
+  Memory Range: 0xb1000000-0xb10fffff (rw,non-prefetchable)
+  IRQ: 155 (399 events)
+  Module Alias: "pci:v00008086d0000A348sv000017AAsd00003135bc04sc03i80"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Driver Info #1:
+    Driver Status: snd_soc_skl is active
+    Driver Activation Cmd: "modprobe snd_soc_skl"
+  Driver Info #2:
+    Driver Status: snd_sof_pci_intel_cnl is active
+    Driver Activation Cmd: "modprobe snd_sof_pci_intel_cnl"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.Esfk7vfxDV9
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Device Name: "Onboard - Other"
+  Model: "Intel 8th Gen Core Processor Host Bridge/DRAM Registers"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3ec2 "8th Gen Core Processor Host Bridge/DRAM Registers"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x07
+  Driver: "skl_uncore"
+  Driver Modules: "intel_uncore"
+  Module Alias: "pci:v00008086d00003EC2sv000017AAsd00003135bc06sc00i00"
+  Driver Info #0:
+    Driver Status: ie31200_edac is not active
+    Driver Activation Cmd: "modprobe ie31200_edac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 16.3: 0700 Serial controller (16550)
+  [Created at pci.386]
+  Unique ID: 6mDj.edtTkY_LFyD
+  SysFS ID: /devices/pci0000:00/0000:00:16.3
+  SysFS BusID: 0000:00:16.3
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH Active Management Technology - SOL"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa363 "Cannon Lake PCH Active Management Technology - SOL"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "serial"
+  I/O Ports: 0x30a0-0x30a7 (rw)
+  Memory Range: 0xb133b000-0xb133bfff (rw,non-prefetchable)
+  IRQ: 19 (no events)
+  Module Alias: "pci:v00008086d0000A363sv000017AAsd00003135bc07sc00i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 14.2: 0500 RAM memory
+  [Created at pci.386]
+  Unique ID: 5Dex.mFNVyun6CK2
+  SysFS ID: /devices/pci0000:00/0000:00:14.2
+  SysFS BusID: 0000:00:14.2
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH Shared SRAM"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa36f "Cannon Lake PCH Shared SRAM"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Memory Range: 0xb1336000-0xb1337fff (rw,non-prefetchable,disabled)
+  Memory Range: 0xb133d000-0xb133dfff (rw,non-prefetchable,disabled)
+  Module Alias: "pci:v00008086d0000A36Fsv000017AAsd00003135bc05sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: PCI 1f.6: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: wcdH.xc9+5hp3Jw8
+  SysFS ID: /devices/pci0000:00/0000:00:1f.6
+  SysFS BusID: 0000:00:1f.6
+  Hardware Class: network
+  Device Name: "Onboard - Ethernet"
+  Model: "Intel Ethernet Connection (7) I219-LM"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x15bb "Ethernet Connection (7) I219-LM"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: eno1
+  Memory Range: 0xb1300000-0xb131ffff (rw,non-prefetchable)
+  IRQ: 126 (2555163 events)
+  HW Address: 87DD8B69F745AAAD37EB03C4385EDAD8
+  Permanent HW Address: 87DD8B69F745AAAD37EB03C4385EDAD8
+  Link detected: yes
+  Module Alias: "pci:v00008086d000015BBsv000017AAsd00003135bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e1000e is active
+    Driver Activation Cmd: "modprobe e1000e"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: _Znp.qm4ShRZzr09
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Device Name: "Onboard - Video"
+  Model: "Intel UHD Graphics 630 (Desktop)"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3e92 "UHD Graphics 630 (Desktop)"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Driver: "i915"
+  Driver Modules: "i915"
+  Memory Range: 0xb0000000-0xb0ffffff (rw,non-prefetchable)
+  Memory Range: 0xa0000000-0xafffffff (ro,non-prefetchable)
+  I/O Ports: 0x3000-0x303f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 153 (227 events)
+  Module Alias: "pci:v00008086d00003E92sv000017AAsd00003135bc03sc00i00"
+  Driver Info #0:
+    Driver Status: i915 is active
+    Driver Activation Cmd: "modprobe i915"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 14.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: MZfG.8T4pI8RzmoF
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: usb controller
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH USB 3.1 xHCI Host Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa36d "Cannon Lake PCH USB 3.1 xHCI Host Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "xhci_hcd"
+  Memory Range: 0xb1320000-0xb132ffff (rw,non-prefetchable)
+  IRQ: 125 (892 events)
+  Module Alias: "pci:v00008086d0000A36Dsv000017AAsd00003135bc0Csc03i30"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 1f.4: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: fnWp.GDjWr+u5n+0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.4
+  SysFS BusID: 0000:00:1f.4
+  Hardware Class: unknown
+  Device Name: "Onboard - Other"
+  Model: "Intel Cannon Lake PCH SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0xa323 "Cannon Lake PCH SMBus Controller"
+  SubVendor: pci 0x17aa "Lenovo"
+  SubDevice: pci 0x3135 
+  Revision: 0x10
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0xb1338000-0xb13380ff (rw,non-prefetchable)
+  I/O Ports: 0xefa0-0xefbf (rw)
+  IRQ: 16 (2 events)
+  Module Alias: "pci:v00008086d0000A323sv000017AAsd00003135bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: wLCS.EJHvc9MwvZ7
+  Parent ID: VCu0.AxGd7hiuG+6
+  SysFS ID: /class/block/nvme0n1
+  SysFS BusID: nvme0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1b.0/0000:01:00.0/nvme/nvme0
+  Hardware Class: disk
+  Model: "Samsung Electronics NVMe SSD Controller SM981/PM981"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 "NVMe SSD Controller SM981/PM981"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme0n1
+  Device Files: /dev/nvme0n1, /dev/disk/by-id/nvme-eui.0025385391b33270, /dev/disk/by-id/nvme-Samsung_SSD_970_EVO_Plus_1TB_..., /dev/disk/by-path/pci-0000:01:00.0-nvme-1
+  Device Number: block 259:1
+  Geometry (Logical): CHS 953869/64/32
+  Size: 1953525168 sectors a 512 bytes
+  Capacity: 931 GB (1000204886016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (Non-Volatile memory controller)
+
+39: SCSI 400.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: +rmv.KIQmesIj7cB
+  Parent ID: MZfG.8T4pI8RzmoF
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 4:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/host4/target4:0:0/4:0:0:0
+  Hardware Class: disk
+  Model: "WD My Passport 0741"
+  Vendor: usb 0x1058 "WD"
+  Device: usb 0x0741 "My Passport 0741"
+  Revision: "1025"
+  Serial ID: --
+  Driver: "usb-storage", "sd"
+  Driver Modules: "usb_storage"
+  Device File: /dev/sdb (/dev/sg1)
+  Device Files: /dev/sdb, /dev/disk/by-path/pci-0000:00:14.0-usb-0:5:1.0-scsi-0:0:0:0, /dev/disk/by-id/usb-WD_My_Passport_0741_...
+  Device Number: block 8:16-8:31 (char 21:1)
+  Geometry (Logical): CHS 243197/255/63
+  Size: 3906963456 sectors a 512 bytes
+  Capacity: 1862 GB (2000365289472 bytes)
+  Module Alias: "usb:v1058p0741d1025dc00dsc00dp00ic08isc06ip50in00"
+  Driver Info #0:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Driver Info #1:
+    Driver Status: usb_storage is active
+    Driver Activation Cmd: "modprobe usb_storage"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (USB Controller)
+
+40: PCI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: nghH.EJHvc9MwvZ7
+  Parent ID: B35A.AxGd7hiuG+6
+  SysFS ID: /class/block/nvme1n1
+  SysFS BusID: nvme1
+  SysFS Device Link: /devices/pci0000:00/0000:00:1b.4/0000:02:00.0/nvme/nvme1
+  Hardware Class: disk
+  Model: "Samsung Electronics NVMe SSD Controller SM981/PM981"
+  Vendor: pci 0x144d "Samsung Electronics Co Ltd"
+  Device: pci 0xa808 "NVMe SSD Controller SM981/PM981"
+  SubVendor: pci 0x144d "Samsung Electronics Co Ltd"
+  SubDevice: pci 0xa801 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme1n1
+  Device Files: /dev/nvme1n1, /dev/disk/by-path/pci-0000:02:00.0-nvme-1, /dev/disk/by-id/nvme-Samsung_SSD_970_EVO_Plus_250GB_..., /dev/disk/by-id/nvme-eui.0025385691b623df
+  Device Number: block 259:0
+  Geometry (Logical): CHS 238475/64/32
+  Size: 488397168 sectors a 512 bytes
+  Capacity: 232 GB (250059350016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (Non-Volatile memory controller)
+
+41: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.lw5HchUxod4
+  Parent ID: abAj.slnxnTtN7V6
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:17.0/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "Samsung SSD 860"
+  Vendor: "Samsung"
+  Device: "SSD 860"
+  Revision: "3B6Q"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:00:17.0-ata-1, /dev/disk/by-id/ata-Samsung_SSD_860_EVO_1TB_..., /dev/disk/by-path/pci-0000:00:17.0-ata-1.0, /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 121601/255/63
+  Size: 1953525168 sectors a 512 bytes
+  Capacity: 931 GB (1000204886016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (SATA controller)
+
+42: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 252:0
+  Size: 2097152 sectors a 4096 bytes
+  Capacity: 8 GB (8589934592 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.2DFUsyrieMD
+  Parent ID: MZfG.8T4pI8RzmoF
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.16"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0516dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (USB Controller)
+
+45: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.xYNhIwdOaa6
+  Parent ID: MZfG.8T4pI8RzmoF
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.16"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0516dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (USB Controller)
+
+46: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 900 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: None 02.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+49: None 03.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+50: None 04.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: 94PJ.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: None 05.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: EBSn.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: None 06.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: JIVF.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+53: None 07.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: OPYj.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+54: None 08.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: TWbB.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: None 09.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: Ydef.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: None 0a.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: dkh7.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: None 0b.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: hrkb.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.158.10 "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,smx,est,tm2,ssse3,sdbg,fma,cx16,xtpr,pdcm,pcid,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,lahf_lm,abm,3dnowprefetch,cpuid_fault,epb,invpcid_single,pti,ssbd,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,bmi1,avx2,smep,bmi2,erms,invpcid,mpx,rdseed,adx,smap,clflushopt,intel_pt,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,hwp,hwp_notify,hwp_act_window,hwp_epp,md_clear,flush_l1d,arch_capabilities
+  Clock: 3200 MHz
+  BogoMips: 6399.96
+  Cache: 12288 kb
+  Units/Processor: 16
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: l0vj.ndpeucax6V1
+  SysFS ID: /class/net/vnet2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "tun"
+  Device File: vnet2
+  HW Address: 2D27C1B01444C15E650C68E8E91E7436
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GGbY.ndpeucax6V1
+  SysFS ID: /class/net/br0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: br0
+  HW Address: 94B4E9F05166A6CE16A933B89C96516B
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+61: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: qfOb.ndpeucax6V1
+  SysFS ID: /class/net/vnet0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "tun"
+  Device File: vnet0
+  HW Address: 66BBE26A9BA27EBE2FAE78A363627B54
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+62: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: j2Yp.ndpeucax6V1
+  SysFS ID: /class/net/virbr0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: virbr0
+  HW Address: A9D1B8F8674A5121FF187925E8E2C994
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+63: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: CC9o.ndpeucax6V1
+  SysFS ID: /class/net/vnet3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "tun"
+  Device File: vnet3
+  HW Address: 603693D917CE3BD059095E767FCF0AC1
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+64: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: zHNY.ndpeucax6V1
+  Parent ID: wcdH.xc9+5hp3Jw8
+  SysFS ID: /class/net/eno1
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Device File: eno1
+  HW Address: 87DD8B69F745AAAD37EB03C4385EDAD8
+  Permanent HW Address: 87DD8B69F745AAAD37EB03C4385EDAD8
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Ethernet controller)
+
+65: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Zkv_.ndpeucax6V1
+  SysFS ID: /class/net/vnet6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "tun"
+  Device File: vnet6
+  HW Address: B8BF05692343AE56238386FFECEB929A
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

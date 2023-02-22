@@ -1,0 +1,985 @@
+12: PCI 11.7: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: BWxi.cAsmHiF3cYB
+  SysFS ID: /devices/pci0000:00/0000:00:11.7
+  SysFS BusID: 0000:00:11.7
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D Standard Host Bridge"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b7 "ZX-100/ZX-D Standard Host Bridge"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b7 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B7sv00001D17sd000031B7bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 300.0: 0108 Non-Volatile memory controller (NVM Express)
+  [Created at pci.386]
+  Unique ID: svHJ._aNoHWEPua6
+  Parent ID: 8otl.RUlKny3mNF6
+  SysFS ID: /devices/pci0000:00/0000:00:04.0/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: storage
+  Model: "Silicon Motion Non-Volatile memory controller"
+  Vendor: pci 0x126f "Silicon Motion, Inc."
+  Device: pci 0x2263 
+  SubVendor: pci 0x126f "Silicon Motion, Inc."
+  SubDevice: pci 0x2263 
+  Revision: 0x03
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Memory Range: 0xc0200000-0xc0203fff (rw,non-prefetchable)
+  IRQ: 29 (no events)
+  Module Alias: "pci:v0000126Fd00002263sv0000126Fsd00002263bc01sc08i02"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (PCI bridge)
+
+14: PCI 03.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: w+J7.LO9o1mm4AHA
+  SysFS ID: /devices/pci0000:00/0000:00:03.1
+  SysFS BusID: 0000:00:03.1
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D PCI Express Root Port"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x0718 "ZX-D PCI Express Root Port"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x0718 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v00001D17d00000718sv00001D17sd00000718bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 10.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 37TO.R5e4Izi7CJE
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: usb controller
+  Model: "Zhaoxin ZX-100/ZX-200 Standard Universal PCI to USB Host Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x3038 "ZX-100/ZX-200 Standard Universal PCI to USB Host Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x3038 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf020-0xf03f (rw)
+  IRQ: 20 (no events)
+  Module Alias: "pci:v00001D17d00003038sv00001D17sd00003038bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 200.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: B35A.hEMmOlUcvm1
+  Parent ID: w+J7.LO9o1mm4AHA
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: usb controller
+  Model: "Etron EJ188/EJ198 USB 3.0 Host Controller"
+  Vendor: pci 0x1b6f "Etron Technology, Inc."
+  Device: pci 0x7052 "EJ188/EJ198 USB 3.0 Host Controller"
+  SubVendor: pci 0x1b6f "Etron Technology, Inc."
+  SubDevice: pci 0x7052 
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xc0300000-0xc0307fff (rw,non-prefetchable)
+  IRQ: 48 (8283 events)
+  Module Alias: "pci:v00001B6Fd00007052sv00001B6Fsd00007052bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (PCI bridge)
+
+17: PCI 01.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: vSkL.R878UP4WxC5
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: graphics card
+  Device Name: "Video"
+  Model: "Zhaoxin VGA compatible controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x3a04 
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x3a04 
+  Driver: "zx"
+  Driver Modules: "zx"
+  Memory Range: 0xc0500000-0xc057ffff (rw,non-prefetchable)
+  Memory Range: 0xa0000000-0xbfffffff (ro,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 49 (421617 events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v00001D17d00003A04sv00001D17sd00003A04bc03sc00i00"
+  Driver Info #0:
+    Driver Status: zx is active
+    Driver Activation Cmd: "modprobe zx"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 00.6: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: 0Jdu.Y6oP71BPWu8
+  SysFS ID: /devices/pci0000:00/0000:00:00.6
+  SysFS BusID: 0000:00:00.6
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D Scratch Device"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b5 "ZX-100/ZX-D Scratch Device"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b5 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B5sv00001D17sd000031B5bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 04.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 8otl.RUlKny3mNF6
+  SysFS ID: /devices/pci0000:00/0000:00:04.0
+  SysFS BusID: 0000:00:04.0
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D PCI Express Root Port"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x071b "ZX-D PCI Express Root Port"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x071b 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 28 (no events)
+  Module Alias: "pci:v00001D17d0000071Bsv00001D17sd0000071Bbc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 00.4: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: HfeD.U2k2zD_civ0
+  SysFS ID: /devices/pci0000:00/0000:00:00.4
+  SysFS BusID: 0000:00:00.4
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D Power Management Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b3 "ZX-100/ZX-D Power Management Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b3 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B3sv00001D17sd000031B3bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 10.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 6PuE.Lw04iGQLlY4
+  SysFS ID: /devices/pci0000:00/0000:00:10.7
+  SysFS BusID: 0000:00:10.7
+  Hardware Class: usb controller
+  Model: "Zhaoxin ZX-100/ZX-200 Standard Enhanced PCI to USB Host Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x3104 "ZX-100/ZX-200 Standard Enhanced PCI to USB Host Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x3104 
+  Revision: 0x90
+  Driver: "ehci-pci"
+  Memory Range: 0xc058b000-0xc058b0ff (rw,non-prefetchable)
+  IRQ: 21 (2 events)
+  Module Alias: "pci:v00001D17d00003104sv00001D17sd00003104bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is not active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 100.0: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: yWPJ.kgTbLyq3HM9
+  Parent ID: 3hqH.JMdcSMgBmH6
+  SysFS ID: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: network
+  Model: "Intel Dual Band Wireless-AC 3165 Plus Bluetooth"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3166 "Dual Band Wireless-AC 3165 Plus Bluetooth"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x4210 
+  Revision: 0x99
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp1s0
+  Features: WLAN
+  Memory Range: 0xc0400000-0xc0401fff (rw,non-prefetchable)
+  IRQ: 50 (153 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62 5.64 5.66 5.68 5.7
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "pci:v00008086d00003166sv00008086sd00004210bc02sc80i00"
+  Driver Info #0:
+    Driver Status: iwlwifi is active
+    Driver Activation Cmd: "modprobe iwlwifi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (PCI bridge)
+
+23: PCI 00.2: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: Z+fY.Q_fhoQnquw8
+  SysFS ID: /devices/pci0000:00/0000:00:00.2
+  SysFS BusID: 0000:00:00.2
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D Standard Host Bridge"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b1 "ZX-100/ZX-D Standard Host Bridge"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b1 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B1sv00001D17sd000031B1bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 05.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 4EQ3.XaLtW9NRbD2
+  SysFS ID: /devices/pci0000:00/0000:00:05.1
+  SysFS BusID: 0000:00:05.1
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D PCI Express Root Port"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x071e "ZX-D PCI Express Root Port"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x071e 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 32 (no events)
+  Module Alias: "pci:v00001D17d0000071Esv00001D17sd0000071Ebc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 0f.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: _+Pw.BwJ_Mdxf5A3
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: storage
+  Model: "Zhaoxin ZX-100/ZX-200 StorX AHCI Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x9083 "ZX-100/ZX-200 StorX AHCI Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x9083 
+  Revision: 0x01
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0xc058c000-0xc058c03f (rw,non-prefetchable)
+  Memory Range: 0xc058d000-0xc058d00f (rw,non-prefetchable)
+  I/O Ports: 0xf040-0xf05f (rw)
+  Memory Range: 0xc0588000-0xc0589fff (rw,non-prefetchable)
+  IRQ: 21 (2 events)
+  Module Alias: "pci:v00001D17d00009083sv00001D17sd00009083bc01sc06i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.eT5XKQqtNy2
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Zhaoxin Host bridge"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x1003 
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x1003 
+  Revision: 0x80
+  Module Alias: "pci:v00001D17d00001003sv00001D17sd00001003bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 12.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: CLZK.dn0inT38_h4
+  SysFS ID: /devices/pci0000:00/0000:00:12.0
+  SysFS BusID: 0000:00:12.0
+  Hardware Class: usb controller
+  Model: "Zhaoxin USB Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x9204 
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x9204 
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xc058a000-0xc058afff (rw,non-prefetchable)
+  IRQ: 47 (no events)
+  Module Alias: "pci:v00001D17d00009204sv00001D17sd00009204bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 03.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 3hqH.JMdcSMgBmH6
+  SysFS ID: /devices/pci0000:00/0000:00:03.0
+  SysFS BusID: 0000:00:03.0
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D PCI Express Root Port"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x0717 "ZX-D PCI Express Root Port"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x0717 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00001D17d00000717sv00001D17sd00000717bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 10.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: wRyD.R5e4Izi7CJE
+  SysFS ID: /devices/pci0000:00/0000:00:10.1
+  SysFS BusID: 0000:00:10.1
+  Hardware Class: usb controller
+  Model: "Zhaoxin ZX-100/ZX-200 Standard Universal PCI to USB Host Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x3038 "ZX-100/ZX-200 Standard Universal PCI to USB Host Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x3038 
+  Revision: 0xa0
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xf000-0xf01f (rw)
+  IRQ: 22 (331 events)
+  Module Alias: "pci:v00001D17d00003038sv00001D17sd00003038bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 01.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: mnDB.TKq6Ke4gR07
+  SysFS ID: /devices/pci0000:00/0000:00:01.1
+  SysFS BusID: 0000:00:01.1
+  Hardware Class: sound
+  Model: "Zhaoxin Audio device"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x9144 
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x9144 
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xc0584000-0xc0587fff (rw,non-prefetchable)
+  IRQ: 51 (346 events)
+  Module Alias: "pci:v00001D17d00009144sv00001D17sd00009144bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 500.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: D2Iq.m7pjCDtNwYF
+  Parent ID: 4EQ3.XaLtW9NRbD2
+  SysFS ID: /devices/pci0000:00/0000:00:05.1/0000:05:00.0
+  SysFS BusID: 0000:05:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  SubDevice: pci 0x0123 
+  Revision: 0x15
+  Driver: "r8168"
+  Driver Modules: "r8168"
+  Device File: enp5s0
+  I/O Ports: 0xd000-0xdfff (rw)
+  Memory Range: 0xc0004000-0xc0004fff (rw,non-prefetchable)
+  Memory Range: 0xc0000000-0xc0003fff (rw,non-prefetchable)
+  IRQ: 45 (4856 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008168sv000010ECsd00000123bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8168 is active
+    Driver Activation Cmd: "modprobe r8168"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (PCI bridge)
+
+32: PCI 00.5: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: 9_73.W4GEYd4W6v4
+  SysFS ID: /devices/pci0000:00/0000:00:00.5
+  SysFS BusID: 0000:00:00.5
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D I/O APIC"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b4 "ZX-100/ZX-D I/O APIC"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b4 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B4sv00001D17sd000031B4bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 00.3: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: QK9O.S0CtNqtjIwC
+  SysFS ID: /devices/pci0000:00/0000:00:00.3
+  SysFS BusID: 0000:00:00.3
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D DRAM Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b2 "ZX-100/ZX-D DRAM Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b2 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B2sv00001D17sd000031B2bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 11.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: 7EWs.e2yNPokCznE
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D Miscellaneous Bus"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x1001 "ZX-D Miscellaneous Bus"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x1001 
+  Revision: 0x03
+  Module Alias: "pci:v00001D17d00001001sv00001D17sd00001001bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: PCI 400.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: Ljo_.m7pjCDtNwYF
+  Parent ID: CvwD.VYphxlGYBEE
+  SysFS ID: /devices/pci0000:00/0000:00:05.0/0000:04:00.0
+  SysFS BusID: 0000:04:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  SubDevice: pci 0x0123 
+  Revision: 0x15
+  Driver: "r8168"
+  Driver Modules: "r8168"
+  Device File: enp4s0
+  I/O Ports: 0xe000-0xefff (rw)
+  Memory Range: 0xc0104000-0xc0104fff (rw,non-prefetchable)
+  Memory Range: 0xc0100000-0xc0103fff (rw,non-prefetchable)
+  IRQ: 43 (no events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Module Alias: "pci:v000010ECd00008168sv000010ECsd00000123bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8168 is active
+    Driver Activation Cmd: "modprobe r8168"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #38 (PCI bridge)
+
+36: PCI 14.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: MZfG.NwuThLKH0eC
+  SysFS ID: /devices/pci0000:00/0000:00:14.0
+  SysFS BusID: 0000:00:14.0
+  Hardware Class: sound
+  Device Name: "Audio"
+  Model: "Zhaoxin ZX-100/ZX-D High Definition Audio Controller"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x3288 "ZX-100/ZX-D High Definition Audio Controller"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x3288 
+  Revision: 0x20
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xc0580000-0xc0583fff (rw,non-prefetchable)
+  IRQ: 52 (818 events)
+  Module Alias: "pci:v00001D17d00003288sv00001D17sd00003288bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: PCI 00.1: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: hgAj.Oy7WD1hxUx4
+  SysFS ID: /devices/pci0000:00/0000:00:00.1
+  SysFS BusID: 0000:00:00.1
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-100/ZX-D Standard Host Bridge"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x31b0 "ZX-100/ZX-D Standard Host Bridge"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x31b0 
+  Revision: 0x04
+  Module Alias: "pci:v00001D17d000031B0sv00001D17sd000031B0bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: PCI 05.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: CvwD.VYphxlGYBEE
+  SysFS ID: /devices/pci0000:00/0000:00:05.0
+  SysFS BusID: 0000:00:05.0
+  Hardware Class: bridge
+  Model: "Zhaoxin ZX-D PCI Express Root Port"
+  Vendor: pci 0x1d17 "Zhaoxin"
+  Device: pci 0x071d "ZX-D PCI Express Root Port"
+  SubVendor: pci 0x1d17 "Zhaoxin"
+  SubDevice: pci 0x071d 
+  Revision: 0x01
+  Driver: "pcieport"
+  IRQ: 30 (no events)
+  Module Alias: "pci:v00001D17d0000071Dsv00001D17sd0000071Dbc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.lc4sc6krAu7
+  Parent ID: vSkL.R878UP4WxC5
+  Hardware Class: monitor
+  Model: "VIEWSONIC VA2478-H-2"
+  Vendor: VSC "VIEWSONIC"
+  Device: eisa 0x8335 "VA2478-H-2"
+  Serial ID: --
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1600x1200@60Hz
+  Resolution: 1600x900@60Hz
+  Resolution: 1920x1080@60Hz
+  Size: 527x296 mm
+  Year of Manufacture: 2020
+  Week of Manufacture: 30
+  Detailed Timings #0:
+     Resolution: 1920x1080
+     Horizontal: 1920 2008 2052 2200 (+88 +132 +280) +hsync
+       Vertical: 1080 1084 1089 1125 (+4 +9 +45) +vsync
+    Frequencies: 148.50 MHz, 67.50 kHz, 60.00 Hz
+  Driver Info #0:
+    Max. Resolution: 1920x1080
+    Vert. Sync Range: 50-75 Hz
+    Hor. Sync Range: 24-82 kHz
+    Bandwidth: 148 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (VGA compatible controller)
+
+41: PCI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: wLCS.VVGq7FaSC0B
+  Parent ID: svHJ._aNoHWEPua6
+  SysFS ID: /class/block/nvme0n1
+  SysFS BusID: nvme0
+  SysFS Device Link: /devices/pci0000:00/0000:00:04.0/0000:03:00.0/nvme/nvme0
+  Hardware Class: disk
+  Model: "Silicon Motion Disk"
+  Vendor: pci 0x126f "Silicon Motion, Inc."
+  Device: pci 0x2263 
+  SubVendor: pci 0x126f "Silicon Motion, Inc."
+  SubDevice: pci 0x2263 
+  Driver: "nvme"
+  Driver Modules: "nvme"
+  Device File: /dev/nvme0n1
+  Device Files: /dev/nvme0n1, /dev/disk/by-id/nvme-FORESEE_P78AF256GB_..., /dev/disk/by-id/nvme-nvme.10ee-4b353137363032303035353937-464f52455345452050373841463235364742-00000001, /dev/disk/by-path/pci-0000:03:00.0-nvme-1
+  Device Number: block 259:0
+  BIOS id: 0x80
+  Geometry (Logical): CHS 244198/64/32
+  Size: 500118192 sectors a 512 bytes
+  Capacity: 238 GB (256060514304 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Non-Volatile memory controller)
+
+42: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.tisqRJYDXEC
+  Parent ID: B35A.hEMmOlUcvm1
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+43: USB 00.1: 11500 Bluetooth Device
+  [Created at usb.122]
+  Unique ID: DlBy.l148Ao7nQK1
+  Parent ID: uIhY.sV+ij91gsz0
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-2/3-2:1.1
+  SysFS BusID: 3-2:1.1
+  Hardware Class: bluetooth
+  Model: "Intel Bluetooth Device"
+  Hotplug: USB
+  Vendor: usb 0x8087 "Intel Corp."
+  Device: usb 0x0a2a 
+  Revision: "0.01"
+  Driver: "btusb"
+  Driver Modules: "btusb"
+  Speed: 12 Mbps
+  Module Alias: "usb:v8087p0A2Ad0001dcE0dsc01dp01icE0isc01ip01in01"
+  Driver Info #0:
+    Driver Status: btusb is active
+    Driver Activation Cmd: "modprobe btusb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #44 (Hub)
+
+44: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.sV+ij91gsz0
+  Parent ID: wRyD.R5e4Izi7CJE
+  SysFS ID: /devices/pci0000:00/0000:00:10.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (USB Controller)
+
+45: USB 00.1: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: uCzW.kW6cDp+F+p1
+  Parent ID: 7eqy.tisqRJYDXEC
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0/usb6/6-3/6-3:1.1
+  SysFS BusID: 6-3:1.1
+  Hardware Class: unknown
+  Model: "Logitech Keyboard K120"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc31c "Keyboard K120"
+  Revision: "49.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event9
+  Device Files: /dev/input/event9, /dev/input/by-path/pci-0000:02:00.0-usb-0:3:1.1-event, /dev/input/by-id/usb-Logitech_USB_...
+  Device Number: char 13:73
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC31Cd4900dc00dsc00dp00ic03isc00ip00in01"
+  Driver Info #0:
+    Driver Status: usbhid is active
+    Driver Activation Cmd: "modprobe usbhid"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (Hub)
+
+46: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: ZmS7.ChzS7lmSk10
+  Parent ID: 7eqy.tisqRJYDXEC
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0/usb6/6-1/6-1:1.0
+  SysFS BusID: 6-1:1.0
+  Hardware Class: mouse
+  Model: "Pixart Imaging Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x093a "Pixart Imaging, Inc."
+  Device: usb 0x2510 "Optical Mouse"
+  Revision: "1.00"
+  Compatible to: int 0x0210 0x0023
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event7, /dev/input/by-id/usb-PixA琀_USB_Optical_..., /dev/input/by-path/pci-0000:02:00.0-usb-0:1:1.0-event-mouse, /dev/input/by-path/pci-0000:02:00.0-usb-0:1:1.0-mouse, /dev/input/by-id/usb-PixA琀_USB_Optical_...
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v093Ap2510d0100dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (Hub)
+
+47: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: BSFT.m2+1uGKvSS5
+  Parent ID: B35A.hEMmOlUcvm1
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0/usb7/7-0:1.0
+  SysFS BusID: 7-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+48: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.0AfPq9RAF88
+  Parent ID: CLZK.dn0inT38_h4
+  SysFS ID: /devices/pci0000:00/0000:00:12.0/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+49: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.LEaONbeLAvC
+  Parent ID: 6PuE.Lw04iGQLlY4
+  SysFS ID: /devices/pci0000:00/0000:00:10.7/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #21 (USB Controller)
+
+51: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.vVncG7DsAM1
+  Parent ID: CLZK.dn0inT38_h4
+  SysFS ID: /devices/pci0000:00/0000:00:12.0/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+52: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: Q1jS.+P1SsGCg4n7
+  Parent ID: 7eqy.tisqRJYDXEC
+  SysFS ID: /devices/pci0000:00/0000:00:03.1/0000:02:00.0/usb6/6-3/6-3:1.0
+  SysFS BusID: 6-3:1.0
+  Hardware Class: keyboard
+  Model: "Logitech Keyboard K120"
+  Hotplug: USB
+  Vendor: usb 0x046d "Logitech, Inc."
+  Device: usb 0xc31c "Keyboard K120"
+  Revision: "49.00"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event8
+  Device Files: /dev/input/event8, /dev/input/by-id/usb-Logitech_USB_..., /dev/input/by-path/pci-0000:02:00.0-usb-0:3:1.0-event-kbd
+  Device Number: char 13:72
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v046DpC31Cd4900dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #42 (Hub)
+
+53: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.5nw7MPEyvh9
+  Parent ID: 37TO.R5e4Izi7CJE
+  SysFS ID: /devices/pci0000:00/0000:00:10.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+54: PS/2 00.0: 10800 Keyboard
+  [Created at input.249]
+  Unique ID: c3zD.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event4
+  Device Files: /dev/input/event4, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:68
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+55: PS/2 00.0: 10800 Keyboard
+  [Created at input.249]
+  Unique ID: WQTM.P74pxl_5Ot1
+  Hardware Class: keyboard
+  Model: "Elite Remote Control Driver"
+  Device: "Elite Remote Control Driver"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event6
+  Device Number: char 13:70
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+56: None 00.0: 10103 CPU
+  [Created at cpu.469]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "CentaurHauls"
+  Model: 7.59.0 "ZHAOXIN KaiXian KX-6640A@2.6GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,arch_perfmon,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,monitor,vmx,smx,est,tm2,ssse3,cx16,xtpr,pcid,sse4_1,sse4_2,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,rng,rng_en,sm3,sm4,sm3_en,sm4_en,ace,ace_en,ace2,phe,phe_en,pmm,pmm_en,parallax,parallax_en,rng2,rng2_en,phe2,phe2_en,rsa,rsa_en,lahf_lm,abm,3dnowprefetch,invpcid_single,tpr_shadow,vnmi,ept,vpid,fsgsbase,tsc_adjust,bmi1,smep,bmi2,invpcid,rdseed,adx,xsaveopt,dtherm,ida,umip,arch_capabilities
+  Clock: 2594 MHz
+  BogoMips: 5189.37
+  Cache: 4096 kb
+  Units/Processor: 4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+57: None 01.0: 10103 CPU
+  [Created at cpu.469]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "CentaurHauls"
+  Model: 7.59.0 "ZHAOXIN KaiXian KX-6640A@2.6GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,arch_perfmon,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,monitor,vmx,smx,est,tm2,ssse3,cx16,xtpr,pcid,sse4_1,sse4_2,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,rng,rng_en,sm3,sm4,sm3_en,sm4_en,ace,ace_en,ace2,phe,phe_en,pmm,pmm_en,parallax,parallax_en,rng2,rng2_en,phe2,phe2_en,rsa,rsa_en,lahf_lm,abm,3dnowprefetch,invpcid_single,tpr_shadow,vnmi,ept,vpid,fsgsbase,tsc_adjust,bmi1,smep,bmi2,invpcid,rdseed,adx,xsaveopt,dtherm,ida,umip,arch_capabilities
+  Clock: 2595 MHz
+  BogoMips: 5189.37
+  Cache: 4096 kb
+  Units/Processor: 4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+58: None 02.0: 10103 CPU
+  [Created at cpu.469]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "CentaurHauls"
+  Model: 7.59.0 "ZHAOXIN KaiXian KX-6640A@2.6GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,arch_perfmon,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,monitor,vmx,smx,est,tm2,ssse3,cx16,xtpr,pcid,sse4_1,sse4_2,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,rng,rng_en,sm3,sm4,sm3_en,sm4_en,ace,ace_en,ace2,phe,phe_en,pmm,pmm_en,parallax,parallax_en,rng2,rng2_en,phe2,phe2_en,rsa,rsa_en,lahf_lm,abm,3dnowprefetch,invpcid_single,tpr_shadow,vnmi,ept,vpid,fsgsbase,tsc_adjust,bmi1,smep,bmi2,invpcid,rdseed,adx,xsaveopt,dtherm,ida,umip,arch_capabilities
+  Clock: 2594 MHz
+  BogoMips: 5189.37
+  Cache: 4096 kb
+  Units/Processor: 4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+59: None 03.0: 10103 CPU
+  [Created at cpu.469]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "CentaurHauls"
+  Model: 7.59.0 "ZHAOXIN KaiXian KX-6640A@2.6GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,arch_perfmon,nopl,xtopology,nonstop_tsc,cpuid,aperfmperf,pni,pclmulqdq,monitor,vmx,smx,est,tm2,ssse3,cx16,xtpr,pcid,sse4_1,sse4_2,movbe,popcnt,tsc_deadline_timer,aes,xsave,avx,f16c,rdrand,rng,rng_en,sm3,sm4,sm3_en,sm4_en,ace,ace_en,ace2,phe,phe_en,pmm,pmm_en,parallax,parallax_en,rng2,rng2_en,phe2,phe2_en,rsa,rsa_en,lahf_lm,abm,3dnowprefetch,invpcid_single,tpr_shadow,vnmi,ept,vpid,fsgsbase,tsc_adjust,bmi1,smep,bmi2,invpcid,rdseed,adx,xsaveopt,dtherm,ida,umip,arch_capabilities
+  Clock: 2594 MHz
+  BogoMips: 5189.37
+  Cache: 4096 kb
+  Units/Processor: 4
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+60: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+61: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: uhYi.ndpeucax6V1
+  Parent ID: D2Iq.m7pjCDtNwYF
+  SysFS ID: /class/net/enp5s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:05.1/0000:05:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8168"
+  Driver Modules: "r8168"
+  Device File: enp5s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (Ethernet controller)
+
+62: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: eAgB.ndpeucax6V1
+  Parent ID: yWPJ.kgTbLyq3HM9
+  SysFS ID: /class/net/wlp1s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:03.0/0000:01:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Device File: wlp1s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (WLAN controller)
+
+63: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 1N3t.ndpeucax6V1
+  Parent ID: Ljo_.m7pjCDtNwYF
+  SysFS ID: /class/net/enp4s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:05.0/0000:04:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8168"
+  Driver Modules: "r8168"
+  Device File: enp4s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #35 (Ethernet controller)

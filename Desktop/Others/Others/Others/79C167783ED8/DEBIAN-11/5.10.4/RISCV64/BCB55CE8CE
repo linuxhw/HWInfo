@@ -1,0 +1,176 @@
+03: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: otPd.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/3fffc0000.ethernet
+  SysFS BusID: 3fffc0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "thead_dwmac_eth"
+  Device File: eth0
+  HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Permanent HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Cthead,dwmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+04: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: dRY4.Vu98QzaObUF
+  SysFS ID: /devices/platform/soc/3fffa0000.sdhc1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  SysFS BusID: mmc1:0001:2
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "bcmsdh_sdmmc"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: 69EBDCD589B58790FF7B19D33F002ECA
+  Permanent HW Address: E57D09FD44318D961867F0BF7AC29A31
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "of:Nsdhc1T(null)Csnps,dw-mshc"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: tAJw.VoJli79_k95
+  SysFS ID: /devices/platform/soc/3fffa0000.sdhc1/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: b5Qp.TzQFl_vZhO4
+  SysFS ID: /devices/platform/soc/3fffb0000.sdhc0/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: P_d0.dZc7syf8JZ2
+  Parent ID: tAJw.VoJli79_k95
+  SysFS ID: /devices/platform/soc/3fffa0000.sdhc1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  SysFS BusID: mmc1:0001:2
+  Hardware Class: network
+  Model: "Broadcom BCM43430 WLAN card"
+  Vendor: sdio 0x02d0 "Broadcom Corp."
+  Device: sdio 0xa9a6 "BCM43430 WLAN card"
+  Driver: "bcmsdh_sdmmc"
+  Module Alias: "sdio:c00v02D0dA9A6"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (MMC Controller)
+
+09: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: b5Qp.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/soc/3fffb0000.sdhc0/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dw_mmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 474624/4/16
+  Size: 30375936 sectors a 512 bytes
+  Capacity: 14 GB (15552479232 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (MMC Controller)
+
+10: PS/2 00.0: 10500 PS/2 Mouse
+  [Created at input.249]
+  Unique ID: AH6Q.LuN36euhHqC
+  Hardware Class: mouse
+  Model: "generic ft5x06 (82)"
+  Device: "generic ft5x06 (82)"
+  Compatible to: int 0x0210 0x0000
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event0
+  Device Number: char 13:63 (char 13:32)
+  Driver Info #0:
+    Buttons: 0
+    Wheels: 0
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Model: 0.0.0 "rv64imafdcsu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: Serial 00.0: 10801 Console
+  [Created at kbd.180]
+  Unique ID: i7s0.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS1
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: dRY4.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc/3fffa0000.sdhc1/mmc_host/mmc1/mmc1:0001/mmc1:0001:2
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "bcmsdh_sdmmc"
+  Device File: wlan0
+  HW Address: 69EBDCD589B58790FF7B19D33F002ECA
+  Permanent HW Address: E57D09FD44318D961867F0BF7AC29A31
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (WLAN controller)
+
+16: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: otPd.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3fffc0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "thead_dwmac_eth"
+  Device File: eth0
+  HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Permanent HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #3 (Ethernet controller)

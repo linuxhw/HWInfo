@@ -1,0 +1,154 @@
+02: None 00.0: 10103 CPU
+  [Created at cpu.648]
+  Unique ID: rdCR.L5Xer5eMNu7
+  Hardware Class: cpu
+  Arch: S390x
+  Vendor: "IBM/S390"
+  Model: 0.0.255 ""
+  BogoMips: 1048.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: Virtio 00.0: 0200 Ethernet controller
+  [Created at pci.1715]
+  Unique ID: XxKL.7vOdUWKUrAC
+  SysFS ID: /devices/css0/0.0.0005/0.0.0005/virtio5
+  SysFS BusID: virtio5
+  Hardware Class: network
+  Model: "Virtio Ethernet Card 0"
+  Vendor: int 0x6014 "Virtio"
+  Device: int 0x0001 "Ethernet Card 0"
+  Driver: "virtio_net"
+  Driver Modules: "virtio_net"
+  Device File: eth0
+  HW Address: 179B8E8C9525756F44091F0FDC59EA31
+  Permanent HW Address: 179B8E8C9525756F44091F0FDC59EA31
+  Link detected: yes
+  Module Alias: "virtio:d00000001v00003832"
+  Driver Info #0:
+    Driver Status: virtio_net is active
+    Driver Activation Cmd: "modprobe virtio_net"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: CCW 00.0: 10701 Ethernet
+  [Created at s390.191]
+  Unique ID: 3TqI.nZgRcZh0i35
+  SysFS ID: /devices/css0/0.0.0005/0.0.0005
+  SysFS BusID: 0.0.0005
+  SysFS Device Link: /devices/css0/0.0.0005/0.0.0005
+  Hardware Class: network interface
+  Model: "IBM VirtIO Ethernet CCW Device"
+  Vendor: int 0x6001 "IBM"
+  Device: int 0x3832 "VirtIO Ethernet CCW Device"
+  SubVendor: 
+  SubDevice: int 0x0000 
+  I/O Port: 0x05 (rw)
+  Driver Info #0:
+    Driver Status: virtio_net is active
+    Driver Activation Cmd: "modprobe virtio_net"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  LCSS: 0.0
+  CU Model: 0x1
+  Device Model: 0xa
+
+12: CCW 00.0: 10600 Disk
+  [Created at s390.191]
+  Unique ID: 86KA.eEeCM89RwOA
+  SysFS ID: /devices/css0/0.0.0003/0.0.0003
+  SysFS BusID: 0.0.0003
+  SysFS Device Link: /devices/css0/0.0.0003/0.0.0003
+  Hardware Class: disk
+  Model: "IBM VirtIO Block CCW Device"
+  Vendor: int 0x6001 "IBM"
+  Device: int 0x3832 "VirtIO Block CCW Device"
+  SubVendor: 
+  SubDevice: int 0x0000 
+  I/O Port: 0x03 (rw)
+  Driver Info #0:
+    Driver Status: virtio_blk is active
+    Driver Activation Cmd: "modprobe virtio_blk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  LCSS: 0.0
+  CU Model: 0x2
+  Device Model: 0xa
+
+14: CCW 00.0: 10600 Disk
+  [Created at s390.191]
+  Unique ID: cHaE.eEeCM89RwOA
+  SysFS ID: /devices/css0/0.0.0004/0.0.0004
+  SysFS BusID: 0.0.0004
+  SysFS Device Link: /devices/css0/0.0.0004/0.0.0004
+  Hardware Class: disk
+  Model: "IBM VirtIO Block CCW Device"
+  Vendor: int 0x6001 "IBM"
+  Device: int 0x3832 "VirtIO Block CCW Device"
+  SubVendor: 
+  SubDevice: int 0x0000 
+  I/O Port: 0x04 (rw)
+  Driver Info #0:
+    Driver Status: virtio_blk is active
+    Driver Activation Cmd: "modprobe virtio_blk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  LCSS: 0.0
+  CU Model: 0x2
+  Device Model: 0xa
+
+15: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: ndrI.dcqA0TtIFgE
+  Parent ID: Uscj.dQ5CHUdMyc7
+  SysFS ID: /class/block/vdb
+  SysFS BusID: virtio4
+  SysFS Device Link: /devices/css0/0.0.0004/0.0.0004/virtio4
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "virtio_ccw", "virtio_blk"
+  Driver Modules: "virtio_blk"
+  Device File: /dev/vdb
+  Device Number: block 252:16-252:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (Storage controller)
+
+16: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: KSbE.dcqA0TtIFgE
+  Parent ID: Rnu5.dQ5CHUdMyc7
+  SysFS ID: /class/block/vda
+  SysFS BusID: virtio3
+  SysFS Device Link: /devices/css0/0.0.0003/0.0.0003/virtio3
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "virtio_ccw", "virtio_blk"
+  Driver Modules: "virtio_blk"
+  Device File: /dev/vda
+  Device Number: block 252:0-252:15
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (Storage controller)
+
+17: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.0NPNTtaUSp9
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.vnwWAn0UAo4
+  Parent ID: XxKL.7vOdUWKUrAC
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/css0/0.0.0005/0.0.0005/virtio5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "virtio_net"
+  Driver Modules: "virtio_net"
+  Device File: eth0
+  HW Address: 179B8E8C9525756F44091F0FDC59EA31
+  Permanent HW Address: 179B8E8C9525756F44091F0FDC59EA31
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)

@@ -1,0 +1,212 @@
+04: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.007p0ORVF98
+  SysFS ID: /devices/platform/soc/soc:pcie@82000000/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Marvell PCI bridge"
+  Vendor: pci 0x11ab "Marvell Technology Group Ltd."
+  Device: pci 0x6710 
+  Revision: 0x01
+  Module Alias: "pci:v000011ABd00006710sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: PCI 100.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: VCu0.15QrdSACvSA
+  Parent ID: vSkL.007p0ORVF98
+  SysFS ID: /devices/platform/soc/soc:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: usb controller
+  Model: "ASMedia ASM1042A USB 3.0 Host Controller"
+  Vendor: pci 0x1b21 "ASMedia Technology Inc."
+  Device: pci 0x1142 "ASM1042A USB 3.0 Host Controller"
+  SubVendor: pci 0x1b21 "ASMedia Technology Inc."
+  SubDevice: pci 0x1142 
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0xf8000000-0xf8007fff (rw,non-prefetchable)
+  IRQ: 52 (no events)
+  Module Alias: "pci:v00001B21d00001142sv00001B21sd00001142bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (PCI bridge)
+
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: AHJR.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/soc:internal-regs/f1074000.ethernet
+  SysFS BusID: f1074000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "mvneta"
+  Driver Modules: "mvneta"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Cmarvell,armada-370-neta"
+  Driver Info #0:
+    Driver Status: mvneta is active
+    Driver Activation Cmd: "modprobe mvneta"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: 6cca.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/soc:internal-regs/f1050000.usb
+  SysFS BusID: f1050000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "orion-ehci"
+  Driver Modules: "ehci_orion"
+  Module Alias: "of:NusbT(null)Cmarvell,orion-ehci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_orion is active
+    Driver Activation Cmd: "modprobe ehci_orion"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.3MrMjOXaSnE
+  Parent ID: G7mN.FHNR9t2MgJ9
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f10a0000.sata/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "ST4000VN000-1H41"
+  Device: "ST4000VN000-1H41"
+  Revision: "SC46"
+  Serial ID: --
+  Driver: "sata_mv", "sd"
+  Driver Modules: "sata_mv", "sata_mv", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-id/ata-ST4000VN000-1H4168_..., /dev/disk/by-path/platform-f10a0000.sata-ata-1.0, /dev/disk/by-path/platform-f10a0000.sata-ata-1, /dev/disk/by-id/wwn-0x...
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 486401/255/63
+  Size: 7814037168 sectors a 512 bytes
+  Capacity: 3726 GB (4000787030016 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (IDE interface)
+
+10: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.djic47EFb5E
+  Parent ID: VCu0.15QrdSACvSA
+  SysFS ID: /devices/platform/soc/soc:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (USB Controller)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.kNaPe9SZft4
+  Parent ID: VCu0.15QrdSACvSA
+  SysFS ID: /devices/platform/soc/soc:pcie@82000000/pci0000:00/0000:00:01.0/0000:01:00.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #5 (USB Controller)
+
+12: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.lQ7Huf1da90
+  Parent ID: 6cca.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/soc:internal-regs/f1050000.usb/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (USB Controller)
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "Marvell Semiconductor Inc."
+  Model: 1.1.0 ""
+  Platform: "Marvell Armada 370/XP (Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,thumbee,vfpv3,vfpv3d16,tls,idivt,
+  BogoMips: 41.55
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: AHJR.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/soc:internal-regs/f1074000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "mvneta"
+  Driver Modules: "mvneta"
+  Device File: eth0
+  HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)

@@ -1,0 +1,115 @@
+04: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: otPd.TfPFe67fIBB
+  SysFS ID: /devices/platform/soc/3fffc0000.ethernet
+  SysFS BusID: 3fffc0000.ethernet
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "thead_dwmac_eth"
+  Device File: eth0
+  HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Permanent HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Link detected: yes
+  Module Alias: "of:NethernetT(null)Cthead,dwmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+05: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: tAJw.VoJli79_k95
+  SysFS ID: /devices/platform/soc/3fffa0000.sdhc1/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+06: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: b5Qp.TzQFl_vZhO4
+  SysFS ID: /devices/platform/soc/3fffb0000.sdhc0/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: b5Qp.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/soc/3fffb0000.sdhc0/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "dw_mmc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:7
+  Geometry (Logical): CHS 474624/4/16
+  Size: 30375936 sectors a 512 bytes
+  Capacity: 14 GB (15552479232 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (MMC Controller)
+
+10: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Model: 0.0.0 "rv64imafdcsu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 10103 CPU
+  [Created at cpu.710]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: RISC-V
+  Model: 0.0.0 "rv64imafdcsu"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: Serial 00.0: 10801 Console
+  [Created at kbd.180]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: otPd.TfPFe67fIBB
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/soc/3fffc0000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "thead_dwmac_eth"
+  Device File: eth0
+  HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Permanent HW Address: 8DF4FE067E7CB96BE1027BBAB0D8F425
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #4 (Ethernet controller)

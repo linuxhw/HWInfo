@@ -1,0 +1,441 @@
+12: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.D+FQTAs0_sB
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel 440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled)"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x7192 "440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled)"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x7190 "Dell PowerEdge 350"
+  Revision: 0x03
+  Memory Range: 0x00000000-0x003fffff (ro,non-prefetchable)
+  Module Alias: "pci:v00008086d00007192sv00008086sd00007190bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: PCI 07.3: 0680 Bridge
+  [Created at pci.386]
+  Unique ID: y5Vg.SzA5IydFa05
+  SysFS ID: /devices/pci0000:00/0000:00:07.3
+  SysFS BusID: 0000:00:07.3
+  Hardware Class: bridge
+  Model: "Intel 82371AB/EB/MB PIIX4 ACPI"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x7113 "82371AB/EB/MB PIIX4 ACPI"
+  Revision: 0x02
+  Driver: "piix4_smbus"
+  Driver Modules: "i2c_piix4"
+  IRQ: 9 (no events)
+  Module Alias: "pci:v00008086d00007113sv00000000sd00000000bc06sc80i00"
+  Driver Info #0:
+    Driver Status: i2c_piix4 is active
+    Driver Activation Cmd: "modprobe i2c_piix4"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 07.1: 0101 IDE interface (ISA Compatibility mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: ESW+.L6YUholkGT8
+  SysFS ID: /devices/pci0000:00/0000:00:07.1
+  SysFS BusID: 0000:00:07.1
+  Hardware Class: storage
+  Model: "Intel 82371AB/EB/MB PIIX4 IDE"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x7111 "82371AB/EB/MB PIIX4 IDE"
+  Revision: 0x01
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0xffa0-0xffaf (rw)
+  Module Alias: "pci:v00008086d00007111sv00000000sd00000000bc01sc01i80"
+  Driver Info #0:
+    Driver Status: ata_piix is active
+    Driver Activation Cmd: "modprobe ata_piix"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 0d.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: _FXg.rJ1nESamG87
+  SysFS ID: /devices/pci0000:00/0000:00:0d.0
+  SysFS BusID: 0000:00:0d.0
+  Hardware Class: network
+  Model: "Intel 82559 Fast Ethernet LAN on Motherboard"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1229 "82557/8/9/0/1 Ethernet Pro 100"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x3000 "82559 Fast Ethernet LAN on Motherboard"
+  Revision: 0x08
+  Driver: "e100"
+  Driver Modules: "e100"
+  Device File: enp0s13
+  Memory Range: 0xffafe000-0xffafefff (rw,non-prefetchable)
+  I/O Ports: 0xee80-0xeebf (rw)
+  Memory Range: 0xff700000-0xff7fffff (rw,non-prefetchable)
+  Memory Range: 0xff600000-0xff6fffff (ro,non-prefetchable,disabled)
+  IRQ: 10 (463664 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001229sv00008086sd00003000bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e100 is active
+    Driver Activation Cmd: "modprobe e100"
+  Driver Info #1:
+    Driver Status: eepro100 is not active
+    Driver Activation Cmd: "modprobe eepro100"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 07.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 5n+q.3F5+CgnFyt9
+  SysFS ID: /devices/pci0000:00/0000:00:07.2
+  SysFS BusID: 0000:00:07.2
+  Hardware Class: usb controller
+  Model: "Intel 82371AB/EB/MB PIIX4 USB"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x7112 "82371AB/EB/MB PIIX4 USB"
+  Revision: 0x01
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xef80-0xef9f (rw)
+  IRQ: 11 (2331933 events)
+  Module Alias: "pci:v00008086d00007112sv00000000sd00000000bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 07.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: M71A.QvMgBFcEyl5
+  SysFS ID: /devices/pci0000:00/0000:00:07.0
+  SysFS BusID: 0000:00:07.0
+  Hardware Class: bridge
+  Model: "Intel 82371AB/EB/MB PIIX4 ISA"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x7110 "82371AB/EB/MB PIIX4 ISA"
+  Revision: 0x02
+  Module Alias: "pci:v00008086d00007110sv00000000sd00000000bc06sc01i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 0c.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: X4Hc.rJ1nESamG87
+  SysFS ID: /devices/pci0000:00/0000:00:0c.0
+  SysFS BusID: 0000:00:0c.0
+  Hardware Class: network
+  Model: "Intel 82559 Fast Ethernet LAN on Motherboard"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x1229 "82557/8/9/0/1 Ethernet Pro 100"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  SubDevice: pci 0x3000 "82559 Fast Ethernet LAN on Motherboard"
+  Revision: 0x08
+  Driver: "e100"
+  Driver Modules: "e100"
+  Device File: enp0s12
+  Memory Range: 0xffaff000-0xffafffff (rw,non-prefetchable)
+  I/O Ports: 0xef00-0xef3f (rw)
+  Memory Range: 0xff900000-0xff9fffff (rw,non-prefetchable)
+  Memory Range: 0xff800000-0xff8fffff (ro,non-prefetchable,disabled)
+  IRQ: 10 (463664 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v00008086d00001229sv00008086sd00003000bc02sc00i00"
+  Driver Info #0:
+    Driver Status: e100 is active
+    Driver Activation Cmd: "modprobe e100"
+  Driver Info #1:
+    Driver Status: eepro100 is not active
+    Driver Activation Cmd: "modprobe eepro100"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: z9pp.WYwRElrJa93
+  SysFS ID: /devices/pnp0/00:00
+  SysFS BusID: 00:00
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0b00 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: KiZ0.BuKI+1soRmD
+  SysFS ID: /devices/pnp0/00:03
+  SysFS BusID: 00:03
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0501 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: QL3u.xhndlW9HXJ7
+  SysFS ID: /devices/pnp0/00:01
+  SysFS BusID: 00:01
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0303 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: ntp4.BuKI+1soRmD
+  SysFS ID: /devices/pnp0/00:04
+  SysFS BusID: 00:04
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0501 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: tWJy.yhTOLOXWEq7
+  SysFS ID: /devices/pnp0/00:02
+  SysFS BusID: 00:02
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0700 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 0300 VGA compatible controller (VGA)
+  [Created at misc.370]
+  Unique ID: rdCR.3TglYzST5C5
+  Hardware Class: graphics card
+  Model: "VGA compatible controller"
+  I/O Ports: 0x3c0-0x3df (rw)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: IDE 01.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: WZeP.obsBF6dP5vF
+  Parent ID: ESW+.L6YUholkGT8
+  SysFS ID: /class/block/sdb
+  SysFS BusID: 0:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:07.1/ata1/host0/target0:0:1/0:0:1:0
+  Hardware Class: disk
+  Model: "WDC WD800BB-00CA"
+  Vendor: "WDC"
+  Device: "WD800BB-00CA"
+  Revision: "7W17"
+  Serial ID: --
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix", "sd_mod"
+  Device File: /dev/sdb
+  Device Files: /dev/sdb, /dev/disk/by-id/ata-WDC_WD800BB-00CAA1_..., /dev/disk/by-path/pci-0000:00:07.1-ata-1.1
+  Device Number: block 8:16-8:31
+  Geometry (Logical): CHS 9729/255/63
+  Size: 156301488 sectors a 512 bytes
+  Capacity: 74 GB (80026361856 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (IDE interface)
+
+28: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kwWm.Fxp0d3BezAE
+  SysFS ID: /class/block/fd0
+  SysFS BusID: floppy.0
+  SysFS Device Link: /devices/platform/floppy.0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "floppy"
+  Driver Modules: "floppy"
+  Device File: /dev/fd0
+  Device Number: block 2:0
+  Size: 8 sectors a 512 bytes
+  Capacity: 0 GB (4096 bytes)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.y14JAYbhhU7
+  Parent ID: ESW+.L6YUholkGT8
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:07.1/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD800JB-00CR"
+  Vendor: "WDC"
+  Device: "WD800JB-00CR"
+  Revision: "7W17"
+  Serial ID: --
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:00:07.1-ata-1.0, /dev/disk/by-id/ata-WDC_WD800JB-00CRA1_..., /dev/disk/by-path/pci-0000:00:07.1-ata-1
+  Device Number: block 8:0-8:15
+  Geometry (Logical): CHS 9729/255/63
+  Size: 156301488 sectors a 512 bytes
+  Capacity: 74 GB (80026361856 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (IDE interface)
+
+30: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: cLrx.WoY+oe9alK6
+  Parent ID: k4bc.rKOBlHXr+aF
+  SysFS ID: /devices/pci0000:00/0000:00:07.2/usb1/1-2/1-2:1.0
+  SysFS BusID: 1-2:1.0
+  Hardware Class: network
+  Model: "ASIX Electronics AX88772"
+  Hotplug: USB
+  Vendor: usb 0x0b95 "ASIX Electronics Corp."
+  Device: usb 0x7720 "AX88772"
+  Revision: "0.01"
+  Serial ID: --
+  Driver: "asix"
+  Driver Modules: "asix"
+  Device File: enx0050b68ffab2
+  Speed: 12 Mbps
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "usb:v0B95p7720d0001dcFFdscFFdp00icFFiscFFip00in00"
+  Driver Info #0:
+    Driver Status: asix is active
+    Driver Activation Cmd: "modprobe asix"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (Hub)
+
+31: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.rKOBlHXr+aF
+  Parent ID: 5n+q.3F5+CgnFyt9
+  SysFS ID: /devices/pci0000:00/0000:00:07.2/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+32: USB 00.0: 0200 Ethernet controller
+  [Created at usb.122]
+  Unique ID: ADDn.3KTbzLRsn88
+  Parent ID: k4bc.rKOBlHXr+aF
+  SysFS ID: /devices/pci0000:00/0000:00:07.2/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: network
+  Model: "ATEN International 10Mbps Ethernet [klsi]"
+  Hotplug: USB
+  Vendor: usb 0x0557 "ATEN International Co., Ltd"
+  Device: usb 0x2002 "10Mbps Ethernet [klsi]"
+  Revision: "0.08"
+  Serial ID: --
+  Speed: 12 Mbps
+  Module Alias: "usb:v0557p2002d0008dc00dsc00dp00ic00isc00ip00in00"
+  Driver Info #0:
+    Driver Status: kaweth is active
+    Driver Activation Cmd: "modprobe kaweth"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (Hub)
+
+33: None 00.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: Intel
+  Vendor: "GenuineIntel"
+  Model: 6.8.10 "Pentium III (Coppermine)"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,sep,mtrr,pge,mca,cmov,pse36,mmx,fxsr,sse,cpuid,pti
+  Clock: 700 MHz
+  BogoMips: 1403.15
+  Cache: 256 kb
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: Serial 00.0: 10801 Console
+  [Created at kbd.167]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config: 8 bits, parity n
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: J95d.ndpeucax6V1
+  Parent ID: X4Hc.rJ1nESamG87
+  SysFS ID: /class/net/enp0s12
+  SysFS Device Link: /devices/pci0000:00/0000:00:0c.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e100"
+  Driver Modules: "e100"
+  Device File: enp0s12
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (Ethernet controller)
+
+36: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: mKLh.ndpeucax6V1
+  Parent ID: _FXg.rJ1nESamG87
+  SysFS ID: /class/net/enp0s13
+  SysFS Device Link: /devices/pci0000:00/0000:00:0d.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "e100"
+  Driver Modules: "e100"
+  Device File: enp0s13
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (Ethernet controller)
+
+38: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7ObN.ndpeucax6V1
+  Parent ID: cLrx.WoY+oe9alK6
+  SysFS ID: /class/net/enx0050b68ffab2
+  SysFS Device Link: /devices/pci0000:00/0000:00:07.2/usb1/1-2/1-2:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "asix"
+  Driver Modules: "asix"
+  Device File: enx0050b68ffab2
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (Ethernet controller)

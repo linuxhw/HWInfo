@@ -1,0 +1,397 @@
+07: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: OrVY.Vu98QzaObUF
+  SysFS ID: /devices/platform/wcnss_wlan.0
+  SysFS BusID: wcnss_wlan.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "wcnss_wlan"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: D260718DAC40D20B1608810B871AFC69
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 149 153 157 161 165
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 5.18 5.2 5.22 5.24 5.745 5.765 5.785 5.805 5.825
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:wcnss_wlan"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: OrVY.Vu98QzaObUF
+  SysFS ID: /devices/platform/wcnss_wlan.0
+  SysFS BusID: wcnss_wlan.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "wcnss_wlan"
+  Device File: p2p0
+  Features: WLAN
+  HW Address: 17B92404F578A164FF68E423F98CFF6C
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 149 153 157 161 165
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 5.18 5.2 5.22 5.24 5.745 5.765 5.785 5.805 5.825
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "platform:wcnss_wlan"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: BfAo.TzQFl_vZhO4
+  SysFS ID: /devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: BfAo.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "msm_sdcc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Number: block 179:0-179:31
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+11: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.1uGlU0hkVj7
+  SysFS ID: /devices/platform/msm_hsusb_host/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "3.04"
+  Serial ID: --
+  Driver: "hub"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0304dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: ADDn.zrJ64u3dx_B
+  Parent ID: k4bc.1uGlU0hkVj7
+  SysFS ID: /devices/platform/msm_hsusb_host/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: unknown
+  Model: "Realtek RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0bda "Realtek Semiconductor Corp."
+  Device: usb 0xf179 "RTL8188FTV 802.11b/g/n 1T1R 2.4G WLAN Adapter"
+  Serial ID: --
+  Speed: 480 Mbps
+  Module Alias: "usb:v0BDApF179d0000dc00dsc00dp00icFFiscFFipFFin00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Hub)
+
+13: None 00.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "QCT APQ8064 FLO"
+  Features: swp,half,thumb,fastmult,vfp,edsp,neon,vfpv3,tls,vfpv4,
+  BogoMips: 13.53
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: None 01.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "QCT APQ8064 FLO"
+  Features: swp
+  BogoMips: 13.53
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: None 02.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "QCT APQ8064 FLO"
+  Features: swp
+  BogoMips: 13.53
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 03.0: 10103 CPU
+  [Created at cpu.278]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "QUALCOMM Inc."
+  Model: 1.0.0 "ARMv7 Processor rev 0 (v7l)"
+  Platform: "QCT APQ8064 FLO"
+  Features: swp
+  BogoMips: 13.53
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: Serial 00.0: 10801 Console
+  [Created at kbd.180]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WVs7.ndpeucax6V1
+  SysFS ID: /class/net/dummy0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: dummy0
+  HW Address: B732A522C01D1895BED3F56B032F2A5D
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: OrVY.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/wcnss_wlan.0
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "wcnss_wlan"
+  Device File: wlan0
+  HW Address: D260718DAC40D20B1608810B871AFC69
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (WLAN controller)
+
+20: None 00.0: 10781 Network Interface
+  [Created at net.126]
+  Unique ID: wl2P.nfEXJulusj6
+  SysFS ID: /class/net/sit0
+  Hardware Class: network interface
+  Model: "Network Interface"
+  Device File: sit0
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: pG9W.ndpeucax6V1
+  Parent ID: OrVY.Vu98QzaObUF
+  SysFS ID: /class/net/p2p0
+  SysFS Device Link: /devices/platform/wcnss_wlan.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "wcnss_wlan"
+  Device File: p2p0
+  HW Address: 17B92404F578A164FF68E423F98CFF6C
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (WLAN controller)
+
+22: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: uhZn.ndpeucax6V1
+  SysFS ID: /class/net/rmnet_smux0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet_smux0
+  HW Address: 6E4BBA411B2D61D3249FCC943E5B8C70
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: DP9V.ndpeucax6V1
+  SysFS ID: /class/net/rmnet0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet0
+  HW Address: EF7DB8922D3EE5554D60F475CB096930
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: gaPZ.ndpeucax6V1
+  SysFS ID: /class/net/rmnet1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet1
+  HW Address: 230D92C9048B6FC253A54BD290790E48
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: bxvh.ndpeucax6V1
+  SysFS ID: /class/net/rmnet3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet3
+  HW Address: 5FE2B9FFAB1778C60D256342ABBBBB9D
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7mfd.ndpeucax6V1
+  SysFS ID: /class/net/rmnet2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet2
+  HW Address: D51EF9EED7D1AAADF34E147213F702E8
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 27Am.ndpeucax6V1
+  SysFS ID: /class/net/rmnet4
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet4
+  HW Address: C463818F3AA529633CE2CEB4B01C0005
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: yTgu.ndpeucax6V1
+  SysFS ID: /class/net/rmnet6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet6
+  HW Address: 0627E72C752A6D26231CA61F956D7036
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 05.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: VIQq.ndpeucax6V1
+  SysFS ID: /class/net/rmnet5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet5
+  HW Address: 65ED2C825C997D9737BFF9329C89B5FA
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: None 07.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: ewrN.ndpeucax6V1
+  SysFS ID: /class/net/rmnet7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rmnet7
+  HW Address: E239E8328AF25BF4120E1D376188C169
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 08.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 1jFa.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet8
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet8
+  HW Address: 96D7692A75CBA513A1DA272B5DEF8B8A
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 03.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: WY3q.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet3
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet3
+  HW Address: 2921815D97513CEDC598FFE28EB5D333
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 02.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 3Npl.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet2
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet2
+  HW Address: 47A94396A3E9474EC10BCC92ADC1BE55
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 04.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: zjJu.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet4
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet4
+  HW Address: 393BC5DEBB8B43FA72A86D0E3818152C
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 06.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: t4q0.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet6
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet6
+  HW Address: EB0D29B04E718E3C5E84523F85375DB1
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 05.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: QvZy.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet5
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet5
+  HW Address: 70300A04EA5C4702B3379B448C38DDAE
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 07.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: aX+V.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet7
+  HW Address: 7A8A8D752A07866C214D48C82EF057AF
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 90Jd.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet0
+  HW Address: 5F002D8D93933BB08D64C7194EDE6161
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 01.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: cBZh.ndpeucax6V1
+  SysFS ID: /class/net/rev_rmnet1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Device File: rev_rmnet1
+  HW Address: 0C1619A14174C5C4461E05EB13521CE3
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

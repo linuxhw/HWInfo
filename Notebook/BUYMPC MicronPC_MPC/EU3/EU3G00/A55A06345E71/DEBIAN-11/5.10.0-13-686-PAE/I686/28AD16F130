@@ -1,0 +1,696 @@
+02: Floppy 00.0: 10603 Floppy Disk
+  [Created at floppy.127]
+  Unique ID: sPPV.oZ89vuho4Y3
+  Parent ID: rdCR.3wRL2_g4d2B
+  Hardware Class: floppy
+  Model: "Floppy Disk"
+  Device File: /dev/fd0
+  Size: 3.5 ''
+  Size: 2880 sectors a 512 bytes
+  Capacity: 0 GB (1474560 bytes)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #1 (Floppy disk controller)
+
+13: PCI(AGP) 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.e_yu7fW4m01
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "ATI RS200 Host Bridge"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0xcab2 "RS200 Host Bridge"
+  Revision: 0x02
+  Driver: "agpgart-ati"
+  Memory Range: 0xec000000-0xefffffff (ro,non-prefetchable)
+  Memory Range: 0xe8600000-0xe8600fff (ro,non-prefetchable)
+  Module Alias: "pci:v00001002d0000CAB2sv00000000sd00000000bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 12.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: VQjQ.hoXZJmDD_63
+  SysFS ID: /devices/pci0000:00/0000:00:12.0
+  SysFS BusID: 0000:00:12.0
+  Hardware Class: network
+  Model: "National DP83815 (MacPhyter) Ethernet Controller"
+  Vendor: pci 0x100b "National Semiconductor Corporation"
+  Device: pci 0x0020 "DP83815 (MacPhyter) Ethernet Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Driver: "natsemi"
+  Driver Modules: "natsemi"
+  Device File: enp0s18
+  I/O Ports: 0x9400-0x94ff (rw)
+  Memory Range: 0xe8008000-0xe8008fff (rw,non-prefetchable)
+  Memory Range: 0x48000000-0x4800ffff (ro,non-prefetchable,disabled)
+  IRQ: 3 (369 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v0000100Bd00000020sv0000152Dsd00000701bc02sc00i00"
+  Driver Info #0:
+    Driver Status: natsemi is active
+    Driver Activation Cmd: "modprobe natsemi"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 06.0: 0401 Multimedia audio controller
+  [Created at pci.386]
+  Unique ID: H0_h.3HImag81XR2
+  SysFS ID: /devices/pci0000:00/0000:00:06.0
+  SysFS BusID: 0000:00:06.0
+  Hardware Class: sound
+  Model: "ULi Electronics M5451 PCI AC-Link Controller Audio Device"
+  Vendor: pci 0x10b9 "ULi Electronics Inc."
+  Device: pci 0x5451 "M5451 PCI AC-Link Controller Audio Device"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x02
+  Driver: "snd_ali5451"
+  Driver Modules: "snd_ali5451"
+  I/O Ports: 0x8400-0x84ff (rw)
+  Memory Range: 0xe8004000-0xe8004fff (rw,non-prefetchable)
+  IRQ: 5 (1 event)
+  Module Alias: "pci:v000010B9d00005451sv0000152Dsd00000701bc04sc01i00"
+  Driver Info #0:
+    Driver Status: snd_ali5451 is active
+    Driver Activation Cmd: "modprobe snd_ali5451"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 0e.2: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: dYL7.gErWIbFbWC2
+  SysFS ID: /devices/pci0000:00/0000:00:0e.2
+  SysFS BusID: 0000:00:0e.2
+  Hardware Class: usb controller
+  Model: "VIA USB 2.0"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3104 "USB 2.0"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x51
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xe8009800-0xe80098ff (rw,non-prefetchable)
+  IRQ: 11 (5 events)
+  Module Alias: "pci:v00001106d00003104sv0000152Dsd00000701bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 09.0: 0282 WLAN controller
+  [Created at pci.386]
+  Unique ID: Q47V.ek1quwFMe3F
+  SysFS ID: /devices/pci0000:00/0000:00:09.0
+  SysFS BusID: 0000:00:09.0
+  Hardware Class: network
+  Model: "Intel PRO/Wireless 2200BG [Calexico2] Network Connection"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x4220 "PRO/Wireless 2200BG [Calexico2] Network Connection"
+  SubVendor: pci 0x103c "Hewlett-Packard Company"
+  SubDevice: pci 0x12f5 
+  Revision: 0x05
+  Driver: "ipw2200"
+  Driver Modules: "ipw2200"
+  Device File: wlp0s9
+  Features: WLAN
+  Memory Range: 0xe8006000-0xe8006fff (rw,non-prefetchable)
+  IRQ: 11 (5 events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Requires: ipw-firmware
+  Module Alias: "pci:v00008086d00004220sv0000103Csd000012F5bc02sc80i00"
+  Driver Info #0:
+    Driver Status: ipw2200 is active
+    Driver Activation Cmd: "modprobe ipw2200"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: PCI 0e.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: vuMS.qZQy3t7Rat3
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0
+  SysFS BusID: 0000:00:0e.0
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x50
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x8080-0x809f (rw)
+  IRQ: 10 (33 events)
+  Module Alias: "pci:v00001106d00003038sv0000152Dsd00000701bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI(AGP) 105.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: ul7N.NASY+58ZOy9
+  Parent ID: vSkL.UQiy7ZE_W5A
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:05.0
+  SysFS BusID: 0000:01:05.0
+  Hardware Class: graphics card
+  Model: "ATI RV250 Lf"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x4c66 "RV250 Lf"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x02
+  Driver: "radeon"
+  Driver Modules: "radeon"
+  Memory Range: 0xf0000000-0xf7ffffff (ro,non-prefetchable)
+  I/O Ports: 0xa000-0xafff (rw)
+  Memory Range: 0xe8300000-0xe830ffff (rw,non-prefetchable)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 10 (33 events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v00001002d00004C66sv0000152Dsd00000701bc03sc00i00"
+  Driver Info #0:
+    XFree86 v4 Server Module: radeon
+  Driver Info #1:
+    XFree86 v4 Server Module: radeon
+    3D Support: yes
+    Extensions: dri
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (PCI bridge)
+
+20: PCI 0c.1: 0c00 FireWire (IEEE 1394) (OHCI)
+  [Created at pci.386]
+  Unique ID: c+lL.lZr+2c6QOv7
+  SysFS ID: /devices/pci0000:00/0000:00:0c.1
+  SysFS BusID: 0000:00:0c.1
+  Hardware Class: firewire controller
+  Model: "Texas Instruments PCI4510 IEEE-1394 Controller"
+  Vendor: pci 0x104c "Texas Instruments"
+  Device: pci 0x8029 "PCI4510 IEEE-1394 Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Driver: "firewire_ohci"
+  Driver Modules: "firewire_ohci"
+  Memory Range: 0xe8009000-0xe80097ff (rw,non-prefetchable)
+  Memory Range: 0xe8000000-0xe8003fff (rw,non-prefetchable)
+  IRQ: 11 (5 events)
+  Module Alias: "pci:v0000104Cd00008029sv0000152Dsd00000701bc0Csc00i10"
+  Driver Info #0:
+    Driver Status: ohci1394 is not active
+    Driver Activation Cmd: "modprobe ohci1394"
+  Driver Info #1:
+    Driver Status: firewire_ohci is active
+    Driver Activation Cmd: "modprobe firewire_ohci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 11.0: 0680 Bridge
+  [Created at pci.386]
+  Unique ID: 7EWs.tRi9km3QEH5
+  SysFS ID: /devices/pci0000:00/0000:00:11.0
+  SysFS BusID: 0000:00:11.0
+  Hardware Class: bridge
+  Model: "ULi Electronics M7101 Power Management Controller [PMU]"
+  Vendor: pci 0x10b9 "ULi Electronics Inc."
+  Device: pci 0x7101 "M7101 Power Management Controller [PMU]"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Driver: "ali1535_smbus"
+  Driver Modules: "i2c_ali1535"
+  Module Alias: "pci:v000010B9d00007101sv0000152Dsd00000701bc06sc80i00"
+  Driver Info #0:
+    Driver Status: i2c_ali1535 is active
+    Driver Activation Cmd: "modprobe i2c_ali1535"
+  Driver Info #1:
+    Driver Status: i2c_ali15x3 is active
+    Driver Activation Cmd: "modprobe i2c_ali15x3"
+  Driver Info #2:
+    Driver Status: alim7101_wdt is not active
+    Driver Activation Cmd: "modprobe alim7101_wdt"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 08.0: 10204 LinModem
+  [Created at pci.386]
+  Unique ID: RE4e.novv8m4bFbC
+  SysFS ID: /devices/pci0000:00/0000:00:08.0
+  SysFS BusID: 0000:00:08.0
+  Hardware Class: modem
+  Model: "ULi Electronics M5457 AC'97 Modem Controller"
+  Vendor: pci 0x10b9 "ULi Electronics Inc."
+  Device: pci 0x5457 "M5457 AC'97 Modem Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Device File: /dev/ttySL0
+  Device Number: char 212:0
+  Memory Range: 0xe8005000-0xe8005fff (rw,non-prefetchable)
+  I/O Ports: 0x8800-0x88ff (rw)
+  IRQ: 10 (33 events)
+  Module Alias: "pci:v000010B9d00005457sv0000152Dsd00000701bc07sc03i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 10.0: 0101 IDE interface
+  [Created at pci.386]
+  Unique ID: 37TO.obnm_umU2C3
+  SysFS ID: /devices/pci0000:00/0000:00:10.0
+  SysFS BusID: 0000:00:10.0
+  Hardware Class: storage
+  Model: "ULi Electronics M5229 IDE"
+  Vendor: pci 0x10b9 "ULi Electronics Inc."
+  Device: pci 0x5229 "M5229 IDE"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0xc4
+  Driver: "pata_ali"
+  Driver Modules: "pata_ali"
+  I/O Ports: 0x1f0-0x1f7 (rw)
+  I/O Port: 0x3f6 (rw)
+  I/O Ports: 0x170-0x177 (rw)
+  I/O Port: 0x376 (rw)
+  I/O Ports: 0x80c0-0x80cf (rw)
+  Module Alias: "pci:v000010B9d00005229sv0000152Dsd00000701bc01sc01iEA"
+  Driver Info #0:
+    Driver Status: pata_ali is active
+    Driver Activation Cmd: "modprobe pata_ali"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.UQiy7ZE_W5A
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "ATI RS200/RS250 AGP Bridge"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x7010 "RS200/RS250 AGP Bridge"
+  Module Alias: "pci:v00001002d00007010sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 0e.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: mDsH.qZQy3t7Rat3
+  SysFS ID: /devices/pci0000:00/0000:00:0e.1
+  SysFS BusID: 0000:00:0e.1
+  Hardware Class: usb controller
+  Model: "VIA VT82xx/62xx UHCI USB 1.1 Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3038 "VT82xx/62xx UHCI USB 1.1 Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x50
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0x80a0-0x80bf (rw)
+  IRQ: 10 (33 events)
+  Module Alias: "pci:v00001106d00003038sv0000152Dsd00000701bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 07.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: M71A.Tw+aTuFZ8m6
+  SysFS ID: /devices/pci0000:00/0000:00:07.0
+  SysFS BusID: 0000:00:07.0
+  Hardware Class: bridge
+  Model: "ULi Electronics ALi M1533 Aladdin IV/V ISA Bridge"
+  Vendor: pci 0x10b9 "ULi Electronics Inc."
+  Device: pci 0x1533 "M1533/M1535/M1543 PCI to ISA Bridge [Aladdin IV/V/V+]"
+  SubVendor: pci 0x10b9 "ULi Electronics Inc."
+  SubDevice: pci 0x1533 "ALi M1533 Aladdin IV/V ISA Bridge"
+  Module Alias: "pci:v000010B9d00001533sv000010B9sd00001533bc06sc01i00"
+  Driver Info #0:
+    Driver Status: alim1535_wdt is active
+    Driver Activation Cmd: "modprobe alim1535_wdt"
+  Driver Info #1:
+    Driver Status: alim7101_wdt is not active
+    Driver Activation Cmd: "modprobe alim7101_wdt"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 0c.0: 0607 CardBus bridge
+  [Created at pci.386]
+  Unique ID: lgGW.9vg9vB4Wn35
+  SysFS ID: /devices/pci0000:00/0000:00:0c.0
+  SysFS BusID: 0000:00:0c.0
+  Hardware Class: bridge
+  Model: "Texas Instruments PCI4510 PC card Cardbus Controller"
+  Vendor: pci 0x104c "Texas Instruments"
+  Device: pci 0xac44 "PCI4510 PC card Cardbus Controller"
+  SubVendor: pci 0x152d "QUANTA Computer Inc"
+  SubDevice: pci 0x0701 
+  Revision: 0x02
+  Driver: "yenta_cardbus"
+  Driver Modules: "yenta_socket"
+  Memory Range: 0xe8007000-0xe8007fff (rw,non-prefetchable)
+  IRQ: 11 (5 events)
+  Module Alias: "pci:v0000104Cd0000AC44sv0000152Dsd00000701bc06sc07i00"
+  Driver Info #0:
+    Driver Status: yenta_socket is active
+    Driver Activation Cmd: "modprobe yenta_socket"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: z9pp.WYwRElrJa93
+  SysFS ID: /devices/pnp0/00:00
+  SysFS BusID: 00:00
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0b00 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: E349.yhTOLOXWEq7
+  SysFS ID: /devices/pnp0/00:05
+  SysFS BusID: 00:05
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0700 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: KiZ0.B+yZ9Ve8gC1
+  SysFS ID: /devices/pnp0/00:03
+  SysFS BusID: 00:03
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c02 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: QL3u.xhndlW9HXJ7
+  SysFS ID: /devices/pnp0/00:01
+  SysFS BusID: 00:01
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0303 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: hEKD.13ubA72AEK3
+  SysFS ID: /devices/pnp0/00:06
+  SysFS BusID: 00:06
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0400 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: ntp4.gNN83gfynbD
+  SysFS ID: /devices/pnp0/00:04
+  SysFS BusID: 00:04
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0c01 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: ISA(PnP) 00.0: 0000 Unclassified device
+  [Created at isapnp.142]
+  Unique ID: tWJy.t7Yh1tpgb13
+  SysFS ID: /devices/pnp0/00:02
+  SysFS BusID: 00:02
+  Hardware Class: unknown
+  Model: "Unclassified device"
+  SubVendor: PNP "PnP"
+  SubDevice: eisa 0x0f13 
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: SCSI 01.0: 10602 CD-ROM (DVD)
+  [Created at block.249]
+  Unique ID: KD9E.Mp3iDQCfrv7
+  Parent ID: 37TO.obnm_umU2C3
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 0:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:10.0/ata1/host0/target0:0:1/0:0:1:0
+  Hardware Class: cdrom
+  Model: "QSI CDRW/DVD SBW-242"
+  Vendor: "QSI"
+  Device: "CDRW/DVD SBW-242"
+  Revision: "UX10"
+  Driver: "pata_ali", "sr"
+  Driver Modules: "pata_ali", "sr_mod"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Files: /dev/sr0, /dev/dvd, /dev/cdrom, /dev/cdrw, /dev/disk/by-id/ata-QSI_CD-RW_DVD-ROM_..., /dev/disk/by-path/pci-0000:00:10.0-ata-1.1
+  Device Number: block 11:0 (char 21:1)
+  Features: CD-R, CD-RW, DVD, MRW, MRW-W
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (IDE interface)
+  Drive Speed: 16
+
+36: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: kwWm.Fxp0d3BezAE
+  SysFS ID: /class/block/fd0
+  SysFS BusID: floppy.0
+  SysFS Device Link: /devices/platform/floppy.0
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "floppy"
+  Driver Modules: "floppy"
+  Device File: /dev/fd0
+  Device Number: block 2:0
+  Size: 8 sectors a 512 bytes
+  Capacity: 0 GB (4096 bytes)
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: IDE 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.c6vU8f6UbyB
+  Parent ID: 37TO.obnm_umU2C3
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:10.0/ata1/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "ST94811A"
+  Device: "ST94811A"
+  Revision: "3.04"
+  Serial ID: --
+  Driver: "pata_ali", "sd"
+  Driver Modules: "pata_ali", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:00:10.0-ata-1, /dev/disk/by-id/ata-ST94811A_..., /dev/disk/by-path/pci-0000:00:10.0-ata-1.0
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Geometry (Logical): CHS 4864/255/63
+  Size: 78140160 sectors a 512 bytes
+  Capacity: 37 GB (40007761920 bytes)
+  Geometry (BIOS EDD): CHS 77520/16/63
+  Size (BIOS EDD): 78140160 sectors
+  Geometry (BIOS Legacy): CHS 1023/255/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (IDE interface)
+
+38: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: OKyR.Fxp0d3BezAE
+  SysFS ID: /class/block/zram0
+  Hardware Class: disk
+  Model: "Disk"
+  Device File: /dev/zram0
+  Device Number: block 252:0
+  Size: 65536 sectors a 4096 bytes
+  Capacity: 0 GB (268435456 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.oh_F7pGJ5wA
+  Parent ID: mDsH.qZQy3t7Rat3
+  SysFS ID: /devices/pci0000:00/0000:00:0e.1/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #25 (USB Controller)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.SmB2xWrizPB
+  Parent ID: dYL7.gErWIbFbWC2
+  SysFS ID: /devices/pci0000:00/0000:00:0e.2/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (USB Controller)
+
+41: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: mZxt.2TmuyaFewW6
+  Parent ID: uIhY.oh_F7pGJ5wA
+  SysFS ID: /devices/pci0000:00/0000:00:0e.1/usb3/3-2/3-2:1.0
+  SysFS BusID: 3-2:1.0
+  Hardware Class: unknown
+  Model: "STMicroelectronics TouchChip® Fingerprint Reader"
+  Hotplug: USB
+  Vendor: usb 0x0483 "STMicroelectronics"
+  Device: usb 0x2015 "TouchChip® Fingerprint Reader"
+  Revision: "0.01"
+  Speed: 12 Mbps
+  Module Alias: "usb:v0483p2015d0001dc00dsc00dp00icFFisc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #39 (Hub)
+
+42: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.1zvgl2Ub8e3
+  Parent ID: vuMS.qZQy3t7Rat3
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (USB Controller)
+
+43: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: PS/2 00.0: 10500 PS/2 Mouse
+  [Created at input.249]
+  Unique ID: AH6Q.7b7iqm+3TE3
+  Hardware Class: mouse
+  Model: "AlpsPS/2 ALPS GlidePoint"
+  Vendor: 0x0002 
+  Device: 0x0008 "AlpsPS/2 ALPS GlidePoint"
+  Compatible to: int 0x0210 0x0005
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event6, /dev/input/by-path/platform-i8042-serio-1-event-mouse, /dev/input/by-path/platform-i8042-serio-1-mouse
+  Device Number: char 13:63 (char 13:32)
+  Driver Info #0:
+    Buttons: 5
+    Wheels: 0
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+45: None 00.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: Intel
+  Vendor: "GenuineIntel"
+  Model: 15.2.9 "Mobile Intel(R) Pentium(R) 4 - M CPU 2.40GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,pebs,bts,cpuid,cid,xtpr,pti
+  Clock: 2400 MHz
+  BogoMips: 4783.28
+  Cache: 512 kb
+  Units/Processor: 1
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+46: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+47: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 5kNN.ndpeucax6V1
+  Parent ID: Q47V.ek1quwFMe3F
+  SysFS ID: /class/net/wlp0s9
+  SysFS Device Link: /devices/pci0000:00/0000:00:09.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "ipw2200"
+  Driver Modules: "ipw2200"
+  Device File: wlp0s9
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (WLAN controller)
+
+48: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: HVXR.ndpeucax6V1
+  Parent ID: VQjQ.hoXZJmDD_63
+  SysFS ID: /class/net/enp0s18
+  SysFS Device Link: /devices/pci0000:00/0000:00:12.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "natsemi"
+  Driver Modules: "natsemi"
+  Device File: enp0s18
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #14 (Ethernet controller)

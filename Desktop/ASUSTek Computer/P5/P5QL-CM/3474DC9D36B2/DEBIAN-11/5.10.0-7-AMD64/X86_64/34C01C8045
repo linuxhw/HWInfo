@@ -1,0 +1,862 @@
+12: PCI 300.0: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: svHJ.j5K7lTSdJd5
+  Parent ID: QSNP.V6r7bwBIVg6
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: storage
+  Model: "JMicron JMB368 IDE controller"
+  Vendor: pci 0x197b "JMicron Technology Corp."
+  Device: pci 0x2368 "JMB368 IDE controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x827e 
+  Driver: "pata_jmicron"
+  Driver Modules: "pata_jmicron"
+  I/O Ports: 0xec00-0xec07 (rw)
+  I/O Ports: 0xe880-0xe883 (rw)
+  I/O Ports: 0xe800-0xe807 (rw)
+  I/O Ports: 0xe480-0xe483 (rw)
+  I/O Ports: 0xe400-0xe40f (rw)
+  Memory Range: 0xfebf0000-0xfebfffff (ro,non-prefetchable,disabled)
+  IRQ: 16 (no events)
+  Module Alias: "pci:v0000197Bd00002368sv00001043sd0000827Ebc01sc01i85"
+  Driver Info #0:
+    Driver Status: pata_jmicron is active
+    Driver Activation Cmd: "modprobe pata_jmicron"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #33 (PCI bridge)
+
+13: PCI 1f.2: 0101 IDE interface (PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: w7Y8.UKoiXLHVNY4
+  SysFS ID: /devices/pci0000:00/0000:00:1f.2
+  SysFS BusID: 0000:00:1f.2
+  Hardware Class: storage
+  Model: "Intel 82801JI (ICH10 Family) 4 port SATA IDE Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a20 "82801JI (ICH10 Family) 4 port SATA IDE Controller #1"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0xa000-0xa007 (rw)
+  I/O Ports: 0x9c00-0x9c03 (rw)
+  I/O Ports: 0x9880-0x9887 (rw)
+  I/O Ports: 0x9800-0x9803 (rw)
+  I/O Ports: 0x9480-0x948f (rw)
+  I/O Ports: 0x9400-0x940f (rw)
+  IRQ: 19 (171708 events)
+  Module Alias: "pci:v00008086d00003A20sv00001043sd000082D4bc01sc01i8F"
+  Driver Info #0:
+    Driver Status: ata_piix is active
+    Driver Activation Cmd: "modprobe ata_piix"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+14: PCI 1c.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: z8Q3.NoH8lMFfHc3
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0
+  SysFS BusID: 0000:00:1c.0
+  Hardware Class: bridge
+  Model: "Intel 82801JI (ICH10 Family) PCI Express Root Port 1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a40 "82801JI (ICH10 Family) PCI Express Root Port 1"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "pcieport"
+  IRQ: 25 (no events)
+  Module Alias: "pci:v00008086d00003A40sv00001043sd000082D4bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 1a.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: gFpy.qAdwDAAS0b2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1
+  SysFS BusID: 0000:00:1a.1
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #5"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a38 "82801JI (ICH10 Family) USB UHCI Controller #5"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb880-0xb89f (rw)
+  IRQ: 21 (no events)
+  Module Alias: "pci:v00008086d00003A38sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.CbC2Fof36L0
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel 82801JIB (ICH10) LPC Interface Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a18 "82801JIB (ICH10) LPC Interface Controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00003A18sv00001043sd000082D4bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 200.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: rBUF.0IlF0nGz564
+  Parent ID: HnsE.XxjdY3RiYR7
+  SysFS ID: /devices/pci0000:00/0000:00:1c.5/0000:02:00.0
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82c6 "M3A78 Series Motherboard"
+  Revision: 0x02
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: eth0
+  I/O Ports: 0xd800-0xd8ff (rw)
+  Memory Range: 0xfdeff000-0xfdefffff (ro,non-prefetchable)
+  Memory Range: 0xfdee0000-0xfdeeffff (ro,non-prefetchable)
+  Memory Range: 0xfea00000-0xfea0ffff (ro,non-prefetchable,disabled)
+  IRQ: 17 (no events)
+  HW Address: C841CE9A1516D96B9F495F2BCC99EA29
+  Permanent HW Address: C841CE9A1516D96B9F495F2BCC99EA29
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008168sv00001043sd000082C6bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #20 (PCI bridge)
+
+18: PCI 01.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: vSkL.QShDoIk7DM4
+  SysFS ID: /devices/pci0000:00/0000:00:01.0
+  SysFS BusID: 0000:00:01.0
+  Hardware Class: bridge
+  Model: "Intel 4 Series Chipset PCI Express Root Port"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2e21 "4 Series Chipset PCI Express Root Port"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x8336 
+  Revision: 0x03
+  Driver: "pcieport"
+  IRQ: 24 (no events)
+  Module Alias: "pci:v00008086d00002E21sv00001043sd00008336bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 1d.1: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: vayM.HxngnWT6Rs2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1
+  SysFS BusID: 0000:00:1d.1
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a35 "82801JI (ICH10 Family) USB UHCI Controller #2"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb400-0xb41f (rw)
+  IRQ: 19 (171708 events)
+  Module Alias: "pci:v00008086d00003A35sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 1c.5: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: HnsE.XxjdY3RiYR7
+  SysFS ID: /devices/pci0000:00/0000:00:1c.5
+  SysFS BusID: 0000:00:1c.5
+  Hardware Class: bridge
+  Model: "Intel 82801JI (ICH10 Family) PCI Express Root Port 6"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a4a "82801JI (ICH10 Family) PCI Express Root Port 6"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "pcieport"
+  IRQ: 27 (no events)
+  Module Alias: "pci:v00008086d00003A4Asv00001043sd000082D4bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 100.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: VCu0.DTE2XOeGHhA
+  Parent ID: vSkL.QShDoIk7DM4
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: graphics card
+  Model: "ATI RV730 XT [Radeon HD 4670]"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0x9490 "RV730 XT [Radeon HD 4670]"
+  SubVendor: pci 0x1787 "Hightech Information System Ltd."
+  SubDevice: pci 0x2268 
+  Memory Range: 0xe0000000-0xefffffff (ro,non-prefetchable)
+  Memory Range: 0xfe9e0000-0xfe9effff (rw,non-prefetchable)
+  I/O Ports: 0xc000-0xcfff (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 10 (no events)
+  I/O Ports: 0x3c0-0x3df (rw)
+  Module Alias: "pci:v00001002d00009490sv00001787sd00002268bc03sc00i00"
+  Driver Info #0:
+    Driver Status: radeon is not active
+    Driver Activation Cmd: "modprobe radeon"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (PCI bridge)
+
+22: PCI 1b.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: u1Nb.8NnaCbrSEoE
+  SysFS ID: /devices/pci0000:00/0000:00:1b.0
+  SysFS BusID: 0000:00:1b.0
+  Hardware Class: sound
+  Model: "Intel 82801JI (ICH10 Family) HD Audio Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a3e "82801JI (ICH10 Family) HD Audio Controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82ea 
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfe8f8000-0xfe8fbfff (rw,non-prefetchable)
+  IRQ: 29 (814 events)
+  Module Alias: "pci:v00008086d00003A3Esv00001043sd000082EAbc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 1f.5: 0101 IDE interface (PCI native mode-only controller, supports bus mastering)
+  [Created at pci.386]
+  Unique ID: W60f.QxqWq1sj5gF
+  SysFS ID: /devices/pci0000:00/0000:00:1f.5
+  SysFS BusID: 0000:00:1f.5
+  Hardware Class: storage
+  Model: "Intel 82801JI (ICH10 Family) 2 port SATA IDE Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a26 "82801JI (ICH10 Family) 2 port SATA IDE Controller #2"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 
+  Driver: "ata_piix"
+  Driver Modules: "ata_piix"
+  I/O Ports: 0xb000-0xb007 (rw)
+  I/O Ports: 0xac00-0xac03 (rw)
+  I/O Ports: 0xa880-0xa887 (rw)
+  I/O Ports: 0xa800-0xa803 (rw)
+  I/O Ports: 0xa480-0xa48f (rw)
+  I/O Ports: 0xa400-0xa40f (rw)
+  IRQ: 19 (171708 events)
+  Module Alias: "pci:v00008086d00003A26sv00001043sd000082D4bc01sc01i85"
+  Driver Info #0:
+    Driver Status: ata_piix is active
+    Driver Activation Cmd: "modprobe ata_piix"
+  Driver Info #1:
+    Driver Status: ata_generic is active
+    Driver Activation Cmd: "modprobe ata_generic"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 1e.0: 0604 PCI bridge (Subtractive decode)
+  [Created at pci.386]
+  Unique ID: 6NW+.mTebKEmhWYA
+  SysFS ID: /devices/pci0000:00/0000:00:1e.0
+  SysFS BusID: 0000:00:1e.0
+  Hardware Class: bridge
+  Model: "Intel 82801 PCI Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x244e "82801 PCI Bridge"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 
+  Revision: 0x90
+  Module Alias: "pci:v00008086d0000244Esv00001043sd000082D4bc06sc04i01"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 1f.3: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: nS1_.kHyLvDuhCBF
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: unknown
+  Model: "Intel 82801JI (ICH10 Family) SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a30 "82801JI (ICH10 Family) SMBus Controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0xfe8ff400-0xfe8ff4ff (rw,non-prefetchable)
+  I/O Ports: 0x400-0x41f (rw)
+  IRQ: 18 (5501 events)
+  Module Alias: "pci:v00008086d00003A30sv00001043sd000082D4bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.rB_dGdbCtU7
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel 4 Series Chipset DRAM Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x2e20 "4 Series Chipset DRAM Controller"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x8336 
+  Revision: 0x03
+  Module Alias: "pci:v00008086d00002E20sv00001043sd00008336bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: PCI 1a.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: XaIo.LbZgikH9Yz2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.2
+  SysFS BusID: 0000:00:1a.2
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #6"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a39 "82801JI (ICH10 Family) USB UHCI Controller #6"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xbc00-0xbc1f (rw)
+  IRQ: 18 (5501 events)
+  Module Alias: "pci:v00008086d00003A39sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: PCI 1d.2: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: mvRC.oLkQG5bpyE3
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2
+  SysFS BusID: 0000:00:1d.2
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a36 "82801JI (ICH10 Family) USB UHCI Controller #3"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb480-0xb49f (rw)
+  IRQ: 18 (5501 events)
+  Module Alias: "pci:v00008086d00003A36sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: PCI 1a.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: pwJ7.JmgAlb2lUC2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0
+  SysFS BusID: 0000:00:1a.0
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a37 "82801JI (ICH10 Family) USB UHCI Controller #4"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb800-0xb81f (rw)
+  IRQ: 16 (no events)
+  Module Alias: "pci:v00008086d00003A37sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: PCI 1d.0: 0c03 USB Controller (UHCI)
+  [Created at pci.386]
+  Unique ID: 1GTX.mWrwIyLPvT2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0
+  SysFS BusID: 0000:00:1d.0
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB UHCI Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a34 "82801JI (ICH10 Family) USB UHCI Controller #1"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "uhci_hcd"
+  Driver Modules: "uhci_hcd"
+  I/O Ports: 0xb080-0xb09f (rw)
+  IRQ: 23 (2 events)
+  Module Alias: "pci:v00008086d00003A34sv00001043sd000082D4bc0Csc03i00"
+  Driver Info #0:
+    Driver Status: uhci-hcd is active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+31: PCI 100.1: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: NXNs.txz_sgxDiRE
+  Parent ID: vSkL.QShDoIk7DM4
+  SysFS ID: /devices/pci0000:00/0000:00:01.0/0000:01:00.1
+  SysFS BusID: 0000:01:00.1
+  Hardware Class: sound
+  Model: "ATI RV710/730 HDMI Audio [Radeon HD 4000 series]"
+  Vendor: pci 0x1002 "ATI Technologies Inc"
+  Device: pci 0xaa38 "RV710/730 HDMI Audio [Radeon HD 4000 series]"
+  SubVendor: pci 0x1787 "Hightech Information System Ltd."
+  SubDevice: pci 0xaa38 
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0xfe9fc000-0xfe9fffff (rw,non-prefetchable)
+  IRQ: 30 (30 events)
+  Module Alias: "pci:v00001002d0000AA38sv00001787sd0000AA38bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #18 (PCI bridge)
+
+32: PCI 1a.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: sClz.Or_5RW71fy8
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7
+  SysFS BusID: 0000:00:1a.7
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB2 EHCI Controller #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a3c "82801JI (ICH10 Family) USB2 EHCI Controller #2"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xfe8ffc00-0xfe8fffff (rw,non-prefetchable)
+  IRQ: 18 (5501 events)
+  Module Alias: "pci:v00008086d00003A3Csv00001043sd000082D4bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: PCI 1c.4: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: QSNP.V6r7bwBIVg6
+  SysFS ID: /devices/pci0000:00/0000:00:1c.4
+  SysFS BusID: 0000:00:1c.4
+  Hardware Class: bridge
+  Model: "Intel 82801JI (ICH10 Family) PCI Express Root Port 5"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a48 "82801JI (ICH10 Family) PCI Express Root Port 5"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 
+  Driver: "pcieport"
+  IRQ: 26 (no events)
+  Module Alias: "pci:v00008086d00003A48sv00001043sd000082D4bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: PCI 1d.7: 0c03 USB Controller (EHCI)
+  [Created at pci.386]
+  Unique ID: 5YuN.M06cTNucbB8
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7
+  SysFS BusID: 0000:00:1d.7
+  Hardware Class: usb controller
+  Model: "Intel 82801JI (ICH10 Family) USB2 EHCI Controller #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x3a3a "82801JI (ICH10 Family) USB2 EHCI Controller #1"
+  SubVendor: pci 0x1043 "ASUSTeK Computer Inc."
+  SubDevice: pci 0x82d4 "P5Q Deluxe Motherboard"
+  Driver: "ehci-pci"
+  Driver Modules: "ehci_pci"
+  Memory Range: 0xfe8ff800-0xfe8ffbff (rw,non-prefetchable)
+  IRQ: 23 (2 events)
+  Module Alias: "pci:v00008086d00003A3Asv00001043sd000082D4bc0Csc03i20"
+  Driver Info #0:
+    Driver Status: ehci-hcd is active
+    Driver Activation Cmd: "modprobe ehci-hcd"
+  Driver Info #1:
+    Driver Status: ehci_pci is active
+    Driver Activation Cmd: "modprobe ehci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: SCSI 101.0: 10602 CD-ROM (DVD)
+  [Created at block.249]
+  Unique ID: KD9E.nrzlQPk58TC
+  Parent ID: w7Y8.UKoiXLHVNY4
+  SysFS ID: /class/block/sr0
+  SysFS BusID: 1:0:1:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata3/host1/target1:0:1/1:0:1:0
+  Hardware Class: cdrom
+  Model: "Optiarc DVD RW AD-7240S"
+  Vendor: "Optiarc"
+  Device: "DVD RW AD-7240S"
+  Revision: "1.02"
+  Driver: "ata_piix", "sr"
+  Driver Modules: "ata_piix", "sr_mod"
+  Device File: /dev/sr0 (/dev/sg1)
+  Device Files: /dev/sr0, /dev/disk/by-id/ata-Optiarc_DVD_RW_..., /dev/dvd, /dev/disk/by-path/pci-0000:00:1f.2-ata-1.1, /dev/cdrom, /dev/dvdrw, /dev/cdrw
+  Device Number: block 11:0 (char 21:1)
+  Features: CD-R, CD-RW, DVD, DVD-R, DVD-RW, DVD-R DL, DVD+R, DVD+RW, DVD+R DL, DVD-RAM, MRW, MRW-W
+  Drive status: no medium
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (IDE interface)
+  Drive Speed: 48
+
+37: IDE 100.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.StCWC7zswb7
+  Parent ID: w7Y8.UKoiXLHVNY4
+  SysFS ID: /class/block/sda
+  SysFS BusID: 1:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1f.2/ata3/host1/target1:0:0/1:0:0:0
+  Hardware Class: disk
+  Model: "WDC WD3200AAJS-0"
+  Vendor: "WDC"
+  Device: "WD3200AAJS-0"
+  Revision: "3E01"
+  Serial ID: --
+  Driver: "ata_piix", "sd"
+  Driver Modules: "ata_piix", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:00:1f.2-ata-1.0, /dev/disk/by-id/ata-WDC_WD3200AAJS-00L7A0_..., /dev/disk/by-id/wwn-0x..., /dev/disk/by-path/pci-0000:00:1f.2-ata-1
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Geometry (Logical): CHS 38913/255/63
+  Size: 625142448 sectors a 512 bytes
+  Capacity: 298 GB (320072933376 bytes)
+  Geometry (BIOS EDD): CHS 620181/16/63
+  Size (BIOS EDD): 625142448 sectors
+  Geometry (BIOS Legacy): CHS 1024/255/63
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (IDE interface)
+
+38: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 7eqy.v+N+B0xY+P6
+  Parent ID: 1GTX.mWrwIyLPvT2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.0/usb6/6-0:1.0
+  SysFS BusID: 6-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #30 (USB Controller)
+
+39: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: 7qYG.U0Da4ea9s4B
+  Parent ID: FZIx.RTX9xWW_uz4
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2/usb8/8-2/8-2:1.0
+  SysFS BusID: 8-2:1.0
+  Hardware Class: mouse
+  Model: "Holtek Optical Mouse"
+  Hotplug: USB
+  Vendor: usb 0x04d9 "Holtek Semiconductor, Inc."
+  Device: usb 0x0499 "Optical Mouse"
+  Revision: "2.90"
+  Compatible to: int 0x0210 0x0023
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event3, /dev/input/by-id/usb-04d9_..., /dev/input/by-path/pci-0000:00:1d.2-usb-0:2:1.0-event-mouse, /dev/input/by-path/pci-0000:00:1d.2-usb-0:2:1.0-mouse, /dev/input/by-id/usb-04d9_...
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04D9p0499d0290dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #43 (Hub)
+
+40: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.9T1GDCLyFd9
+  Parent ID: 5YuN.M06cTNucbB8
+  SysFS ID: /devices/pci0000:00/0000:00:1d.7/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #34 (USB Controller)
+
+41: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: BSFT.gkSaZmjGyhD
+  Parent ID: vayM.HxngnWT6Rs2
+  SysFS ID: /devices/pci0000:00/0000:00:1d.1/usb7/7-0:1.0
+  SysFS BusID: 7-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #19 (USB Controller)
+
+42: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: zPk0.7gZT0a5zLs5
+  Parent ID: gFpy.qAdwDAAS0b2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.1/usb4/4-0:1.0
+  SysFS BusID: 4-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (USB Controller)
+
+43: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: FZIx.RTX9xWW_uz4
+  Parent ID: mvRC.oLkQG5bpyE3
+  SysFS ID: /devices/pci0000:00/0000:00:1d.2/usb8/8-0:1.0
+  SysFS BusID: 8-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #28 (USB Controller)
+
+44: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.cO89g+iefn1
+  Parent ID: sClz.Or_5RW71fy8
+  SysFS ID: /devices/pci0000:00/0000:00:1a.7/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (USB Controller)
+
+45: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: 2XnU.uOe2OKugI8D
+  Parent ID: XaIo.LbZgikH9Yz2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.2/usb5/5-0:1.0
+  SysFS BusID: 5-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #27 (USB Controller)
+
+46: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.MxUuepIFPaE
+  Parent ID: pwJ7.JmgAlb2lUC2
+  SysFS ID: /devices/pci0000:00/0000:00:1a.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 1.1 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0001 "1.1 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 12 Mbps
+  Module Alias: "usb:v1D6Bp0001d0510dc09dsc00dp00ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #29 (USB Controller)
+
+47: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+48: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: SvDs.gz4y7J01dj0
+  Hardware Class: keyboard
+  Model: "BRLTTY 6.3 Linux Screen Driver Keyboard"
+  Device: "BRLTTY 6.3 Linux Screen Driver Keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event14
+  Device Number: char 13:78
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+49: None 00.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Intel(R) Core(TM)2 Duo CPU     E7400  @ 2.80GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,sse4_1,xsave,lahf_lm,pti,tpr_shadow,vnmi,flexpriority,vpid,dtherm
+  Clock: 1600 MHz
+  BogoMips: 5598.67
+  Cache: 3072 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+50: None 01.0: 10103 CPU
+  [Created at cpu.462]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.23.10 "Intel(R) Core(TM)2 Duo CPU     E7400  @ 2.80GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ht,tm,pbe,syscall,nx,lm,constant_tsc,arch_perfmon,pebs,bts,rep_good,nopl,cpuid,aperfmperf,pni,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,cx16,xtpr,pdcm,sse4_1,xsave,lahf_lm,pti,tpr_shadow,vnmi,flexpriority,vpid,dtherm
+  Clock: 1600 MHz
+  BogoMips: 5598.67
+  Cache: 3072 kb
+  Units/Processor: 2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+51: None 00.0: 10000 Monitor
+  [Created at fb.71]
+  Unique ID: rdCR.EY_qmtb9YY0
+  Hardware Class: monitor
+  Model: "Generic Monitor"
+  Vendor: "Generic"
+  Device: "Monitor"
+  Resolution: 800x600@75Hz
+  Year of Manufacture: 0
+  Week of Manufacture: 0
+  Driver Info #0:
+    Max. Resolution: 800x600
+    Vert. Sync Range: 50-90 Hz
+    Hor. Sync Range: 31-48 kHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+52: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  Parent ID: rBUF.0IlF0nGz564
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/pci0000:00/0000:00:1c.5/0000:02:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: eth0
+  HW Address: C841CE9A1516D96B9F495F2BCC99EA29
+  Permanent HW Address: C841CE9A1516D96B9F495F2BCC99EA29
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Ethernet controller)
+
+53: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

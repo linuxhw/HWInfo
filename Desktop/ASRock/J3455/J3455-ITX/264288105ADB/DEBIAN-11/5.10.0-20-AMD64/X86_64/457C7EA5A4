@@ -1,0 +1,653 @@
+13: PCI 300.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: svHJ.JssZq8TP2s8
+  Parent ID: 06bT.OeBl0K2sKeD
+  SysFS ID: /devices/pci0000:00/0000:00:13.2/0000:03:00.0
+  SysFS BusID: 0000:03:00.0
+  Hardware Class: storage
+  Model: "ASMedia ASM1062 Serial ATA Controller"
+  Vendor: pci 0x1b21 "ASMedia Technology Inc."
+  Device: pci 0x0612 "ASM1062 Serial ATA Controller"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x0612 "Motherboard"
+  Revision: 0x02
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  I/O Ports: 0xd050-0xd057 (rw)
+  I/O Ports: 0xd040-0xd043 (rw)
+  I/O Ports: 0xd030-0xd037 (rw)
+  I/O Ports: 0xd020-0xd023 (rw)
+  I/O Ports: 0xd000-0xdfff (rw)
+  Memory Range: 0x91100000-0x911001ff (rw,non-prefetchable)
+  IRQ: 127 (305762 events)
+  Module Alias: "pci:v00001B21d00000612sv00001849sd00000612bc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #15 (PCI bridge)
+
+14: PCI 1f.0: 0601 ISA bridge
+  [Created at pci.386]
+  Unique ID: BUZT.XW__I1WCM12
+  SysFS ID: /devices/pci0000:00/0000:00:1f.0
+  SysFS BusID: 0000:00:1f.0
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series Low Pin Count Interface"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ae8 "Celeron N3350/Pentium N4200/Atom E3900 Series Low Pin Count Interface"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ae8 
+  Revision: 0x0b
+  Driver: "lpc_ich"
+  Driver Modules: "lpc_ich"
+  Module Alias: "pci:v00008086d00005AE8sv00001849sd00005AE8bc06sc01i00"
+  Driver Info #0:
+    Driver Status: lpc_ich is active
+    Driver Activation Cmd: "modprobe lpc_ich"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: PCI 13.2: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 06bT.OeBl0K2sKeD
+  SysFS ID: /devices/pci0000:00/0000:00:13.2
+  SysFS BusID: 0000:00:13.2
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #3"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ada "Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #3"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ada 
+  Revision: 0xfb
+  Driver: "pcieport"
+  IRQ: 122 (no events)
+  Module Alias: "pci:v00008086d00005ADAsv00001849sd00005ADAbc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: PCI 13.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: HSco.Ka7OsWr3Xf5
+  SysFS ID: /devices/pci0000:00/0000:00:13.0
+  SysFS BusID: 0000:00:13.0
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #1"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ad8 "Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #1"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ad8 
+  Revision: 0xfb
+  Driver: "pcieport"
+  IRQ: 120 (no events)
+  Module Alias: "pci:v00008086d00005AD8sv00001849sd00005AD8bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: PCI 100.0: 0200 Ethernet controller
+  [Created at pci.386]
+  Unique ID: lkKU.sw6bxR4vqR7
+  Parent ID: HSco.Ka7OsWr3Xf5
+  SysFS ID: /devices/pci0000:00/0000:00:13.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: network
+  Model: "Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  Vendor: pci 0x10ec "Realtek Semiconductor Co., Ltd."
+  Device: pci 0x8168 "RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x8168 "Motherboard (one of many)"
+  Revision: 0x11
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp1s0
+  I/O Ports: 0xe000-0xefff (rw)
+  Memory Range: 0x91204000-0x91204fff (rw,non-prefetchable)
+  Memory Range: 0x91200000-0x91203fff (ro,non-prefetchable)
+  IRQ: 22 (no events)
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Module Alias: "pci:v000010ECd00008168sv00001849sd00008168bc02sc00i00"
+  Driver Info #0:
+    Driver Status: r8169 is active
+    Driver Activation Cmd: "modprobe r8169"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #16 (PCI bridge)
+
+18: PCI 0f.0: 0780 Communication controller
+  [Created at pci.386]
+  Unique ID: _+Pw.bL21ANX0kiF
+  SysFS ID: /devices/pci0000:00/0000:00:0f.0
+  SysFS BusID: 0000:00:0f.0
+  Hardware Class: unknown
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series Trusted Execution Engine"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5a9a "Celeron N3350/Pentium N4200/Atom E3900 Series Trusted Execution Engine"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5a9a 
+  Revision: 0x0b
+  Driver: "mei_me"
+  Driver Modules: "mei_me"
+  Memory Range: 0x9131b000-0x9131bfff (rw,non-prefetchable)
+  IRQ: 129 (37 events)
+  Module Alias: "pci:v00008086d00005A9Asv00001849sd00005A9Abc07sc80i00"
+  Driver Info #0:
+    Driver Status: mei_me is active
+    Driver Activation Cmd: "modprobe mei_me"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: PCI 00.0: 0600 Host bridge
+  [Created at pci.386]
+  Unique ID: qLht.GZojByoHuqA
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5af0 "Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5af0 
+  Revision: 0x0b
+  Module Alias: "pci:v00008086d00005AF0sv00001849sd00005AF0bc06sc00i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: PCI 12.0: 0106 SATA controller (AHCI 1.0)
+  [Created at pci.386]
+  Unique ID: CLZK.uA7euWTNOd8
+  SysFS ID: /devices/pci0000:00/0000:00:12.0
+  SysFS BusID: 0000:00:12.0
+  Hardware Class: storage
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series SATA AHCI Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ae3 "Celeron N3350/Pentium N4200/Atom E3900 Series SATA AHCI Controller"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ae3 
+  Revision: 0x0b
+  Driver: "ahci"
+  Driver Modules: "ahci"
+  Memory Range: 0x91314000-0x91315fff (rw,non-prefetchable)
+  Memory Range: 0x91318000-0x913180ff (rw,non-prefetchable)
+  I/O Ports: 0xf090-0xf097 (rw)
+  I/O Ports: 0xf080-0xf083 (rw)
+  I/O Ports: 0xf060-0xf07f (rw)
+  Memory Range: 0x91317000-0x913177ff (rw,non-prefetchable)
+  IRQ: 126 (no events)
+  Module Alias: "pci:v00008086d00005AE3sv00001849sd00005AE3bc01sc06i01"
+  Driver Info #0:
+    Driver Status: ahci is active
+    Driver Activation Cmd: "modprobe ahci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+21: PCI 1f.1: 0c05 SMBus
+  [Created at pci.386]
+  Unique ID: 3p2J.3eRjpv0CSBD
+  SysFS ID: /devices/pci0000:00/0000:00:1f.1
+  SysFS BusID: 0000:00:1f.1
+  Hardware Class: unknown
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series SMBus Controller"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ad4 "Celeron N3350/Pentium N4200/Atom E3900 Series SMBus Controller"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ad4 
+  Revision: 0x0b
+  Driver: "i801_smbus"
+  Driver Modules: "i2c_i801"
+  Memory Range: 0x91316000-0x913160ff (rw,non-prefetchable)
+  I/O Ports: 0xf040-0xf05f (rw)
+  IRQ: 2147483648 (no events)
+  Module Alias: "pci:v00008086d00005AD4sv00001849sd00005AD4bc0Csc05i00"
+  Driver Info #0:
+    Driver Status: i2c_i801 is active
+    Driver Activation Cmd: "modprobe i2c_i801"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+22: PCI 13.3: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: tQ4J.Qgjwbj8lkd1
+  SysFS ID: /devices/pci0000:00/0000:00:13.3
+  SysFS BusID: 0000:00:13.3
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #4"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5adb "Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #4"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5adb 
+  Revision: 0xfb
+  Driver: "pcieport"
+  IRQ: 123 (no events)
+  Module Alias: "pci:v00008086d00005ADBsv00001849sd00005ADBbc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+23: PCI 15.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: Rgik.PqYe9XrJOC8
+  SysFS ID: /devices/pci0000:00/0000:00:15.0
+  SysFS BusID: 0000:00:15.0
+  Hardware Class: usb controller
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series USB xHCI"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5aa8 "Celeron N3350/Pentium N4200/Atom E3900 Series USB xHCI"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5aa8 
+  Revision: 0x0b
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0x91300000-0x9130ffff (rw,non-prefetchable)
+  IRQ: 124 (146290 events)
+  Module Alias: "pci:v00008086d00005AA8sv00001849sd00005AA8bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+24: PCI 13.1: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: 9n5e.McfZRwxywe9
+  SysFS ID: /devices/pci0000:00/0000:00:13.1
+  SysFS BusID: 0000:00:13.1
+  Hardware Class: bridge
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #2"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5ad9 "Celeron N3350/Pentium N4200/Atom E3900 Series PCI Express Port A #2"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5ad9 
+  Revision: 0xfb
+  Driver: "pcieport"
+  IRQ: 121 (no events)
+  Module Alias: "pci:v00008086d00005AD9sv00001849sd00005AD9bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+25: PCI 0e.0: 0403 Audio device
+  [Created at pci.386]
+  Unique ID: vuMS.PAbZEYF771A
+  SysFS ID: /devices/pci0000:00/0000:00:0e.0
+  SysFS BusID: 0000:00:0e.0
+  Hardware Class: sound
+  Model: "Intel Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5a98 "Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0xc892 
+  Revision: 0x0b
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+  Memory Range: 0x91310000-0x91313fff (rw,non-prefetchable)
+  Memory Range: 0x91000000-0x910fffff (rw,non-prefetchable)
+  IRQ: 130 (967 events)
+  Module Alias: "pci:v00008086d00005A98sv00001849sd0000C892bc04sc03i00"
+  Driver Info #0:
+    Driver Status: snd_hda_intel is active
+    Driver Activation Cmd: "modprobe snd_hda_intel"
+  Driver Info #1:
+    Driver Status: snd_soc_skl is active
+    Driver Activation Cmd: "modprobe snd_soc_skl"
+  Driver Info #2:
+    Driver Status: snd_sof_pci is active
+    Driver Activation Cmd: "modprobe snd_sof_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: PCI 02.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.386]
+  Unique ID: _Znp.tiEiUkoSRDB
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Model: "Intel HD Graphics 500"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5a85 "HD Graphics 500"
+  SubVendor: pci 0x1849 "ASRock Incorporation"
+  SubDevice: pci 0x5a85 
+  Revision: 0x0b
+  Driver: "i915"
+  Driver Modules: "i915"
+  Memory Range: 0x90000000-0x90ffffff (rw,non-prefetchable)
+  Memory Range: 0x80000000-0x8fffffff (ro,non-prefetchable)
+  I/O Ports: 0xf000-0xf03f (rw)
+  Memory Range: 0x000c0000-0x000dffff (rw,non-prefetchable,disabled)
+  IRQ: 128 (302599 events)
+  Module Alias: "pci:v00008086d00005A85sv00001849sd00005A85bc03sc00i00"
+  Driver Info #0:
+    Driver Status: i915 is active
+    Driver Activation Cmd: "modprobe i915"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10002 LCD Monitor
+  [Created at monitor.125]
+  Unique ID: rdCR.KqwP26eiKB1
+  Parent ID: _Znp.tiEiUkoSRDB
+  Hardware Class: monitor
+  Model: "SAMSUNG SMT24A350"
+  Vendor: SAM "SAMSUNG"
+  Device: eisa 0x07ad "SMT24A350"
+  Resolution: 720x400@70Hz
+  Resolution: 640x480@60Hz
+  Resolution: 640x480@67Hz
+  Resolution: 640x480@72Hz
+  Resolution: 640x480@75Hz
+  Resolution: 800x600@56Hz
+  Resolution: 800x600@60Hz
+  Resolution: 800x600@72Hz
+  Resolution: 800x600@75Hz
+  Resolution: 832x624@75Hz
+  Resolution: 1024x768@60Hz
+  Resolution: 1024x768@70Hz
+  Resolution: 1024x768@75Hz
+  Resolution: 1280x1024@75Hz
+  Resolution: 1152x864@75Hz
+  Resolution: 1280x960@60Hz
+  Resolution: 1280x1024@60Hz
+  Resolution: 1360x768@60Hz
+  Resolution: 1920x1080@60Hz
+  Size: 531x299 mm
+  Year of Manufacture: 2010
+  Week of Manufacture: 48
+  Detailed Timings #0:
+     Resolution: 1920x1080
+     Horizontal: 1920 2008 2052 2200 (+88 +132 +280) +hsync
+       Vertical: 1080 1084 1089 1125 (+4 +9 +45) +vsync
+    Frequencies: 148.50 MHz, 67.50 kHz, 60.00 Hz
+  Year of Manufacture: 2010
+  Week of Manufacture: 48
+  Detailed Timings #1:
+     Resolution: 1360x768
+     Horizontal: 1360 1424 1536 1792 (+64 +176 +432) +hsync
+       Vertical:  768  771  777  795 (+3 +9 +27) +vsync
+    Frequencies: 85.50 MHz, 47.71 kHz, 60.02 Hz
+  Driver Info #0:
+    Max. Resolution: 1920x1080
+    Vert. Sync Range: 24-75 Hz
+    Hor. Sync Range: 26-81 kHz
+    Bandwidth: 148 MHz
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #26 (VGA compatible controller)
+
+29: IDE 200.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: 3OOL.neKrn9wPnN7
+  Parent ID: svHJ.JssZq8TP2s8
+  SysFS ID: /class/block/sda
+  SysFS BusID: 2:0:0:0
+  SysFS Device Link: /devices/pci0000:00/0000:00:13.2/0000:03:00.0/ata3/host2/target2:0:0/2:0:0:0
+  Hardware Class: disk
+  Model: "ST380817AS"
+  Device: "ST380817AS"
+  Revision: "3.42"
+  Serial ID: --
+  Driver: "ahci", "sd"
+  Driver Modules: "ahci", "sd_mod"
+  Device File: /dev/sda
+  Device Files: /dev/sda, /dev/disk/by-path/pci-0000:03:00.0-ata-1.0, /dev/disk/by-id/ata-ST380817AS_..., /dev/disk/by-path/pci-0000:03:00.0-ata-1
+  Device Number: block 8:0-8:15
+  BIOS id: 0x80
+  Geometry (Logical): CHS 9729/255/63
+  Size: 156299375 sectors a 512 bytes
+  Capacity: 74 GB (80025280000 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (SATA controller)
+
+30: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: MtLc.zv7lh3BJnp7
+  Parent ID: k4bc.ZEYWNM3UrzF
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0
+  SysFS BusID: 1-6:1.0
+  Hardware Class: unknown
+  Model: "QinHeng Electronics HL-340 USB-Serial adapter"
+  Hotplug: USB
+  Vendor: usb 0x1a86 "QinHeng Electronics"
+  Device: usb 0x7523 "HL-340 USB-Serial adapter"
+  Revision: "2.64"
+  Driver: "ch341"
+  Driver Modules: "usbserial"
+  Device File: /dev/ttyUSB0
+  Device Files: /dev/ttyUSB0, /dev/serial/by-path/pci-0000:00:15.0-usb-0:6:1.0-port0
+  Device Number: char 188:0
+  Speed: 12 Mbps
+  Module Alias: "usb:v1A86p7523d0264dcFFdsc00dp00icFFisc01ip02in00"
+  Driver Info #0:
+    Driver Status: ch341 is active
+    Driver Activation Cmd: "modprobe ch341"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Hub)
+
+31: USB 00.0: 0282 WLAN controller
+  [Created at usb.122]
+  Unique ID: X7GA.qqG_K37CToE
+  Parent ID: k4bc.ZEYWNM3UrzF
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb1/1-7/1-7:1.0
+  SysFS BusID: 1-7:1.0
+  Hardware Class: network
+  Model: "Gemtek WUBR-177G [Ralink RT2571W]"
+  Hotplug: USB
+  Vendor: usb 0x15a9 "Gemtek"
+  Device: usb 0x0004 "WUBR-177G [Ralink RT2571W]"
+  Revision: "0.01"
+  Driver: "rt73usb"
+  Driver Modules: "rt73usb"
+  Device File: wlx00c0a8f99ae7
+  Features: WLAN
+  Speed: 480 Mbps
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 2.467 2.472 2.484
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "usb:v15A9p0004d0001dc00dsc00dp00icFFiscFFipFFin00"
+  Driver Info #0:
+    Driver Status: rt73usb is active
+    Driver Activation Cmd: "modprobe rt73usb"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Hub)
+
+32: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.ZEYWNM3UrzF
+  Parent ID: Rgik.PqYe9XrJOC8
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0510dc09dsc00dp01ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (USB Controller)
+
+33: USB 00.0: 0700 Serial controller
+  [Created at usb.122]
+  Unique ID: Uc5H.zv7lh3BJnp7
+  Parent ID: k4bc.ZEYWNM3UrzF
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb1/1-4/1-4:1.0
+  SysFS BusID: 1-4:1.0
+  Hardware Class: unknown
+  Model: "QinHeng Electronics HL-340 USB-Serial adapter"
+  Hotplug: USB
+  Vendor: usb 0x1a86 "QinHeng Electronics"
+  Device: usb 0x7523 "HL-340 USB-Serial adapter"
+  Revision: "2.64"
+  Driver: "ch341"
+  Driver Modules: "usbserial"
+  Device File: /dev/ttyUSB1
+  Device Files: /dev/ttyUSB1, /dev/serial/by-path/pci-0000:00:15.0-usb-0:4:1.0-port0, /dev/serial/by-id/usb-1a86_USB_...
+  Device Number: char 188:1
+  Speed: 12 Mbps
+  Module Alias: "usb:v1A86p7523d0264dcFFdsc00dp00icFFisc01ip02in00"
+  Driver Info #0:
+    Driver Status: ch341 is active
+    Driver Activation Cmd: "modprobe ch341"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Hub)
+
+34: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.SagjpJr9nB9
+  Parent ID: Rgik.PqYe9XrJOC8
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.10"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0510dc09dsc00dp03ic09isc00ip00in00"
+  Driver Info #0:
+    Driver Status: usbcore is active
+    Driver Activation Cmd: "modprobe usbcore"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (USB Controller)
+
+35: USB 00.0: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: wkjR.Vk_rtGAkd76
+  Parent ID: k4bc.ZEYWNM3UrzF
+  SysFS ID: /devices/pci0000:00/0000:00:15.0/usb1/1-5/1-5:1.0
+  SysFS BusID: 1-5:1.0
+  Hardware Class: mouse
+  Model: "Elan Microelectronics Mouse"
+  Hotplug: USB
+  Vendor: usb 0x04f3 "Elan Microelectronics Corp."
+  Device: usb 0x0232 "Mouse"
+  Revision: "24.58"
+  Compatible to: int 0x0210 0x0023
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/mice (/dev/input/mouse0)
+  Device Files: /dev/input/mice, /dev/input/mouse0, /dev/input/event4, /dev/input/by-id/usb-04f3_..., /dev/input/by-path/pci-0000:00:15.0-usb-0:5:1.0-event-mouse, /dev/input/by-id/usb-04f3_..., /dev/input/by-path/pci-0000:00:15.0-usb-0:5:1.0-mouse
+  Device Number: char 13:63 (char 13:32)
+  Speed: 1.5 Mbps
+  Module Alias: "usb:v04F3p0232d2458dc00dsc00dp00ic03isc01ip02in00"
+  Driver Info #0:
+    Buttons: 3
+    Wheels: 2
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #32 (Hub)
+
+36: PS/2 00.0: 10800 Keyboard
+  [Created at input.226]
+  Unique ID: nLyy.+49ps10DtUF
+  Hardware Class: keyboard
+  Model: "AT Translated Set 2 keyboard"
+  Vendor: 0x0001 
+  Device: 0x0001 "AT Translated Set 2 keyboard"
+  Compatible to: int 0x0211 0x0001
+  Device File: /dev/input/event0
+  Device Files: /dev/input/event0, /dev/input/by-path/platform-i8042-serio-0-event-kbd
+  Device Number: char 13:64
+  Driver Info #0:
+    XkbRules: xfree86
+    XkbModel: pc104
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.92.9 "Intel(R) Celeron(R) CPU J3455 @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,tsc_reliable,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,sdbg,cx16,xtpr,pdcm,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,rdrand,lahf_lm,3dnowprefetch,cpuid_fault,cat_l2,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,smep,erms,mpx,rdt_a,rdseed,smap,clflushopt,intel_pt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,arch_capabilities
+  Clock: 2196 MHz
+  BogoMips: 2995.20
+  Cache: 1024 kb
+  Units/Processor: 32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 01.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.92.9 "Intel(R) Celeron(R) CPU J3455 @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,tsc_reliable,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,sdbg,cx16,xtpr,pdcm,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,rdrand,lahf_lm,3dnowprefetch,cpuid_fault,cat_l2,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,smep,erms,mpx,rdt_a,rdseed,smap,clflushopt,intel_pt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,arch_capabilities
+  Clock: 2196 MHz
+  BogoMips: 2995.20
+  Cache: 1024 kb
+  Units/Processor: 32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 02.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.92.9 "Intel(R) Celeron(R) CPU J3455 @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,tsc_reliable,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,sdbg,cx16,xtpr,pdcm,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,rdrand,lahf_lm,3dnowprefetch,cpuid_fault,cat_l2,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,smep,erms,mpx,rdt_a,rdseed,smap,clflushopt,intel_pt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,arch_capabilities
+  Clock: 2196 MHz
+  BogoMips: 2995.20
+  Cache: 1024 kb
+  Units/Processor: 32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 03.0: 10103 CPU
+  [Created at cpu.465]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: X86-64
+  Vendor: "GenuineIntel"
+  Model: 6.92.9 "Intel(R) Celeron(R) CPU J3455 @ 1.50GHz"
+  Features: fpu,vme,de,pse,tsc,msr,pae,mce,cx8,apic,sep,mtrr,pge,mca,cmov,pat,pse36,clflush,dts,acpi,mmx,fxsr,sse,sse2,ss,ht,tm,pbe,syscall,nx,pdpe1gb,rdtscp,lm,constant_tsc,art,arch_perfmon,pebs,bts,rep_good,nopl,xtopology,tsc_reliable,nonstop_tsc,cpuid,aperfmperf,tsc_known_freq,pni,pclmulqdq,dtes64,monitor,ds_cpl,vmx,est,tm2,ssse3,sdbg,cx16,xtpr,pdcm,sse4_1,sse4_2,x2apic,movbe,popcnt,tsc_deadline_timer,aes,xsave,rdrand,lahf_lm,3dnowprefetch,cpuid_fault,cat_l2,ibrs,ibpb,stibp,tpr_shadow,vnmi,flexpriority,ept,vpid,ept_ad,fsgsbase,tsc_adjust,smep,erms,mpx,rdt_a,rdseed,smap,clflushopt,intel_pt,sha_ni,xsaveopt,xsavec,xgetbv1,xsaves,dtherm,ida,arat,pln,pts,arch_capabilities
+  Clock: 2196 MHz
+  BogoMips: 2995.20
+  Cache: 1024 kb
+  Units/Processor: 32
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: AupD.ndpeucax6V1
+  Parent ID: X7GA.qqG_K37CToE
+  SysFS ID: /class/net/wlx00c0a8f99ae7
+  SysFS Device Link: /devices/pci0000:00/0000:00:15.0/usb1/1-7/1-7:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "rt73usb"
+  Driver Modules: "rt73usb"
+  Device File: wlx00c0a8f99ae7
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #31 (WLAN controller)
+
+42: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+43: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: QObM.ndpeucax6V1
+  Parent ID: lkKU.sw6bxR4vqR7
+  SysFS ID: /class/net/enp1s0
+  SysFS Device Link: /devices/pci0000:00/0000:00:13.0/0000:01:00.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "r8169"
+  Driver Modules: "r8169"
+  Device File: enp1s0
+  HW Address: ...
+  Permanent HW Address: ...
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #17 (Ethernet controller)

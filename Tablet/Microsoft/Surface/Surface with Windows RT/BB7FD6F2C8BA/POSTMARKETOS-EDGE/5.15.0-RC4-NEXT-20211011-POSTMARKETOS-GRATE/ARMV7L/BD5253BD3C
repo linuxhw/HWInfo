@@ -1,0 +1,245 @@
+06: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: tgiO.TAOITtdfnIE
+  SysFS ID: /devices/soc0/7d000000.usb
+  SysFS BusID: 7d000000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "tegra-usb"
+  Module Alias: "of:NusbT(null)Cnvidia,tegra30-ehci"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+07: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: H6hd.TfPFe67fIBB
+  SysFS ID: /devices/soc0/78000400.mmc/mmc_host/mmc2/mmc2:0001/mmc2:0001:1
+  SysFS BusID: mmc2:0001:1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "mwifiex_sdio"
+  Driver Modules: "mwifiex_sdio"
+  Device File: mlan0
+  HW Address: 3D99D27C7611106EF09DAC2F4F711188
+  Permanent HW Address: 3D99D27C7611106EF09DAC2F4F711188
+  Link detected: yes
+  Module Alias: "of:NmmcT(null)Cnvidia,tegra30-sdhci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+08: MMC 02.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: dHXa.VoJli79_k95
+  SysFS ID: /devices/soc0/78000400.mmc/mmc_host/mmc2/mmc2:0001
+  SysFS BusID: mmc2:0001
+  Model: "SDIO Controller 2"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 2"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: YoP4.TzQFl_vZhO4
+  SysFS ID: /devices/soc0/78000600.mmc/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "MMC Controller"
+  Vendor: int 0x6015 
+  Device: int 0x0000 "MMC Controller"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: p7tP.1vtvI5LgMmA
+  Parent ID: dHXa.VoJli79_k95
+  SysFS ID: /devices/soc0/78000400.mmc/mmc_host/mmc2/mmc2:0001/mmc2:0001:1
+  SysFS BusID: mmc2:0001:1
+  Hardware Class: network
+  Model: "Marvell SD8797 WLAN"
+  Vendor: sdio 0x02df "Marvell Technology Group Ltd."
+  Device: sdio 0x9129 "SD8797 WLAN"
+  Driver: "mwifiex_sdio"
+  Driver Modules: "mwifiex_sdio"
+  Module Alias: "sdio:c00v02DFd9129"
+  Driver Info #0:
+    Driver Status: mwifiex_sdio is active
+    Driver Activation Cmd: "modprobe mwifiex_sdio"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (MMC Controller)
+
+11: None 00.0: 10600 Disk
+  [Created at block.255]
+  Unique ID: HAKk.vnsky0jrOU5
+  Parent ID: YoP4.TzQFl_vZhO4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/soc0/78000600.mmc/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Serial ID: --
+  Driver: "sdhci-tegra", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-id/mmc-SEM32G_0A40B1CAB1B9ACCCDBB77106FDD8D588, /dev/disk/by-path/platform-78000600.mmc
+  Device Number: block 179:0-179:15
+  Geometry (Logical): CHS 973824/4/16
+  Size: 62324736 sectors a 512 bytes
+  Capacity: 29 GB (31910264832 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (MMC Controller)
+
+12: USB 00.1: 10503 USB Mouse
+  [Created at usb.122]
+  Unique ID: dOTr.rne39M2MisB
+  Parent ID: k4bc.D5UOyt7A_+2
+  SysFS ID: /devices/soc0/7d000000.usb/ci_hdrc.0/usb1/1-1/1-1:1.1
+  SysFS BusID: 1-1:1.1
+  Hardware Class: mouse
+  Model: "2.4G Composite Devic"
+  Hotplug: USB
+  Vendor: usb 0x4037 
+  Device: usb 0x2804 "2.4G Composite Devic"
+  Revision: "1.10"
+  Compatible to: int 0x0200 0x0001 "Generic USB Mouse"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event8
+  Device Number: char 13:72
+  Speed: 12 Mbps
+  Module Alias: "usb:v4037p2804d0110dc00dsc00dp00ic03isc01ip02in01"
+  Driver Info #0:
+    XFree86 Protocol: explorerps/2
+    GPM Protocol: exps2
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+13: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.D5UOyt7A_+2
+  Parent ID: tgiO.TAOITtdfnIE
+  SysFS ID: /devices/soc0/7d000000.usb/ci_hdrc.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.15"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #6 (USB Controller)
+
+14: USB 00.0: 10800 Keyboard
+  [Created at usb.122]
+  Unique ID: ADDn.w7afUFvM8L7
+  Parent ID: k4bc.D5UOyt7A_+2
+  SysFS ID: /devices/soc0/7d000000.usb/ci_hdrc.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: keyboard
+  Model: "2.4G Composite Devic"
+  Hotplug: USB
+  Vendor: usb 0x4037 
+  Device: usb 0x2804 "2.4G Composite Devic"
+  Revision: "1.10"
+  Driver: "usbhid"
+  Driver Modules: "usbhid"
+  Device File: /dev/input/event6
+  Device Files: /dev/input/event6, /dev/input/by-id/usb-4037_2.4G_Composite_..., /dev/input/by-path/platform-ci_hdrc.0-usb-0:1:1.0-event-kbd
+  Device Number: char 13:70
+  Speed: 12 Mbps
+  Module Alias: "usb:v4037p2804d0110dc00dsc00dp00ic03isc01ip01in00"
+  Driver Info #0:
+    XkbRules: xfree86
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (Hub)
+
+15: None 00.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half,thumb,fastmult,vfp,edsp,neon,vfpv3,tls,vfpd32,
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+16: None 01.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: wkFv.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+17: None 02.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: +rIN.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+18: None 03.0: 10103 CPU
+  [Created at cpu.275]
+  Unique ID: 4zLr.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: ARM
+  Vendor: "ARM Limited"
+  Model: 2.9.0 ""
+  Platform: "NVIDIA Tegra SoC (Flattened Device Tree)"
+  Features: half
+  BogoMips: 2.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+19: Serial 00.0: 10801 Console
+  [Created at kbd.178]
+  Unique ID: Fyby.5lXXuQkv_C5
+  Hardware Class: keyboard
+  Model: "serial console"
+  Device: "serial console"
+  Device File: /dev/ttyS0
+  Speed: 115.2 kbps
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+20: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 46hp.ndpeucax6V1
+  Parent ID: H6hd.TfPFe67fIBB
+  SysFS ID: /class/net/mlan0
+  SysFS Device Link: /devices/soc0/78000400.mmc/mmc_host/mmc2/mmc2:0001/mmc2:0001:1
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "mwifiex_sdio"
+  Driver Modules: "mwifiex_sdio"
+  Device File: mlan0
+  HW Address: 3D99D27C7611106EF09DAC2F4F711188
+  Permanent HW Address: 3D99D27C7611106EF09DAC2F4F711188
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (Ethernet controller)
+
+21: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown

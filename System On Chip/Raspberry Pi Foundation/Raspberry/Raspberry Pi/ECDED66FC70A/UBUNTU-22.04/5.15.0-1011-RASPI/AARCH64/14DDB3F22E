@@ -1,0 +1,558 @@
+07: PCI 100.0: 0c03 USB Controller (XHCI)
+  [Created at pci.386]
+  Unique ID: VCu0.m2lGPNk7Xc4
+  Parent ID: qLht.au1kcdVDjP8
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0
+  SysFS BusID: 0000:01:00.0
+  Hardware Class: usb controller
+  Model: "VIA VL805 USB 3.0 Host Controller"
+  Vendor: pci 0x1106 "VIA Technologies, Inc."
+  Device: pci 0x3483 "VL805 USB 3.0 Host Controller"
+  SubVendor: pci 0x1106 "VIA Technologies, Inc."
+  SubDevice: pci 0x3483 
+  Revision: 0x01
+  Driver: "xhci_hcd"
+  Driver Modules: "xhci_pci"
+  Memory Range: 0x600000000-0x600000fff (rw,non-prefetchable)
+  IRQ: 48 (5952392 events)
+  Module Alias: "pci:v00001106d00003483sv00001106sd00003483bc0Csc03i30"
+  Driver Info #0:
+    Driver Status: xhci_pci is active
+    Driver Activation Cmd: "modprobe xhci_pci"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #8 (PCI bridge)
+
+08: PCI 00.0: 0604 PCI bridge (Normal decode)
+  [Created at pci.386]
+  Unique ID: qLht.au1kcdVDjP8
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0
+  SysFS BusID: 0000:00:00.0
+  Hardware Class: bridge
+  Model: "Broadcom PCI bridge"
+  Vendor: pci 0x14e4 "Broadcom"
+  Device: pci 0x2711 
+  Revision: 0x10
+  Driver: "pcieport"
+  IRQ: 47 (no events)
+  Module Alias: "pci:v000014E4d00002711sv00000000sd00000000bc06sc04i00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+09: None 00.0: 0282 WLAN controller
+  [Created at pci.1030]
+  Unique ID: QYz2.Vu98QzaObUF
+  SysFS ID: /devices/platform/soc/fe300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac", "brcmfmac", "brcmfmac"
+  Device File: wlan0
+  Features: WLAN
+  HW Address: 7F73A9068581EE348BAA4FD35B961880
+  Permanent HW Address: 7F73A9068581EE348BAA4FD35B961880
+  WLAN channels: 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149
+  WLAN frequencies: 2.412 2.417 2.422 2.427 2.432 2.437 2.442 2.447 2.452 2.457 2.462 5.18 5.2 5.22 5.24 5.26 5.28 5.3 5.32 5.5 5.52 5.54 5.56 5.58 5.6 5.62 5.64 5.66 5.68 5.7 5.72 5.745
+  WLAN encryption modes: WEP40 WEP104 TKIP CCMP
+  WLAN authentication modes: open sharedkey wpa-psk wpa-eap
+  Module Alias: "of:NmmcnrT(null)Cbrcm,bcm2835-mmcCbrcm,bcm2835-sdhci"
+  Driver Info #0:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+10: None 00.0: 0c03 USB Controller (UHCI)
+  [Created at pci.1082]
+  Unique ID: 2cnT.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/fe980000.usb
+  SysFS BusID: fe980000.usb
+  Hardware Class: usb controller
+  Model: "ARM USB controller"
+  Device: "ARM USB controller"
+  Driver: "dwc2"
+  Driver Modules: "dwc2"
+  Module Alias: "of:NusbT(null)Cbrcm,bcm2835-usb"
+  Driver Info #0:
+    Driver Status: uhci-hcd is not active
+    Driver Activation Cmd: "modprobe uhci-hcd"
+  Driver Info #1:
+    Driver Status: dwc2 is active
+    Driver Activation Cmd: "modprobe dwc2"
+  Driver Info #2:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+11: None 00.0: 0200 Ethernet controller
+  [Created at pci.1030]
+  Unique ID: kOAR.TfPFe67fIBB
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: network
+  Model: "ARM Ethernet controller"
+  Device: "ARM Ethernet controller"
+  Driver: "dm9601"
+  Driver Modules: "dm9601"
+  Device File: enx00e04c534458
+  HW Address: 68856DC22FD7A072F83ABA8EA9CC770F
+  Permanent HW Address: 68856DC22FD7A072F83ABA8EA9CC770F
+  Link detected: no
+  Module Alias: "of:NpcieTpciCbrcm,bcm2711-pcie"
+  Driver Info #0:
+    Driver Status: uio_pdrv_genirq is active
+    Driver Activation Cmd: "modprobe uio_pdrv_genirq"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+12: MMC 01.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: 1Hef.VoJli79_k95
+  SysFS ID: /devices/platform/soc/fe300000.mmcnr/mmc_host/mmc1/mmc1:0001
+  SysFS BusID: mmc1:0001
+  Model: "SDIO Controller 1"
+  Vendor: int 0x6015 
+  Device: int 0x0002 "SDIO Controller 1"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+13: MMC 00.0: 11700 MMC Controller
+  [Created at pci.1903]
+  Unique ID: jUwA._NN+DZ1HDn4
+  SysFS ID: /devices/platform/emmc2bus/fe340000.mmc/mmc_host/mmc0/mmc0:0001
+  SysFS BusID: mmc0:0001
+  Model: "SD Controller 0"
+  Vendor: int 0x6015 
+  Device: int 0x0001 "SD Controller 0"
+  Driver: "mmcblk"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+15: SDIO 00.0: 0280 Network controller
+  [Created at pci.1975]
+  Unique ID: uVOZ.dZc7syf8JZ2
+  Parent ID: 1Hef.VoJli79_k95
+  SysFS ID: /devices/platform/soc/fe300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  SysFS BusID: mmc1:0001:1
+  Hardware Class: network
+  Model: "Broadcom BCM43430 WLAN card"
+  Vendor: sdio 0x02d0 "Broadcom Corp."
+  Device: sdio 0xa9a6 "BCM43430 WLAN card"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac", "brcmfmac", "brcmfmac"
+  Module Alias: "sdio:c00v02D0dA9A6"
+  Driver Info #0:
+    Driver Status: brcmfmac is active
+    Driver Activation Cmd: "modprobe brcmfmac"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #12 (MMC Controller)
+
+17: None 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: HAKk.Fxp0d3BezAE
+  Parent ID: jUwA._NN+DZ1HDn4
+  SysFS ID: /class/block/mmcblk0
+  SysFS BusID: mmc0:0001
+  SysFS Device Link: /devices/platform/emmc2bus/fe340000.mmc/mmc_host/mmc0/mmc0:0001
+  Hardware Class: disk
+  Model: "Disk"
+  Driver: "sdhci-iproc", "mmcblk"
+  Device File: /dev/mmcblk0
+  Device Files: /dev/mmcblk0, /dev/disk/by-path/platform-fe340000.mmc, /dev/disk/by-id/mmc-SD16G_0x000000a8
+  Device Number: block 179:0-179:31
+  Geometry (Logical): CHS 1929984/4/16
+  Size: 123518976 sectors a 512 bytes
+  Capacity: 58 GB (63241715712 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #13 (MMC Controller)
+
+18: SCSI 00.0: 10600 Disk
+  [Created at block.245]
+  Unique ID: R7kM.XypG8fgDgJ8
+  Parent ID: VCu0.m2lGPNk7Xc4
+  SysFS ID: /class/block/sda
+  SysFS BusID: 0:0:0:0
+  SysFS Device Link: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-2/2-2:1.0/host0/target0:0:0/0:0:0:0
+  Hardware Class: disk
+  Model: "Corsair Voyager GTX"
+  Vendor: "Corsair"
+  Device: "Voyager GTX"
+  Revision: "0"
+  Serial ID: --
+  Driver: "uas", "sd"
+  Driver Modules: "uas"
+  Device File: /dev/sda (/dev/sg0)
+  Device Files: /dev/sda, /dev/disk/by-id/wwn-0x..., /dev/disk/by-id/scsi-SCorsair_Voyager_GTX_..., /dev/disk/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:2:1.0-scsi-0:0:0:0, /dev/disk/by-id/scsi-35000000000000001
+  Device Number: block 8:0-8:15 (char 21:0)
+  Geometry (Logical): CHS 15566/255/63
+  Size: 250069680 sectors a 512 bytes
+  Capacity: 119 GB (128035676160 bytes)
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+19: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: uIhY.dIJcy0Uoj6B
+  Parent ID: 2cnT.TAOITtdfnIE
+  SysFS ID: /devices/platform/soc/fe980000.usb/usb3/3-0:1.0
+  SysFS BusID: 3-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.15"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #10 (USB Controller)
+
+20: USB 00.0: 0000 Unclassified device
+  [Created at usb.122]
+  Unique ID: lfzD.YBYdQqvQal8
+  Parent ID: ADDn.mUqILwxEtWB
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.1/1-1.1:1.0
+  SysFS BusID: 1-1.1:1.0
+  Hardware Class: unknown
+  Model: "ICS Advent DM9601 Fast Ethernet Adapter"
+  Hotplug: USB
+  Vendor: usb 0x0fe6 "ICS Advent"
+  Device: usb 0x9700 "DM9601 Fast Ethernet Adapter"
+  Revision: "1.01"
+  Driver: "dm9601"
+  Driver Modules: "dm9601"
+  Speed: 12 Mbps
+  Module Alias: "usb:v0FE6p9700d0101dc00dsc00dp00ic00isc00ip00in00"
+  Driver Info #0:
+    Driver Status: dm9601 is active
+    Driver Activation Cmd: "modprobe dm9601"
+  Driver Info #1:
+    Driver Status: sr9700 is active
+    Driver Activation Cmd: "modprobe sr9700"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #23 (Hub)
+
+21: USB 00.0: 10600 Disk
+  [Created at usb.122]
+  Unique ID: hSuP.3_kIQ_7uJJC
+  Parent ID: pBe4.djic47EFb5E
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-2/2-2:1.0
+  SysFS BusID: 2-2:1.0
+  Hardware Class: disk
+  Model: "Corsair Voyager GTX"
+  Hotplug: USB
+  Vendor: usb 0x1b1c "Corsair"
+  Device: usb 0x1a0e "Voyager GTX"
+  Revision: "1.00"
+  Serial ID: --
+  Driver: "uas"
+  Driver Modules: "uas"
+  Module Alias: "usb:v1B1Cp1A0Ed0100dc00dsc00dp00ic08isc06ip62in00"
+  Driver Info #0:
+    Driver Status: uas is active
+    Driver Activation Cmd: "modprobe uas"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #24 (Hub)
+
+22: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: k4bc.kNaPe9SZft4
+  Parent ID: VCu0.m2lGPNk7Xc4
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-0:1.0
+  SysFS BusID: 1-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 2.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0002 "2.0 root hub"
+  Revision: "5.15"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v1D6Bp0002d0515dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+23: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: ADDn.mUqILwxEtWB
+  Parent ID: k4bc.kNaPe9SZft4
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1:1.0
+  SysFS BusID: 1-1:1.0
+  Hardware Class: hub
+  Model: "VIA Hub"
+  Hotplug: USB
+  Vendor: usb 0x2109 "VIA Labs, Inc."
+  Device: usb 0x3431 "Hub"
+  Revision: "4.21"
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Speed: 480 Mbps
+  Module Alias: "usb:v2109p3431d0421dc09dsc00dp01ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #22 (Hub)
+
+24: USB 00.0: 10a00 Hub
+  [Created at usb.122]
+  Unique ID: pBe4.djic47EFb5E
+  Parent ID: VCu0.m2lGPNk7Xc4
+  SysFS ID: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-0:1.0
+  SysFS BusID: 2-0:1.0
+  Hardware Class: hub
+  Model: "Linux Foundation 3.0 root hub"
+  Hotplug: USB
+  Vendor: usb 0x1d6b "Linux Foundation"
+  Device: usb 0x0003 "3.0 root hub"
+  Revision: "5.15"
+  Serial ID: --
+  Driver: "hub"
+  Driver Modules: "usbcore"
+  Module Alias: "usb:v1D6Bp0003d0515dc09dsc00dp03ic09isc00ip00in00"
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #7 (USB Controller)
+
+25: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+26: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+27: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+28: None 00.0: 10103 CPU
+  [Created at cpu.343]
+  Unique ID: rdCR.j8NaKXDZtZ6
+  Hardware Class: cpu
+  Arch: AArch64
+  Vendor: "ARM Limited"
+  Model: 0.3.0 ""
+  Platform: "BCM2835"
+  Features: fp,asimd,evtstrm,crc32,cpuid
+  BogoMips: 108.00
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+29: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: usDW.ndpeucax6V1
+  SysFS ID: /class/net/eth0
+  SysFS Device Link: /devices/platform/scb/fd580000.ethernet
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bcmgenet"
+  Device File: eth0
+  HW Address: F83127597AB1E2B90EE07528425EC93C
+  Permanent HW Address: F83127597AB1E2B90EE07528425EC93C
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+30: None 00.0: 1070a WLAN
+  [Created at net.126]
+  Unique ID: AYEt.QXn1l67RSa1
+  Parent ID: QYz2.Vu98QzaObUF
+  SysFS ID: /class/net/wlan0
+  SysFS Device Link: /devices/platform/soc/fe300000.mmcnr/mmc_host/mmc1/mmc1:0001/mmc1:0001:1
+  Hardware Class: network interface
+  Model: "WLAN network interface"
+  Driver: "brcmfmac"
+  Driver Modules: "brcmfmac", "brcmfmac", "brcmfmac"
+  Device File: wlan0
+  HW Address: 7F73A9068581EE348BAA4FD35B961880
+  Permanent HW Address: 7F73A9068581EE348BAA4FD35B961880
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #9 (WLAN controller)
+
+31: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: sLci.ndpeucax6V1
+  SysFS ID: /class/net/veth40de659
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth40de659
+  HW Address: 8B3FAFB44539DBEA11B751882E40E6EF
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+32: None 00.0: 10700 Loopback
+  [Created at net.126]
+  Unique ID: ZsBS.GQNx7L4uPNA
+  SysFS ID: /class/net/lo
+  Hardware Class: network interface
+  Model: "Loopback network interface"
+  Device File: lo
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+33: None 1882.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: kgH_.ndpeucax6V1
+  SysFS ID: /class/net/vethcea6274
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethcea6274
+  HW Address: CDB1FFC949797E830B962E350C5DCB94
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+34: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: k2tC.ndpeucax6V1
+  SysFS ID: /class/net/docker_gwbridge
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: docker_gwbridge
+  HW Address: 81F7327E9B44CC79094E4568F8E2185A
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+35: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: AABf.ndpeucax6V1
+  SysFS ID: /class/net/veth2028b8b
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth2028b8b
+  HW Address: A1B254FF7525CC6AA5A151B1CF391893
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+36: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Oc+z.ndpeucax6V1
+  SysFS ID: /class/net/veth060053d
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth060053d
+  HW Address: 9D688A85D9319B3117CB61B6DEFEDC6E
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+37: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: vZTd.ndpeucax6V1
+  SysFS ID: /class/net/br-c676309ee363
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: br-c676309ee363
+  HW Address: C3166B0B0782AED62199CB82539AA7DA
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+38: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: GnTV.ndpeucax6V1
+  SysFS ID: /class/net/vethff52dae
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vethff52dae
+  HW Address: 1E0CACEA1AA96B00D0C04AEE96884EA9
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+39: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: rbhB.ndpeucax6V1
+  SysFS ID: /class/net/veth080eb2c
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth080eb2c
+  HW Address: 0570F6A281A28CABC7F689CA6918F291
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+40: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: 7iXG.ndpeucax6V1
+  SysFS ID: /class/net/docker0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "bridge"
+  Device File: docker0
+  HW Address: 9C691F48A4D7F3D4072E489B5D20C152
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+41: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: PeN8.ndpeucax6V1
+  SysFS ID: /class/net/veth248d0e7
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth248d0e7
+  HW Address: 7CE17057147C007B0CE5331D8514F6B1
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+42: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: Ua+Z.ndpeucax6V1
+  Parent ID: kOAR.TfPFe67fIBB
+  SysFS ID: /class/net/enx00e04c534458
+  SysFS Device Link: /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.1/1-1.1:1.0
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "dm9601"
+  Driver Modules: "dm9601"
+  Device File: enx00e04c534458
+  HW Address: 68856DC22FD7A072F83ABA8EA9CC770F
+  Permanent HW Address: 68856DC22FD7A072F83ABA8EA9CC770F
+  Link detected: no
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+  Attached to: #11 (Ethernet controller)
+
+43: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: tmrL.ndpeucax6V1
+  SysFS ID: /class/net/veth629bbcf
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: veth629bbcf
+  HW Address: 3A8B9A9742CCAF96CDF13784F191074A
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
+
+44: None 00.0: 10701 Ethernet
+  [Created at net.126]
+  Unique ID: s5ir.ndpeucax6V1
+  SysFS ID: /class/net/vetha472e1a
+  Hardware Class: network interface
+  Model: "Ethernet network interface"
+  Driver: "veth"
+  Device File: vetha472e1a
+  HW Address: 7EAC6839498BFAFDECFAC47558292846
+  Link detected: yes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
